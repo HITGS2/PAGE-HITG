@@ -3,8 +3,7 @@ name: Sync HITGS YouTube Videos
 
 on:
   schedule:
-    # 한국 시간 오전 9시 / 오후 9시
-    - cron: '0 0,12 * * *'
+    - cron: '*/30 * * * *'
 
   workflow_dispatch:
 
