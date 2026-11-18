@@ -144,6 +144,18 @@ def main():
                     + int(secs or 0)
                 )
 
+            # 영상 길이를 표시용으로 저장
+            if seconds is not None:
+                hours = seconds // 3600
+                minutes = (seconds % 3600) // 60
+                secs = seconds % 60
+
+                if hours > 0:
+                    video["duration"] = f"{hours}:{minutes:02d}:{secs:02d}"
+                else:
+                    video["duration"] = f"{minutes}:{secs:02d}"
+            else:
+                video["duration"] = ""
             has_shorts_tag = bool(
                 re.search(r"#?shorts\b", title, re.I)
             )
