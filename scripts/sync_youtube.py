@@ -115,7 +115,11 @@ def main():
                 "Cannot parse existing videos.js"
             )
 
-        existing_videos = json.loads(match.group(1))
+               try:
+            existing_videos = json.loads(match.group(1))
+        except json.JSONDecodeError:
+            print("Existing videos.js is not valid JSON; skipping legacy entries.")
+            existing_videos = []
 
     other_videos = [
         video for video in existing_videos
