@@ -75,55 +75,34 @@ footer{border-top:1px solid #eee;padding:30px 5%;font-size:10px;color:#999;lette
   </p>
  </section>
 
- <section class="section" id="video">
+<section class="section" id="video">
   <div class="section-head">
-   <h2>VIDEO ARCHIVE</h2>
-   <span class="count" id="count">03 ITEMS</span>
+    <h2>VIDEO ARCHIVE</h2>
+    <span class="count" id="count">00 ITEMS</span>
   </div>
+
+  <input
+    id="videoSearch"
+    type="search"
+    placeholder="Search videos..."
+    style="width:100%;padding:14px;border:1px solid #ddd;margin-bottom:15px;"
+  >
+
+  <select id="yearFilter"
+    style="padding:12px;border:1px solid #ddd;margin-bottom:20px;">
+    <option value="all">ALL YEARS</option>
+  </select>
 
   <div class="filters">
-   <button class="filter active" data-filter="all">ALL</button>
-   <button class="filter" data-filter="performance">PERFORMANCE</button>
-   <button class="filter" data-filter="variety">VARIETY</button>
-   <button class="filter" data-filter="interview">INTERVIEW</button>
-   <button class="filter" data-filter="live">LIVE</button>
+    <button class="filter active" data-filter="all">ALL</button>
+    <button class="filter" data-filter="PERFORMANCE">PERFORMANCE</button>
+    <button class="filter" data-filter="VARIETY">VARIETY</button>
+    <button class="filter" data-filter="INTERVIEW">INTERVIEW</button>
+    <button class="filter" data-filter="LIVE">LIVE</button>
   </div>
 
-  <div class="grid" id="videoGrid">
-   <article class="card" data-category="performance">
-    <a href="#" target="_blank">
-     <div class="thumb">VIDEO THUMBNAIL</div>
-     <div class="card-info">
-      <div class="tag">PERFORMANCE · 2026</div>
-      <h3>영상 제목을 입력해 주세요</h3>
-      <p>방송사 · 날짜</p>
-     </div>
-    </a>
-   </article>
-
-   <article class="card" data-category="variety">
-    <a href="#" target="_blank">
-     <div class="thumb">VIDEO THUMBNAIL</div>
-     <div class="card-info">
-      <div class="tag">VARIETY · 2026</div>
-      <h3>예능 영상 제목</h3>
-      <p>프로그램명 · 날짜</p>
-     </div>
-    </a>
-   </article>
-
-   <article class="card" data-category="live">
-    <a href="#" target="_blank">
-     <div class="thumb">VIDEO THUMBNAIL</div>
-     <div class="card-info">
-      <div class="tag">LIVE · 2026</div>
-      <h3>라이브 영상 제목</h3>
-      <p>채널명 · 날짜</p>
-     </div>
-    </a>
-   </article>
-  </div>
- </section>
+  <div class="grid" id="videoGrid"></div>
+</section>
 
  <section class="section" id="photo">
   <div class="section-head"><h2>PHOTO ARCHIVE</h2></div>
@@ -155,25 +134,143 @@ footer{border-top:1px solid #eee;padding:30px 5%;font-size:10px;color:#999;lette
  PAGE:HITG © 2026 · UNOFFICIAL FAN ARCHIVE
 </footer>
 
-<script>
-const buttons=document.querySelectorAll('.filter');
-const cards=document.querySelectorAll('.card');
-const count=document.getElementById('count');
+<script src="videos.js"></script>
 
-buttons.forEach(button=>{
- button.addEventListener('click',()=>{
-  buttons.forEach(b=>b.classList.remove('active'));
-  button.classList.add('active');
-  const filter=button.dataset.filter;
-  let visible=0;
-  cards.forEach(card=>{
-   const show=filter==='all'||card.dataset.category===filter;
-   card.style.display=show?'':'none';
-   if(show)visible++;
-  });
-  count.textContent=String(visible).padStart(2,'0')+' ITEMS';
- });
+<script>
+const grid = document.getElementById("videoGrid");
+const count = document.getElementById("count");
+const search = document.getElementById("videoSearch");
+const yearFilter = document.getElementById("yearFilter");
+
+let currentCategory = "all";
+
+const getVideoId = (url) => {
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.hostname.includes("youtu.be")) {
+      return parsed.pathname.slice(1);
+    }
+
+    if (parsed.hostname.includes("youtube.com")) {
+      if (parsed.pathname === "/watch") {
+        return parsed.searchParams.get("v");
+      }
+
+      const match = parsed.pathname.match(
+        /\/(?:embed|shorts)\/([^/?]+)/
+      );
+
+      return match ? match[1] : null;
+    }
+  } catch (error) {
+    return null;
+  }
+
+  return null;
+};
+
+// 연도 목록 만들기
+const years = [...new Set(videos.map(v => v.year))];
+
+years.sort((a, b) => b.localeCompare(a));
+
+years.forEach(year => {
+  const option = document.createElement("option");
+  option.value = year;
+  option.textContent = year;
+  yearFilter.appendChild(option);
 });
+
+// 영상 표시
+function renderVideos() {
+  const keyword = search.value.toLowerCase();
+  const selectedYear = yearFilter.value;
+
+  const filtered = videos.filter(video => {
+    const matchCategory =
+      currentCategory === "all" ||
+      video.category === currentCategory;
+
+    const matchYear =
+      selectedYear === "all" ||
+      video.year === selectedYear;
+
+    const matchSearch =
+      `${video.title} ${video.channel} ${video.member}`
+        .toLowerCase()
+        .includes(keyword);
+
+    return matchCategory && matchYear && matchSearch;
+  });
+
+  grid.innerHTML = "";
+
+  filtered.forEach(video => {
+    const videoId = getVideoId(video.url);
+
+    const card = document.createElement("article");
+    card.className = "card";
+
+    const link = document.createElement("a");
+    link.href = video.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+
+    const thumb = document.createElement("div");
+    thumb.className = "thumb";
+
+    if (videoId) {
+      const img = document.createElement("img");
+      img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+      img.alt = video.title;
+      img.loading = "lazy";
+      thumb.appendChild(img);
+    } else {
+      thumb.textContent = "NO THUMBNAIL";
+    }
+
+    const info = document.createElement("div");
+    info.className = "card-info";
+
+    const tag = document.createElement("div");
+    tag.className = "tag";
+    tag.textContent =
+      `${video.category} · ${video.year}`;
+
+    const title = document.createElement("h3");
+    title.textContent = video.title;
+
+    const detail = document.createElement("p");
+    detail.textContent =
+      `${video.channel} · ${video.member} · ${video.date}`;
+
+    info.append(tag, title, detail);
+    link.append(thumb, info);
+    card.appendChild(link);
+    grid.appendChild(card);
+  });
+
+  count.textContent =
+    String(filtered.length).padStart(2, "0") + " ITEMS";
+}
+
+// 카테고리 버튼
+document.querySelectorAll(".filter").forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".filter")
+      .forEach(b => b.classList.remove("active"));
+
+    button.classList.add("active");
+    currentCategory = button.dataset.filter;
+    renderVideos();
+  });
+});
+
+search.addEventListener("input", renderVideos);
+yearFilter.addEventListener("change", renderVideos);
+
+renderVideos();
 </script>
 
 </body>
