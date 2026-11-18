@@ -7,7 +7,7 @@ const schedules = [
     members: ["전체"],
     category: "concert",
     url: "https://example.com"
-  }
+  },
   {
     date: "2026-11-21",
     time: "13:00",
@@ -23,11 +23,11 @@ const schedules = [
     members: ["전체"],
     category: "concert",
     url: "https://example.com"
-  }
+  },
   {
-    date: "2026-11-31",
+    date: "2026-11-30",
     time: "21:00",
-    title: "261131 테스트",
+    title: "261130 테스트",
     members: ["전체"],
     category: "concert",
     url: "https://example.com"
