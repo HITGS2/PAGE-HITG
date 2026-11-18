@@ -2054,10 +2054,12 @@ function openVideoMenu(button) {
 }
 
 function openScheduleMenu(button) {
-  showPage("schedule");
-
+  // 하위 메뉴를 먼저 펼치기
   document.getElementById("scheduleMenu").classList.add("open");
   button.classList.add("expanded");
+
+  // 스케줄 페이지 열기
+  showPage("schedule");
 }
 
 // MENU CONTROL
