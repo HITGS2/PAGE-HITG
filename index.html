@@ -806,6 +806,171 @@ body {
   }
 }
 
+/* PAGE:HITG NAVY THEME */
+
+:root {
+  --black: #ffffff;
+  --gray: #b8bdd1;
+  --line: rgba(255,255,255,0.13);
+  --light: #222640;
+  --navy: #171a33;
+}
+
+/* 전체 배경과 글씨 */
+
+body {
+  background: var(--navy);
+  color: #ffffff;
+}
+
+.header,
+.sidebar,
+.main {
+  background: var(--navy);
+  color: #ffffff;
+}
+
+.header-right,
+.footer,
+.eyebrow,
+.count,
+.card-tag,
+.card-detail,
+.schedule-date,
+.schedule-info span,
+.page-heading p,
+.hero-description {
+  color: #b8bdd1;
+}
+
+/* 왼쪽 메뉴 */
+
+.nav-item,
+.sub-item {
+  color: #d8dbea;
+}
+
+.nav-item:hover,
+.sub-item:hover {
+  background: #292e4d;
+  color: #ffffff;
+}
+
+.nav-item.active {
+  background: #353b61;
+  color: #ffffff;
+}
+
+.sub-item.active {
+  color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+/* HOME 카드 */
+
+.home-card {
+  background: #222640;
+  border-color: rgba(255,255,255,0.12);
+  color: #ffffff;
+}
+
+.home-card:hover {
+  background: #303653;
+}
+
+.home-card span,
+.home-intro-label {
+  color: #aeb5cc;
+}
+
+.home-intro {
+  background: #222640;
+  border-left-color: #ffffff;
+}
+
+.home-intro p {
+  color: #ffffff;
+}
+
+/* 검색창과 필터 */
+
+.search-box,
+.year-select {
+  background: #222640;
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.2);
+}
+
+.search-box::placeholder {
+  color: #aeb5cc;
+}
+
+.search-box:focus,
+.year-select:focus {
+  border-color: #ffffff;
+}
+
+.filter-group-title,
+.current-filter,
+.card h3 {
+  color: #ffffff;
+}
+
+.type-filter {
+  background: #292e4d;
+  color: #e3e6f2;
+}
+
+.type-filter:hover {
+  background: #394063;
+}
+
+.type-filter.active {
+  background: #49547d;
+  color: #ffffff;
+  border-color: #aeb9eb;
+}
+
+.card a:hover h3 {
+  color: #c3ccff;
+}
+
+/* HOME 영상 배경 */
+
+#homePage .home-video-background {
+  background: var(--navy);
+}
+
+/* 영상 위 어두운 효과 + 아래로 자연스럽게 사라짐 */
+
+#homePage .home-video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(23,26,51,0.15) 0%,
+    rgba(23,26,51,0.25) 30%,
+    rgba(23,26,51,0.55) 55%,
+    rgba(23,26,51,0.85) 78%,
+    #171a33 100%
+  );
+}
+
+/* 영상과 카드 사이의 경계 제거 */
+
+#homePage .home-sections {
+  margin-top: 0;
+}
+
+#homePage .home-video-content .home-intro {
+  background: transparent;
+  border-left-color: rgba(255,255,255,0.65);
+}
+
+#homePage .home-video-content .hero h1,
+#homePage .home-video-content .hero-description,
+#homePage .home-video-content .home-intro p {
+  color: #ffffff;
+}
+
 </style>
 </head>
 
