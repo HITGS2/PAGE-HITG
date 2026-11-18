@@ -577,8 +577,29 @@ a {
   color: #888888;
 }
 
+
 .schedule-day.past {
-  opacity: 0.55;
+  opacity: 1;
+}
+
+.schedule-day.past .schedule-day-title {
+  color: #8a9490;
+}
+
+.schedule-day.past .schedule-card {
+  background: #f8f9f9;
+}
+
+.schedule-past-label {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 5px 9px;
+  border-radius: 5px;
+  background: #edf0ef;
+  color: #87918d;
+  font-size: 10px;
+  font-weight: 600;
+  vertical-align: middle;
 }
 
 @media (max-width: 650px) {
@@ -2176,9 +2197,15 @@ function renderSchedules() {
     const day = document.createElement("section");
     day.className = "schedule-day";
 
-    if (dateObject < today) {
-      day.classList.add("past");
-    }
+if (dateObject < today) {
+  day.classList.add("past");
+
+  const pastLabel = document.createElement("span");
+  pastLabel.className = "schedule-past-label";
+  pastLabel.textContent = "지난 일정";
+
+  heading.appendChild(pastLabel);
+}
 
     const heading = document.createElement("h2");
     heading.className = "schedule-day-title";
