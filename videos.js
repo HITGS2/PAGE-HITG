@@ -7,7 +7,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "딱 하루만 𝗢𝗙𝗙🎥 #HITGS #VV #BRB #ThingsWeDream_Vol4",
@@ -17,7 +18,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🎹🎶 #HITGS #힛지스",
@@ -27,7 +29,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚂𝙴𝙾𝙷𝙴𝙴'𝚜 𝙱-𝚂𝙸𝙳𝙴💫 #HITGS #SEOHEE #BRB #ThingsWeDream_Vol4",
@@ -37,7 +40,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "알림은 켜놓기🔔💗 #HITGS #HYERIN #BRB #ThingsWeDream_Vol4",
@@ -47,7 +51,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스)가 전하는 2027학년도 수능 응원 메시지🍀",
@@ -57,7 +62,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "엣취🤧 #HITGS #힛지스 #VV #비비",
@@ -67,7 +73,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이유 또또또 울었어요(feat.혜린) #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -77,7 +84,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "오사카 be right back #HITGS #힛지스",
@@ -87,7 +95,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝓒𝓸𝓶𝓮 𝓫𝓪𝓬𝓴 𝓪𝓷𝓭 𝓫𝓪𝓬𝓴 #HITGS #힛지스 #SEOJIN #서진",
@@ -97,7 +106,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서지니 아이시떼루~🤍",
@@ -107,7 +117,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "서지니 아이시떼루~🤍",
@@ -117,7 +128,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": true
   },
   {
     "title": "오사카 팬콘 비하인드 눌러 …더보기 #HITGS #힛지스",
@@ -127,7 +139,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈가 왔사카~✌🏻",
@@ -137,7 +150,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "오사카에서 한일 훔쳐보기 #hitgs #힛지스",
@@ -147,7 +161,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈가 왔사카~✌🏻",
@@ -157,7 +172,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 'BRB' MV Behind The Scenes",
@@ -167,7 +183,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝗛𝗜𝗧𝗚𝗦 𝘅 𝗥𝗮𝗯𝗯𝗶𝘁𝗰𝗮𝘁 𝗕𝗥𝗕 𝘼 𝙘𝙖𝙥𝙥𝙚𝙡𝙡𝙖 𝘷𝘦𝘳. @rabica5",
@@ -177,7 +194,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "모서리에 쿵💓 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
@@ -187,7 +205,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝘑𝘦𝘢𝘭𝘰𝘶𝘴?😏 #HITGS #힛지스 #SEOJIN #서진",
@@ -197,7 +216,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 가족과 함께한 떠히의 쁘이로꾸🏖️ l 힛지스의 휴가 브이로그",
@@ -207,7 +227,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝙱𝚁𝙱, 같이 들을래?🎧 #HITGS #힛지스 #SEOHEE #서희 #ThingsWeDream_Vol4",
@@ -217,7 +238,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚂𝚘 𝚕𝚎𝚝 𝚖𝚎 𝐁𝐑𝐁 🐰🐱 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
@@ -227,7 +249,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "😐 ⇨ 😊 #HITGS #힛지스 #VV #SEOHEE",
@@ -237,7 +260,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "도쿄 be right back 👐 #HITGS #힛지스",
@@ -247,7 +271,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'BRB' Self Cam ver.",
@@ -257,7 +282,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "도쿄 팬콘서트 날 잠금 해제🔓 #HITGS #힛지스",
@@ -267,7 +293,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "혜린이가 도쿄에 오자마자 한 일 #HITGS #힛지스 #HYERIN #혜린",
@@ -277,7 +304,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 힛지스가 마카오에 왔어요! 🏀  l 힛지스 마카오 브이로그",
@@ -287,7 +315,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "내 🪐로, 비행모드 중 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
@@ -297,7 +326,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "₍^. .^₎⟆ TEST ! #HITGS #힛지스 #SEOHEE #HYERIN",
@@ -307,7 +337,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'BRB' 응원법",
@@ -317,7 +348,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) BRB 발매 기념 LIVE✨",
@@ -327,7 +359,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "🛫 So let me BRB #HITGS #힛지스#BRB #ThingsWeDream_Vol4",
@@ -337,7 +370,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'BRB' MV",
@@ -347,7 +381,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Ctrl C' 응원법",
@@ -357,7 +392,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "놀이터에서…",
@@ -367,7 +403,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "월요일을 행복하게~~💗🍀",
@@ -377,7 +414,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 'BRB' MV Teaser",
@@ -387,7 +425,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "혜린이 와썹😎 3 (아이스크림)",
@@ -397,7 +436,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "혜린이 와썹😎 2",
@@ -407,7 +447,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "혜린이 와썹😎",
@@ -417,7 +458,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "【Things We Dream : Vol.4】 ➫ 2026. 11. 05 THU 6PM (KST) MV #HITGS #BRB #ThingsWeDream_Vol4",
@@ -427,7 +469,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "농수산대에 힛지스가 두둥 등장해🌟 #HITGS #힛지스",
@@ -437,7 +480,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "パジャマ末っ子組 ໒꒱·°✧ #HITGS #힛지스",
@@ -447,7 +491,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "새벽에 나랑 놀래?✌️",
@@ -457,7 +502,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-29",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "잠깐 들렸다 가요~💭",
@@ -467,7 +513,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "【Things We Dream : Vol.4】 ➫ 2026. 11. 05 THU 6PM (KST) MV #HITGS #BRB #ThingsWeDream_Vol4",
@@ -477,7 +524,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "빛나는 신학대학교 언니, 오빠들과✨ #HITGS #힛지스",
@@ -487,7 +535,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙺𝚊𝚠𝚊𝚒𝚒 𝙺𝚊𝚠𝚊𝚒𝚒 .•♥ #HITGS #힛지스 #HYERIN #혜린",
@@ -497,7 +546,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "내가 다시 왔댜..!",
@@ -507,7 +557,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "내가 다시 돌아 왔다다아아!!😚 라방 2차 렛츠고우!",
@@ -517,7 +568,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "축제끝나고 우리가 왔댜!!😎🩶",
@@ -527,7 +579,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "축제끝나고 우리가 다시 왔댜!!😎🩶",
@@ -537,7 +590,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "힛찌!!! 오늘 밤은 도망 금지🫤",
@@ -547,7 +601,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS in OSAKA 🐙  | OSAKA FAN CONCERT Behind",
@@ -557,7 +612,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "사랑하는 멤버 이름대기🥰! #HITGS #힛지스 #SEOHEE #IYOO",
@@ -567,7 +623,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈의 미인계~💖",
@@ -577,7 +634,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "찐막!",
@@ -587,7 +645,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "SEOMSOM : ORIGIN",
@@ -597,7 +656,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐶𝑜𝑚𝑒𝑏𝑎𝑐𝑘 𝑎𝑛𝑑 𝑏𝑎𝑐𝑘 #HITGS #힛지스 #IYOO #이유",
@@ -607,7 +667,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑴𝒐𝒐𝒅 #HITGS #힛지스 #VV #비비",
@@ -617,7 +678,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 힛지스는 시부야에서 뭐했을까? 🛍️  l 힛지스 일본 브이로그",
@@ -627,7 +689,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "서서서지니🩷🩶 목요팅!3 ㅠㅠ",
@@ -637,7 +700,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "서서서서지니🩷🩶 목요팅!2",
@@ -647,7 +711,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "서서서서지니🩷🩶 목요팅!",
@@ -657,7 +722,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "나한테 왜구래,,,?????",
@@ -667,7 +733,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HYEKO : ORIGIN",
@@ -677,7 +744,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛찌들아 서이유 좀 봐바💋",
@@ -687,7 +755,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-14",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "꒰ iyoo ꒱ #HITGS #힛지스 #IYOO #이유",
@@ -697,7 +766,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "안자는 힛찌여러분 들어와요💗🥹",
@@ -707,7 +777,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "쪼코즈의 심야라방✨🌙",
@@ -717,7 +788,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 'Little By Little' 응원법",
@@ -727,7 +799,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITG들 곁으로 가는 법🏃🏻‍♀️ #HITGS #힛지스 #VV #비비",
@@ -737,7 +810,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Cherry Blossom' 응원법",
@@ -747,7 +821,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "안녕하세요 힛지스 서진, 서희입니다.",
@@ -757,7 +832,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "[Hit-log] 마라 매운 비비 돌아왔어요❤️‍🔥 l 힛지스의 휴가 브이로그",
@@ -767,7 +843,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "MEONGHUI : ORIGIN",
@@ -777,7 +854,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑆𝑤𝑎𝑔 𝑠𝑤𝑎𝑔 𝑠𝑤𝑎𝑔 𝑜𝑛 𝑦𝑜𝑢 #HITGS #힛지스 #IYOO #이유",
@@ -787,7 +865,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "떠히랑 놀사람 컴오온~~!!🥳2",
@@ -797,7 +876,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "떠히랑 놀사람 컴오온~~!!🥳",
@@ -807,7 +887,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "사랑이 시작된 순간을 기억하나요?💫 #HITGS #힛지스 #SEOHEE #서희 #이별로부터_Challenge",
@@ -817,7 +898,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝘋𝘢𝘯𝘤𝘦 𝘸𝘪𝘵𝘩 𝗛𝗜𝗧𝗚𝗦 ♬♪♫ #HITGS #힛지스",
@@ -827,7 +909,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "혜린이가 왔어요~!💗",
@@ -837,7 +920,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "혜린이가 왔어요~!💗",
@@ -847,7 +931,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "wink ᵕ̈♡ #HITGS #힛지스 #VV #비비",
@@ -857,7 +942,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서서즈의 심야방송 🌙💤",
@@ -867,7 +953,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-04",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS in JAPAN 👋 | TOKYO FAN CONCERT Behind",
@@ -877,7 +964,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "PPIYU : ORIGIN",
@@ -887,7 +975,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "귀요미즈랑 놀래?! 말래?!😏",
@@ -897,7 +986,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "귀요미즈랑 놀래?! 말래?!😏✌🏻",
@@ -907,7 +997,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "언니가 제 키 가져갔죠 ‹( ｡ •̀ ᴖ •́ ｡ )› #HITGS #힛지스 #SEOJIN #IYOO",
@@ -917,7 +1008,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "나는야 최서hehehe (ง ˙˘˙ )ว #HITGS #힛지스 #SEOHEE #서희",
@@ -927,7 +1019,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ʚ •ө• ɞ #HITGS #힛지스 #IYOO #이유",
@@ -937,7 +1030,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "언니랑 함께 베이킹 해봤어욤🥐 #HITGS #힛지스 #HYERIN #혜린",
@@ -947,7 +1041,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🖤땜에 뒤흔들려 #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
@@ -957,7 +1052,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스 서진이 라이부~🌕🩷",
@@ -967,7 +1063,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "힛지스 10km 마라톤 뛰다🏃‍♀️‍➡️ I HITGSDAY",
@@ -977,7 +1074,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "연휴 마지막 날이야아ㅠㅠ😭",
@@ -987,7 +1085,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "힛찌야~ 놀자아~",
@@ -997,7 +1096,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "나랑 얘기할 사~람?",
@@ -1007,7 +1107,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "[Hit-log] 힛지스 디즈니랜드 가다!🎢  l 힛지스 일본 브이로그",
@@ -1017,7 +1118,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "RUBY : ORIGIN",
@@ -1027,7 +1129,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "빛나는 우석대 언니 오빠들과 💖 #HITGS #힛지스",
@@ -1037,7 +1140,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖶𝖾 𝗐𝗂𝗅𝗅 𝗋𝗈𝖼𝗄 𝗒𝗈𝗎 🐰🐶 #HITGS #힛지스 #VV #SEOHEE",
@@ -1047,7 +1151,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙸 𝚠𝚊𝚗𝚝 𝚢𝚘𝚞! 𝙸 𝚕𝚘𝚟𝚎 𝚢𝚘𝚞. ·˖*·⑅♡ #HITGS #힛지스 #SEOHEE #서희",
@@ -1057,7 +1162,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "떠히의 휴가 라방~~🏖️🌊",
@@ -1067,7 +1173,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "떠히랑 수다를 떨어보아요~~",
@@ -1077,7 +1184,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "파도가 머물던𓇼 #HITGS #힛지스 #HYERIN #IYOO",
@@ -1087,7 +1195,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "サマーチョコレート🍫🩷 #HITGS #힛지스 #VV #비비",
@@ -1097,7 +1206,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS 세상이 뒤흔들려🫨 #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
@@ -1107,7 +1217,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚂𝚑𝚎 𝚂𝚑𝚎, 𝖧𝖾 ᴴᵉᴴᵉ🕺🏻 #HITGS #힛지스 #VV #SEOJIN",
@@ -1117,7 +1228,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "일요팅 힛찌들~🩷 서진이랑 놀아죠",
@@ -1127,7 +1239,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-20",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "자기 전에 혜린이랑 놀고 자는 거 어때?ㅎㅎ",
@@ -1137,7 +1250,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-19",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS의 마라톤 전후🏃🏻‍♀️💛 #HITGS #힛지스 #시포레2026 #시포레런앤핏",
@@ -1147,7 +1261,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "PAGE 1 : TEENAGER✏️ | 2nd FAN CONCERT Behind",
@@ -1157,7 +1272,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝙏𝙤𝙤 𝙗𝙖𝙙 👎🏻 #HITGS #힛지스 #IYOO #이유",
@@ -1167,7 +1283,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "✌🏻✊🏻✋🏻❤️ #HITGS #힛지스 #VV #HYERIN",
@@ -1177,7 +1294,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "눈송이 언니들과 함께❄️ #HITGS #힛지스",
@@ -1187,7 +1305,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "안녕하세여~ 힛지스 서희입니다아!!💖",
@@ -1197,7 +1316,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "𝑻𝒐 𝑩𝒆 𝑪𝒐𝒏𝒕𝒊𝒏𝒖𝒆𝒅… #HITGS #힛지스#Gulliver #ThingsWeDream_Vol3",
@@ -1207,7 +1327,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ｂａｂｙ Ｙｏｕ ✧ #HITGS #힛지스 #SEOJIN #서진",
@@ -1217,7 +1338,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "青い珊瑚礁🪸 #HITGS #힛지스 #SEOHEE #서희",
@@ -1227,7 +1349,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🎀🎀 𝑪𝑶𝑷𝒀 ೀ⋆｡˚ #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
@@ -1237,7 +1360,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝓨𝓸𝓾'𝓻𝓮 𝓱𝓮𝓻𝓮 #HITGS #힛지스",
@@ -1247,7 +1371,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "かわいいトヒ ♡ #HITGS #힛지스 #SEOHEE #서희",
@@ -1257,7 +1382,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐥와🐱를 ᴄᴏᴘʏ ♡♡ #HITGS #힛지스 #HYERIN #IYOO",
@@ -1267,7 +1393,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "👉🏻₍⑅ᐢ..ᐢ⑅₎👈🏻 #HITGS #힛지스 #VV #비비",
@@ -1277,7 +1404,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "혜린이의 일본 마지막날😭",
@@ -1287,7 +1415,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "𝐇𝐈𝐓𝐆𝐒 𝐅𝐀𝐍 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 𝐢𝐧 𝐎𝐒𝐀𝐊𝐀 𝖣𝖠𝖸 3💛 #HITGS #힛지스 #Teenager #PAGE1",
@@ -1297,7 +1426,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "5人の少女 in OSAKA🛝 #HITGS #힛지스",
@@ -1307,7 +1437,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너무해 ᕙ( ˘•~•˘ )ᕗ #HITGS #힛지스 #SEOHEE #서희",
@@ -1317,7 +1448,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐇𝐈𝐓𝐆𝐒 𝐅𝐀𝐍 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 𝐢𝐧 𝐎𝐒𝐀𝐊𝐀𝖣𝖠𝖸 2🩺#HITGS #힛지스 #Teenager #PAGE1",
@@ -1327,7 +1459,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᶜᴼᴾᵞ ᶜᴼᴾᵞ 비비를 ᶜᴼᴾᵞ 🎶 #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
@@ -1337,7 +1470,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스 서서즈가 왔다!",
@@ -1347,7 +1481,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "설렘이 그리는 쪼꼬즈🍫 #HITGS #힛지스 #HYERIN #IYOO",
@@ -1357,7 +1492,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "◖|˶˘꒳˘˶|◗♪ #HITGS #힛지스 #HYERIN #혜린",
@@ -1367,7 +1503,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이유가 온 이유🐥⸒⸒?",
@@ -1377,7 +1514,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "오사카 도착😋 #HITGS #힛지스",
@@ -1387,7 +1525,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "⚠ HITGS IN BACKROOM ⚠ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
@@ -1397,7 +1536,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "비비 속이기😏 #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
@@ -1407,7 +1547,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "바라는 거 없어요🐰🐥 #HITGS #힛지스 #VV #IYOO",
@@ -1417,7 +1558,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "나의 마음을 𝚞𝚗𝚕𝚘𝚌𝚔 ˚₊✩‧₊ #HITGS #힛지스 #SEOJIN #서진",
@@ -1427,7 +1569,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "내 세상이 𝗛𝗜𝗧𝗚𝗦 때문에 뒤흔들려 𐐪𐑂‧₊˚ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
@@ -1437,7 +1580,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📚𖤐彡 #HITGS #힛지스 #VV #비비",
@@ -1447,7 +1591,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "사시스세소!🎀#HITGS #힛지스 #SEOHEE #서희",
@@ -1457,7 +1602,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡 이유 울어써요 😭 #HITGS #힛지스 #Teenager #PAGE1",
@@ -1467,7 +1613,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "키라키라 힛지스 09즈!!✨✨",
@@ -1477,7 +1624,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "양갈래 서진🐰 (오늘 아니면 1년동안 못봄)",
@@ -1487,7 +1635,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡 𝙳𝙰𝚈 𝟸❤️#HITGS #힛지스 #Teenager #PAGE1",
@@ -1497,7 +1646,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "곰방와~힛찌들!👋🏻💖",
@@ -1507,7 +1657,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡💝 #HITGS #힛지스 #Teenager #PAGE1",
@@ -1517,7 +1668,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "일본 팬콘까지 많관부 ⋰˚☆ #HITGS #Ctrl_C #ThingsWeDream_Vol3",
@@ -1527,7 +1679,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "⁺‧₊˚ ཐི⋆ 진격의 Gulliver! ⋆ཋྀ ˚₊‧⁺ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
@@ -1537,7 +1690,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝟬𝟵𝘀 𝗻𝗶𝗴𝗵𝘁 .•♥ #HITGS #힛지스 #SEOHEE #HYERIN",
@@ -1547,7 +1701,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈 패션위크 다녀왔어요👭 I HITGSDAY",
@@ -1557,7 +1712,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "약속해줘🤙🏻😘 #HITGS #힛지스 #SEOHEE #서희",
@@ -1567,7 +1723,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "떠히랑 놀아보아요오~ ♡",
@@ -1577,7 +1734,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "YouTube Music Korea Trending Music Videos #19",
@@ -1587,7 +1745,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝔻𝕣𝕚𝕡 #HITGS #힛지스 #IYOO #이유",
@@ -1597,7 +1756,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서진이를 copy 🎶 ˚˖𓍢ִ໋ 🎧 #HITGS #힛지스#Ctrl_C #ThingsWeDream_Vol3",
@@ -1607,7 +1767,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Gulliver!' MV Behind The Scenes",
@@ -1617,7 +1778,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "서진 미모 말도 안 돼🫢 #HITGS #힛지스 #SEOJIN #서진",
@@ -1627,7 +1789,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "팬콘 뒤풀이 들어와아~!🐰🐶",
@@ -1637,7 +1800,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-29",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "PAGE 0 : HITGS📖 | 1st FAN CONCERT Behind",
@@ -1647,7 +1811,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "비비 앞에 서면 자꾸 작아져 ˶ˊᜊˋ˶ᐝ #HITGS #힛지스 #Gulliver #Ctrl_C #ThingsWeDream_Vol3",
@@ -1657,7 +1822,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "아 맞다 힛지스 팬콘 준비물❕#HITGS #힛지스 #Teenager #PAGE1",
@@ -1667,7 +1833,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) Gulliver! 발매 기념 LIVE 🗺️⛵",
@@ -1677,7 +1844,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 'Gulliver!' 응원법",
@@ -1687,7 +1855,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝐃-𝟐 ♪ ₊˚♬ #HITGS #힛지스 #Teenager #PAGE1",
@@ -1697,7 +1866,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗛𝗜𝗧𝗚𝗦 내 세상이 너 땜에 뒤흔들려💙 #HITGS #힛지스 #Gulliver #Ctrl_C #ThingsWeDream_Vol3",
@@ -1707,7 +1877,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Gulliver!' MV",
@@ -1717,7 +1888,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "11:11🐰🐑",
@@ -1727,7 +1899,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "어게인 12:03🐰🐑",
@@ -1737,7 +1910,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
@@ -1747,7 +1921,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛찌들 우리 팬콘 3일 남았어˚.✦ #HITGS #힛지스 #Teenager #PAGE1",
@@ -1757,7 +1932,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "깜짝 놀랐찡!?🌙",
@@ -1767,7 +1943,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "[Hit-log] 09s Style Change V-log  l 09즈 스타일 체인지 브이로그",
@@ -1777,7 +1954,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST) #HITGS #힛지스#Gulliver #Ctrl_C",
@@ -1787,7 +1965,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖦𝗎𝗅𝗅𝗂𝗏𝖾𝗋! 많관부 🦊🐰 #HITGS #힛지스 #SEOJIN #SEOHEE",
@@ -1797,7 +1976,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Gulliver!' MV Teaser",
@@ -1807,7 +1987,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "혜린이 심심해!🤭",
@@ -1817,7 +1998,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
@@ -1827,7 +2009,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛찌야 우리가 왔다아~‎٩(ˊᗜˋ*)و",
@@ -1837,7 +2020,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
@@ -1847,7 +2031,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "아기 멍냥이 떠히ᓚᘏᗢ #HITGS #힛지스 #SEOHEE #서희",
@@ -1857,7 +2042,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛찌 다 모여랏!😎",
@@ -1867,7 +2053,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-20",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "🐾*•.¸ 최애의 혜냥이 ¸.•*🐾 #HITGS #힛지스 #HYERIN #혜린",
@@ -1877,7 +2064,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "SODA SODA🥤🫧 #HITGS #힛지스 #SEOHEE #IYOO",
@@ -1887,7 +2075,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝕀'𝕧𝕖 𝕓𝕖𝕖𝕟 𝕝𝕚𝕜𝕖 🕸️🕸️ #HITGS #힛지스 #HYERIN #혜린",
@@ -1897,7 +2086,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "굉장히 예민해요옹 #HITGS #힛지스 #SEOJIN #SEOHEE",
@@ -1907,7 +2097,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "❤️🖤 #HITGS #힛지스 #IYOO #이유",
@@ -1917,7 +2108,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "갑작스럽겠지만 힛찌들은 앞모리서진을 ..?! #HITGS #힛지스 #SEOJIN #서진",
@@ -1927,7 +2119,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "바이바이🥁🎻 #HITGS #힛지스 #SEOHEE #IYOO",
@@ -1937,7 +2130,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ⓘ ⓦⓐⓝⓝⓐ ᴋɪss ɴ ᴛᴇʟʟ #HITGS #힛지스 #SEOHEE #서희",
@@ -1947,7 +2141,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "다 아는데 왜 자꾸 숨겨? #HITGS #힛지스 #VV #비비",
@@ -1957,7 +2152,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "천안여중에 다녀왔어욤🏫✏️ #HITGS #힛지스 #HYERIN #혜린 #hitgschool",
@@ -1967,7 +2163,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "야구장에~서 누가 돌아 왔~게⚾ I HITGSDAY",
@@ -1977,7 +2174,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-31",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝐁𝐚𝐝 𝐠𝐢𝐫𝐥? 𝐆𝐎𝐎𝐃 𝐆𝐈𝐑𝐋? #HITGS #힛지스#SEOJIN #서진",
@@ -1987,7 +2185,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Just One 10 MINUTES #HITGS #힛지스#SEOHEE #HYERIN",
@@ -1997,7 +2196,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙵𝚎𝚎𝚕𝚒𝚗𝚐 𝚅𝚅𓈒༷♪˚.✧ #HITGS #힛지스 #VV #비비",
@@ -2007,7 +2207,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "냐냐냥🐶🐥 #HITGS #힛지스 #SEOHEE #IYOO",
@@ -2017,7 +2218,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "비장의 무기 ˖⋆࿐໋ ✦۟  #HITGS #힛지스 #HYERIN #혜린",
@@ -2027,7 +2229,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "헷갈려😵‍💫 #HITGS #힛지스 #VV #SEOJIN",
@@ -2037,7 +2240,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛찌들! 말해줄 수 있어? #HITGS #힛지스 #IYOO #이유",
@@ -2047,7 +2251,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "온 세상이 다🤍🪽#HITGS #힛지스 #LittleByLittle",
@@ -2057,7 +2262,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "かわいい⋰˚☆ #HITGS #힛지스 #VV #IYOO",
@@ -2067,7 +2273,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "꿍실꿍실 ◓◞♡ #HITGS #힛지스 #HYERIN #혜린",
@@ -2077,7 +2284,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "조금씩 𝘓𝘪𝘵𝘵𝘭𝘦 𝘉𝘺 𝘓𝘪𝘵𝘵𝘭𝘦 ˖˚ ͙ෆ #HITGS #힛지스  #HYERIN #IYOO #LittleByLittle",
@@ -2087,7 +2295,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "おつかれ﻿~❥ #HITGS #힛지스 #SEOHEE #IYOO",
@@ -2097,7 +2306,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "♫⋆｡♪ ₊˚♬ﾟ. #HITGS #힛지스 #SEOJIN #SEOHEE",
@@ -2107,7 +2317,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "powder powder woah-! #HITGS #힛지스 #SEOJIN #서진",
@@ -2117,7 +2328,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🎶💞 #HITGS #힛지스 #SEOJIN #IYOO",
@@ -2127,7 +2339,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "첫 사랑니…🦷🩷 #HITGS #힛지스 #SEOHEE #서희",
@@ -2137,7 +2350,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "GG EZ 🎮🖤 #HITGS #힛지스 #IYOO #이유",
@@ -2147,7 +2361,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Little By Little' MV Behind The Scenes",
@@ -2157,7 +2372,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "첫 팬콘 기념으로 파라파라나 춰야겠다🩷 #HITGS #힛지스 #SEOHEE #HYERIN",
@@ -2167,7 +2383,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "👈🏻👉🏻 #HITGS #힛지스 #VV #SEOJIN",
@@ -2177,7 +2394,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ℍ𝕖𝕒𝕣𝕥𝕓𝕖𝕒𝕥 ˚₊· ͟͟͞͞➳❥ #HITGS #힛지스 #VV #비비",
@@ -2187,7 +2405,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙇𝙀𝙈𝙊𝙉𝘼𝘿𝙀🍋 #HITGS #힛지스 #SEOJIN #서진",
@@ -2197,7 +2416,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "내일 보자 ˖*♬˖ ࣪⊹ #HITGS #힛지스 #VV #비비",
@@ -2207,7 +2427,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Little By Little 발매 기념 LIVE 🎧༘⋆🦋₊˚",
@@ -2217,7 +2438,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 'Little By Little' MV",
@@ -2227,7 +2449,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Little By Little 발매 기념 LIVE 🎧༘⋆🦋₊˚",
@@ -2237,7 +2460,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "조금씩⊹⊹⋆｡˚ #HITGS #힛지스 #SEOJIN #SEOHEE",
@@ -2247,7 +2471,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "얼마 안 남은.. 💭 #HITGS #힛지스 #HYERIN #IYOO",
@@ -2257,7 +2482,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Little By Little' MV Teaser 2",
@@ -2267,7 +2493,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Little By Little' MV Teaser 1",
@@ -2277,7 +2504,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-20",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "갸루의 정석✨ #HTIGS #힛지스 #IYOO #이유",
@@ -2287,7 +2515,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑾𝒉𝒚 𝒅𝒐𝒏'𝒕 𝒚𝒐𝒖 𝒔𝒂𝒚 𝒔𝒉𝒉𝒉𝒉💘 #HITGS #힛지스 #HYERIN #혜린",
@@ -2297,7 +2526,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "투닥투닥 💢 #HITGS #힛지스 #VV #IYOO",
@@ -2307,7 +2537,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "(๑˃ᴗ˂)ﻭ🍓 #HITGS #힛지스 #IYOO #이유",
@@ -2317,7 +2548,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 상하이에 간 힛지스🥟  l 힛지스 상하이 브이로그",
@@ -2327,7 +2559,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝑯𝑨𝑷𝑷𝒀 𝑽𝑽 𝑫𝑨𝒀 ໒꒱🖤ྀི #HITGS #힛지스 #VV #비비 #HAPPY_VV_DAY",
@@ -2337,7 +2570,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑯𝑨𝑷𝑷𝒀 𝑽𝑽 𝑫𝑨𝒀 ໒꒱🖤ྀི",
@@ -2347,7 +2581,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "♪ ┏(・o･)┛ ♪#HITGS #힛지스",
@@ -2357,7 +2592,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "I just get some₍ᐢ..ᐢ₎♡ #HITGS #힛지스 #VV #비비",
@@ -2367,7 +2603,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💫✨ #HITGS #힛지스 #SEOJIN #IYOO",
@@ -2377,7 +2614,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스랑 네 컷을 찍어봤어욤📸 #HITGS #힛지스 #HYERIN #혜린",
@@ -2387,7 +2625,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "나 좋지?💭ྀི #HITGS #힛지스 #VV #비비",
@@ -2397,7 +2636,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🅖🅡🅡🅡🅡 #HITGS #힛지스 #HYERIN #혜린",
@@ -2407,7 +2647,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Vo tay em than yeu #HITGS #힛지스",
@@ -2417,7 +2658,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Lean on 🐶 #HITGS #힛지스 #SEOHEE #서희",
@@ -2427,7 +2669,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "おつかれ🐱🐥 #HITGS #힛지스 #HYERIN #IYOO",
@@ -2437,7 +2680,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "😓😷 #HITGS #힛지스 #VV #SEOJIN",
@@ -2447,7 +2691,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "sɪx sᴇᴠᴇɴ #HITGS #힛지스 #SEOHEE #HYERIN",
@@ -2457,7 +2702,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚜𝚒𝚡 𝚜𝚎𝚟𝚎𝚗 #HITGS #힛지스 #SEOJIN #서진",
@@ -2467,7 +2713,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "☔️☔️ on me #HITGS #힛지스 #IYOO #이유",
@@ -2477,7 +2724,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "上海 romance♡⁼³₌₃ #HITGS #힛지스",
@@ -2487,7 +2735,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Look at me👀 #HITGS #힛지스 #VV #비비",
@@ -2497,7 +2746,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "흥 ૮₍ ˃ ⤙ ˂ ₎ა  #HITGS #힛지스 #SEOHEE #HYERIN #IYOO",
@@ -2507,7 +2757,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서히의 생일 하루를 기록해 봤어욤 🐾 #HITGS #힛지스 #HYERIN #혜린",
@@ -2517,7 +2768,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐰🐥💕 #HITGS #힛지스 #VV #IYOO",
@@ -2527,7 +2779,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐇𝐀𝐏𝐏𝐘 𝐒𝐄𝐎𝐇𝐄𝐄 𝐃𝐀𝐘 🐶🩷 #HITGS #힛지스 #SEOHEE #서희 #HAPPY_SEOHEE_DAY",
@@ -2537,7 +2790,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐇𝐀𝐏𝐏𝐘 𝐒𝐄𝐎𝐇𝐄𝐄 𝐃𝐀𝐘 🐶🩷",
@@ -2547,7 +2801,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "🫳🏻🐰🫴🏻 #HITGS #힛지스 #VV #비비",
@@ -2557,7 +2812,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑊ℎ𝑎𝑡’𝑠 𝑎 𝑔𝑖𝑟𝑙 𝑡𝑜 𝑑𝑜 #HITGS #힛지스 #IYOO #이유",
@@ -2567,7 +2823,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) X Feyuna AD Behind👀",
@@ -2577,7 +2834,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "아웅다웅 그게 뭔데..🫶🏻 #HITGS #힛지스 #SEOHEE #HYERIN",
@@ -2587,7 +2845,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐥𝐨𝐯𝐞 𝐦𝐞 𝐡𝐚𝐫𝐝𝐞𝐫 #HITGS #힛지스 #IYOO #이유",
@@ -2597,7 +2856,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐼𝑐𝑒 𝑐𝑟𝑒𝑎𝑚🍦 #HITGS #힛지스 #SEOJIN #SEOHEE",
@@ -2607,7 +2867,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "1주년 당일을 기록해 보고 싶었어욤 ❣️ #HITGS #힛지스 #HYERIN #혜린",
@@ -2617,7 +2878,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🙌🏻👏🏻 #HITGS #힛지스 #HYERIN #혜린",
@@ -2627,7 +2889,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "👀👌🏻 #HITGS #힛지스 #SEOHEE #서희",
@@ -2637,7 +2900,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ooh, HITGS love it💛 I HITGSDAY",
@@ -2647,7 +2911,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "냐미냐미🍴#HITGS #힛지스 #VV #비비",
@@ -2657,7 +2922,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "もしもし-、聞こえてる？ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -2667,7 +2933,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "JET SET 🐱🐥🐶 #HITGS #힛지스",
@@ -2677,7 +2944,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐇𝐈𝐓𝐆𝐒 𝟏𝐬𝐭 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲🎉 #HITGS #힛지스 #HITGS_1stAnniversary",
@@ -2687,7 +2955,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐇𝐈𝐓𝐆𝐒 𝟏𝐬𝐭 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲 🎉",
@@ -2697,7 +2966,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS(힛지스) 1살 된 거 축하해! 🥳 l HITGS 1st Anniversary",
@@ -2707,7 +2977,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "私、アイドル宣言! #HITGS #힛지스 #IYOO #이유",
@@ -2717,7 +2988,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐆𝐥𝐨𝐰-𝐔𝐩 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 #HITGS #힛지스 #SEOJIN #서진",
@@ -2727,7 +2999,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "magic∗̥✩⁺˚♡ #HITGS #힛지스 #HYERIN #혜린",
@@ -2737,7 +3010,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "명량소녀 떠🐶 #HITGS #힛지스 #SEOHEE #서희",
@@ -2747,7 +3021,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "시축하고 왔어요⚽ I HITGSDAY",
@@ -2757,7 +3032,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "♥༻∞비비 얼굴 자랑∞༺♥ #HITGS #힛지스 #VV #비비",
@@ -2767,7 +3043,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "あげない! 𝄞 ૮ੑ𓈒 ᩙ𑁦 𑁦ୄྀི𑁬֯♡ #HITGS #힛지스 #IYOO #이유",
@@ -2777,7 +3054,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "슬레이 선배님과 Dancing in 🌸 #SLAY ​⁠#HITGS #힛지스#CherryBlossom #체리블라썸",
@@ -2787,7 +3065,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너무너무너무🐱 #HITGS #힛지스 #HYERIN #혜린",
@@ -2797,7 +3076,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "나란히 걸었어 🌸💗 #HITGS #힛지스 #CherryBlossom #체리블라썸",
@@ -2807,7 +3087,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Dracula 🧛‍♀️🐾 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
@@ -2817,7 +3098,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Swim 🌊 #HITGS #힛지스",
@@ -2827,7 +3109,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "봄사랑벚꽃말고🌸 #HITGS #힛지스 #SEOHEE #서희",
@@ -2837,7 +3120,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗛𝗔𝗣𝗣𝗬 𝗦𝗘𝗢𝗝𝗜𝗡 𝗗𝗔𝗬 🐑💙 #HITGS #힛지스 #HAPPY_SEOJIN_DAY",
@@ -2847,7 +3131,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗛𝗔𝗣𝗣𝗬 𝗦𝗘𝗢𝗝𝗜𝗡 𝗗𝗔𝗬 🐑💙",
@@ -2857,7 +3142,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "공구즈도 잡아따🫧🤍 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -2867,7 +3153,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Dancing in Cherry Blossom 🌸",
@@ -2877,7 +3164,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "어머나..💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -2887,7 +3175,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Cherry Blossom' MV",
@@ -2897,7 +3186,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "네 생각만 자꾸나요 💗 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -2907,7 +3197,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "똑똑 #HITGS #힛지스 #SEOJIN #서진",
@@ -2917,7 +3208,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[속보] 공구즈 심쿵주의보 발사💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -2927,7 +3219,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🩶🤍 #HITGS #힛지스 #VV #비비",
@@ -2937,7 +3230,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "You like it🖤 #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
@@ -2947,7 +3241,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "2.you #HITGS #힛지스 #IYOO #이유",
@@ -2957,7 +3252,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Let’s go 대추노노🌸 #HITGS #힛지스 #SEOJIN #서진",
@@ -2967,7 +3263,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "성공해따 😆✌🏻 #HITGS #힛지스 #HYERIN #혜린",
@@ -2977,7 +3274,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙉𝙖 𝙣𝙖 𝙣𝙖 🎶🎵 #HITGS #힛지스 #SEOJIN #서진 SEOHEE #서희",
@@ -2987,7 +3285,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑶𝒉 𝑳𝒊𝒕𝒕𝒍𝒆 𝑮𝒊𝒓𝒍❣️ #HITGS #힛지스 #SEOHEE #서희",
@@ -2997,7 +3296,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Watch this 🕶️ #HITGS #힛지스 #SEOJIN #서진",
@@ -3007,7 +3307,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "You can’t handle 09즈 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -3017,7 +3318,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Are you ready? #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3027,7 +3329,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 이유가 교토에 간 이유2🐤  l 힛지스의 휴가 브이로그",
@@ -3037,7 +3340,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "ʜᴀᴘᴘʏ ɪʏᴏᴏ ᴅᴀʏ 🐥💛 #HITGS #힛지스 #HAPPY_IYOO_DAY",
@@ -3047,7 +3351,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HAPPY IYOO DAY 🐥💛",
@@ -3057,7 +3362,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGS (힛지스)님의 실시간 스트림",
@@ -3067,7 +3373,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "혜츄핑💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -3077,7 +3384,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "頑張れ 😆 #HITGS #힛지스",
@@ -3087,7 +3395,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "❄️ #HITGS #힛지스 #IYOO #이유",
@@ -3097,7 +3406,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "한림즈의 새로운 등교메이트 ‎(՞៸៸›⩊‹៸៸՞) #HITGS #힛지스",
@@ -3107,7 +3417,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3117,7 +3428,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "하늘 위로 ☁️ #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -3127,7 +3439,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐶😺🐥 (Direct by 🐑) #HITGS #힛지스",
@@ -3137,7 +3450,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Cam tay em di hihi #HITGS #힛지스",
@@ -3147,7 +3461,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "혜냥🐱 #HITGS #힛지스 #HYERIN #혜린",
@@ -3157,7 +3472,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "em xinh HITGS #HITGS #힛지스",
@@ -3167,7 +3483,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Beat🎶 #HITGS #힛지스 #SEOJIN #서진",
@@ -3177,7 +3494,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "베이킹짱 혜린이의 초꾸 대작전🍫 #HITGS #힛지스 #HYERIN #혜린",
@@ -3187,7 +3505,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] ㅏㅏ앗싸!! 휴가다ㅏㅏ!!!! l 힛지스의 휴가 브이로그",
@@ -3197,7 +3516,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝑺𝒘𝒂𝒍𝒍𝒂 𝒍𝒂𝒉 𝒍𝒂𝒉 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3207,7 +3527,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "👀 떠(희) 밖에 안 보일걸? #HITGS #힛지스 #SEOHEE #서희",
@@ -3217,7 +3538,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 이유가 교토에 간 이유🐤  l 힛지스의 휴가 브이로그",
@@ -3227,7 +3549,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "노ㅂΓ디 노ㅂΓ디 .sёØħёё vёr #HITGS #힛지스 #SEOHEE #서희",
@@ -3237,7 +3560,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "≽^혜⑅냥^≼ #HITGS #힛지스 #HYERIN #혜린",
@@ -3247,7 +3571,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "어떡해 난 니가 너무 좋아🐥💛 #HITGS #힛지스 #IYOO #이유",
@@ -3257,7 +3582,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 찜질방도 가고 놀이공원도 가고 두쫀쿠도 먹고...투머치양🐏l 힛지스의 휴가 브이로그",
@@ -3267,7 +3593,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 떠히의 쁘이로꾸❤️ l 힛지스의 휴가 브이로그",
@@ -3277,7 +3604,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "킹받으면 조케써👑 #HITGS #힛지스 #SEOHEE #서희",
@@ -3287,7 +3615,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🍒🎀 #HITGS #힛지스 #HYERIN #혜린",
@@ -3297,7 +3626,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 마라 매운 비비 [중국버전]🌶️ l 힛지스의 휴가 브이로그",
@@ -3307,7 +3637,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🎸😆 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
@@ -3317,7 +3648,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "👀💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -3327,7 +3659,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Love Love Love #HITGS #힛지스 #SEOJIN #서진",
@@ -3337,7 +3670,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Be with 09즈🐶😽 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -3347,7 +3681,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "⁺. ⊹˚₊ 🫧 ₊·˚⊹. ⁺ #HITGS #힛지스 #VV #비비",
@@ -3357,7 +3692,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Okay, okay 💗 #HITGS #힛지스 #SEOHEE #서희",
@@ -3367,7 +3703,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Game boy 🎮 #HITGS #힛지스",
@@ -3377,7 +3714,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 휴가가 온다는 말 너무 수동적인 듯, 힛지스가 휴가에게 간다 I 첫 휴가 계획🩷",
@@ -3387,7 +3725,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "From Things we love : H #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -3397,7 +3736,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗐𝖾'𝗋𝖾 𝗌𝗈 𝗅𝗎𝖼𝗄𝗒 🍀 #HITGS #힛지스",
@@ -3407,7 +3747,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Maria #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3417,7 +3758,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "幕開けの合図が #HITGS #힛지스 #SEOHEE #서희",
@@ -3427,7 +3769,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "姐姐让你不舒服了吗？#HITGS #힛지스 #VV #비비",
@@ -3437,7 +3780,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스의 첫 연말무대 감동이야 🥹  | HITGS ON AIR✨ Behind EP.13",
@@ -3447,7 +3791,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝗪𝗵𝗲𝗿𝗲 𝘆𝗼𝘂 𝗮𝘁 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3457,7 +3802,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💵💵 #HITGS #힛지스 #SEOJIN #서진",
@@ -3467,7 +3813,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗁𝖺𝗉𝗉𝗂𝗇𝖾𝗌𝗌❣️ #HITGS #힛지스",
@@ -3477,7 +3824,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "FROM HITGS 💬  #HITGS #힛지스",
@@ -3487,7 +3835,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 248일",
@@ -3497,7 +3846,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "힛지스의 (현실)붕어빵 타이쿤❄️",
@@ -3507,7 +3857,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "눈이 내려와요❄️ #HITGS #힛지스",
@@ -3517,7 +3868,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 2025 SBS 가요대전 SOURPATCH + HAPPY + Intro + A-HA! (아하!) Dance Practice",
@@ -3527,7 +3879,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "떠히 지나갑니다아 #HITGS #힛지스 #SEOHEE #서희",
@@ -3537,7 +3890,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 화이트(White) ❄️ ㅣ Christmas Cover",
@@ -3547,7 +3901,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "혜린이 깜짝 생일 파티 #HITGS # 힛지스 #HYERIN #혜린",
@@ -3557,7 +3912,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "연예계에 뺏긴 사격 천재 혜린 #HITGS # 힛지스 #HYERIN #혜린",
@@ -3567,7 +3923,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "비비는 두쫀쿠보다 마라탕 #HITGS # 힛지스 #VV #비비",
@@ -3577,7 +3934,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Rich girl 💰 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3587,7 +3945,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) Christmas Special🎄 I 산타 실종사건🎅🏻 EP02",
@@ -3597,7 +3956,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "251225🎁 #HITGS #힛지스 #White #화이트",
@@ -3607,7 +3967,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Tom and SEOHEE🐭 #HITGS #힛지스 #SEOHEE #서희",
@@ -3617,7 +3978,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑷𝒆𝒓~𝒇𝒆𝒄𝒕❄️ #HITGS #힛지스 #HYERIN #혜린",
@@ -3627,7 +3989,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Bear🐻 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -3637,7 +4000,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "‘愛してる’が❣️ #HITGS #힛지스 #IYOO #이유",
@@ -3647,7 +4011,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝒋𝒊𝒏𝒈𝒍𝒆 𝒃𝒆𝒍𝒍 𝒓𝒐𝒄𝒌🔔 #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
@@ -3657,7 +4022,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "한 걸음씩 네게 다가갈게❄️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3667,7 +4033,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 2025 KBS 가요대축제 A-HA! (아하!) Dance Practice",
@@ -3677,7 +4044,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📸Zootopia🐾 #HITGS #힛지스",
@@ -3687,7 +4055,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ℳ𝒶𝓀ℯ 𝓂𝓎 𝓌𝒾𝓈𝒽 𝒸ℴ𝓂ℯ 𝓉𝓇𝓊ℯ ❣️ #HITGS #힛지스 #SEOHEE #서희",
@@ -3697,7 +4066,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서희 0개 국어 인증 #HITGS #힛지스 #SEOHEE #서희",
@@ -3707,7 +4077,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이 언니 뭐 하는 거야… #HITGS  #힛지스 #VV #비비",
@@ -3717,7 +4088,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "비비는 녹지 않아! #HITGS #힛지스 #VV #비비",
@@ -3727,7 +4099,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "공구즈도 크리스마스가 좋아 🎄 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -3737,7 +4110,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) Christmas Special⭐️ I 산타 실종사건🎅🏻 EP01",
@@ -3747,7 +4121,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "명탐정 최서희도 알고리즘 배워서 알아요🔍 #HITGS #힛지스 #SEOHEE #서희",
@@ -3757,7 +4132,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐼'𝑚 𝑙𝑜𝑠𝑖𝑛𝑔 𝑚𝑦 𝑚𝑖𝑛𝑑 𝑗𝑢𝑠𝑡 𝑎 𝑙𝑖𝑡𝑡𝑙𝑒  #HITGS #힛지스 #IYOO #이유",
@@ -3767,7 +4143,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "혜린이 안 귀여워 #HITGS #힛지스 #HYERIN #혜린",
@@ -3777,7 +4154,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐰🦊 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -3787,7 +4165,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "넌 내 곁에🎀 #HITGS #힛지스 #SEOHEE #서희",
@@ -3797,7 +4176,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 부산에 와서 바다도 보고 팬사인회도 하고 국밥도 먹고 다 했어! 🌊 l 힛지스의 부산 브이로그",
@@ -3807,7 +4187,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "恋に落ちたんだから 💗 #HITGS #힛지스 #IYOO #이유",
@@ -3817,7 +4198,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🥊🌀 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
@@ -3827,7 +4209,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "BEHIND NO.1210😺 #HITGS #힛지스 #HYERIN #혜린  #HAPPY_HYERIN_DAY",
@@ -3837,7 +4220,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "생일 축하혜냥🐈‍⬛ #HITGS #힛지스 #HYERIN #혜린 #HAPPY_HYERIN_DAY",
@@ -3847,7 +4231,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "사랑 사랑보단 서희❤️ #HITGS #힛지스 #SEOHEE #서희",
@@ -3857,7 +4242,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 도자기 만드는거? 사실은 너무 부러웠어요❤️l서서즈의 도자기 공방",
@@ -3867,7 +4253,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝐋𝐨𝐯𝐞 𝐢𝐬 𝐭𝐫𝐮𝐞..🖤🕶️ #HITGS #힛지스 #SEOHEE #서희",
@@ -3877,7 +4264,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "첫눈 왔다❄️ #HITGS #힛지스",
@@ -3887,7 +4275,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#KIIRAS #로아 님과 솔직하게 Say it A-HA 🛸 #키라스 #Roah #HITGS #힛지스 #A_HA #아하",
@@ -3897,7 +4286,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Tick-tack⏰ #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -3907,7 +4297,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "귀여워서 미아내💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -3917,7 +4308,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "BOOM 🥟💥 #HITGS #힛지스 #SEOHEE #서희",
@@ -3927,7 +4319,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 저희는 사이가 좋거든요👭| 맏막즈의 연남투어",
@@ -3937,7 +4330,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "[HITGS] IYOO 'Taste' Performance Video",
@@ -3947,7 +4341,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스가 부르는 ‘소녀시대 - Gee’ ✨  #HITGS #힛지스",
@@ -3957,7 +4352,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "⋋(•⌔•)⋌ 뻐꾹 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
@@ -3967,7 +4363,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Freeze❄️ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -3977,7 +4374,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 빵.생.빵.사🍞| 혜린의 빵지순례",
@@ -3987,7 +4385,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-21",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "📁 BEHIND NO.1110 🧣#HITGS #힛지스 #Barrie",
@@ -3997,7 +4396,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-14",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "((🤸🏻)) #HITGS #힛지스 #VV #비비",
@@ -4007,7 +4407,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스는 이제 아하별로 떠나요~🌟| HITGS ON AIR👽 Behind EP.12",
@@ -4017,7 +4418,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "사랑아 혜린해💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -4027,7 +4429,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Dance with 막내즈 #HITGS #힛지스",
@@ -4037,7 +4440,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "맞아 눈을 뗄 수 없어, HITGS에 말야 🛸 #HITGS #힛지스 #AHA #아하",
@@ -4047,7 +4451,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'PAGE' Track Video",
@@ -4057,7 +4462,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#AHOF #서정우 #장슈아이보 선배님과 솔직하게 Say it A-HA 🛸 #아홉 #JEONGWOO #SHUAIBO #HITGS #힛지스 #A_HA #아하",
@@ -4067,7 +4473,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "매끈매끈하다 매끈매끈한 #HITGS #힛지스",
@@ -4077,7 +4484,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚢𝚘𝚞 𝚠𝚒𝚕𝚕 𝚊𝚕𝚠𝚊𝚢𝚜 𝚋𝚎 𝚖𝚢 🪽 #HITGS #힛지스 #SEOHEE #서희",
@@ -4087,7 +4495,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#xikers #진식 선배님과 솔직하게 Say it A-HA 🛸 #싸이커스 #JINSIK #HITGS #힛지스 #A_HA #아하",
@@ -4097,7 +4506,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝒖𝒏𝑳𝑰𝑲𝑬 𝑴𝑬..?! #HITGS #힛지스 #HYERIN #혜린",
@@ -4107,7 +4517,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'A-HA!' Dance Practice",
@@ -4117,7 +4528,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스의아하별👽👽👽👽👽",
@@ -4127,7 +4539,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": true
   },
   {
     "title": "HITGSTORY EP.20 힛지스의 첫가을이었다🍁",
@@ -4137,7 +4550,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "GO🐥 #HITGS #힛지스 #IYOO #이유",
@@ -4147,7 +4561,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'A-HA!' 응원법",
@@ -4157,7 +4572,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "쪼꼬즈는 항상 HAPPY🍫 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #HAPPY #해피",
@@ -4167,7 +4583,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "풍선으로 HAPPY한 09즈🩵 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
@@ -4177,7 +4594,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "일주일내내🤍 #HITGS #힛지스 #SEOHEE #서희",
@@ -4187,7 +4605,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이번 HAPPY 활동은 감동이였어…🥹| HITGS ON AIR❤️ Behind EP.11",
@@ -4197,7 +4616,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "양갈래 + 서희도 귀요미❣️#HITGS #힛지스 #SEOHEE #서희",
@@ -4207,7 +4627,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📞🐥🐰📞#HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -4217,7 +4638,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CLOSEYOUREYES #서경배 선배님과 I’M SO HAPPY😆 #클로즈유어아이즈 #SEOKYOUNGBAE #HITGS #힛지스 #HAPPY #해피",
@@ -4227,7 +4649,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙻𝚎𝚟𝚎𝚕 𝚞𝚙💗 #HITGS #힛지스 #SEOHEE #서희",
@@ -4237,7 +4660,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CLOSEYOUREYES #김성민 선배님과 I’M SO HAPPY😆 #클로즈유어아이즈 #KIMSUNGMIN #HITGS #힛지스 #HAPPY #해피",
@@ -4247,7 +4671,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "아.. 이유야 ⁉️ #HITGS #힛지스",
@@ -4257,7 +4682,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐏𝐮𝐭 𝐲𝐨𝐮𝐫 𝐛𝐨𝐝𝐲 𝐨𝐧 𝐦𝐲 𝐛𝐨𝐝𝐲 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -4267,7 +4693,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑈𝑚𝑚 + 음.. = (  ʚ̴̶̷́ ༝ ʚ̴̶̷́  ) #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -4277,7 +4704,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#BOYNEXTDOOR 리우 선배님과 I’M SO HAPPY😆 #보이넥스트도어 #RIWOO #HITGS #힛지스 #HAPPY #해피",
@@ -4287,7 +4715,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖯𝗋𝖾𝗍𝗍𝗒 𝖫𝗈𝗏𝖾𝗅𝗒 𝖢𝗎𝗍𝗂𝖾 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -4297,7 +4726,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#2025MBC대학가요제 에서도 HITGS는 HAPPY해☁️ #HITGS #힛지스 #HAPPY #해피",
@@ -4307,7 +4737,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이번 주 #INKIGAYO 에서는 살짝 UNHAPPY 할지도? #HITGS #힛지스 #HAPPY #해피",
@@ -4317,7 +4748,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "막내즈 사랑해💗 #HITGS #힛지스",
@@ -4327,7 +4759,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#MUSICCORE 에서 서(희의 힛지스)멤(버들을)소(개합니다) #HITGS #힛지스 #HAPPY #해피",
@@ -4337,7 +4770,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "천도 선배님과 I’M SO HAPPY😆 #1000degrees #HITGS #힛지스 #HAPPY #해피",
@@ -4347,7 +4781,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "심장에 매력 발산❣️ #HITGS #힛지스 #IYOO #이유",
@@ -4357,7 +4792,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이번 주 #MUSICBANK 에서도 힛지스는 HAPPY해 🍀 #HITGS #힛지스 #HAPPY #해피",
@@ -4367,7 +4803,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#Kep1er 김다연 선배님과 I’M SO HAPPY😆 #케플러 #DAYEON #HITGS #힛지스 #HAPPY #해피",
@@ -4377,7 +4814,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐁𝐚𝐛𝐲 #HITGS #힛지스 #SEOJIN #서진",
@@ -4387,7 +4825,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이번 주 #Mcountdown 에서도 힛지스는 HAPPY해 🪞 #HITGS #힛지스 #HAPPY #해피",
@@ -4397,7 +4836,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#Kep1er 김채현 선배님과 I’M SO HAPPY😆 #케플러 #CHAEHYUN #HITGS #힛지스 #HAPPY #해피",
@@ -4407,7 +4847,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Go crazy🌀#HITGS #힛지스 #IYOO #이유",
@@ -4417,7 +4858,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HAPPY🌙 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #HAPPY #해피",
@@ -4427,7 +4869,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.19 2025 정기총회💻",
@@ -4437,7 +4880,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "❤️09s🖤 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
@@ -4447,7 +4891,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "팬들을 향한 사랑이 멈추지 않는 탓일까👯‍♀️| HITGS ON AIR❤️ Behind EP.10",
@@ -4457,7 +4902,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝑩𝒆𝒂𝒕🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -4467,7 +4913,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🌀😵‍💫🤩 #HITGS #힛지스",
@@ -4477,7 +4924,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Can’t stop☁️ #HITGS #힛지스 #HYERIN #혜린",
@@ -4487,7 +4935,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "해피해피〃'ᴗ'〃 #HITGS #힛지스 #HAPPY #해피",
@@ -4497,7 +4946,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이번 주 #INKIGAYO 에서도 힛지스는 HAPPY해 🧸 #HITGS #힛지스 #HAPPY #해피",
@@ -4507,7 +4957,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "STOP IT🍃☁️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #HAPPY #해피",
@@ -4517,7 +4968,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "L.O.V.E #HITGS #힛지스",
@@ -4527,7 +4979,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "All day💙 #HITGS #힛지스 #SEOJIN #서진 #HAPPY #해피",
@@ -4537,7 +4990,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'HAPPY' M/V Behind The Scenes",
@@ -4547,7 +5001,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#MUSICCORE 에서 힛지스는 HAPPY해 🎀 #HITGS #힛지스 #HAPPY #해피",
@@ -4557,7 +5012,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#MUSICBANK 에서 힛지스는 HAPPY해 ❣️#HITGS #힛지스 #HAPPY #해피",
@@ -4567,7 +5023,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "A - sEohee - Iyoo - O #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #HAPPY #해피",
@@ -4577,7 +5034,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#Mcountdown 에서 힛지스는 HAPPY해 💙 #HITGS #힛지스 #HAPPY #해피",
@@ -4587,7 +5045,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "몰래 혼잣말 ෆ•͈ ·̭ •͈ෆ #HITSG #힛지스 #VV #비비 #IYOO #이유 #HAPPY #해피",
@@ -4597,7 +5056,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "아스케 🍦#HITGS #힛지스 #SEOJIN #서진",
@@ -4607,7 +5067,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.18 힛지스 파티시엘👩‍🍳",
@@ -4617,7 +5078,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "가까워지고 싶어 난☁️ #HITSG #힛지스 #VV #비비 #SEOJIN #서진 #HAPPY #해피",
@@ -4627,7 +5089,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "송필근 선배님과 I’M SO HAPPY😆 #SongPylgeun #HITGS #힛지스 #HAPPY #해피",
@@ -4637,7 +5100,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HYEPPY! #HITGS #힛지스 #HYERIN #혜린 #HAPPY #해피",
@@ -4647,7 +5111,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Buzzin 🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -4657,7 +5122,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS (힛지스) 'HAPPY' MV 리액션",
@@ -4667,7 +5133,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "신윤승, 조수연 선배님과 I’M SO HAPPY😆 #데프콘썸어때요 #HITGS #힛지스 #HAPPY #해피",
@@ -4677,7 +5144,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "DANCING in the MOONLIGHT 🌙  #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -4687,7 +5155,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서성경 선배님과 I’M SO HAPPY😆 #SeoSunggyung #HITGS #힛지스 #HAPPY #해피",
@@ -4697,7 +5166,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "매일매일이 HAPPY #HITGS #힛지스 #HAPPY #해피",
@@ -4707,7 +5177,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚆𝚘𝚛𝚔☀️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -4717,7 +5188,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "해피햎삐🍃 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유  #HAPPY #해피",
@@ -4727,7 +5199,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’HAPPY’ Dance Practice",
@@ -4737,7 +5210,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#INKIGAYO 에서 힛지스는 HAPPY해 🤍 #HITGS #힛지스 #HAPPY #해피",
@@ -4747,7 +5221,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🖤&💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -4757,7 +5232,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] 힛지스와 함께한 첫 피크닉 | 힛지스의 연휴☀️",
@@ -4767,7 +5243,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HAPPY 09s💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
@@ -4777,7 +5254,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ℍ𝔸ℙℙ𝕐 💙 #HITGS #힛지스 #SEOJIN #서진 #HAPPY #해피",
@@ -4787,7 +5265,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'HAPPY' 응원법",
@@ -4797,7 +5276,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "*:.｡𝑺𝑼𝑮𝑨𝑹 .｡.:*･゜ﾟ #HITGS #힛지스 #HYERIN #혜린",
@@ -4807,7 +5287,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑯𝑨𝑷𝑷𝒀 𝑴𝑽 𝒄𝒉𝒐𝒓𝒆𝒐 #HITGS #힛지스 #HAPPY #해피",
@@ -4817,7 +5298,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "I'M SO HAPPY😆 #HITSG #힛지스 #VV #비비 #SEOHEE #서희 #HAPPY #해피",
@@ -4827,7 +5309,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너랑 있으면 HAPPY해☘️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -4837,7 +5320,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.17 제 1회 힛지스 선수권 대회🥇",
@@ -4847,7 +5331,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "mood to have fun #HITGS #힛지스 #HAPPY #해피",
@@ -4857,7 +5342,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ⒽⒶⓅⓅⓎ ˃̵͈̑ᴗ˂̵͈̑ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -4867,7 +5353,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 혜린 사격 금메달 비하인드🥇",
@@ -4877,7 +5364,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "아이돌 사격 국가대표 : 혜린편 🎯🥇 #HITGS #힛지스 #HYERIN #혜린",
@@ -4887,7 +5375,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HAPPY🙂 selfie.ver #HITGS #힛지스 #HAPPY #해피",
@@ -4897,7 +5386,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "넌 모르겠지만🏝️ #HITGS #힛지스 #HAPPY #해피",
@@ -4907,7 +5397,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🄸’🄼 🆂🅾 🄷🄰🄿🄿🅈 💗 #HITGS #힛지스 #HAPPY #해피",
@@ -4917,7 +5408,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "A-E-I-O MINUS ‘U’ #HITGS #힛지스 #HAPPY #해피",
@@ -4927,7 +5419,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "매일 매일이 🖤 #HITGS #힛지스 #HAPPY #해피",
@@ -4937,7 +5430,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝓰𝓸𝓲𝓷𝓰 𝓬𝓻𝓪𝔃𝔂☀️ #HITGS #힛지스 #HAPPY #해피",
@@ -4947,7 +5441,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'HAPPY' MV",
@@ -4957,7 +5452,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' Highlight Medley",
@@ -4967,7 +5463,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'HAPPY' MV TEASER",
@@ -4977,7 +5474,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-04",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #HYERIN #혜린 #ThingsWeLove_I #TWL_I",
@@ -4987,7 +5485,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #VV #비비 #ThingsWeLove_I #TWL_I",
@@ -4997,7 +5496,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #IYOO #이유 #ThingsWeLove_I #TWL_I",
@@ -5007,7 +5507,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #SEOHEE #서희 #ThingsWeLove_I #TWL_I",
@@ -5017,7 +5518,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #SEOJIN #서진 #ThingsWeLove_I #TWL_I",
@@ -5027,7 +5529,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.16 눈물의 캠프파이어🔥",
@@ -5037,7 +5540,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' TRAILER",
@@ -5047,7 +5551,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : I' SCHEDULER",
@@ -5057,7 +5562,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS 【Things we love : I】",
@@ -5067,7 +5573,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "이준영 선배님과 솔직하게 Say it A-HA 🛸 #LEEJUNYOUNG #HITGS #힛지스 #A_HA #아하",
@@ -5077,7 +5584,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) in 방콕 🥭 (SUMMER SONIC BEHIND)",
@@ -5087,7 +5595,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "다영 선배님과 솔직하게 Say it A-HA 🛸#DAYOUNG #HITGS #힛지스 #A_HA #아하",
@@ -5097,7 +5606,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Gimme a beat #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
@@ -5107,7 +5617,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "‘A-HA’‘, A-HA’ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #A_HA #아하",
@@ -5117,7 +5628,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'A-HA!' M/V Behind The Scenes",
@@ -5127,7 +5639,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "💿 들어봐 ‘A-HA!’ #HITGS #힛지스 #A_HA #아하",
@@ -5137,7 +5650,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "A-HA😆 #HITGS #힛지스 #HYERIN #혜린 #A_HA #아하",
@@ -5147,7 +5661,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Hot Summer🍋☀️ #HITGS #힛지스",
@@ -5157,7 +5672,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "A-HA! X ♾️ #HITGS #힛지스 #A_HA #아하",
@@ -5167,7 +5683,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴡʜᴇɴ ɪ ᴅᴀɴᴄᴇ ᴇᴠᴇʀʏ ᴛɪᴍᴇ 🪩👾 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #A_HA #아하",
@@ -5177,7 +5694,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA (Sims.ver)💡#HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5187,7 +5705,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.15 자네 지금 뭐 하는 건가🤔",
@@ -5197,7 +5716,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🎧 HITGS의 A-HA!를 지금 바로 만나보세요! #HITGS #힛지스 #A_HA #아하",
@@ -5207,7 +5727,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ュ냥 외શ도 ગ해̆̈ 마 ગ게̆̎ 나પ까̆̎ 🛸 #HITGS #힛지스 #A_HA #아하",
@@ -5217,7 +5738,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) LA 브이로그 ✈️",
@@ -5227,7 +5749,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "From #HYERIN #HITGS #힛지스 #A_HA #아하",
@@ -5237,7 +5760,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑌𝑜𝑢 𝑐𝑎𝑛 𝑓𝑒𝑒𝑙, 𝑖𝑛 𝑚𝑦 𝑒𝑦𝑒𝑠 #HITGS #힛지스 #HYERIN #혜린 #A_HA #아하",
@@ -5247,7 +5771,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'A-HA!' MV",
@@ -5257,7 +5782,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "ⒽⒶⓅⓅⓎ💗✌🏻#HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -5267,7 +5793,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "We got you moonlight 🌙 #HITGS #힛지스",
@@ -5277,7 +5804,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "The Most Famous #HITGS #힛지스",
@@ -5287,7 +5815,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ℬ𝓊𝓉 𝒶𝒸𝓉𝓊𝒶𝓁𝓁𝓎, 𝒲ℯ’𝓁𝓁 𝓃ℯ𝓋ℯ𝓇 𝒷𝓇ℯ𝒶𝓀 𝓊𝓅 💗 #HITGS #힛지스 #SEOHEE #서희",
@@ -5297,7 +5826,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.14 힐링 캠핑? 이건 비밀인데...",
@@ -5307,7 +5837,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "📁BEHIND NO.0913 🫧 #HITGS #힛지스 #BUBBLINGBOILING",
@@ -5317,7 +5848,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🤙🏻🤙🏻🤙🏻 #HITGS #힛지스 #HYERIN #혜린",
@@ -5327,7 +5859,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📁BEHIND NO.0906 📷 #HITGS #힛지스 #VV #비비 #HYERIN #혜린 #SeoulFashionWeek",
@@ -5337,7 +5870,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Mooo ˚˖⁺⑅🩵 #HITGS #힛지스 #HYERIN #혜린",
@@ -5347,7 +5881,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐱🌀🐱 #HITGS #힛지스 #VV #비비 #HYERIN #혜린",
@@ -5357,7 +5892,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스네 비냥이 /ᐠ • ̫ •マฅ #HITGS #힛지스 #VV #비비",
@@ -5367,7 +5903,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "☆∴｡　*🤍 ﾟ*｡★･ #HITGS #힛지스 #VV #비비 #HYERIN #혜린",
@@ -5377,7 +5914,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) LA KCON BEHIND📸",
@@ -5387,7 +5925,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.13 56미터 상공에서 음방 도전🎤",
@@ -5397,7 +5936,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "SOURPATCH in BANGKOK🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -5407,7 +5947,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "RUBY CHAN 🫶🏻💛 #HITGS #힛지스",
@@ -5417,7 +5958,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#BUS 선배님과 We gon’ make a scene 🎬 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5427,7 +5969,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Bugatti🕶️ #HITGS #힛지스",
@@ -5437,7 +5980,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.12 힛지스랑 에버랜드 갈래?(KR/EN/JP/ES/ID/VN)",
@@ -5447,7 +5991,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "방콕에서도 우리 얘길 가득 채워💛 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5457,7 +6002,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "I love you so much ᥫ᭡ˊ˗ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -5467,7 +6013,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ʜɪᴛɢs ᴄᴀɴ’ᴛ sᴛᴏᴘ 🌙 #HITGS #힛지스",
@@ -5477,7 +6024,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "뭐가 들어있게? in my big big bags🎒 I HITGSDAY",
@@ -5487,7 +6035,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-21",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🫧🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5497,7 +6046,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.11 절대 소리를 내면 안 되는 파티🤫 (KR/EN/JP/ES/ID/VN)",
@@ -5507,7 +6057,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "힛멍이들 챠챠 🐶 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
@@ -5517,7 +6068,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖃𝖔𝖓𝖆𝖉𝖆🖤 #HITGS #힛지스 #SEOJIN #서진 #HYERIN #혜린",
@@ -5527,7 +6079,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "우하하하 #HITGS #힛지스",
@@ -5537,7 +6090,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "KPOP SUPER LIVE도 Ooh, I love it🖤 #HITHS #힛지스 #SOURPATCH #사워패치",
@@ -5547,7 +6101,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📁 BEHIND NO.0809 🌊 #HITGS #힛지스 #2025KPOPSUPERLIVE",
@@ -5557,7 +6112,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🐈‍⬛🐣#HITGS #힛지스#HYERIN #혜린 #IYOO #이유#CHARIZZMA #카리즈마",
@@ -5567,7 +6123,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.10 파자마 파티에 진심인 아이돌✨ (KR/EN/JP/ES/ID/VN)",
@@ -5577,7 +6134,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Fashion center ✨ #HITGS #힛지스 #VV #비비",
@@ -5587,7 +6145,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ɪ ᴡᴀɴɴᴀ ‪(⸝⸝› з ‹⸝⸝)‬♡ #HITGS #힛지스",
@@ -5597,7 +6156,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐁𝐞𝐚𝐭 𝐢𝐭 🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -5607,7 +6167,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS의 💕#HITGS #힛지스",
@@ -5617,7 +6178,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ෆෆ#HITGS #힛지스#SEOJIN #서진 #HYERIN #혜린",
@@ -5627,7 +6189,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "병아리의 케이콘 탐방🐥#HITGS #힛지스#IYOO #이유",
@@ -5637,7 +6200,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🖐#HITGS #힛지스",
@@ -5647,7 +6211,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🌞#HITGS #힛지스",
@@ -5657,7 +6222,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "LA CHARIZZMA💟#HITGS #힛지스#CHARIZZMA #카리즈마",
@@ -5667,7 +6233,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💛💛💛#HITGS #힛지스#VV #비비 #SEOHEE #서희 #HYERIN #혜린",
@@ -5677,7 +6244,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🄹🅄🄼🄿 #HITGS #힛지스#IYOO #이유",
@@ -5687,7 +6255,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "KCON Play again again, 네가 좋아하는 노래❤#HITGS #힛지스#GROSS #그로스",
@@ -5697,7 +6266,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "LA SOURPATCH🍋#HITGS #힛지스#SOURPATCH #사워패치",
@@ -5707,7 +6277,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "outfit 💗#HITGS #힛지스#SEOJIN #서진",
@@ -5717,7 +6288,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈 Golden✨#HITGS #힛지스#SEOHEE #서희 #HYERIN #혜린",
@@ -5727,7 +6299,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "✨#HITGS #힛지스#IYOO #이유",
@@ -5737,7 +6310,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "또 하나의 힛지스토리를 만든 순간들..💭 | HITGS ON AIR💜 Behind EP.09",
@@ -5747,7 +6321,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-31",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "☆#HITGS #힛지스",
@@ -5757,7 +6332,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.09 찌직.. 4번 방갈로로 가주세요(KR/EN/JP/ES/ID/VN)",
@@ -5767,7 +6343,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "꒰ᐡ𓏼ᵔ ᵜᵔ꒱⊃#HITGS #힛지스#CHARIZZMA #카리즈마",
@@ -5777,7 +6354,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "😺#HITGS #힛지스#HYERIN #혜린",
@@ -5787,7 +6365,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💟#HITGS #힛지스",
@@ -5797,7 +6376,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "😺🖤🤍#HITGS #힛지스#HYERIN #혜린",
@@ -5807,7 +6387,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS💕#HITGS #힛지스",
@@ -5817,7 +6398,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' M/V Behind The Scenes",
@@ -5827,7 +6409,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#ZEROBASEONE #김규빈 선배님과 We gon’ make a scene 🎬@ZB1_official  #제로베이스원 #KIMGYUVIN #HITGS #CHARIZZMA",
@@ -5837,7 +6420,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝓑𝓮𝓼𝓽 𝓯𝓻𝓲𝓮𝓷𝓭 𝓯𝓸𝓻𝓮𝓿𝓮𝓻❤#HITGS #힛지스",
@@ -5847,7 +6431,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at #GAYODAEJEON:SUMMER 🖤#HITGS #힛지스 #CHARIZZMA #카리즈마#2025SBS가요대전Summer",
@@ -5857,7 +6442,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "大好きだよ🤍 #HITGS #힛지스 #IYOO #이유",
@@ -5867,7 +6453,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#STAYC #세은 선배님과 We gon’ make a scene 🎬 #스테이씨 #Seeun #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5877,7 +6464,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#BTOB #이민혁 선배님과 We gon’ make a scene 🎬 #비투비 #LEEMINHYUK #HUTA #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5887,7 +6475,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at #MUSICCORE 🕶️🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5897,7 +6486,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#ILLIT #민주 선배님과 We gon’ make a scene 🎬 #아일릿 #MINJU #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5907,7 +6497,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#족장님 과 We gon’ make a scene 🎬 #티타남 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5917,7 +6508,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝙽𝚒𝚌𝚎 𝚝𝚘 𝚖𝚎𝚎𝚝 𝚢𝚘𝚞 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -5927,7 +6519,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MUSICBANK 🌻💛 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5937,7 +6530,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "すごくすごく愛してる🤍🖤 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -5947,7 +6541,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "안녕 나는.. 💗 #HITGS #힛지스 #SEOHEE #서희",
@@ -5957,7 +6552,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MCOUNTDOWN 🖤🎬 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -5967,7 +6563,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🍓🎀 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -5977,7 +6574,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "wipe it down 👻 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -5987,7 +6585,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "한여름 밤의 힛지스 🌙 #HITGS #힛지스",
@@ -5997,7 +6596,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.08 안녕하세요 귀신입니다 (KR/EN/JP/ES/ID/VN)",
@@ -6007,7 +6607,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "힛지스 미모는 매 순간 당도 최고🍑 | HITGS ON AIR💜 Behind EP.08",
@@ -6017,7 +6618,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#SUPERJUNIOR #은혁 선배님과 We gon’ make a scene 🎬 #슈퍼주니어 #EUNHYUK #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6027,7 +6629,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MUSICCORE ♟️❣️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6037,7 +6640,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🎀 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #aurafarming",
@@ -6047,7 +6651,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖢𝖺𝗇 𝗒𝗈𝗎 𝖿𝖾𝖾𝗅 𝗂𝗍 💗 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6057,7 +6662,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "bass down low #HITGS #힛지스 #SEOJIN #서진",
@@ -6067,7 +6673,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝚁.𝙸.𝚉.𝚉 𝙲𝙷𝙰𝚁𝙸𝚉𝚉𝙼𝙰 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6077,7 +6684,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MUSICBANK 🎨🩵 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6087,7 +6695,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑰 𝒌𝒏𝒐𝒘..🤍 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #CHARIZZMA #카리즈마",
@@ -6097,7 +6706,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA VV CAM📹 #HITGS #힛지스 #VV #비비 #CHARIZZMA #카리즈마",
@@ -6107,7 +6717,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑯𝒆𝒓𝒆! #HITGS #힛지스 #IYOO #이유",
@@ -6117,7 +6728,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑺𝒊𝒈𝒎𝒂 𝑮𝒊𝒓𝒍🩶 #HITGS #힛지스 #SEOJIN #서진",
@@ -6127,7 +6739,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Focus #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
@@ -6137,7 +6750,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MCOUNTDOWN🖤#HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6147,7 +6761,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SEOHEE CAM📹 #HITGS #힛지스 #SEOHEE #서희 #CHARIZZMA #카리즈마",
@@ -6157,7 +6772,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🤍💚 #HITGS #힛지스",
@@ -6167,7 +6783,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA HYERIN CAM📹 #HITGS #힛지스 #HYERIN #혜린 #CHARIZZMA #카리즈마",
@@ -6177,7 +6794,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.07 우리 얘길 가득 채워, in our bag (KR/EN/JP/CN/ES/ID/VN)",
@@ -6187,7 +6805,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#CLOSEYOUREYES #송승호 선배님과 We gon’ make a scene 🎬 #클로즈유어아이즈 #SONGSEUNGHO #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6197,7 +6816,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "☁️🤍 #HITGS #힛지스",
@@ -6207,7 +6827,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#한승우 선배님과 We gon’ make a scene 🎬 #HANSEUNGWOO #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6217,7 +6838,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "What’s in my #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6227,7 +6849,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스만의 물보라를 일으켜🐬 | HITGS ON AIR💜 Behind EP.07",
@@ -6237,7 +6860,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "09즈를 바라밤💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -6247,7 +6871,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#NOWZ #윤 #시윤 선배님과 We gon’ make a scene 🎬 #나우즈 #YOON #SIYUN #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6257,7 +6882,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#NouerA #준표 선배님과 We gon’ make a scene 🎬 #누에라 #JUNPYO #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6267,7 +6893,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "one and only❣️#HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6277,7 +6904,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#AHOF #차웅기 #장슈아이보 님과 We gon’ make a scene 🎬 #아홉 #WOONGKI #SHUAIBO #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6287,7 +6915,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#WOOAH #나나 선배님과 HITGS의 big big bags💔에는 뭐가 들어 있을나나? #우아 #NANA #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6297,7 +6926,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "없어지지는 않아 💎 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -6307,7 +6937,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MUSICCORE 🖤🤍 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6317,7 +6948,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS (힛지스) 'CHARIZZMA' MV 리액션",
@@ -6327,7 +6959,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#H1KEY #서이 선배님과 We gon’ make a scene 🎬 #하이키 #SEOI #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6337,7 +6970,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at INKIGAYO 🍿 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6347,7 +6981,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "하트를 그려🎨💗 #HITGS #힛지스 #더시즌즈 #박보검의칸타빌레",
@@ -6357,7 +6992,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at CANTABILE 🎼 #HITGS #힛지스 #CHARIZZMA #카리즈마 #더시즌즈 #박보검의칸타빌레",
@@ -6367,7 +7003,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "RIZZ 🕶️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6377,7 +7014,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) X MEDIPEEL+ Behind 📸",
@@ -6387,7 +7025,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#펭수 선배님과 We gon’ make a scene 🎬 #Pengsoo #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6397,7 +7036,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "FAMOUS 🕶️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -6407,7 +7047,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖲𝗁𝗈𝗐 𝗆𝖾 𝗐𝗁𝖺𝗍 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6417,7 +7058,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MUSICBANK #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6427,7 +7069,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "A day at the Pop-Up🐥 #HITGS #힛지스 #AcquadiParma #아쿠아디파르마",
@@ -6437,7 +7080,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’CHARIZZMA’ Dance Video (MV Fix ver.)",
@@ -6447,7 +7091,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "조ㅇrㅎH..❣️ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -6457,7 +7102,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "And all that ❣️#HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6467,7 +7113,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "we gon’ make a scene at MCOUNTDOWN ☁️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6477,7 +7124,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SIDE-CAM📹 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6487,7 +7135,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' Performance Music Video",
@@ -6497,7 +7146,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "chaR.I.Z.Z.ma💚 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6507,7 +7157,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA 🌊🩵 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6517,7 +7168,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.06 널 초대할게 힛지스 세계로",
@@ -6527,7 +7179,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "what’s up?! #HITGS #힛지스 #VV #비비 #SEOJIN #서진 #CHARIZZMA #카리즈마",
@@ -6537,7 +7190,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "high-angle CHARIZZMA #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6547,7 +7201,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑗𝑢𝑠𝑡 𝑤𝑎𝑛𝑛𝑎 𝑘𝑖𝑐𝑘 𝑖𝑡 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6557,7 +7212,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA❣️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6567,7 +7223,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑊ℎ𝑎𝑡’𝑠 𝑖𝑛 𝑚𝑦🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6577,7 +7234,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' 응원법",
@@ -6587,7 +7245,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "━☆ﾟ.*･｡ﾟ҉̛ sᴏᴅᴀ ᴘᴏᴘ🫧 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #kpopdemonhunters",
@@ -6597,7 +7256,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SEOJIN CAM 📹 #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
@@ -6607,7 +7267,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑰 𝒌𝒏𝒐𝒘 𝒕𝒉𝒂𝒕 𝑰’𝒎 𝑳𝑰𝑻 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #CHARIZZMA #카리즈마",
@@ -6617,7 +7278,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA🫧 #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6627,7 +7289,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ⓡ.Ⓘ.Ⓩ.Ⓩ #HITGS #힛지스 #VV #비비 #SEOHEE #서희 #CHARIZZMA #카리즈마",
@@ -6637,7 +7300,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "걸음걸이, 표정까지🤍 #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
@@ -6647,7 +7311,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Let me show you☁️🍃  #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6657,7 +7322,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' MV",
@@ -6667,7 +7333,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' MV Teaser",
@@ -6677,7 +7344,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "ᴏɴᴇ ᴀɴᴅ ᴏɴʟʏ #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6687,7 +7355,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) Live Clip Band ver. - SOURPATCH+GROSS+청춘찬가",
@@ -6697,7 +7366,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "ʟᴇᴛ ᴍᴇ sʜᴏᴡ ʏᴏᴜ ᴡʜᴀᴛ’s ɪɴ ᴍʏ ʙɪɢ ʙɪɢ ʙᴀɢs #HITGS #힛지스 #CHARIZZMA #카리즈마",
@@ -6707,7 +7377,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.05 당연 힛지스가 GMG",
@@ -6717,7 +7388,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'CHARIZZMA' TRAILER",
@@ -6727,7 +7399,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SPOILER #HITGS #힛지스 #SEOHEE #서희 #CHARIZZMA #카리즈마",
@@ -6737,7 +7410,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스는 HMH✨ LG 시구&시타 비하인드 I HITGSDAY",
@@ -6747,7 +7421,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-29",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SPOILER #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
@@ -6757,7 +7432,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SPOILER #HITGS #힛지스 #VV #비비 #CHARIZZMA #카리즈마",
@@ -6767,7 +7443,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-27",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[HITGSDAY] 지금부터 진실의 방으로 들어가 보겠습니다 ❌대표님 시청 금지❌ | 힛지스의 진실게임🕹️",
@@ -6777,7 +7454,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SPOILER #HITGS #힛지스 #IYOO #이유 #CHARIZZMA #카리즈마",
@@ -6787,7 +7465,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "09즈와 함께하는 장마철 | PLAYLIST🎧",
@@ -6797,7 +7476,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "🙌🏻 . ҉*･｡ﾟ ҉*:.｡💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -6807,7 +7487,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "CHARIZZMA SPOILER #HITGS #힛지스 #HYERIN #혜린 #CHARIZZMA #카리즈마",
@@ -6817,7 +7498,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝕋𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 💛 #HITGS #힛지스",
@@ -6827,7 +7509,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.04 ※승부욕 과다 주의※",
@@ -6837,7 +7520,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝗚𝗥𝗢𝗦𝗦💚🍃 #HITGS #힛지스 #GROSS #그로스",
@@ -6847,7 +7531,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "내가 힛지스가 되어볼게 얍✨ | HITGS ON AIR🍒 Behind EP.06",
@@ -6857,7 +7542,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "하루 종일 붕 떠있어💛 #HITGS #힛지스 #GROSS #그로스",
@@ -6867,7 +7553,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "짜릿한 이 느낌🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -6877,7 +7564,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#KISSOFLIFE #하늘 선배님과 We don’t wanna stop it🍒 #키스오브라이프 #HANEUL #HITGS #힛지스 #GROSS #그로스",
@@ -6887,7 +7575,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "˚₊‧ა 🫧 ‧₊˚ #HITGS #힛지스 #SEOJIN #서진",
@@ -6897,7 +7586,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "That’s 🍒‼️ #HITGS #힛지스 #GROSS #그로스",
@@ -6907,7 +7597,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝗧𝗵𝗲 𝗙𝗶𝗻𝗮𝗹 𝗔𝗰𝘁: 𝗚𝗥𝗢𝗦𝗦💛 #HITGS #힛지스 #GROSS #그로스",
@@ -6917,7 +7608,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "sweet heart 🤍🪽 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -6927,7 +7619,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐹𝑟𝑜𝑚 𝑙𝑎𝑠𝑡 𝑤𝑒𝑒𝑘. #HITGS #힛지스 #GROSS #그로스",
@@ -6937,7 +7630,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Get that feel 🫧 #HITGS #힛지스 #GROSS #그로스",
@@ -6947,7 +7641,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "私だけでしょ？ 💛 #HITGS #힛지스 #VV #비비 #IYOO #이유",
@@ -6957,7 +7652,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#NOWZ #현빈 #진혁 선배님과 We don’t wanna stop it🍒 #나우즈 #HYEONBIN #JINHYUK #HITGS #힛지스 #GROSS #그로스",
@@ -6967,7 +7663,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🌧️💦☀️ #HITGS #힛지스 #GROSS #그로스",
@@ -6977,7 +7674,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Let’s go #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
@@ -6987,7 +7685,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스와 LG트윈스, We don’t wanna stop it🍒 #HITGS #힛지스 #GROSS #그로스",
@@ -6997,7 +7696,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#니나 님과 We don’t wanna stop it🍒 #NINA #HITGS #힛지스 #GROSS #그로스",
@@ -7007,7 +7707,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🧡💛💚💗💙 #HITGS #힛지스 #GROSS #그로스",
@@ -7017,7 +7718,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "-ˋˏ 🍫 𓂂𓈒  ˎˊ- ﻿ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -7027,7 +7729,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#ARTMS #희진 선배님과 We don’t wanna stop it🍒 #아르테미스 #HeeJin #HITGS #힛지스 #GROSS #그로스",
@@ -7037,7 +7740,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너의 favorite💗 #HITGS #힛지스 #HYERIN #혜린",
@@ -7047,7 +7751,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "무적LG와 Ooh, I love it🍋🪽 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -7057,7 +7762,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.03 심각한 도파민 중독입니다",
@@ -7067,7 +7773,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Make me🖤💗 #HITGS #힛지스 #GROSS #그로스",
@@ -7077,7 +7784,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Selfie #HITGS #힛지스 #VV #비비",
@@ -7087,7 +7795,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "((💗💛)) #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -7097,7 +7806,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "GROSS‼️ #HITGS #힛지스 #GROSS #그로스",
@@ -7107,7 +7817,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "힛지스와 함께 낭만 한 스푼 어떠세요? 🌸 | HITGS ON AIR🍒 Behind EP.05",
@@ -7117,7 +7828,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#ATEEZ #성화 선배님과 We don’t wanna stop it🍒 #에이티즈 #SEONGHWA #HITGS #힛지스 #GROSS #그로스",
@@ -7127,7 +7839,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "사진들 몰래 훔쳐보다가 “💗”  #HITGS #힛지스 #IYOO #이유 #GROSS #그로스",
@@ -7137,7 +7850,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝒜𝓃𝒹 ℐ 𝓌𝒶𝓈 𝓁𝒾𝓀ℯ… 🤍❤️ #HITGS #힛지스",
@@ -7147,7 +7861,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "GROSS in Colors 🎨 #HITGS #힛지스 #GROSS #그로스",
@@ -7157,7 +7872,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#izna #최정은 #정세비 선배님과 We don’t wanna stop it🍒 #이즈나 #CHOIJUNGEUN #JEONGSAEBI #HITGS #힛지스 #GROSS #그로스",
@@ -7167,7 +7883,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ℎ𝑜𝑡 𝑖𝑠𝑠𝑢𝑒❤️‍🔥 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -7177,7 +7894,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "⚡️⚡️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -7187,7 +7905,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "blueming GROSS 🩵💙 #HITGS #힛지스 #GROSS #그로스",
@@ -7197,7 +7916,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "after-school ☀️ #HITGS #힛지스 #GROSS #그로스",
@@ -7207,7 +7927,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’GROSS’ Melody in Open Air💗",
@@ -7217,7 +7938,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Bang Bang ❤️‍🔥 #HITGS #힛지스",
@@ -7227,7 +7949,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "checkmate HITGS❤️ #HITGS #힛지스 #GROSS #그로스",
@@ -7237,7 +7960,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𐔌՞⁔ෆ  ̫ ෆ⁔՞𐦯 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -7247,7 +7971,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#USPEER #다온 님과 We don’t wanna stop it🍒 #유스피어 #DAON #HITGS #힛지스 #GROSS #그로스",
@@ -7257,7 +7982,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너의 favorite🍒 #HITGS #힛지스 #GROSS #그로스",
@@ -7267,7 +7993,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ⓢⓣⓐⓖⓔ Ⓒⓛⓔⓐⓡ 🎮 #HITGS #힛지스 #IYOO #이유",
@@ -7277,7 +8004,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CLOSEYOUREYES #장여준 선배님과 We don’t wanna stop it🍒 #클로즈유어아이즈 #JANGYEOJUN #HITGS #힛지스 #GROSS #그로스",
@@ -7287,7 +8015,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "너만 보게 돼 💗 #HITGS #힛지스 #GROSS #그로스",
@@ -7297,7 +8026,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "1,2,3 GROSS 🤍 #HITGS #힛지스 #GROSS #그로스",
@@ -7307,7 +8037,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’GROSS’ Dance Video (School Look ver.)",
@@ -7317,7 +8048,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CRAVITY #형준 선배님과 We don’t wanna stop it🍒 #크래비티 #HYEONGJUN #HITGS #힛지스 #GROSS #그로스",
@@ -7327,7 +8059,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐶ℎ𝑖𝑙𝑙 #HITGS #힛지스#SEOJIN #서진 #SEOHEE #서희",
@@ -7337,7 +8070,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "네가 좋아하는 노래 That's gross!😝 | HITGS ON AIR🍒 Behind EP.04",
@@ -7347,7 +8081,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Today GROSS 🎡🍒💞 #HITGS #힛지스#GROSS #그로스",
@@ -7357,7 +8092,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.02 리얼 허거덩거덩스한 상황",
@@ -7367,7 +8103,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#IVE #이서 선배님과 We don’t wanna stop it🍒 #아이브 #LEESEO #HITGS #힛지스 #GROSS #그로스",
@@ -7377,7 +8114,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💗하또하또💗 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
@@ -7387,7 +8125,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "GROSS played at …🫧 #HITGS #힛지스 #GROSS #그로스",
@@ -7397,7 +8136,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐥🐥🐥 #HITGS #힛지스",
@@ -7407,7 +8147,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑰 𝒍𝒐𝒗𝒆 🩵 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -7417,7 +8158,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) X COSMOPOLITAN MAGAZINE Behind 📸",
@@ -7427,7 +8169,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "Ⓖⓔⓣ ⓣⓗⓐⓣ ⓕⓔⓔⓛ ⓐⓦⓐⓨ ⓕⓡⓞⓜ ⓜⓔ 💗 #HITGS #힛지스 #GROSS #그로스",
@@ -7437,7 +8180,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#KIIRAS #링링 #쿠루미 님과 We don’t wanna stop it🍒 #키라스 #LingLing #Kurumi #HITGS #힛지스 #GROSS #그로스",
@@ -7447,7 +8191,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📁 BEHIND NO.0531 ⚽️ #HITGS #힛지스 #2025황희찬풋볼페스티벌",
@@ -7457,7 +8202,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' M/V Behind The Scenes",
@@ -7467,7 +8213,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "자꾸 아파 머리💗🤯 #HITGS #힛지스 #GROSS #그로스",
@@ -7477,7 +8224,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑸𝒖𝒆𝒆𝒏🎀 #HITGS #힛지스 #SEOHEE #서희",
@@ -7487,7 +8235,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "급 표정관리..💛 #HITGS #힛지스  #IYOO #이유 #GROSS #그로스",
@@ -7497,7 +8246,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🧡💛💚💗🩵 #HITGS #힛지스 #GROSS #그로스",
@@ -7507,7 +8257,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' Dance Video (MV Fix ver.)",
@@ -7517,7 +8268,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "이유가 체리인 이유🍒 #HITGS #힛지스 #IYOO #이유",
@@ -7527,7 +8279,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "YOUTH 🫧 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -7537,7 +8290,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' Performance Music Video",
@@ -7547,7 +8301,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💢 #HITGS #힛지스 #IYOO #이유",
@@ -7557,7 +8312,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "what is wrong with me? #HITGS #힛지스 #GROSS #그로스",
@@ -7567,7 +8323,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐼 𝑑𝑜𝑛’𝑡 𝑤𝑎𝑛𝑛𝑎 𝑠𝑡𝑜𝑝 𝑖𝑡💗 #HITGS #힛지스 #GROSS #그로스",
@@ -7577,7 +8334,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS (힛지스) 'GROSS' MV 리액션",
@@ -7587,7 +8345,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-05",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS FEELS💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #GROSS #그로스",
@@ -7597,7 +8356,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖯𝗅𝖺y̆̈ 𝖺𝗀𝖺𝗂𝗇 𝖺𝗀𝖺𝗂𝗇🎧 #HITGS #힛지스 #GROSS #그로스",
@@ -7607,7 +8367,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGSTORY EP.01 힛지스 스쿨에 온 걸 환영해",
@@ -7617,7 +8378,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "GROSS 🌟#HITGS #힛지스 #GROSS #그로스",
@@ -7627,7 +8389,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HAPPY VV DAY🤍#HITGS #힛지스#VV #비비#HAPPY_VV_DAY",
@@ -7637,7 +8400,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' 응원법",
@@ -7647,7 +8411,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "on my phone📱🤍 #HITGS #힛지스 #GROSS #그로스",
@@ -7657,7 +8422,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Scene No. GROSS 🎬 #HITGS #힛지스 #GROSS #그로스",
@@ -7667,7 +8433,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "\"Like💗\" #HITGS #힛지스 #VV #비비 #HYERIN #혜린 #GROSS #그로스",
@@ -7677,7 +8444,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "+｡.ℍ𝕀-𝕘𝕙𝕥𝕖𝕖𝕟.｡+ﾟ☁️ #HITGS #힛지스 #GROSS #그로스",
@@ -7687,7 +8455,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🐥 ʟᴏᴠᴇʟɪᴇs 🐶 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #GROSS #그로스",
@@ -7697,7 +8466,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Lovey-dovey💗 #HITGS #힛지스  #GROSS #그로스",
@@ -7707,7 +8477,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' MV",
@@ -7717,7 +8488,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS 'GROSS' MV OUT NOW!https://youtu.be/HcJUfVPvU4Y#HITGS #힛지스 #GROSS #그로스",
@@ -7727,7 +8499,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' MV Teaser",
@@ -7737,7 +8510,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "제일 좋아하는 노래 𝗧𝗵𝗮𝘁’𝘀 𝗚𝗥𝗢𝗦𝗦 🍒 1st Digital Single  【GROSS】 ➫ 2025.06.02 6PM(KST) #HITGS #GROSS",
@@ -7747,7 +8521,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[Hit-log] “그리고 그때의 믿음이 되게 컸어!” | 09즈의 우정로그✨",
@@ -7757,7 +8532,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS 때메 자꾸 아파, 머리 🫠💗 The 1st Digital Single  【GROSS】 ➫ 2025.06.02 6PM (KST) #HITGS #GROSS #그로스",
@@ -7767,7 +8543,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "📂일일 알바 힛지스.zip #HITGS #힛지스 #태극당",
@@ -7777,7 +8554,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Let's go HITGS with 동의대 🍋 #HITGS #힛지스",
@@ -7787,7 +8565,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-28",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'GROSS' TRAILER",
@@ -7797,7 +8576,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-26",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ‘Things we love : H’ Showcase Behind The Scenes",
@@ -7807,7 +8587,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-25",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#tripleS #서연 #지연 #린 선배님과 Ooh, I love it🍋🤍#트리플에스 #SeoYeon #JiYeon #Lynn #HITGS #힛지스 #SOURPATCH",
@@ -7817,7 +8598,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[HITGSong🎤] 한 번뿐인 이 모험을 겁내진 않아! #HITGS #힛지스 #SEOHEE #서희",
@@ -7827,7 +8609,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "[HITGSong🎤] 청춘만화 - 이무진 I Covered by 서희(SEOHEE)",
@@ -7837,7 +8620,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : H' M/V Behind The Scenes",
@@ -7847,7 +8631,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "𝑳𝒐𝒐𝒌 𝒂𝒕 𝒎𝒆 𝒏𝒐𝒘🖤 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
@@ -7857,7 +8642,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "비비랑 서희랑 🥯🤎 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
@@ -7867,7 +8653,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "I like to eat🍪🍦💗 #HITGS #힛지스",
@@ -7877,7 +8664,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : H' Jacket Behind The Scenes",
@@ -7887,7 +8675,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "*✧･ﾟ: *슈가슈가룬 💎:･ﾟ✧･ﾟ✧*  #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -7897,7 +8686,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'SOURPATCH' Dance Practice Animal ver (🐰🐑🐶🐈‍⬛🐥)",
@@ -7907,7 +8697,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS zoo🐾 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -7917,7 +8708,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "멍냥 09즈🐾 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -7927,7 +8719,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Rum Pum Pum Pum💗 #HITGS #힛지스  #SEOJIN #서진",
@@ -7937,7 +8730,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑴𝒆𝒐𝒘 📸 #HITGS #힛지스 #NeverBeMe #네버비미",
@@ -7947,7 +8741,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "온통 내 머릿속 힛지스가 떠다녀❣️ I HITGS ON AIR🍋 Behind EP. 03",
@@ -7957,7 +8752,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#DKZ #재찬 선배님과 Ooh, I love it🍋🤍 #디케이지 #JAECHAN #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -7967,7 +8763,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑪𝒂𝒑𝒑𝒖𝒄𝒄𝒊𝒏𝒂 ☕️ #HITGS #힛지스 #SEOJIN #서진",
@@ -7977,7 +8774,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴀɴɪᴍᴀʟ sᴏᴜʀᴘᴀʀᴄʜ ꒰ ⑅˃̵o˂̵⑅ ꒱ #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -7987,7 +8785,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#tripleS #신위 선배님과 Ooh, I love it🍋🤍 #트리플에스 #Xinyu #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -7997,7 +8796,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#사무엘 선배님과 Ooh, I love it🍋🤍 #samuel #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8007,7 +8807,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "🍋 𝑺𝑶𝑼𝑹𝑷𝑨𝑻𝑪𝑯 𝑭𝒊𝒏𝒂𝒍𝒆 🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8017,7 +8818,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#tripleS #마유 #코토네 선배님과 Ooh, I love it🍋🤍 #트리플에스 #Mayu #Kotone #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8027,7 +8829,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴛʜᴇ ғᴀsᴛᴇʀ, ᴛʜᴇ ᴄᴜᴛᴇʀ sᴏᴜʀᴘᴀʀᴄʜ (ᴀɴɪᴍᴀʟ.ᴠᴇʀ) ꒰◡̈ ꒱◡̈ ꒱◡̈ ꒱◡̈ ꒱◡̈ ꒱ #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8037,7 +8840,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝑆𝑝𝑒𝑎𝑘 𝐴𝑛𝑦𝑚𝑜𝑟𝑒 💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -8047,7 +8851,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "모찌의 정석 : 서희 #HITGS #힛지스 #SEOHEE #서희",
@@ -8057,7 +8862,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "SOURPATCH blooms🌸 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8067,7 +8873,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "who stole SOURPATCH?🤔 #HITGS #힛지스",
@@ -8077,7 +8884,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "IYOO’s second musicbank OOTD 🤍 #HITGS #힛지스 #IYOO #이유 #SOURPATCH #사워패치",
@@ -8087,7 +8895,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#WOOAH #나나 #우연 선배님과 Ooh, I love it🍋🤍 #우아 #NANA #WOOYEON #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8097,7 +8906,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Let's go HITGS with 서강대 🍋 #HITGS #힛지스",
@@ -8107,7 +8917,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) X Betty Boop AD Behind 📸",
@@ -8117,7 +8928,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "ɢɪʀʟs ᴏғ ᴛʜᴇ sᴏᴜʀᴘᴀᴛᴄʜ 🌳 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8127,7 +8939,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝐻𝐼𝑇𝐺𝑆 𝑖𝑠 𝑎𝑙𝑤𝑎𝑦𝑠 𝑠𝑢𝑛𝑛𝑦 ☀️💛 #HITGS #힛지스",
@@ -8137,7 +8950,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "draw HITGS SOURPATCH 🎨 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8147,7 +8961,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) X L’OFFICIEL Magazine Behind 📸",
@@ -8157,7 +8972,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "SEOHEE’s second musicbank OOTD 🤍 #HITGS #힛지스 #SEOHEE #서희 #SOURPATCH #사워패치",
@@ -8167,7 +8983,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴼᴼᴴ,ᴵ ᴸᴼᵛᴱ ᴵᵞᴼᴼ🐥 #HITGS #힛지스 #IYOO #이유 #SOURPATCH #사워패치",
@@ -8177,7 +8994,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "♡〜٩( ˃́▿˂̀ )۶〜♡ .+:｡ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -8187,7 +9005,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ver. Countdown! BTS 🎬 #HITGS #힛지스",
@@ -8197,7 +9016,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "*✧･ﾟ:* 𝕃𝕠𝕧𝕖 𝕞𝕖 𝕥𝕠𝕠💗 *:･ﾟ✧* #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
@@ -8207,7 +9027,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝖿𝗋𝖾𝖺𝗄 𝖮𝖴𝖳⚡️#HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
@@ -8217,7 +9038,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Outfit Check ✔️ #HITGS #힛지스",
@@ -8227,7 +9049,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "서희야 생일 축하해🎂 I HITGS ON AIR🍋 Behind EP. 02",
@@ -8237,7 +9060,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#YOUNGPOSSE #정선혜 선배님과 Ooh, I love it🍋🤍 #영파씨 #SUNHYE #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8247,7 +9071,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "focus on HITGS📸 #HITGS #힛지스 #NeverBeMe #네버비미",
@@ -8257,7 +9082,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𝘚𝘩𝘩𝘩..! #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
@@ -8267,7 +9093,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HEARTBEAT 511BPM❤️‍🔥 #HITGS #힛지스 #SEOHEE #서희",
@@ -8277,7 +9104,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Ooh, I love it🍬🍪🧃🍋 #HITGS #힛지스 #VV #비비",
@@ -8287,7 +9115,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ʜᴇᴀʀᴛ ᴡɪᴛʜ ᴇᴍᴏᴛɪᴏɴ❣️#HITGS #힛지스 #HYERIN #혜린",
@@ -8297,7 +9126,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "IYOO’s first music bank OOTD 💙 #HITGS #힛지스 #IYOO #이유",
@@ -8307,7 +9137,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "all eyes on HITGS💛 #HITGS #힛지스 #NeverBeMe #네버비미",
@@ -8317,7 +9148,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "𖧷.◦ HAPPY SEOHEE DAY🐶◦.𖧷 #HITGS #힛지스#SEOHEE #서희#HAPPY_SEOHEE_DAY",
@@ -8327,7 +9159,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "할 수 있어..! 긴장 하지마..!!🥺 I HITGS ON AIR🍋 Behind EP. 01",
@@ -8337,7 +9170,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#NEXZ #유키 선배님과 Ooh, I love it🍋🤍 #넥스지 #YUKI #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8347,7 +9181,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "a scoop of HITGS SOURPARCH🍬 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8357,7 +9192,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴼᴼᴴ, ᴵ ᴸᴼᵛᴱ ˢᴱᴼᴶᴵᴺ..💙 #HITGS #힛지스 #SEOJIN #서진",
@@ -8367,7 +9203,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "💛🖤 #HITGS #힛지스 #SEOHEE #서희",
@@ -8377,7 +9214,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "paint a SOURPATCH HITGS🩵 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8387,7 +9225,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Never Be Me 🤍 #The_First #HITGS #힛지스 #NeverBeMe #네버비미",
@@ -8397,7 +9236,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS L’OFFICIEL Behind pre 🎥#HITGS #힛지스",
@@ -8407,7 +9247,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#P1Harmony #테오 #소울 선배님과 Ooh, I love it🍋🤍 #피원하모니 #P1H #THEO #SOUL #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8417,7 +9258,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "♾️🐈‍⬛ #HITGS #힛지스 #HYERIN #혜린",
@@ -8427,7 +9269,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#링 선생님과 Ooh, I love it🍋🤍 #LING#HITGS #힛지스#SOURPATCH #사워패치 #JAMREPUBLIC",
@@ -8437,7 +9280,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "pure SOURPATCH 🤍 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8447,7 +9291,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS M/V Behind pre 🎥 #HITGS #힛지스 #ThingsWeLove_H #TWL_H #SOURPATCH #사워패치",
@@ -8457,7 +9302,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "kawaiIYOO ʚ(•Θ•)ɞ #HITGS #힛지스 #IYOO #이유",
@@ -8467,7 +9313,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "ᴏᴏʜ, ɪ ʟᴏᴠᴇ ʜʏᴇʀɪɴ..💛 #HITGS #힛지스 #HYERIN #혜린 #SOURPATCH #사워패치",
@@ -8477,7 +9324,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'SOURPATCH' Performance Music Video",
@@ -8487,7 +9335,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ON AIR pre 🎥 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8497,7 +9346,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "waves of SOURPATCH 🌊 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8507,7 +9357,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "my heartbeat ( ˃̶͈ ▿ ˂̶͈ )💙 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #SOURPATCH #사워패치",
@@ -8517,7 +9368,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "はい!🍫🍓🍦 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희 #IYOO #이유",
@@ -8527,7 +9379,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'HITGS BOX' UNBOXING",
@@ -8537,7 +9390,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#문성현 선배님과 Ooh, I love it🍋🤍#MoonSeongHyun#HITGS #힛지스#SOURPATCH #사워패치",
@@ -8547,7 +9401,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "かわいい ˚ʚ♡ɞ˚ #HITGS #힛지스 #SEOHEE #서희",
@@ -8557,7 +9412,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Blueming HITGS💙 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8567,7 +9423,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "Sunny day☀️✨🤍 #HITGS #힛지스 #HYERIN #혜린 #SOURPATCH #사워패치",
@@ -8577,7 +9434,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#IVE #이서 선배님과 Ooh, I love it🍋🤍 #아이브 #LEESEO #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8587,7 +9445,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’SOURPATCH’ Dance Video (MV Fix ver.)",
@@ -8597,7 +9456,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#FIFTYFIFTY #아테나 선배님과 Ooh, I love it🍋🤍 #피프티피프티 #ATHENA #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8607,7 +9467,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CLOSEYOUREYES #전민욱 #마징시앙 선배님과 Ooh, I love it🍋 #JEONMINWOOK #MAJINGXIANG #HITGS #힛지스 #SOURPATCH",
@@ -8617,7 +9478,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "sugar-dusted SOURPATCH🍭🍬 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8627,7 +9489,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#TWS #지훈 선배님과 Ooh, I love it🍋🤍 #투어스 #JIHOON#HITGS #힛지스#SOURPATCH #사워패치",
@@ -8637,7 +9500,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#UNIS #젤리당카 #엘리시아 선배님과 Ooh, I love it🍋🤍 #유니스 #GEHLEE #ELISIA #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8647,7 +9511,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "the sweetest of all SOURPATCH💛 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8657,7 +9522,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#82MAJOR #남성모 선배님과 Ooh, I love it🍋🤍 #82메이저 #에이티투메이저 #NAMSEOUNGMO#HITGS #SOURPATCH",
@@ -8667,7 +9533,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#CHUU #츄 선배님과 Ooh, I love it🍋🤍#HITGS #힛지스#SOURPATCH #사워패치",
@@ -8677,7 +9544,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#NCTWISH #사쿠야 선배님과 Ooh, I love it🍋🤍 #엔시티위시 #SAKUYA #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8687,7 +9555,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "color code : #HITGSblue💙 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8697,7 +9566,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#BOYNEXTDOOR #명재현 선배님과 Ooh, I love it🍋🤍 ​⁠​⁠​#JAEHYUN #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8707,7 +9577,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "#ZEROBASEONE #성한빈 선배님과 Ooh,I love it🍋🤍 #제로베이스원 #SUNGHANBIN #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8717,7 +9588,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS (힛지스) The 1st Single 【Things we love : H】 SOURPATCH MV 리액션",
@@ -8727,7 +9599,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "#CRAVITY #정모 #원진 선배님과 Ooh, I love it🍋🤍 #크래비티 #JUNGMO #WONJIN#HITGS #힛지스#SOURPATCH #사워패치",
@@ -8737,7 +9610,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "tropical-flavored SOURPATCH 🏝️ #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8747,7 +9621,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "crisp SOURPATCH🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8757,7 +9632,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-30",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS (힛지스) The 1st Single 【Things we love : H】 SOURPATCH 응원법",
@@ -8767,7 +9643,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-29",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "DEBUT SOURPATCH❣️ #HITGS #힛지스 #SOURPATCH #사워패치",
@@ -8777,7 +9654,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-29",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'SOURPATCH' MV",
@@ -8787,7 +9665,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-28",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'SOURPATCH' MV Teaser 2",
@@ -8797,7 +9676,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-27",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'SOURPATCH' MV Teaser 1",
@@ -8807,7 +9687,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-26",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ MOOD FILM",
@@ -8817,7 +9698,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-25",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ MOOD FILM",
@@ -8827,7 +9709,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-24",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ MOOD FILM",
@@ -8837,7 +9720,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-23",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ MOOD FILM",
@@ -8847,7 +9731,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-22",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ MOOD FILM",
@@ -8857,7 +9742,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-21",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) 'Things we love : H' TRAILER",
@@ -8867,7 +9753,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-20",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8877,7 +9764,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8887,7 +9775,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-19",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8897,7 +9786,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-18",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8907,7 +9797,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-17",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8917,7 +9808,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-16",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8927,7 +9819,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-15",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #03",
@@ -8937,7 +9830,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-14",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -8947,7 +9841,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -8957,7 +9852,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’Things we love : H’ Concept Film (Blue Ver.)",
@@ -8967,7 +9863,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) ’Things we love : H’ Concept Film (White Ver.)",
@@ -8977,7 +9874,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -8987,7 +9885,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-11",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -8997,7 +9896,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-10",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -9007,7 +9907,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-09",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -9017,7 +9918,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-08",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #02",
@@ -9027,7 +9929,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-07",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #01",
@@ -9037,7 +9940,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-06",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #01",
@@ -9047,7 +9951,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-05",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #01",
@@ -9057,7 +9962,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-04",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #01",
@@ -9067,7 +9973,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-03",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS ’Things we love : H’ Concept Film #01",
@@ -9077,7 +9984,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-02",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS(힛지스) Official Logo Motion",
@@ -9087,7 +9995,8 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-03-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   },
   {
     "title": "HITGS Official Logo Motion",
@@ -9097,6 +10006,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-03-31",
-    "type": "SHORTS"
+    "type": "SHORTS",
+    "isLive": false
   }
 ];
