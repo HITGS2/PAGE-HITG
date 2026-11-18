@@ -2110,7 +2110,25 @@ function renderVideos() {
           .includes(member.toUpperCase())
       );
 
-    return matchCategory && matchYear && matchSearch && matchMember;
+    const selectedType = [...selectedTypes][0] || "ALL";
+
+    const isMV =
+      category === "OFFICIAL" &&
+      /(?:MV|M\/V)\s*$/i.test(String(video.title || "").trim());
+
+    const matchType =
+      selectedType === "ALL" ||
+      (selectedType === "MV" && isMV);
+
+    const matchMemberForType =
+      selectedType === "MV" ? true : matchMember;
+
+    return matchCategory &&
+           matchYear &&
+           matchSearch &&
+           matchType &&
+           matchMemberForType;
+
 
   });
 
