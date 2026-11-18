@@ -167,6 +167,46 @@ def main():
             
             video["isLive"] = video_id in live_video_ids
 
+    # 공식 유튜브 채널의 재생목록 수집
+    official_playlists = []
+    playlist_page_token = None
+
+    while True:
+        params = {
+            "part": "snippet,contentDetails",
+            "channelId": channel["id"],
+            "maxResults": 50
+        }
+
+        if playlist_page_token:
+            params["pageToken"] = playlist_page_token
+
+        playlist_response = youtube_api("playlists", **params)
+
+        for item in playlist_response.get("items", []):
+            snippet = item.get("snippet", {})
+            playlist_id = item.get("id", "")
+
+            if not playlist_id:
+                continue
+
+            official_playlists.append({
+                "title": snippet.get("title", ""),
+                "url": "https://www.youtube.com/playlist?list=" + playlist_id,
+                "thumbnail": snippet.get("thumbnails", {}).get(
+                    "high", {}
+                ).get("url", ""),
+                "videoCount": item.get(
+                    "contentDetails", {}
+                ).get("itemCount", 0),
+                "date": snippet.get("publishedAt", "")[:10]
+            })
+
+        playlist_page_token = playlist_response.get("nextPageToken")
+
+        if not playlist_page_token:
+            break
+
     # 기존에 수동 등록한 다른 카테고리 영상 유지
     existing_videos = []
 
