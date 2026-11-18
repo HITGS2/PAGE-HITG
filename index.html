@@ -2116,13 +2116,23 @@ function renderVideos() {
       category === "OFFICIAL" &&
       /(?:MV|M\/V)\s*$/i.test(String(video.title || "").trim());
 
+    
+    // SHORTS에서 제외할 영상 제목
+    const shortsExcluded =
+      /응원법|팬챈트|팬찬트|fanchant|fan[\s-]*chant|cheering[\s-]*guide|수능|수험생|csat|college[\s-]*entrance[\s-]*exam|hitgs[\s_-]*day|dance[\s-]*practice|안무[\s-]*연습|트레일러|trailer|스케줄러|scheduler|하이라이트[\s-]*메들리|highlight[\s-]*medley|뮤직비디오|music[\s-]*video|performance[\s-]*(?:mv|m\/v|music[\s-]*video)|퍼포먼스[\s-]*(?:뮤직비디오|mv|m\/v)|\bM\s*\/?\s*V\b/i.test(
+        String(video.title || "")
+      );
+
     const matchType =
       selectedType === "ALL" ||
-
       (selectedType === "MV" && isMV) ||
-      (selectedType === "SHORTS" &&
-       category === "OFFICIAL" &&
-       video.type === "SHORTS");
+      (
+        selectedType === "SHORTS" &&
+        category === "OFFICIAL" &&
+        video.type === "SHORTS" &&
+        !shortsExcluded
+      );
+
 
     const matchMemberForType =
       selectedType === "MV" ? true : matchMember;
