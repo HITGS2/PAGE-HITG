@@ -1219,7 +1219,7 @@ function renderVideos() {
 
     const matchMember =
       selectedMembers.size === 0 ||
-      [...selectedMembers].some(member =>
+      [...selectedMembers].every(member =>
         (memberTags[member] || []).some(tag =>
           new RegExp(
             "(^|[^A-Z])" + tag.toUpperCase() + "(?=$|[^A-Z])"
