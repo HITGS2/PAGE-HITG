@@ -1165,6 +1165,43 @@ body {
   transform: translateY(-2px);
 }
 
+/* FOOTER CENTER CREDIT */
+
+.home-footer {
+  position: relative;
+}
+
+.footer-credit {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #aeb5cc;
+}
+
+.footer-credit i {
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .home-footer {
+    flex-wrap: wrap;
+  }
+
+  .footer-credit {
+    position: static;
+    transform: none;
+    order: 3;
+    width: 100%;
+  }
+}
+
 </style>
 </head>
 
@@ -1258,11 +1295,11 @@ body {
 
   </div>
 
-  <div class="footer">
-    PAGE:HITG<br><br>
-    Made by Youtube Channel<br>
-    '혜린이좋아하겠습니다'
-  </div>
+ 
+<div class="footer-credit">
+  <span>Made by <i>'혜린이좋아하겠습니다'</i></span>
+</div>
+
 <a href="https://discord.gg/86G4Er23qZ"
    class="discord-button"
    target="_blank"
