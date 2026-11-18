@@ -1,1 +1,1003 @@
-ds
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAGE:HITG — Archive</title>
+<meta name="description" content="HITGS Unofficial Digital Archive">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #111111;
+  --gray: #777777;
+  --line: #eaeaea;
+  --light: #f7f7f7;
+  --sidebar-width: 235px;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--black);
+  font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  height: 68px;
+  padding: 0 30px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+}
+
+.header-right {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  font-size: 23px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  position: fixed;
+  top: 68px;
+  left: 0;
+  bottom: 0;
+  width: var(--sidebar-width);
+  border-right: 1px solid var(--line);
+  background: #fff;
+  padding: 25px 17px;
+  overflow-y: auto;
+  z-index: 90;
+}
+
+.nav-title {
+  font-size: 9px;
+  color: #aaa;
+  letter-spacing: 2px;
+  padding: 0 13px;
+  margin-bottom: 15px;
+}
+
+.nav-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  padding: 13px;
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 13px;
+  color: #555;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+.nav-item:hover {
+  background: #f6f6f6;
+  color: #111;
+}
+
+.nav-item.active {
+  background: #111;
+  color: #fff;
+}
+
+.nav-item .arrow {
+  font-size: 11px;
+  transition: transform .2s;
+}
+
+.nav-item.expanded .arrow {
+  transform: rotate(180deg);
+}
+
+.sub-menu {
+  display: none;
+  padding: 3px 0 12px 17px;
+}
+
+.sub-menu.open {
+  display: block;
+}
+
+.sub-item {
+  width: 100%;
+  display: block;
+  border: 0;
+  background: transparent;
+  padding: 11px 13px;
+  text-align: left;
+  font-size: 12px;
+  color: #888;
+  border-left: 2px solid transparent;
+  transition: .2s;
+}
+
+.sub-item:hover {
+  color: #111;
+}
+
+.sub-item.active {
+  color: #111;
+  font-weight: 700;
+  border-left-color: #111;
+}
+
+/* MAIN */
+
+.main {
+  margin-left: var(--sidebar-width);
+  padding: 68px 45px 70px;
+  min-height: 100vh;
+}
+
+.page {
+  display: none;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.page.active {
+  display: block;
+}
+
+/* HOME */
+
+.hero {
+  padding: 75px 0 65px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #999;
+}
+
+.hero h1 {
+  font-size: clamp(55px, 9vw, 105px);
+  line-height: .9;
+  letter-spacing: -7px;
+  margin: 25px 0;
+}
+
+.hero-description {
+  font-size: 13px;
+  color: #888;
+  line-height: 2;
+}
+
+.home-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 40px;
+}
+
+.home-card {
+  min-height: 150px;
+  padding: 25px;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.home-card:hover {
+  background: #eeeeee;
+}
+
+.home-card span {
+  font-size: 10px;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.home-card strong {
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+
+/* PAGE TITLE */
+
+.page-heading {
+  padding: 55px 0 30px;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-heading .eyebrow {
+  margin-bottom: 15px;
+}
+
+.page-heading h1 {
+  font-size: 42px;
+  letter-spacing: -2px;
+  margin: 0 0 13px;
+}
+
+.page-heading p {
+  color: #888;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* VIDEO */
+
+.video-tools {
+  display: flex;
+  gap: 10px;
+  margin: 28px 0 18px;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 180px;
+  padding: 13px 16px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  outline: none;
+  font-size: 12px;
+}
+
+.search-box:focus {
+  border-color: #111;
+}
+
+.year-select {
+  padding: 12px 15px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  font-size: 12px;
+  min-width: 125px;
+}
+
+.filter-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0 18px;
+}
+
+.current-filter {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.count {
+  font-size: 10px;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+/* VIDEO GRID */
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px 18px;
+}
+
+.card {
+  min-width: 0;
+}
+
+.thumbnail {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f1f1f1;
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .3s;
+}
+
+.card a:hover .thumbnail img {
+  transform: scale(1.04);
+}
+
+.no-thumbnail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #aaa;
+}
+
+.card-info {
+  padding-top: 12px;
+}
+
+.card-tag {
+  font-size: 9px;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.card h3 {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.card-detail {
+  font-size: 10px;
+  color: #999;
+}
+
+.empty-message {
+  display: none;
+  padding: 70px 20px;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+
+/* SCHEDULE */
+
+.schedule-list {
+  margin-top: 30px;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 24px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.schedule-date {
+  min-width: 90px;
+  font-size: 11px;
+  color: #999;
+}
+
+.schedule-info strong {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.schedule-info span {
+  font-size: 11px;
+  color: #999;
+}
+
+.coming-soon {
+  padding: 70px 20px;
+  text-align: center;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top: 1px solid var(--line);
+  margin-top: 75px;
+  padding-top: 25px;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #aaa;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  :root {
+    --sidebar-width: 0px;
+  }
+
+  .header {
+    padding: 0 18px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .sidebar {
+    width: 245px;
+    transform: translateX(-100%);
+    transition: transform .25s;
+    box-shadow: 5px 0 20px rgba(0,0,0,.04);
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .main {
+    padding: 68px 20px 50px;
+  }
+
+  .hero {
+    padding: 55px 0 45px;
+  }
+
+  .hero h1 {
+    letter-spacing: -4px;
+  }
+
+  .home-sections {
+    grid-template-columns: 1fr;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 12px;
+  }
+
+  .page-heading h1 {
+    font-size: 32px;
+  }
+
+  .video-tools {
+    flex-direction: column;
+  }
+
+  .year-select {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+  <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기">☰</button>
+
+  <a href="#" class="logo" onclick="showPage('home'); return false;">
+    PAGE:HITG
+  </a>
+
+  <div class="header-right">
+    UNOFFICIAL DIGITAL ARCHIVE · 2026
+  </div>
+</header>
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar" id="sidebar">
+
+  <div class="nav-title">ARCHIVE MENU</div>
+
+  <button class="nav-item active" id="homeNav"
+    onclick="showPage('home')">
+    <span>⌂ &nbsp; HOME</span>
+  </button>
+
+  <button class="nav-item" id="scheduleNav"
+    onclick="toggleMenu('scheduleMenu', this)">
+    <span>▦ &nbsp; SCHEDULE</span>
+    <span class="arrow">⌄</span>
+  </button>
+
+  <div class="sub-menu" id="scheduleMenu">
+    <button class="sub-item"
+      onclick="showPage('schedule','all')">
+      전체 일정
+    </button>
+
+    <button class="sub-item"
+      onclick="showPage('schedule','broadcast')">
+      방송 · 행사
+    </button>
+
+    <button class="sub-item"
+      onclick="showPage('schedule','concert')">
+      콘서트
+    </button>
+  </div>
+
+  <button class="nav-item" id="videoNav"
+    onclick="toggleMenu('videoMenu', this)">
+    <span>▷ &nbsp; VIDEO</span>
+    <span class="arrow">⌄</span>
+  </button>
+
+  <div class="sub-menu" id="videoMenu">
+
+    <button class="sub-item active"
+      data-category="all"
+      onclick="selectCategory('all',this)">
+      ALL
+    </button>
+
+    <button class="sub-item"
+      data-category="OFFICIAL"
+      onclick="selectCategory('OFFICIAL',this)">
+      공식채널
+    </button>
+
+    <button class="sub-item"
+      data-category="FANTUBE"
+      onclick="selectCategory('FANTUBE',this)">
+      팬튜브
+    </button>
+
+    <button class="sub-item"
+      data-category="OTHER"
+      onclick="selectCategory('OTHER',this)">
+      타채널
+    </button>
+
+    <button class="sub-item"
+      data-category="FANCAM"
+      onclick="selectCategory('FANCAM',this)">
+      직캠
+    </button>
+
+  </div>
+
+  <div class="footer">
+    PAGE:HITG © 2026<br><br>
+    MADE FOR HITGS
+  </div>
+
+</aside>
+
+<!-- MAIN CONTENT -->
+
+<main class="main">
+
+  <!-- HOME -->
+
+  <section class="page active" id="homePage">
+
+    <div class="hero">
+      <div class="eyebrow">AN UNOFFICIAL DIGITAL ARCHIVE</div>
+
+      <h1>PAGE:<br>HITG.</h1>
+
+      <p class="hero-description">
+        힛지스의 다양한 순간과 활동을 기록하는 공간.<br>
+        모든 페이지에 소중한 기록을 모아갑니다.
+      </p>
+    </div>
+
+    <div class="home-sections">
+
+      <div class="home-card" onclick="showPage('video')">
+        <span>01 / ARCHIVE</span>
+        <strong>VIDEO ↗</strong>
+      </div>
+
+      <div class="home-card" onclick="showPage('schedule')">
+        <span>02 / CALENDAR</span>
+        <strong>SCHEDULE ↗</strong>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      PAGE:HITG · AN UNOFFICIAL HITGS ARCHIVE
+    </div>
+
+  </section>
+
+  <!-- SCHEDULE -->
+
+  <section class="page" id="schedulePage">
+
+    <div class="page-heading">
+      <div class="eyebrow">HITGS ARCHIVE / 02</div>
+      <h1>SCHEDULE</h1>
+      <p>힛지스의 방송, 행사, 공연 및 공식 일정을 기록합니다.</p>
+    </div>
+
+    <div id="scheduleContent">
+      <div class="coming-soon">
+        SCHEDULE ARCHIVE<br>
+        일정을 준비하고 있습니다.
+      </div>
+    </div>
+
+    <div class="footer">
+      PAGE:HITG · SCHEDULE
+    </div>
+
+  </section>
+
+  <!-- VIDEO -->
+
+  <section class="page" id="videoPage">
+
+    <div class="page-heading">
+      <div class="eyebrow">HITGS ARCHIVE / 03</div>
+      <h1>VIDEO ARCHIVE</h1>
+      <p>힛지스의 다양한 영상 콘텐츠를 모아보는 공간입니다.</p>
+    </div>
+
+    <div class="video-tools">
+
+      <input
+        type="search"
+        id="videoSearch"
+        class="search-box"
+        placeholder="영상 제목, 채널, 멤버 검색..."
+      >
+
+      <select id="yearFilter" class="year-select">
+        <option value="all">ALL YEARS</option>
+      </select>
+
+    </div>
+
+    <div class="filter-status">
+      <span class="current-filter" id="currentFilter">
+        ALL VIDEOS
+      </span>
+
+      <span class="count" id="count">00 ITEMS</span>
+    </div>
+
+    <div class="video-grid" id="videoGrid"></div>
+
+    <div class="empty-message" id="emptyMessage">
+      검색 결과가 없습니다.
+    </div>
+
+    <div class="footer">
+      PAGE:HITG · VIDEO ARCHIVE
+    </div>
+
+  </section>
+
+</main>
+
+<script src="videos.js"></script>
+
+<script>
+
+// MENU CONTROL
+
+function toggleMenu(menuId, button) {
+  const menu = document.getElementById(menuId);
+  const isOpen = menu.classList.contains("open");
+
+  menu.classList.toggle("open");
+  button.classList.toggle("expanded", !isOpen);
+}
+
+// PAGE CONTROL
+
+function showPage(page, scheduleType) {
+
+  document.querySelectorAll(".page").forEach(item => {
+    item.classList.remove("active");
+  });
+
+  document.getElementById(page + "Page").classList.add("active");
+
+  document.querySelectorAll(".nav-item").forEach(item => {
+    item.classList.remove("active");
+  });
+
+  if (page === "home") {
+    document.getElementById("homeNav").classList.add("active");
+  }
+
+  if (page === "schedule") {
+    document.getElementById("scheduleNav").classList.add("active");
+  }
+
+  if (page === "video") {
+    document.getElementById("videoNav").classList.add("active");
+  }
+
+  document.getElementById("sidebar").classList.remove("mobile-open");
+
+  if (page === "schedule" && scheduleType) {
+    document.querySelectorAll("#scheduleMenu .sub-item")
+      .forEach(item => item.classList.remove("active"));
+
+    const selected = document.querySelector(
+      `#scheduleMenu .sub-item[onclick*="'${scheduleType}'"]`
+    );
+
+    if (selected) selected.classList.add("active");
+  }
+}
+
+// VIDEO DATA
+
+const videoData =
+  typeof videos !== "undefined" && Array.isArray(videos)
+    ? videos
+    : [];
+
+let currentCategory = "all";
+
+const grid = document.getElementById("videoGrid");
+const count = document.getElementById("count");
+const search = document.getElementById("videoSearch");
+const yearFilter = document.getElementById("yearFilter");
+const emptyMessage = document.getElementById("emptyMessage");
+
+// CATEGORY
+
+function selectCategory(category, button) {
+
+  currentCategory = category;
+
+  document.querySelectorAll("#videoMenu .sub-item")
+    .forEach(item => item.classList.remove("active"));
+
+  button.classList.add("active");
+
+  document.getElementById("videoMenu").classList.add("open");
+  document.getElementById("videoNav").classList.add("expanded");
+
+  showPage("video");
+
+  const labels = {
+    all: "ALL VIDEOS",
+    OFFICIAL: "공식채널",
+    FANTUBE: "팬튜브",
+    OTHER: "타채널",
+    FANCAM: "직캠"
+  };
+
+  document.getElementById("currentFilter").textContent =
+    labels[category] || "ALL VIDEOS";
+
+  renderVideos();
+}
+
+// YOUTUBE ID
+
+function getVideoId(url) {
+
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.hostname.includes("youtu.be")) {
+      return parsed.pathname.split("/")[1] || null;
+    }
+
+    if (parsed.hostname.includes("youtube.com")) {
+
+      if (parsed.pathname === "/watch") {
+        return parsed.searchParams.get("v");
+      }
+
+      const match = parsed.pathname.match(
+        /\/(?:embed|shorts)\/([^/?]+)/
+      );
+
+      return match ? match[1] : null;
+    }
+
+  } catch (error) {
+    return null;
+  }
+
+  return null;
+}
+
+// YEAR FILTER
+
+const years = [
+  ...new Set(
+    videoData
+      .map(video => String(video.year || ""))
+      .filter(year => /^\d{4}$/.test(year))
+  )
+].sort((a, b) => b.localeCompare(a));
+
+years.forEach(year => {
+  const option = document.createElement("option");
+  option.value = year;
+  option.textContent = year;
+  yearFilter.appendChild(option);
+});
+
+// VIDEO RENDER
+
+function renderVideos() {
+
+  const keyword = search.value.trim().toLowerCase();
+  const selectedYear = yearFilter.value;
+
+  const filtered = videoData.filter(video => {
+
+    const category = String(video.category || "").toUpperCase();
+
+    const matchCategory =
+      currentCategory === "all" ||
+      category === currentCategory;
+
+    const matchYear =
+      selectedYear === "all" ||
+      String(video.year) === selectedYear;
+
+    const searchableText = [
+      video.title,
+      video.channel,
+      video.member,
+      video.category,
+      video.date
+    ].join(" ").toLowerCase();
+
+    const matchSearch = searchableText.includes(keyword);
+
+    return matchCategory && matchYear && matchSearch;
+
+  });
+
+  grid.innerHTML = "";
+
+  filtered.forEach(video => {
+
+    const videoId = getVideoId(video.url || "");
+
+    const card = document.createElement("article");
+    card.className = "card";
+
+    const link = document.createElement("a");
+    link.href = video.url || "#";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+
+    const thumbnail = document.createElement("div");
+    thumbnail.className = "thumbnail";
+
+    if (videoId) {
+
+      const image = document.createElement("img");
+
+      image.src =
+        `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+      image.alt = video.title || "HITGS video";
+      image.loading = "lazy";
+
+      thumbnail.appendChild(image);
+
+      image.onerror = () => {
+        thumbnail.innerHTML =
+          '<div class="no-thumbnail">THUMBNAIL UNAVAILABLE</div>';
+      };
+
+    } else {
+
+      thumbnail.innerHTML =
+        '<div class="no-thumbnail">NO THUMBNAIL</div>';
+
+    }
+
+    const info = document.createElement("div");
+    info.className = "card-info";
+
+    const tag = document.createElement("div");
+    tag.className = "card-tag";
+
+    const categoryLabels = {
+      OFFICIAL: "공식채널",
+      FANTUBE: "팬튜브",
+      OTHER: "타채널",
+      FANCAM: "직캠"
+    };
+
+    tag.textContent =
+      `${categoryLabels[String(video.category || "").toUpperCase()] || video.category || "VIDEO"} · ${video.year || ""}`;
+
+    const title = document.createElement("h3");
+    title.textContent = video.title || "제목 없음";
+
+    const detail = document.createElement("div");
+    detail.className = "card-detail";
+
+    detail.textContent =
+      `${video.channel || "YouTube"} · ${video.member || "ALL"} · ${video.date || ""}`;
+
+    info.append(tag, title, detail);
+    link.append(thumbnail, info);
+    card.appendChild(link);
+    grid.appendChild(card);
+
+  });
+
+  count.textContent =
+    String(filtered.length).padStart(2, "0") + " ITEMS";
+
+  emptyMessage.style.display =
+    filtered.length === 0 ? "block" : "none";
+
+}
+
+// SEARCH AND YEAR EVENTS
+
+search.addEventListener("input", renderVideos);
+yearFilter.addEventListener("change", renderVideos);
+
+// MOBILE MENU
+
+document.getElementById("menuToggle")
+  .addEventListener("click", () => {
+    document.getElementById("sidebar")
+      .classList.toggle("mobile-open");
+  });
+
+// INITIALIZE
+
+renderVideos();
+
+</script>
+
+</body>
+</html>
