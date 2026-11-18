@@ -1206,7 +1206,30 @@ function renderVideos() {
 
     const matchSearch = searchableText.includes(keyword);
 
-    return matchCategory && matchYear && matchSearch;
+    const memberTags = {
+      "비비": ["VV", "비비"],
+      "서진": ["SEOJIN", "서진"],
+      "서희": ["SEOHEE", "서희"],
+      "혜린": ["HYERIN", "혜린"],
+      "이유": ["IYOO", "이유"]
+    };
+
+    const titleText = String(video.title || "").toUpperCase();
+    const videoMembers = String(video.member || "").toUpperCase();
+
+    const matchMember =
+      selectedMembers.size === 0 ||
+      [...selectedMembers].some(member =>
+        (memberTags[member] || []).some(tag =>
+          new RegExp(
+            "(^|[^A-Z])" + tag.toUpperCase() + "(?=$|[^A-Z])"
+          ).test(titleText)
+        ) ||
+        videoMembers.split(",").map(name => name.trim())
+          .includes(member.toUpperCase())
+      );
+
+    return matchCategory && matchYear && matchSearch && matchMember;
 
   });
 
