@@ -1382,6 +1382,100 @@ body {
   line-height: 1.6;
 }
 
+/* NOTICE SLIDER DESIGN */
+
+.hitg-notice-slider {
+  position: relative;
+  margin-top: 35px;
+}
+
+.hitg-notice-slide {
+  display: none;
+}
+
+.hitg-notice-slide.active {
+  display: block;
+}
+
+.hitg-notice-slider .hitg-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding: 30px 55px 42px;
+
+  background: linear-gradient(
+    110deg,
+    #343a70 0%,
+    #292d52 55%,
+    #45355f 100%
+  );
+
+  border: 1px solid #686ca7;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(83,79,160,0.15);
+
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.hitg-notice-slider .hitg-notice:hover {
+  filter: brightness(1.12);
+}
+
+.hitg-notice-slider .hitg-notice-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.hitg-notice-slider .hitg-notice-text span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #c9c8ff;
+}
+
+.hitg-notice-slider .hitg-notice-text strong {
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.hitg-notice-slider .hitg-notice-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #e5e5f5;
+}
+
+.notice-dots {
+  position: absolute;
+  bottom: 15px;
+  right: 22px;
+  display: flex;
+  gap: 7px;
+  z-index: 2;
+}
+
+.notice-dot {
+  width: 7px;
+  height: 7px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+  cursor: pointer;
+}
+
+.notice-dot.active {
+  width: 18px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
 </style>
 </head>
 
@@ -1541,12 +1635,25 @@ body {
     </div>
   
 <!-- HOME NOTICE BANNER -->
-<div class="hitg-notice">
-  <div class="hitg-notice-icon">🖤</div>
-  <div class="hitg-notice-text">
-    <span>PAGE:HITG NOTICE</span>
-    <strong>힛지스의 모든 순간을 함께 기록해요!</strong>
+<div class="hitg-notice-slider" id="noticeSlider">
+
+  <div class="hitg-notice-slide active">
+    <a class="hitg-notice"
+       href="https://discord.gg/86G4Er23qZ"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <div class="hitg-notice-text">
+        <span>PAGE:HITG NOTICE</span>
+        <strong>📌NOTICE📌</strong>
+        <p>건의 내용은 디스코드를 통해 전해주세요!</p>
+      </div>
+
+    </a>
   </div>
+
+  <div class="notice-dots" id="noticeDots"></div>
+
 </div>
 
 <!-- HOME GUESTBOOK -->
@@ -2116,6 +2223,52 @@ if (savedPage === "video") {
 renderVideos();
 
 
+</script>
+
+<script>
+(function () {
+  const slides = document.querySelectorAll(
+    "#noticeSlider .hitg-notice-slide"
+  );
+  const dotsContainer = document.getElementById("noticeDots");
+
+  if (!slides.length || !dotsContainer) return;
+
+  let currentSlide = 0;
+
+  slides.forEach((slide, index) => {
+    const dot = document.createElement("button");
+    dot.type = "button";
+    dot.className = "notice-dot";
+    dot.setAttribute("aria-label", `공지 ${index + 1}번 보기`);
+
+    dot.addEventListener("click", () => {
+      showNotice(index);
+    });
+
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll(".notice-dot");
+
+  function showNotice(index) {
+    currentSlide = index;
+
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === index);
+      dots[i].classList.toggle("active", i === index);
+    });
+  }
+
+  showNotice(0);
+
+  // 배너가 2개 이상일 때만 7초마다 자동 전환
+  if (slides.length > 1) {
+    setInterval(() => {
+      showNotice((currentSlide + 1) % slides.length);
+    }, 7000);
+  }
+})();
 </script>
 
 </body>
