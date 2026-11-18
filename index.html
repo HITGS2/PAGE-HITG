@@ -2199,6 +2199,10 @@ function renderSchedules() {
     const day = document.createElement("section");
     day.className = "schedule-day";
 
+const heading = document.createElement("h2");
+heading.className = "schedule-day-title";
+heading.textContent = dateTitle;
+
 if (dateObject < today) {
   day.classList.add("past");
 
@@ -2209,10 +2213,7 @@ if (dateObject < today) {
   heading.appendChild(pastLabel);
 }
 
-    const heading = document.createElement("h2");
-    heading.className = "schedule-day-title";
-    heading.textContent = dateTitle;
-    day.appendChild(heading);
+day.appendChild(heading);
 
     events.forEach(item => {
       const event = document.createElement("div");
