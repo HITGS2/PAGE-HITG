@@ -273,6 +273,23 @@ def main():
         new_content,
         encoding="utf-8"
     )
+    
+    # 재생목록을 별도 JS 파일에 저장
+    playlist_content = (
+        "const playlists = "
+        + json.dumps(
+            official_playlists,
+            ensure_ascii=False,
+            indent=2
+        )
+        + ";\n"
+    )
+
+    Path("playlists.js").write_text(
+        playlist_content,
+        encoding="utf-8"
+    )
+
 
     print(
         f"Official videos: {len(official_videos)}"
