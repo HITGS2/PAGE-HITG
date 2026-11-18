@@ -971,6 +971,86 @@ body {
   color: #ffffff;
 }
 
+/* HOME FULL WIDTH VIDEO */
+
+#homePage {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+/* 영상 양옆 빈 공간 제거 */
+
+#homePage .home-video-background {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  min-height: 850px;
+  background: #171a33;
+}
+
+/* 영상 자체를 영역 전체에 맞게 확대 */
+
+#homePage .home-video-player iframe {
+  width: max(100%, 151.12vh);
+  height: max(100%, 56.25vw);
+}
+
+/* 제목과 설명은 기존 위치 유지 */
+
+#homePage .home-video-content {
+  min-height: 850px;
+  padding: 65px 35px 80px;
+}
+
+/* 아래로 자연스럽게 사라지는 그라데이션 */
+
+#homePage .home-video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(23,26,51,0.08) 0%,
+    rgba(23,26,51,0.15) 25%,
+    rgba(23,26,51,0.35) 45%,
+    rgba(23,26,51,0.65) 65%,
+    rgba(23,26,51,0.9) 82%,
+    #171a33 100%
+  );
+}
+
+/* VIDEO / SCHEDULE 카드는 기존 너비 유지 */
+
+#homePage .home-sections {
+  max-width: 1250px;
+  margin: -30px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* 모바일 화면 대응 */
+
+@media (max-width: 950px) {
+  #homePage .home-video-background {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 650px) {
+  #homePage .home-video-background {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    min-height: 650px;
+  }
+
+  #homePage .home-video-content {
+    min-height: 650px;
+    padding: 40px 20px 75px;
+  }
+
+  #homePage .home-sections {
+    margin-top: -20px;
+  }
+}
+
 </style>
 </head>
 
