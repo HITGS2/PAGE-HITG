@@ -2036,6 +2036,9 @@ body {
 
 <script>
 
+let currentScheduleType = "all";
+let currentScheduleMember = "ALL";
+
 function openVideoMenu(button) {
   showPage("video");
 
@@ -2121,9 +2124,6 @@ function showPage(page, scheduleType) {
 }
 
 /* SCHEDULE RENDER */
-
-let currentScheduleType = "all";
-let currentScheduleMember = "ALL";
 
 const scheduleMemberButtons = document.querySelectorAll(
   "#scheduleMemberFilters .schedule-member-btn"
