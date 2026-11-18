@@ -1051,6 +1051,87 @@ body {
   }
 }
 
+/* HOME FOOTER DESIGN */
+
+.home-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 80px;
+  padding: 22px 0;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #ffffff;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.footer-divider {
+  width: 1px;
+  height: 22px;
+  background: rgba(255,255,255,0.3);
+}
+
+.footer-updated {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #aeb5cc;
+}
+
+.back-to-top {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.08);
+  color: #ffffff;
+  font-size: 23px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.back-to-top:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 650px) {
+  .home-footer {
+    gap: 12px;
+  }
+
+  .footer-left {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    font-size: 10px;
+  }
+
+  .footer-updated {
+    font-size: 9px;
+  }
+
+  .back-to-top {
+    width: 42px;
+    height: 42px;
+  }
+}
+
 </style>
 </head>
 
@@ -1209,9 +1290,22 @@ body {
 
     </div>
 
-    <div class="footer">
-      PAGE:HITG · AN UNOFFICIAL HITGS ARCHIVE
+
+  <div class="footer home-footer">
+    <div class="footer-left">
+      <span class="footer-logo">PAGE:HITGS</span>
+      <span class="footer-divider"></span>
+      <span class="footer-updated">
+        LAST UPDATED · 19 NOVEMBER 2026
+      </span>
     </div>
+
+    <button class="back-to-top"
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+      aria-label="맨 위로 이동">
+      ↑
+    </button>
+  </div>
 
   </section>
 
