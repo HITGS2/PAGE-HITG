@@ -1,2 +1,8192 @@
-
-const videos = [];
+const videos = [
+  {
+    "title": "とてと☺️👋 #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=nqqGpb4zLfQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-18"
+  },
+  {
+    "title": "딱 하루만 𝗢𝗙𝗙🎥 #HITGS #VV #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=lpoUdJxegFM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-18"
+  },
+  {
+    "title": "🎹🎶 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=rRib3VQDMWo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-17"
+  },
+  {
+    "title": "𝚂𝙴𝙾𝙷𝙴𝙴'𝚜 𝙱-𝚂𝙸𝙳𝙴💫 #HITGS #SEOHEE #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=jGuHgKakVyw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-17"
+  },
+  {
+    "title": "알림은 켜놓기🔔💗 #HITGS #HYERIN #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=v6Rjua4O7O8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-17"
+  },
+  {
+    "title": "HITGS(힛지스)가 전하는 2027학년도 수능 응원 메시지🍀",
+    "url": "https://www.youtube.com/watch?v=kdwvS-mqXoQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-16"
+  },
+  {
+    "title": "엣취🤧 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=UPW1-flxEDQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-16"
+  },
+  {
+    "title": "이유 또또또 울었어요(feat.혜린) #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=S1DIXtZ5MqY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-15"
+  },
+  {
+    "title": "오사카 be right back #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=whnZjfXHR2c",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-15"
+  },
+  {
+    "title": "𝓒𝓸𝓶𝓮 𝓫𝓪𝓬𝓴 𝓪𝓷𝓭 𝓫𝓪𝓬𝓴 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=8fpcfArOjlc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-15"
+  },
+  {
+    "title": "서지니 아이시떼루~🤍",
+    "url": "https://www.youtube.com/watch?v=WOxd8uTxIF0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-14"
+  },
+  {
+    "title": "서지니 아이시떼루~🤍",
+    "url": "https://www.youtube.com/watch?v=WoWKEtHLXQo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-14"
+  },
+  {
+    "title": "오사카 팬콘 비하인드 눌러 …더보기 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=vhPkrLg0WVk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-14"
+  },
+  {
+    "title": "09즈가 왔사카~✌🏻",
+    "url": "https://www.youtube.com/watch?v=beZdRI4UQp8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-13"
+  },
+  {
+    "title": "오사카에서 한일 훔쳐보기 #hitgs #힛지스",
+    "url": "https://www.youtube.com/watch?v=cyMGepT0jO4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-13"
+  },
+  {
+    "title": "09즈가 왔사카~✌🏻",
+    "url": "https://www.youtube.com/watch?v=wmpua4Mlx4k",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-13"
+  },
+  {
+    "title": "HITGS(힛지스) 'BRB' MV Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=oP0JaKqkMrw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-13"
+  },
+  {
+    "title": "𝗛𝗜𝗧𝗚𝗦 𝘅 𝗥𝗮𝗯𝗯𝗶𝘁𝗰𝗮𝘁 𝗕𝗥𝗕 𝘼 𝙘𝙖𝙥𝙥𝙚𝙡𝙡𝙖 𝘷𝘦𝘳. @rabica5",
+    "url": "https://www.youtube.com/watch?v=8zSKSnvToZ8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-13"
+  },
+  {
+    "title": "모서리에 쿵💓 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=JDULpJxp8ik",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-12"
+  },
+  {
+    "title": "𝘑𝘦𝘢𝘭𝘰𝘶𝘴?😏 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=RNa3JM8coeM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-12"
+  },
+  {
+    "title": "[Hit-log] 가족과 함께한 떠히의 쁘이로꾸🏖️ l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=cm4b0zJNql0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "𝙱𝚁𝙱, 같이 들을래?🎧 #HITGS #힛지스 #SEOHEE #서희 #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=_cYLp8Tt8B4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "𝚂𝚘 𝚕𝚎𝚝 𝚖𝚎 𝐁𝐑𝐁 🐰🐱 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=nKHBMxqXoHw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-09"
+  },
+  {
+    "title": "😐 ⇨ 😊 #HITGS #힛지스 #VV #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=eG0RgVegHQw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-09"
+  },
+  {
+    "title": "도쿄 be right back 👐 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=vW5CaprN4Yg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-08"
+  },
+  {
+    "title": "HITGS(힛지스) 'BRB' Self Cam ver.",
+    "url": "https://www.youtube.com/watch?v=GudAYxmcPHc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-08"
+  },
+  {
+    "title": "도쿄 팬콘서트 날 잠금 해제🔓 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=_TkQ9A1yHlY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-07"
+  },
+  {
+    "title": "혜린이가 도쿄에 오자마자 한 일 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Mjq6Wcopm3I",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "[Hit-log] 힛지스가 마카오에 왔어요! 🏀  l 힛지스 마카오 브이로그",
+    "url": "https://www.youtube.com/watch?v=1QgRtc-3A1Q",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "내 🪐로, 비행모드 중 #HITGS #힛지스 #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=2hkD_VAq3pI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "₍^. .^₎⟆ TEST ! #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=ytYNgIg_Xoc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "HITGS(힛지스) 'BRB' 응원법",
+    "url": "https://www.youtube.com/watch?v=Xru3ZC7owcg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-05"
+  },
+  {
+    "title": "HITGS(힛지스) BRB 발매 기념 LIVE✨",
+    "url": "https://www.youtube.com/watch?v=9mgvIoIo5EY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-05"
+  },
+  {
+    "title": "🛫 So let me BRB #HITGS #힛지스#BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=XuWLWy5IMqs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-05"
+  },
+  {
+    "title": "HITGS(힛지스) 'BRB' MV",
+    "url": "https://www.youtube.com/watch?v=j9snkpeNJ7k",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-05"
+  },
+  {
+    "title": "HITGS(힛지스) 'Ctrl C' 응원법",
+    "url": "https://www.youtube.com/watch?v=VqNxzOsZVoQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-03"
+  },
+  {
+    "title": "놀이터에서…",
+    "url": "https://www.youtube.com/watch?v=uZEncr0ZVXw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-03"
+  },
+  {
+    "title": "월요일을 행복하게~~💗🍀",
+    "url": "https://www.youtube.com/watch?v=mkdyQky6EBE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'BRB' MV Teaser",
+    "url": "https://www.youtube.com/watch?v=piHEmfw3RwY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-02"
+  },
+  {
+    "title": "혜린이 와썹😎 3 (아이스크림)",
+    "url": "https://www.youtube.com/watch?v=u-8BEdc9t7w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "혜린이 와썹😎 2",
+    "url": "https://www.youtube.com/watch?v=ABYJCVXB9nY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "혜린이 와썹😎",
+    "url": "https://www.youtube.com/watch?v=Evh13D6RGSg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "【Things We Dream : Vol.4】 ➫ 2026. 11. 05 THU 6PM (KST) MV #HITGS #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=d75XgyT98dI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-30"
+  },
+  {
+    "title": "농수산대에 힛지스가 두둥 등장해🌟 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=Pn-63eqKrnI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-30"
+  },
+  {
+    "title": "パジャマ末っ子組 ໒꒱·°✧ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=4mNbrdAh30M",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-30"
+  },
+  {
+    "title": "새벽에 나랑 놀래?✌️",
+    "url": "https://www.youtube.com/watch?v=iYpUXpNf09M",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-29"
+  },
+  {
+    "title": "잠깐 들렸다 가요~💭",
+    "url": "https://www.youtube.com/watch?v=PQ6WVOTetJo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "【Things We Dream : Vol.4】 ➫ 2026. 11. 05 THU 6PM (KST) MV #HITGS #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=PkORuc0iJuU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "빛나는 신학대학교 언니, 오빠들과✨ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=VC06FCHlbnc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "𝙺𝚊𝚠𝚊𝚒𝚒 𝙺𝚊𝚠𝚊𝚒𝚒 .•♥ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=S6lZwrOmZlU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "내가 다시 왔댜..!",
+    "url": "https://www.youtube.com/watch?v=aNCBOxAGP2g",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-27"
+  },
+  {
+    "title": "내가 다시 돌아 왔다다아아!!😚 라방 2차 렛츠고우!",
+    "url": "https://www.youtube.com/watch?v=hMp5HSyXDi8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-27"
+  },
+  {
+    "title": "축제끝나고 우리가 왔댜!!😎🩶",
+    "url": "https://www.youtube.com/watch?v=_I2r3rjwqM0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-27"
+  },
+  {
+    "title": "축제끝나고 우리가 다시 왔댜!!😎🩶",
+    "url": "https://www.youtube.com/watch?v=XvozA8QoqsA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-27"
+  },
+  {
+    "title": "힛찌!!! 오늘 밤은 도망 금지🫤",
+    "url": "https://www.youtube.com/watch?v=vzQFViG5yME",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-24"
+  },
+  {
+    "title": "HITGS in OSAKA 🐙  | OSAKA FAN CONCERT Behind",
+    "url": "https://www.youtube.com/watch?v=L0LsExkyFfk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "사랑하는 멤버 이름대기🥰! #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=x4Ct4OcisQE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "09즈의 미인계~💖",
+    "url": "https://www.youtube.com/watch?v=Ga_u3sbeU28",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "찐막!",
+    "url": "https://www.youtube.com/watch?v=xc_E2Ym8lzM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-22"
+  },
+  {
+    "title": "SEOMSOM : ORIGIN",
+    "url": "https://www.youtube.com/watch?v=ebfTt9S4HmU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-22"
+  },
+  {
+    "title": "𝐶𝑜𝑚𝑒𝑏𝑎𝑐𝑘 𝑎𝑛𝑑 𝑏𝑎𝑐𝑘 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=hMCTniqoIxY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-17"
+  },
+  {
+    "title": "𝑴𝒐𝒐𝒅 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=HnZXUW1Oj-0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-17"
+  },
+  {
+    "title": "[Hit-log] 힛지스는 시부야에서 뭐했을까? 🛍️  l 힛지스 일본 브이로그",
+    "url": "https://www.youtube.com/watch?v=cjrcHkCf-W8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-16"
+  },
+  {
+    "title": "서서서지니🩷🩶 목요팅!3 ㅠㅠ",
+    "url": "https://www.youtube.com/watch?v=Ghx7HcigfYA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-16"
+  },
+  {
+    "title": "서서서서지니🩷🩶 목요팅!2",
+    "url": "https://www.youtube.com/watch?v=OJk-Gcx4nIQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-16"
+  },
+  {
+    "title": "서서서서지니🩷🩶 목요팅!",
+    "url": "https://www.youtube.com/watch?v=CafdEL0ZqFA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-16"
+  },
+  {
+    "title": "나한테 왜구래,,,?????",
+    "url": "https://www.youtube.com/watch?v=ilJwbn93CW0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-15"
+  },
+  {
+    "title": "HYEKO : ORIGIN",
+    "url": "https://www.youtube.com/watch?v=NZgZGxp7xqE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-15"
+  },
+  {
+    "title": "힛찌들아 서이유 좀 봐바💋",
+    "url": "https://www.youtube.com/watch?v=zrBdrKipleQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-14"
+  },
+  {
+    "title": "꒰ iyoo ꒱ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=9pRVgJbaUb4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-14"
+  },
+  {
+    "title": "안자는 힛찌여러분 들어와요💗🥹",
+    "url": "https://www.youtube.com/watch?v=Ccgz9YNC1a8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-11"
+  },
+  {
+    "title": "쪼코즈의 심야라방✨🌙",
+    "url": "https://www.youtube.com/watch?v=_FHqLq5a4R8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-11"
+  },
+  {
+    "title": "HITGS(힛지스) 'Little By Little' 응원법",
+    "url": "https://www.youtube.com/watch?v=SGsEDbXGoD4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-11"
+  },
+  {
+    "title": "HITG들 곁으로 가는 법🏃🏻‍♀️ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=dkbW8-wfFNw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-11"
+  },
+  {
+    "title": "HITGS(힛지스) 'Cherry Blossom' 응원법",
+    "url": "https://www.youtube.com/watch?v=fzuYUU9TXcE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-10"
+  },
+  {
+    "title": "안녕하세요 힛지스 서진, 서희입니다.",
+    "url": "https://www.youtube.com/watch?v=tjpJrBk2lYE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-09"
+  },
+  {
+    "title": "[Hit-log] 마라 매운 비비 돌아왔어요❤️‍🔥 l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=bz2y6EVpe4o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-09"
+  },
+  {
+    "title": "MEONGHUI : ORIGIN",
+    "url": "https://www.youtube.com/watch?v=h_QxAz_V7sM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-08"
+  },
+  {
+    "title": "𝑆𝑤𝑎𝑔 𝑠𝑤𝑎𝑔 𝑠𝑤𝑎𝑔 𝑜𝑛 𝑦𝑜𝑢 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=xr9hLxJQ7MI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-08"
+  },
+  {
+    "title": "떠히랑 놀사람 컴오온~~!!🥳2",
+    "url": "https://www.youtube.com/watch?v=EP2ddSSw2zY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-08"
+  },
+  {
+    "title": "떠히랑 놀사람 컴오온~~!!🥳",
+    "url": "https://www.youtube.com/watch?v=jPfHRAkUp8A",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-08"
+  },
+  {
+    "title": "사랑이 시작된 순간을 기억하나요?💫 #HITGS #힛지스 #SEOHEE #서희 #이별로부터_Challenge",
+    "url": "https://www.youtube.com/watch?v=Pm4zm-1M2y8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-06"
+  },
+  {
+    "title": "𝘋𝘢𝘯𝘤𝘦 𝘸𝘪𝘵𝘩 𝗛𝗜𝗧𝗚𝗦 ♬♪♫ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=-oZjosKymuU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-06"
+  },
+  {
+    "title": "혜린이가 왔어요~!💗",
+    "url": "https://www.youtube.com/watch?v=xQ5ef-8As6Q",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-05"
+  },
+  {
+    "title": "혜린이가 왔어요~!💗",
+    "url": "https://www.youtube.com/watch?v=FEPgcIxv7MA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-05"
+  },
+  {
+    "title": "wink ᵕ̈♡ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=I8WLrVkdbgg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-04"
+  },
+  {
+    "title": "서서즈의 심야방송 🌙💤",
+    "url": "https://www.youtube.com/watch?v=X3dagyrk5Zo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-04"
+  },
+  {
+    "title": "HITGS in JAPAN 👋 | TOKYO FAN CONCERT Behind",
+    "url": "https://www.youtube.com/watch?v=fAef_hVdRrk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-02"
+  },
+  {
+    "title": "PPIYU : ORIGIN",
+    "url": "https://www.youtube.com/watch?v=751_UECn7y0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-10-01"
+  },
+  {
+    "title": "귀요미즈랑 놀래?! 말래?!😏",
+    "url": "https://www.youtube.com/watch?v=rDCl1zD2TrU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-30"
+  },
+  {
+    "title": "귀요미즈랑 놀래?! 말래?!😏✌🏻",
+    "url": "https://www.youtube.com/watch?v=v4_fXIzDAQY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-30"
+  },
+  {
+    "title": "언니가 제 키 가져갔죠 ‹( ｡ •̀ ᴖ •́ ｡ )› #HITGS #힛지스 #SEOJIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=JTnDbBG0Sn8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-30"
+  },
+  {
+    "title": "나는야 최서hehehe (ง ˙˘˙ )ว #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=VGsirqVq5ew",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-30"
+  },
+  {
+    "title": "ʚ •ө• ɞ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=xU8FkaOp3TM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-28"
+  },
+  {
+    "title": "언니랑 함께 베이킹 해봤어욤🥐 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=3UGOa4a1Kbs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-28"
+  },
+  {
+    "title": "🖤땜에 뒤흔들려 #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=qM7loltQtY4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-28"
+  },
+  {
+    "title": "힛지스 서진이 라이부~🌕🩷",
+    "url": "https://www.youtube.com/watch?v=nw2-jYjv7HQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-27"
+  },
+  {
+    "title": "힛지스 10km 마라톤 뛰다🏃‍♀️‍➡️ I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=ZV_w_E6AUFk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-27"
+  },
+  {
+    "title": "연휴 마지막 날이야아ㅠㅠ😭",
+    "url": "https://www.youtube.com/watch?v=bDpD3I5zG-w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-27"
+  },
+  {
+    "title": "힛찌야~ 놀자아~",
+    "url": "https://www.youtube.com/watch?v=Sp8dEx7IQD4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-26"
+  },
+  {
+    "title": "나랑 얘기할 사~람?",
+    "url": "https://www.youtube.com/watch?v=GcFx6EPkC_w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "[Hit-log] 힛지스 디즈니랜드 가다!🎢  l 힛지스 일본 브이로그",
+    "url": "https://www.youtube.com/watch?v=8iOoyKlkeW8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-25"
+  },
+  {
+    "title": "RUBY : ORIGIN",
+    "url": "https://www.youtube.com/watch?v=ObLgUayqF6U",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-24"
+  },
+  {
+    "title": "빛나는 우석대 언니 오빠들과 💖 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=aukWVoSIHUQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "𝖶𝖾 𝗐𝗂𝗅𝗅 𝗋𝗈𝖼𝗄 𝗒𝗈𝗎 🐰🐶 #HITGS #힛지스 #VV #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=kQDnEpObAJ4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "𝙸 𝚠𝚊𝚗𝚝 𝚢𝚘𝚞! 𝙸 𝚕𝚘𝚟𝚎 𝚢𝚘𝚞. ·˖*·⑅♡ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=WRxGBmGsqaE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "떠히의 휴가 라방~~🏖️🌊",
+    "url": "https://www.youtube.com/watch?v=XNpqCNNgbqQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-23"
+  },
+  {
+    "title": "떠히랑 수다를 떨어보아요~~",
+    "url": "https://www.youtube.com/watch?v=vnVc2Us_pKY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "파도가 머물던𓇼 #HITGS #힛지스 #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=R6vw5uytncI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "サマーチョコレート🍫🩷 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=wuBfE0fkwxg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-22"
+  },
+  {
+    "title": "HITGS 세상이 뒤흔들려🫨 #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=nYiPyst6E4s",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "𝚂𝚑𝚎 𝚂𝚑𝚎, 𝖧𝖾 ᴴᵉᴴᵉ🕺🏻 #HITGS #힛지스 #VV #SEOJIN",
+    "url": "https://www.youtube.com/watch?v=lNlBOjCOjTA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-21"
+  },
+  {
+    "title": "일요팅 힛찌들~🩷 서진이랑 놀아죠",
+    "url": "https://www.youtube.com/watch?v=ZYbcz3qmYD0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-20"
+  },
+  {
+    "title": "자기 전에 혜린이랑 놀고 자는 거 어때?ㅎㅎ",
+    "url": "https://www.youtube.com/watch?v=wY2UGWpnDZs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-19"
+  },
+  {
+    "title": "HITGS의 마라톤 전후🏃🏻‍♀️💛 #HITGS #힛지스 #시포레2026 #시포레런앤핏",
+    "url": "https://www.youtube.com/watch?v=CMrVROx1Mfg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-19"
+  },
+  {
+    "title": "PAGE 1 : TEENAGER✏️ | 2nd FAN CONCERT Behind",
+    "url": "https://www.youtube.com/watch?v=j0J6t6cnuVY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-18"
+  },
+  {
+    "title": "𝙏𝙤𝙤 𝙗𝙖𝙙 👎🏻 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=JIrZnxqf6Gk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-18"
+  },
+  {
+    "title": "✌🏻✊🏻✋🏻❤️ #HITGS #힛지스 #VV #HYERIN",
+    "url": "https://www.youtube.com/watch?v=NXUQGnIia5I",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-18"
+  },
+  {
+    "title": "눈송이 언니들과 함께❄️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=K4EjbUl3nAQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-18"
+  },
+  {
+    "title": "안녕하세여~ 힛지스 서희입니다아!!💖",
+    "url": "https://www.youtube.com/watch?v=hO0puELpiaA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-17"
+  },
+  {
+    "title": "𝑻𝒐 𝑩𝒆 𝑪𝒐𝒏𝒕𝒊𝒏𝒖𝒆𝒅… #HITGS #힛지스#Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=e257Kk5RHwI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-17"
+  },
+  {
+    "title": "Ｂａｂｙ Ｙｏｕ ✧ #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=69m-JFiWgY8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-17"
+  },
+  {
+    "title": "青い珊瑚礁🪸 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=8c24OG8k-k4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-17"
+  },
+  {
+    "title": "🎀🎀 𝑪𝑶𝑷𝒀 ೀ⋆｡˚ #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=J1WTs6R8h5o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-16"
+  },
+  {
+    "title": "𝓨𝓸𝓾'𝓻𝓮 𝓱𝓮𝓻𝓮 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=C-6mLR9ZsjI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-16"
+  },
+  {
+    "title": "かわいいトヒ ♡ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=GBSi32PwTkQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-15"
+  },
+  {
+    "title": "🐥와🐱를 ᴄᴏᴘʏ ♡♡ #HITGS #힛지스 #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=68gpmga_iI8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-15"
+  },
+  {
+    "title": "👉🏻₍⑅ᐢ..ᐢ⑅₎👈🏻 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=DBytzfw6RQU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-14"
+  },
+  {
+    "title": "혜린이의 일본 마지막날😭",
+    "url": "https://www.youtube.com/watch?v=jcyZEH_gHQ8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-13"
+  },
+  {
+    "title": "𝐇𝐈𝐓𝐆𝐒 𝐅𝐀𝐍 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 𝐢𝐧 𝐎𝐒𝐀𝐊𝐀 𝖣𝖠𝖸 3💛 #HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=O-GHnnEiAg4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-13"
+  },
+  {
+    "title": "5人の少女 in OSAKA🛝 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=cpw9zOVQJb4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-13"
+  },
+  {
+    "title": "너무해 ᕙ( ˘•~•˘ )ᕗ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=-CGGjjkW0u8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-12"
+  },
+  {
+    "title": "𝐇𝐈𝐓𝐆𝐒 𝐅𝐀𝐍 𝐂𝐎𝐍𝐂𝐄𝐑𝐓 𝐢𝐧 𝐎𝐒𝐀𝐊𝐀𝖣𝖠𝖸 2🩺#HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=UfW4Oo45qvo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-12"
+  },
+  {
+    "title": "ᶜᴼᴾᵞ ᶜᴼᴾᵞ 비비를 ᶜᴼᴾᵞ 🎶 #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=usUgnScHTW4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-12"
+  },
+  {
+    "title": "힛지스 서서즈가 왔다!",
+    "url": "https://www.youtube.com/watch?v=am02sfIR6NY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-11"
+  },
+  {
+    "title": "설렘이 그리는 쪼꼬즈🍫 #HITGS #힛지스 #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=m8s7gwso1TA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-11"
+  },
+  {
+    "title": "◖|˶˘꒳˘˶|◗♪ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=YVuXN1uZNms",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-11"
+  },
+  {
+    "title": "이유가 온 이유🐥⸒⸒?",
+    "url": "https://www.youtube.com/watch?v=hd6gV9p5DWY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-10"
+  },
+  {
+    "title": "오사카 도착😋 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=DmiP-l1mNpA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-10"
+  },
+  {
+    "title": "⚠ HITGS IN BACKROOM ⚠ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=3cLKYGtnIM4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-10"
+  },
+  {
+    "title": "비비 속이기😏 #HITGS #힛지스 #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=GB0li3Fq5RU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-10"
+  },
+  {
+    "title": "바라는 거 없어요🐰🐥 #HITGS #힛지스 #VV #IYOO",
+    "url": "https://www.youtube.com/watch?v=y53j6ZZV1HM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-10"
+  },
+  {
+    "title": "나의 마음을 𝚞𝚗𝚕𝚘𝚌𝚔 ˚₊✩‧₊ #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=ENaagx8kItU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-09"
+  },
+  {
+    "title": "내 세상이 𝗛𝗜𝗧𝗚𝗦 때문에 뒤흔들려 𐐪𐑂‧₊˚ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=pPvI9Ci53U4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-08"
+  },
+  {
+    "title": "📚𖤐彡 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=VfUey7SiWuI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-08"
+  },
+  {
+    "title": "사시스세소!🎀#HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=t-JYUAJFEYg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-07"
+  },
+  {
+    "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡 이유 울어써요 😭 #HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=DHt3dXtxHBw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-07"
+  },
+  {
+    "title": "키라키라 힛지스 09즈!!✨✨",
+    "url": "https://www.youtube.com/watch?v=ZQrYRQE_GPo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-06"
+  },
+  {
+    "title": "양갈래 서진🐰 (오늘 아니면 1년동안 못봄)",
+    "url": "https://www.youtube.com/watch?v=XYFyIYu2gg4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-05"
+  },
+  {
+    "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡 𝙳𝙰𝚈 𝟸❤️#HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=Dj8rdVv52rw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-05"
+  },
+  {
+    "title": "곰방와~힛찌들!👋🏻💖",
+    "url": "https://www.youtube.com/watch?v=cnuleZwXxPg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-04"
+  },
+  {
+    "title": "𝗛𝗜𝗧𝗚𝗦 𝗙𝗔𝗡 𝗖𝗢𝗡𝗖𝗘𝗥𝗧 𝗶𝗻 𝗝𝗔𝗣𝗔𝗡💝 #HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=tJy2RX9Nm5o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-04"
+  },
+  {
+    "title": "일본 팬콘까지 많관부 ⋰˚☆ #HITGS #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=Z8TtMDKY3kE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-04"
+  },
+  {
+    "title": "⁺‧₊˚ ཐི⋆ 진격의 Gulliver! ⋆ཋྀ ˚₊‧⁺ #HITGS #힛지스 #Gulliver #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=YcSZvpfHrXQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-03"
+  },
+  {
+    "title": "𝟬𝟵𝘀 𝗻𝗶𝗴𝗵𝘁 .•♥ #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=CDz7r54qGW0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-03"
+  },
+  {
+    "title": "09즈 패션위크 다녀왔어요👭 I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=lkxff9GJIHs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-02"
+  },
+  {
+    "title": "약속해줘🤙🏻😘 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=vt1fbY9VE4s",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-02"
+  },
+  {
+    "title": "떠히랑 놀아보아요오~ ♡",
+    "url": "https://www.youtube.com/watch?v=V72F52_d1N4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-01"
+  },
+  {
+    "title": "YouTube Music Korea Trending Music Videos #19",
+    "url": "https://www.youtube.com/watch?v=7zRv_zbIdYI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-01"
+  },
+  {
+    "title": "𝔻𝕣𝕚𝕡 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=n0fwwECNRo4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-01"
+  },
+  {
+    "title": "서진이를 copy 🎶 ˚˖𓍢ִ໋ 🎧 #HITGS #힛지스#Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=RNu4VwdhFtM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-09-01"
+  },
+  {
+    "title": "HITGS(힛지스) 'Gulliver!' MV Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=upsg90EmTH0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-30"
+  },
+  {
+    "title": "서진 미모 말도 안 돼🫢 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=cN00HZcK_lE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-30"
+  },
+  {
+    "title": "팬콘 뒤풀이 들어와아~!🐰🐶",
+    "url": "https://www.youtube.com/watch?v=u66SyiFM29Y",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-29"
+  },
+  {
+    "title": "PAGE 0 : HITGS📖 | 1st FAN CONCERT Behind",
+    "url": "https://www.youtube.com/watch?v=i0hV2GQE5gA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-28"
+  },
+  {
+    "title": "비비 앞에 서면 자꾸 작아져 ˶ˊᜊˋ˶ᐝ #HITGS #힛지스 #Gulliver #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=eCaFe6m8nc8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-28"
+  },
+  {
+    "title": "아 맞다 힛지스 팬콘 준비물❕#HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=8ETqQWD3GYQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-28"
+  },
+  {
+    "title": "HITGS(힛지스) Gulliver! 발매 기념 LIVE 🗺️⛵",
+    "url": "https://www.youtube.com/watch?v=qEH0mIM0gDw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "HITGS(힛지스) 'Gulliver!' 응원법",
+    "url": "https://www.youtube.com/watch?v=m80jqtzkKl8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "𝐃-𝟐 ♪ ₊˚♬ #HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=vRsIaHWbRnE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "𝗛𝗜𝗧𝗚𝗦 내 세상이 너 땜에 뒤흔들려💙 #HITGS #힛지스 #Gulliver #Ctrl_C #ThingsWeDream_Vol3",
+    "url": "https://www.youtube.com/watch?v=H1jw6PqsuYQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "HITGS(힛지스) 'Gulliver!' MV",
+    "url": "https://www.youtube.com/watch?v=IM-N8trjDzk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "11:11🐰🐑",
+    "url": "https://www.youtube.com/watch?v=3BNJZT87ars",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-27"
+  },
+  {
+    "title": "어게인 12:03🐰🐑",
+    "url": "https://www.youtube.com/watch?v=yrsBXLf28Go",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-26"
+  },
+  {
+    "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
+    "url": "https://www.youtube.com/watch?v=qyWb06D4ylE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-26"
+  },
+  {
+    "title": "힛찌들 우리 팬콘 3일 남았어˚.✦ #HITGS #힛지스 #Teenager #PAGE1",
+    "url": "https://www.youtube.com/watch?v=GbUIKq_cBBc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-26"
+  },
+  {
+    "title": "깜짝 놀랐찡!?🌙",
+    "url": "https://www.youtube.com/watch?v=gW31C0egxU8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-25"
+  },
+  {
+    "title": "[Hit-log] 09s Style Change V-log  l 09즈 스타일 체인지 브이로그",
+    "url": "https://www.youtube.com/watch?v=J8eyW4XGTaM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-25"
+  },
+  {
+    "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST) #HITGS #힛지스#Gulliver #Ctrl_C",
+    "url": "https://www.youtube.com/watch?v=6InLBn-omc4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-25"
+  },
+  {
+    "title": "𝖦𝗎𝗅𝗅𝗂𝗏𝖾𝗋! 많관부 🦊🐰 #HITGS #힛지스 #SEOJIN #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=lxMYp1nI4YE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-24"
+  },
+  {
+    "title": "HITGS(힛지스) 'Gulliver!' MV Teaser",
+    "url": "https://www.youtube.com/watch?v=EAyreZMS5VI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-24"
+  },
+  {
+    "title": "혜린이 심심해!🤭",
+    "url": "https://www.youtube.com/watch?v=eVUUBL_FXz4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-23"
+  },
+  {
+    "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
+    "url": "https://www.youtube.com/watch?v=SZvFdK7gqgs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-23"
+  },
+  {
+    "title": "힛찌야 우리가 왔다아~‎٩(ˊᗜˋ*)و",
+    "url": "https://www.youtube.com/watch?v=tgrYgR3ve4U",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-22"
+  },
+  {
+    "title": "HITGS 【Things We Dream : Vol.3】 ➫ 2026. 08. 27 THU 6PM (KST)",
+    "url": "https://www.youtube.com/watch?v=bzEJMva9TUs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-22"
+  },
+  {
+    "title": "아기 멍냥이 떠히ᓚᘏᗢ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=JI46y-KtnHc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-21"
+  },
+  {
+    "title": "힛찌 다 모여랏!😎",
+    "url": "https://www.youtube.com/watch?v=GarBRrpf_yY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-20"
+  },
+  {
+    "title": "🐾*•.¸ 최애의 혜냥이 ¸.•*🐾 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=fqH5UqVC1lM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-20"
+  },
+  {
+    "title": "SODA SODA🥤🫧 #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=4zwDu5O8LPE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-19"
+  },
+  {
+    "title": "𝕀'𝕧𝕖 𝕓𝕖𝕖𝕟 𝕝𝕚𝕜𝕖 🕸️🕸️ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=UGKYKPEHTWU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-18"
+  },
+  {
+    "title": "굉장히 예민해요옹 #HITGS #힛지스 #SEOJIN #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=L0LYg4ulWv0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-14"
+  },
+  {
+    "title": "❤️🖤 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=x5JdObF_8ws",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-13"
+  },
+  {
+    "title": "갑작스럽겠지만 힛찌들은 앞모리서진을 ..?! #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=TtzV9IzsC6o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-12"
+  },
+  {
+    "title": "바이바이🥁🎻 #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=t3UxUZFWtRY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-10"
+  },
+  {
+    "title": "Ⓘ ⓦⓐⓝⓝⓐ ᴋɪss ɴ ᴛᴇʟʟ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=JhqJ44QZf1M",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-08"
+  },
+  {
+    "title": "다 아는데 왜 자꾸 숨겨? #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=JFXkecTi_m0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "천안여중에 다녀왔어욤🏫✏️ #HITGS #힛지스 #HYERIN #혜린 #hitgschool",
+    "url": "https://www.youtube.com/watch?v=JgIpIpEy9n8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "야구장에~서 누가 돌아 왔~게⚾ I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=RvTrnVwQ6Eo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-31"
+  },
+  {
+    "title": "𝐁𝐚𝐝 𝐠𝐢𝐫𝐥? 𝐆𝐎𝐎𝐃 𝐆𝐈𝐑𝐋? #HITGS #힛지스#SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=W0CIJtHlD-U",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-29"
+  },
+  {
+    "title": "Just One 10 MINUTES #HITGS #힛지스#SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=PEVOt2yG-Hs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-28"
+  },
+  {
+    "title": "𝙵𝚎𝚎𝚕𝚒𝚗𝚐 𝚅𝚅𓈒༷♪˚.✧ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=LgJskYGj54A",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-27"
+  },
+  {
+    "title": "냐냐냥🐶🐥 #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=lAGCEqY0C50",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-22"
+  },
+  {
+    "title": "비장의 무기 ˖⋆࿐໋ ✦۟  #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=VMAiFKVzTc4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-21"
+  },
+  {
+    "title": "헷갈려😵‍💫 #HITGS #힛지스 #VV #SEOJIN",
+    "url": "https://www.youtube.com/watch?v=o4tabR5RCr8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-20"
+  },
+  {
+    "title": "힛찌들! 말해줄 수 있어? #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=rMfIlv5mMlM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-15"
+  },
+  {
+    "title": "온 세상이 다🤍🪽#HITGS #힛지스 #LittleByLittle",
+    "url": "https://www.youtube.com/watch?v=sJC3WJd61mo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-15"
+  },
+  {
+    "title": "かわいい⋰˚☆ #HITGS #힛지스 #VV #IYOO",
+    "url": "https://www.youtube.com/watch?v=gsrt7Dd0LdY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-12"
+  },
+  {
+    "title": "꿍실꿍실 ◓◞♡ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=9st7uNAw6w8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-10"
+  },
+  {
+    "title": "조금씩 𝘓𝘪𝘵𝘵𝘭𝘦 𝘉𝘺 𝘓𝘪𝘵𝘵𝘭𝘦 ˖˚ ͙ෆ #HITGS #힛지스  #HYERIN #IYOO #LittleByLittle",
+    "url": "https://www.youtube.com/watch?v=aeskqHLjBTo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-09"
+  },
+  {
+    "title": "おつかれ﻿~❥ #HITGS #힛지스 #SEOHEE #IYOO",
+    "url": "https://www.youtube.com/watch?v=ffkH3yiUN4A",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-07"
+  },
+  {
+    "title": "♫⋆｡♪ ₊˚♬ﾟ. #HITGS #힛지스 #SEOJIN #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=axsd_M1afkA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-07"
+  },
+  {
+    "title": "powder powder woah-! #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=oe83xqAuzac",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-05"
+  },
+  {
+    "title": "🎶💞 #HITGS #힛지스 #SEOJIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=HqhxebsS89w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-05"
+  },
+  {
+    "title": "첫 사랑니…🦷🩷 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=SaEeqFt7dl4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-04"
+  },
+  {
+    "title": "GG EZ 🎮🖤 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=ZqtY5DMeweQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-03"
+  },
+  {
+    "title": "HITGS(힛지스) 'Little By Little' MV Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=9lWRMyOJFPs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-03"
+  },
+  {
+    "title": "첫 팬콘 기념으로 파라파라나 춰야겠다🩷 #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=xCFHutze-4U",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-02"
+  },
+  {
+    "title": "👈🏻👉🏻 #HITGS #힛지스 #VV #SEOJIN",
+    "url": "https://www.youtube.com/watch?v=o2IVEedTVDg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-02"
+  },
+  {
+    "title": "ℍ𝕖𝕒𝕣𝕥𝕓𝕖𝕒𝕥 ˚₊· ͟͟͞͞➳❥ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=NyPoGoaPw2s",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-01"
+  },
+  {
+    "title": "𝙇𝙀𝙈𝙊𝙉𝘼𝘿𝙀🍋 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=iVJTEYysCxQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-07-01"
+  },
+  {
+    "title": "내일 보자 ˖*♬˖ ࣪⊹ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=fKoHWv8LTDo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-26"
+  },
+  {
+    "title": "Little By Little 발매 기념 LIVE 🎧༘⋆🦋₊˚",
+    "url": "https://www.youtube.com/watch?v=Frg6tFuzfgQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-26"
+  },
+  {
+    "title": "HITGS(힛지스) 'Little By Little' MV",
+    "url": "https://www.youtube.com/watch?v=L9VNIOcfSOU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-26"
+  },
+  {
+    "title": "Little By Little 발매 기념 LIVE 🎧༘⋆🦋₊˚",
+    "url": "https://www.youtube.com/watch?v=2XraL9nYj8k",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-26"
+  },
+  {
+    "title": "조금씩⊹⊹⋆｡˚ #HITGS #힛지스 #SEOJIN #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=h9gAiDFhnO0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-25"
+  },
+  {
+    "title": "얼마 안 남은.. 💭 #HITGS #힛지스 #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=TBujiNuNcX0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-24"
+  },
+  {
+    "title": "HITGS(힛지스) 'Little By Little' MV Teaser 2",
+    "url": "https://www.youtube.com/watch?v=XRnnperx9s4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-23"
+  },
+  {
+    "title": "HITGS(힛지스) 'Little By Little' MV Teaser 1",
+    "url": "https://www.youtube.com/watch?v=dHBD8psdgaI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-20"
+  },
+  {
+    "title": "갸루의 정석✨ #HTIGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=PcAAOqA7fS4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-17"
+  },
+  {
+    "title": "𝑾𝒉𝒚 𝒅𝒐𝒏'𝒕 𝒚𝒐𝒖 𝒔𝒂𝒚 𝒔𝒉𝒉𝒉𝒉💘 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=w0693wnJEYE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-16"
+  },
+  {
+    "title": "투닥투닥 💢 #HITGS #힛지스 #VV #IYOO",
+    "url": "https://www.youtube.com/watch?v=oImoYEedd_s",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-12"
+  },
+  {
+    "title": "(๑˃ᴗ˂)ﻭ🍓 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=io9O6ODIxSI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-09"
+  },
+  {
+    "title": "[Hit-log] 상하이에 간 힛지스🥟  l 힛지스 상하이 브이로그",
+    "url": "https://www.youtube.com/watch?v=Jq-6IkKG2Ew",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-05"
+  },
+  {
+    "title": "𝑯𝑨𝑷𝑷𝒀 𝑽𝑽 𝑫𝑨𝒀 ໒꒱🖤ྀི #HITGS #힛지스 #VV #비비 #HAPPY_VV_DAY",
+    "url": "https://www.youtube.com/watch?v=mxmW9Kmo0vk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-03"
+  },
+  {
+    "title": "𝑯𝑨𝑷𝑷𝒀 𝑽𝑽 𝑫𝑨𝒀 ໒꒱🖤ྀི",
+    "url": "https://www.youtube.com/watch?v=eugHOoaESK0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-03"
+  },
+  {
+    "title": "♪ ┏(・o･)┛ ♪#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=vyjIST9LYNY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-06-01"
+  },
+  {
+    "title": "I just get some₍ᐢ..ᐢ₎♡ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=rOUxAXUi7pw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-30"
+  },
+  {
+    "title": "💫✨ #HITGS #힛지스 #SEOJIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=IQ7L1LNfjfY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-29"
+  },
+  {
+    "title": "힛지스랑 네 컷을 찍어봤어욤📸 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=ltjlRnjYBTw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-28"
+  },
+  {
+    "title": "나 좋지?💭ྀི #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=1R_HdZwvc-c",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-27"
+  },
+  {
+    "title": "🅖🅡🅡🅡🅡 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=i-IwE_fPngY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-26"
+  },
+  {
+    "title": "Vo tay em than yeu #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=D5HTFSlKlxA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-25"
+  },
+  {
+    "title": "Lean on 🐶 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=YtOZq1ezE5k",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-25"
+  },
+  {
+    "title": "おつかれ🐱🐥 #HITGS #힛지스 #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=aX_FNYe6MMc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-22"
+  },
+  {
+    "title": "😓😷 #HITGS #힛지스 #VV #SEOJIN",
+    "url": "https://www.youtube.com/watch?v=p5LMwsDbeSE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-21"
+  },
+  {
+    "title": "sɪx sᴇᴠᴇɴ #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=c9EMO4DgSYc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "𝚜𝚒𝚡 𝚜𝚎𝚟𝚎𝚗 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=QinexcMR0-I",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "☔️☔️ on me #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=HZU6ZGn1UJ4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-18"
+  },
+  {
+    "title": "上海 romance♡⁼³₌₃ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=AvpUZK2jLvE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-18"
+  },
+  {
+    "title": "Look at me👀 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=qZME5L5Xe9Q",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-17"
+  },
+  {
+    "title": "흥 ૮₍ ˃ ⤙ ˂ ₎ა  #HITGS #힛지스 #SEOHEE #HYERIN #IYOO",
+    "url": "https://www.youtube.com/watch?v=iVfrcPsFJLE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-16"
+  },
+  {
+    "title": "서히의 생일 하루를 기록해 봤어욤 🐾 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=rVCZXHAk3J4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-16"
+  },
+  {
+    "title": "🐰🐥💕 #HITGS #힛지스 #VV #IYOO",
+    "url": "https://www.youtube.com/watch?v=9jhfDMV5tqs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-15"
+  },
+  {
+    "title": "𝐇𝐀𝐏𝐏𝐘 𝐒𝐄𝐎𝐇𝐄𝐄 𝐃𝐀𝐘 🐶🩷 #HITGS #힛지스 #SEOHEE #서희 #HAPPY_SEOHEE_DAY",
+    "url": "https://www.youtube.com/watch?v=XwLiqtbvZ9o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-11"
+  },
+  {
+    "title": "𝐇𝐀𝐏𝐏𝐘 𝐒𝐄𝐎𝐇𝐄𝐄 𝐃𝐀𝐘 🐶🩷",
+    "url": "https://www.youtube.com/watch?v=40_ffxsezqQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-11"
+  },
+  {
+    "title": "🫳🏻🐰🫴🏻 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=Huv60uUnRps",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-10"
+  },
+  {
+    "title": "𝑊ℎ𝑎𝑡’𝑠 𝑎 𝑔𝑖𝑟𝑙 𝑡𝑜 𝑑𝑜 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=QnBqIkMAk_o",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-08"
+  },
+  {
+    "title": "HITGS(힛지스) X Feyuna AD Behind👀",
+    "url": "https://www.youtube.com/watch?v=t84xVB1gJXY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-08"
+  },
+  {
+    "title": "아웅다웅 그게 뭔데..🫶🏻 #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=Z-Yg1RqI2Xc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-07"
+  },
+  {
+    "title": "𝐥𝐨𝐯𝐞 𝐦𝐞 𝐡𝐚𝐫𝐝𝐞𝐫 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=OEKdEP7-Zes",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-07"
+  },
+  {
+    "title": "𝐼𝑐𝑒 𝑐𝑟𝑒𝑎𝑚🍦 #HITGS #힛지스 #SEOJIN #SEOHEE",
+    "url": "https://www.youtube.com/watch?v=iZLUkXP1V2g",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-06"
+  },
+  {
+    "title": "1주년 당일을 기록해 보고 싶었어욤 ❣️ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=AhszLph_auo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-04"
+  },
+  {
+    "title": "🙌🏻👏🏻 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=y9w4yi1V8U8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-03"
+  },
+  {
+    "title": "👀👌🏻 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=JeEIAELqKrs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-02"
+  },
+  {
+    "title": "Ooh, HITGS love it💛 I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=cWWd3hlYvO0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-01"
+  },
+  {
+    "title": "냐미냐미🍴#HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=9TDznGcWQ0Q",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-05-01"
+  },
+  {
+    "title": "もしもし-、聞こえてる？ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=-2QNrjmLtqQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-30"
+  },
+  {
+    "title": "JET SET 🐱🐥🐶 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=IJKv91UAyIA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-29"
+  },
+  {
+    "title": "𝐇𝐈𝐓𝐆𝐒 𝟏𝐬𝐭 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲🎉 #HITGS #힛지스 #HITGS_1stAnniversary",
+    "url": "https://www.youtube.com/watch?v=KauPQ0J5UKk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-28"
+  },
+  {
+    "title": "𝐇𝐈𝐓𝐆𝐒 𝟏𝐬𝐭 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲 🎉",
+    "url": "https://www.youtube.com/watch?v=msVdgqSwB-4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-28"
+  },
+  {
+    "title": "HITGS(힛지스) 1살 된 거 축하해! 🥳 l HITGS 1st Anniversary",
+    "url": "https://www.youtube.com/watch?v=DT6q9dAQUkY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-28"
+  },
+  {
+    "title": "私、アイドル宣言! #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=zbZC2dfkRxU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-27"
+  },
+  {
+    "title": "𝐆𝐥𝐨𝐰-𝐔𝐩 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=Gs5ie5JocUI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-26"
+  },
+  {
+    "title": "magic∗̥✩⁺˚♡ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=OyuvH17Vp74",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-25"
+  },
+  {
+    "title": "명량소녀 떠🐶 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=CTyvzubesAg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-24"
+  },
+  {
+    "title": "시축하고 왔어요⚽ I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=I6M5teqdlAs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-24"
+  },
+  {
+    "title": "♥༻∞비비 얼굴 자랑∞༺♥ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=t-hCieAZ4QM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-23"
+  },
+  {
+    "title": "あげない! 𝄞 ૮ੑ𓈒 ᩙ𑁦 𑁦ୄྀི𑁬֯♡ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=Uq17Tzn9e-4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-22"
+  },
+  {
+    "title": "슬레이 선배님과 Dancing in 🌸 #SLAY ​⁠#HITGS #힛지스#CherryBlossom #체리블라썸",
+    "url": "https://www.youtube.com/watch?v=i4EcfCtMEQQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-20"
+  },
+  {
+    "title": "너무너무너무🐱 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=CC0eDFk7b70",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-20"
+  },
+  {
+    "title": "나란히 걸었어 🌸💗 #HITGS #힛지스 #CherryBlossom #체리블라썸",
+    "url": "https://www.youtube.com/watch?v=_03-t0W2Rnc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-19"
+  },
+  {
+    "title": "Dracula 🧛‍♀️🐾 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=AywaaNqh1Fg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-19"
+  },
+  {
+    "title": "Swim 🌊 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=qm1b916nYEY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-18"
+  },
+  {
+    "title": "봄사랑벚꽃말고🌸 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=TTeWTZZ6FjM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-18"
+  },
+  {
+    "title": "𝗛𝗔𝗣𝗣𝗬 𝗦𝗘𝗢𝗝𝗜𝗡 𝗗𝗔𝗬 🐑💙 #HITGS #힛지스 #HAPPY_SEOJIN_DAY",
+    "url": "https://www.youtube.com/watch?v=ld1uOhQfEyg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-16"
+  },
+  {
+    "title": "𝗛𝗔𝗣𝗣𝗬 𝗦𝗘𝗢𝗝𝗜𝗡 𝗗𝗔𝗬 🐑💙",
+    "url": "https://www.youtube.com/watch?v=Rcr4tNsze6Q",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-16"
+  },
+  {
+    "title": "공구즈도 잡아따🫧🤍 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=pyuXLixAZjA",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-16"
+  },
+  {
+    "title": "Dancing in Cherry Blossom 🌸",
+    "url": "https://www.youtube.com/watch?v=HKQv3juRM0Y",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-15"
+  },
+  {
+    "title": "어머나..💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=vv_MLP3cJX0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-15"
+  },
+  {
+    "title": "HITGS(힛지스) 'Cherry Blossom' MV",
+    "url": "https://www.youtube.com/watch?v=6GUKqEfiX1I",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-15"
+  },
+  {
+    "title": "네 생각만 자꾸나요 💗 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=7KxLcCKI7rs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-14"
+  },
+  {
+    "title": "똑똑 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=cNjhqDPCJI8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-12"
+  },
+  {
+    "title": "[속보] 공구즈 심쿵주의보 발사💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=V0YGYXov00w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "🩶🤍 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=mtu6UrqYKr8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "You like it🖤 #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=NKQu1DiD8fg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "2.you #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=WJy8CPG8PIM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-10"
+  },
+  {
+    "title": "Let’s go 대추노노🌸 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=7CrXyxPINZM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "성공해따 😆✌🏻 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=aPteF23oRfc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "𝙉𝙖 𝙣𝙖 𝙣𝙖 🎶🎵 #HITGS #힛지스 #SEOJIN #서진 SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=AQBPWsx1zks",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "𝑶𝒉 𝑳𝒊𝒕𝒕𝒍𝒆 𝑮𝒊𝒓𝒍❣️ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=dBkFo3NgtQw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "Watch this 🕶️ #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=fvuzVNdsStw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "You can’t handle 09즈 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=e6tYdTQXNHU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "Are you ready? #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=LwVLrfy9jZU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "[Hit-log] 이유가 교토에 간 이유2🐤  l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=oK32GN0bUDc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-27"
+  },
+  {
+    "title": "ʜᴀᴘᴘʏ ɪʏᴏᴏ ᴅᴀʏ 🐥💛 #HITGS #힛지스 #HAPPY_IYOO_DAY",
+    "url": "https://www.youtube.com/watch?v=2UC_aydaAsY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-26"
+  },
+  {
+    "title": "HAPPY IYOO DAY 🐥💛",
+    "url": "https://www.youtube.com/watch?v=ASggA_1WeB8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-26"
+  },
+  {
+    "title": "HITGS (힛지스)님의 실시간 스트림",
+    "url": "https://www.youtube.com/watch?v=MEf98UQfXNc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-26"
+  },
+  {
+    "title": "혜츄핑💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=rc1-8n85Hio",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "頑張れ 😆 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=jjYaBZ3Uvgc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-19"
+  },
+  {
+    "title": "❄️ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=rz8kbCUXeUk",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "한림즈의 새로운 등교메이트 ‎(՞៸៸›⩊‹៸៸՞) #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=cDoC5DkQvkE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-14"
+  },
+  {
+    "title": "🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=y75a60cEqDo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "하늘 위로 ☁️ #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=grx05yUMpo8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-11"
+  },
+  {
+    "title": "🐶😺🐥 (Direct by 🐑) #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=_KIh3sj2yKs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-10"
+  },
+  {
+    "title": "Cam tay em di hihi #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=4NMJffUiEKs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-05"
+  },
+  {
+    "title": "혜냥🐱 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Qg4rJ5R3qNo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-04"
+  },
+  {
+    "title": "em xinh HITGS #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=4fjown2MKP4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-03-03"
+  },
+  {
+    "title": "Beat🎶 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=K4E1YzmurUo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-15"
+  },
+  {
+    "title": "베이킹짱 혜린이의 초꾸 대작전🍫 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=so64aKkvXfI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-14"
+  },
+  {
+    "title": "[Hit-log] ㅏㅏ앗싸!! 휴가다ㅏㅏ!!!! l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=9q7OkddUesE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-13"
+  },
+  {
+    "title": "𝑺𝒘𝒂𝒍𝒍𝒂 𝒍𝒂𝒉 𝒍𝒂𝒉 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=v6D66XQnV-A",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-12"
+  },
+  {
+    "title": "👀 떠(희) 밖에 안 보일걸? #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=0VJCJqNQ4xs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-10"
+  },
+  {
+    "title": "[Hit-log] 이유가 교토에 간 이유🐤  l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=aZUY0QiYFT4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-06"
+  },
+  {
+    "title": "노ㅂΓ디 노ㅂΓ디 .sёØħёё vёr #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=Afz8nPdFmOU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-04"
+  },
+  {
+    "title": "≽^혜⑅냥^≼ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=FU2vG9tzTm8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-02-02"
+  },
+  {
+    "title": "어떡해 난 니가 너무 좋아🐥💛 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=SIvpCwoj9O8",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-31"
+  },
+  {
+    "title": "[Hit-log] 찜질방도 가고 놀이공원도 가고 두쫀쿠도 먹고...투머치양🐏l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=edYIVItENNg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-30"
+  },
+  {
+    "title": "[Hit-log] 떠히의 쁘이로꾸❤️ l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=qiM4aEx1eKI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-23"
+  },
+  {
+    "title": "킹받으면 조케써👑 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=y3SssPSsoE4",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-20"
+  },
+  {
+    "title": "🍒🎀 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=1OvhuEE-Riw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-19"
+  },
+  {
+    "title": "[Hit-log] 마라 매운 비비 [중국버전]🌶️ l 힛지스의 휴가 브이로그",
+    "url": "https://www.youtube.com/watch?v=E86J8zUmJ-w",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-16"
+  },
+  {
+    "title": "🎸😆 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=NqZjNagw3Ts",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-15"
+  },
+  {
+    "title": "👀💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=ZpUtKoIaABI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-14"
+  },
+  {
+    "title": "Love Love Love #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=UFokdHqtefg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-14"
+  },
+  {
+    "title": "Be with 09즈🐶😽 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Zb7hRyZLvMo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-13"
+  },
+  {
+    "title": "⁺. ⊹˚₊ 🫧 ₊·˚⊹. ⁺ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=-A-Gf93FvpM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-13"
+  },
+  {
+    "title": "Okay, okay 💗 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=etvgACQPyLQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-12"
+  },
+  {
+    "title": "Game boy 🎮 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=XW1B51VefiM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-11"
+  },
+  {
+    "title": "HITGS(힛지스) 휴가가 온다는 말 너무 수동적인 듯, 힛지스가 휴가에게 간다 I 첫 휴가 계획🩷",
+    "url": "https://www.youtube.com/watch?v=ptf6ynhafI0",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-09"
+  },
+  {
+    "title": "From Things we love : H #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=e4fUxAmavCc",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-09"
+  },
+  {
+    "title": "𝗐𝖾'𝗋𝖾 𝗌𝗈 𝗅𝗎𝖼𝗄𝗒 🍀 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=WaYFR0Rznzw",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-08"
+  },
+  {
+    "title": "Maria #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=a40JMS9KdiI",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-06"
+  },
+  {
+    "title": "幕開けの合図が #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=fWgI1hl6g88",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-05"
+  },
+  {
+    "title": "姐姐让你不舒服了吗？#HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=ltnA5q9W7tU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-04"
+  },
+  {
+    "title": "힛지스의 첫 연말무대 감동이야 🥹  | HITGS ON AIR✨ Behind EP.13",
+    "url": "https://www.youtube.com/watch?v=-EAChQySa8U",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-03"
+  },
+  {
+    "title": "𝗪𝗵𝗲𝗿𝗲 𝘆𝗼𝘂 𝗮𝘁 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=t5jAn7Qz5rQ",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-02"
+  },
+  {
+    "title": "💵💵 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=1pc95itn1iU",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-01"
+  },
+  {
+    "title": "𝗁𝖺𝗉𝗉𝗂𝗇𝖾𝗌𝗌❣️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=BvOwLIRlSWg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-01-01"
+  },
+  {
+    "title": "FROM HITGS 💬  #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=nhE_xn7F8Zs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-31"
+  },
+  {
+    "title": "HITGS(힛지스) 248일",
+    "url": "https://www.youtube.com/watch?v=V_fNp_qx8w4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-31"
+  },
+  {
+    "title": "힛지스의 (현실)붕어빵 타이쿤❄️",
+    "url": "https://www.youtube.com/watch?v=v0HQ72ERGN0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-31"
+  },
+  {
+    "title": "눈이 내려와요❄️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=LjYmXVpNhpI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-28"
+  },
+  {
+    "title": "HITGS(힛지스) 2025 SBS 가요대전 SOURPATCH + HAPPY + Intro + A-HA! (아하!) Dance Practice",
+    "url": "https://www.youtube.com/watch?v=omUvLvC1ZrI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-26"
+  },
+  {
+    "title": "떠히 지나갑니다아 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=xdoO2P6Wt6c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-26"
+  },
+  {
+    "title": "HITGS(힛지스) 화이트(White) ❄️ ㅣ Christmas Cover",
+    "url": "https://www.youtube.com/watch?v=L0wW9Dls7qQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-25"
+  },
+  {
+    "title": "혜린이 깜짝 생일 파티 #HITGS # 힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=6oUEBqP9S3s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-24"
+  },
+  {
+    "title": "연예계에 뺏긴 사격 천재 혜린 #HITGS # 힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=xHIyjweOcT4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-24"
+  },
+  {
+    "title": "비비는 두쫀쿠보다 마라탕 #HITGS # 힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=L7lZLapmPko",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-24"
+  },
+  {
+    "title": "Rich girl 💰 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=Vkl6JSgfCGQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-24"
+  },
+  {
+    "title": "HITGS(힛지스) Christmas Special🎄 I 산타 실종사건🎅🏻 EP02",
+    "url": "https://www.youtube.com/watch?v=y6I3Mti8QiE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-24"
+  },
+  {
+    "title": "251225🎁 #HITGS #힛지스 #White #화이트",
+    "url": "https://www.youtube.com/watch?v=JQMeLsN6u2c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-23"
+  },
+  {
+    "title": "Tom and SEOHEE🐭 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=R06qoXNkacI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-23"
+  },
+  {
+    "title": "𝑷𝒆𝒓~𝒇𝒆𝒄𝒕❄️ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=i55rPzTDLzA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-22"
+  },
+  {
+    "title": "Bear🐻 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=8HrBlWYuhdQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-22"
+  },
+  {
+    "title": "‘愛してる’が❣️ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=LlWNmkOLRj8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-21"
+  },
+  {
+    "title": "𝒋𝒊𝒏𝒈𝒍𝒆 𝒃𝒆𝒍𝒍 𝒓𝒐𝒄𝒌🔔 #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=dk3IIhjSCrY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-21"
+  },
+  {
+    "title": "한 걸음씩 네게 다가갈게❄️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=HRE3SwVy2Fc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-20"
+  },
+  {
+    "title": "HITGS(힛지스) 2025 KBS 가요대축제 A-HA! (아하!) Dance Practice",
+    "url": "https://www.youtube.com/watch?v=sILc5MFjRJg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-20"
+  },
+  {
+    "title": "📸Zootopia🐾 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=0woOT7sCr-8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-20"
+  },
+  {
+    "title": "ℳ𝒶𝓀ℯ 𝓂𝓎 𝓌𝒾𝓈𝒽 𝒸ℴ𝓂ℯ 𝓉𝓇𝓊ℯ ❣️ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=FALd1QwnMxM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-18"
+  },
+  {
+    "title": "서희 0개 국어 인증 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=ItvewoLja80",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-18"
+  },
+  {
+    "title": "이 언니 뭐 하는 거야… #HITGS  #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=RercHri6kbw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-18"
+  },
+  {
+    "title": "비비는 녹지 않아! #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=yZHBmGe9yuM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-18"
+  },
+  {
+    "title": "공구즈도 크리스마스가 좋아 🎄 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=pjW2Ys_L-tk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-17"
+  },
+  {
+    "title": "HITGS(힛지스) Christmas Special⭐️ I 산타 실종사건🎅🏻 EP01",
+    "url": "https://www.youtube.com/watch?v=Ptu2-kmOQME",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-17"
+  },
+  {
+    "title": "명탐정 최서희도 알고리즘 배워서 알아요🔍 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=VCoRrgb6WL4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-17"
+  },
+  {
+    "title": "𝐼'𝑚 𝑙𝑜𝑠𝑖𝑛𝑔 𝑚𝑦 𝑚𝑖𝑛𝑑 𝑗𝑢𝑠𝑡 𝑎 𝑙𝑖𝑡𝑡𝑙𝑒  #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=0AOWGnhLLvE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-16"
+  },
+  {
+    "title": "혜린이 안 귀여워 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=uUuxR9B6kCI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-16"
+  },
+  {
+    "title": "🐰🦊 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=t19mORJiqv4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-15"
+  },
+  {
+    "title": "넌 내 곁에🎀 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=BKHemS1BjRk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-14"
+  },
+  {
+    "title": "[Hit-log] 부산에 와서 바다도 보고 팬사인회도 하고 국밥도 먹고 다 했어! 🌊 l 힛지스의 부산 브이로그",
+    "url": "https://www.youtube.com/watch?v=SmnVBobMVmg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-13"
+  },
+  {
+    "title": "恋に落ちたんだから 💗 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=GnbhcfNc_DI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-13"
+  },
+  {
+    "title": "🥊🌀 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=poJTT8pfWmM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-11"
+  },
+  {
+    "title": "BEHIND NO.1210😺 #HITGS #힛지스 #HYERIN #혜린  #HAPPY_HYERIN_DAY",
+    "url": "https://www.youtube.com/watch?v=Zh-rRI3_zEw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-10"
+  },
+  {
+    "title": "생일 축하혜냥🐈‍⬛ #HITGS #힛지스 #HYERIN #혜린 #HAPPY_HYERIN_DAY",
+    "url": "https://www.youtube.com/watch?v=6xcwkRTwRnw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-10"
+  },
+  {
+    "title": "사랑 사랑보단 서희❤️ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=fwHm8p48m4M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-06"
+  },
+  {
+    "title": "[Hit-log] 도자기 만드는거? 사실은 너무 부러웠어요❤️l서서즈의 도자기 공방",
+    "url": "https://www.youtube.com/watch?v=GE60xnnf5SQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-05"
+  },
+  {
+    "title": "𝐋𝐨𝐯𝐞 𝐢𝐬 𝐭𝐫𝐮𝐞..🖤🕶️ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=MV-TvjZlIO8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-05"
+  },
+  {
+    "title": "첫눈 왔다❄️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=djecvPo1Vyo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-04"
+  },
+  {
+    "title": "#KIIRAS #로아 님과 솔직하게 Say it A-HA 🛸 #키라스 #Roah #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=L5MOU_j3Dus",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-02"
+  },
+  {
+    "title": "Tick-tack⏰ #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=3_-ayode-dk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-12-01"
+  },
+  {
+    "title": "귀여워서 미아내💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=7t4rchgA9SU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-30"
+  },
+  {
+    "title": "BOOM 🥟💥 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=Vd7nZd2GJKY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-29"
+  },
+  {
+    "title": "[Hit-log] 저희는 사이가 좋거든요👭| 맏막즈의 연남투어",
+    "url": "https://www.youtube.com/watch?v=ozDgH2FHQs8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-28"
+  },
+  {
+    "title": "[HITGS] IYOO 'Taste' Performance Video",
+    "url": "https://www.youtube.com/watch?v=5b1lJxIqsmU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-26"
+  },
+  {
+    "title": "힛지스가 부르는 ‘소녀시대 - Gee’ ✨  #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=UdtjMUaoero",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-24"
+  },
+  {
+    "title": "⋋(•⌔•)⋌ 뻐꾹 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=G7VOqdvXrO8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-23"
+  },
+  {
+    "title": "Freeze❄️ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Q0WuGSRDUV0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-22"
+  },
+  {
+    "title": "[Hit-log] 빵.생.빵.사🍞| 혜린의 빵지순례",
+    "url": "https://www.youtube.com/watch?v=KdHOpZ9cnjM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-21"
+  },
+  {
+    "title": "📁 BEHIND NO.1110 🧣#HITGS #힛지스 #Barrie",
+    "url": "https://www.youtube.com/watch?v=E2KrQK7hITY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-14"
+  },
+  {
+    "title": "((🤸🏻)) #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=b3ZB5Tx_hIo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-14"
+  },
+  {
+    "title": "힛지스는 이제 아하별로 떠나요~🌟| HITGS ON AIR👽 Behind EP.12",
+    "url": "https://www.youtube.com/watch?v=EMgZ6RgMqEc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-13"
+  },
+  {
+    "title": "사랑아 혜린해💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=vV904gWBR38",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-12"
+  },
+  {
+    "title": "Dance with 막내즈 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=jjOIn6Ehf5Q",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-11"
+  },
+  {
+    "title": "맞아 눈을 뗄 수 없어, HITGS에 말야 🛸 #HITGS #힛지스 #AHA #아하",
+    "url": "https://www.youtube.com/watch?v=25Ujz8LUJy0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-11"
+  },
+  {
+    "title": "HITGS(힛지스) 'PAGE' Track Video",
+    "url": "https://www.youtube.com/watch?v=GPRG8FV1Ftw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-10"
+  },
+  {
+    "title": "#AHOF #서정우 #장슈아이보 선배님과 솔직하게 Say it A-HA 🛸 #아홉 #JEONGWOO #SHUAIBO #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=ZAhNQSttq5o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-10"
+  },
+  {
+    "title": "매끈매끈하다 매끈매끈한 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=LPiq2yHh0No",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-09"
+  },
+  {
+    "title": "𝚢𝚘𝚞 𝚠𝚒𝚕𝚕 𝚊𝚕𝚠𝚊𝚢𝚜 𝚋𝚎 𝚖𝚢 🪽 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=PfXDwxzRWkU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-09"
+  },
+  {
+    "title": "#xikers #진식 선배님과 솔직하게 Say it A-HA 🛸 #싸이커스 #JINSIK #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=QPukXk9YL_4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-09"
+  },
+  {
+    "title": "𝒖𝒏𝑳𝑰𝑲𝑬 𝑴𝑬..?! #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=COadVPWtV_A",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-07"
+  },
+  {
+    "title": "HITGS(힛지스) 'A-HA!' Dance Practice",
+    "url": "https://www.youtube.com/watch?v=jgXUC4MB16I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-06"
+  },
+  {
+    "title": "힛지스의아하별👽👽👽👽👽",
+    "url": "https://www.youtube.com/watch?v=b1hD9s2ItFU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-05"
+  },
+  {
+    "title": "HITGSTORY EP.20 힛지스의 첫가을이었다🍁",
+    "url": "https://www.youtube.com/watch?v=rlm-vHQyaU4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-05"
+  },
+  {
+    "title": "GO🐥 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=6u8EnzePe3E",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'A-HA!' 응원법",
+    "url": "https://www.youtube.com/watch?v=ghwPE5XquJc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-11-01"
+  },
+  {
+    "title": "쪼꼬즈는 항상 HAPPY🍫 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=WYuklamWp4c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-31"
+  },
+  {
+    "title": "풍선으로 HAPPY한 09즈🩵 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=z3k8dBSBmVo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-30"
+  },
+  {
+    "title": "일주일내내🤍 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=EpDsVhG6Eyk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-30"
+  },
+  {
+    "title": "이번 HAPPY 활동은 감동이였어…🥹| HITGS ON AIR❤️ Behind EP.11",
+    "url": "https://www.youtube.com/watch?v=V0cX66JbpOg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-30"
+  },
+  {
+    "title": "양갈래 + 서희도 귀요미❣️#HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=Z0xcZ7umGkc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-29"
+  },
+  {
+    "title": "📞🐥🐰📞#HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=UsOcb-bcQqI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-29"
+  },
+  {
+    "title": "#CLOSEYOUREYES #서경배 선배님과 I’M SO HAPPY😆 #클로즈유어아이즈 #SEOKYOUNGBAE #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=XjLrr-Nlq3M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-29"
+  },
+  {
+    "title": "𝙻𝚎𝚟𝚎𝚕 𝚞𝚙💗 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=6_YOtofBhPM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-28"
+  },
+  {
+    "title": "#CLOSEYOUREYES #김성민 선배님과 I’M SO HAPPY😆 #클로즈유어아이즈 #KIMSUNGMIN #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=EFk24cZx0go",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-28"
+  },
+  {
+    "title": "아.. 이유야 ⁉️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=gZwuIeOhwj0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-28"
+  },
+  {
+    "title": "𝐏𝐮𝐭 𝐲𝐨𝐮𝐫 𝐛𝐨𝐝𝐲 𝐨𝐧 𝐦𝐲 𝐛𝐨𝐝𝐲 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=_4MCGP3p2HE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-27"
+  },
+  {
+    "title": "𝑈𝑚𝑚 + 음.. = (  ʚ̴̶̷́ ༝ ʚ̴̶̷́  ) #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=3GS4MDUj-u0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-27"
+  },
+  {
+    "title": "#BOYNEXTDOOR 리우 선배님과 I’M SO HAPPY😆 #보이넥스트도어 #RIWOO #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=hkncnPiY0xA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-27"
+  },
+  {
+    "title": "𝖯𝗋𝖾𝗍𝗍𝗒 𝖫𝗈𝗏𝖾𝗅𝗒 𝖢𝗎𝗍𝗂𝖾 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=uID8pEOvIlk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-27"
+  },
+  {
+    "title": "#2025MBC대학가요제 에서도 HITGS는 HAPPY해☁️ #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=KLL1nJo4eF4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-26"
+  },
+  {
+    "title": "이번 주 #INKIGAYO 에서는 살짝 UNHAPPY 할지도? #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=J8IpZzxoa1E",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-26"
+  },
+  {
+    "title": "막내즈 사랑해💗 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=UA-Pb7Bd2VQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-26"
+  },
+  {
+    "title": "#MUSICCORE 에서 서(희의 힛지스)멤(버들을)소(개합니다) #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=OTGKXpxaIPQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-25"
+  },
+  {
+    "title": "천도 선배님과 I’M SO HAPPY😆 #1000degrees #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=IpPiWeIn6bU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-25"
+  },
+  {
+    "title": "심장에 매력 발산❣️ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=evUUZ-MlrzE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-25"
+  },
+  {
+    "title": "이번 주 #MUSICBANK 에서도 힛지스는 HAPPY해 🍀 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=V608OMiDX84",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-24"
+  },
+  {
+    "title": "#Kep1er 김다연 선배님과 I’M SO HAPPY😆 #케플러 #DAYEON #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=qaxs0nSBjuM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-24"
+  },
+  {
+    "title": "𝐁𝐚𝐛𝐲 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=k7aeHO2KUKU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-24"
+  },
+  {
+    "title": "이번 주 #Mcountdown 에서도 힛지스는 HAPPY해 🪞 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=nTwaS6JR-ug",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-23"
+  },
+  {
+    "title": "#Kep1er 김채현 선배님과 I’M SO HAPPY😆 #케플러 #CHAEHYUN #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=DRe2UnC8uGc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-23"
+  },
+  {
+    "title": "Go crazy🌀#HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=3Yf0wl9BbcE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-23"
+  },
+  {
+    "title": "HAPPY🌙 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=3_lzPKDJPpg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-22"
+  },
+  {
+    "title": "HITGSTORY EP.19 2025 정기총회💻",
+    "url": "https://www.youtube.com/watch?v=tfZzJlcZfZI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-22"
+  },
+  {
+    "title": "❤️09s🖤 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=eQEQVNJyIEI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-22"
+  },
+  {
+    "title": "팬들을 향한 사랑이 멈추지 않는 탓일까👯‍♀️| HITGS ON AIR❤️ Behind EP.10",
+    "url": "https://www.youtube.com/watch?v=ZNir86mmLBw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-21"
+  },
+  {
+    "title": "𝑩𝒆𝒂𝒕🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=nDj8VBPe0_U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-21"
+  },
+  {
+    "title": "🌀😵‍💫🤩 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=uT9AcSY-w68",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-21"
+  },
+  {
+    "title": "Can’t stop☁️ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=jo-yknLXvaI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-20"
+  },
+  {
+    "title": "해피해피〃'ᴗ'〃 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=JnsVlZYGxtc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-20"
+  },
+  {
+    "title": "이번 주 #INKIGAYO 에서도 힛지스는 HAPPY해 🧸 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=XUfRhc3MWBI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-19"
+  },
+  {
+    "title": "STOP IT🍃☁️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=aItvMiU66YQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-19"
+  },
+  {
+    "title": "L.O.V.E #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=b2IDlqQYrkE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-19"
+  },
+  {
+    "title": "All day💙 #HITGS #힛지스 #SEOJIN #서진 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=d2_dY1JIvpo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-18"
+  },
+  {
+    "title": "HITGS(힛지스) 'HAPPY' M/V Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=dcSO1jOYIbQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-18"
+  },
+  {
+    "title": "#MUSICCORE 에서 힛지스는 HAPPY해 🎀 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=wThs47kOrSM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-18"
+  },
+  {
+    "title": "#MUSICBANK 에서 힛지스는 HAPPY해 ❣️#HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=WwHt9c0nzQQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-17"
+  },
+  {
+    "title": "A - sEohee - Iyoo - O #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=dTNg9vLi3R0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-17"
+  },
+  {
+    "title": "#Mcountdown 에서 힛지스는 HAPPY해 💙 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=CjMv3BG6DGQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-16"
+  },
+  {
+    "title": "몰래 혼잣말 ෆ•͈ ·̭ •͈ෆ #HITSG #힛지스 #VV #비비 #IYOO #이유 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=gedP_S1oBVQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-16"
+  },
+  {
+    "title": "아스케 🍦#HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=iwsoKsZ296M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-16"
+  },
+  {
+    "title": "HITGSTORY EP.18 힛지스 파티시엘👩‍🍳",
+    "url": "https://www.youtube.com/watch?v=tv41fibTx0Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-15"
+  },
+  {
+    "title": "가까워지고 싶어 난☁️ #HITSG #힛지스 #VV #비비 #SEOJIN #서진 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=C6fK3PzlwcY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-15"
+  },
+  {
+    "title": "송필근 선배님과 I’M SO HAPPY😆 #SongPylgeun #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=m4Y81fZmyfo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-15"
+  },
+  {
+    "title": "HYEPPY! #HITGS #힛지스 #HYERIN #혜린 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=OhuLOZ-bRvU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-15"
+  },
+  {
+    "title": "Buzzin 🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=CFW5VGgvhyg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-14"
+  },
+  {
+    "title": "HITGS (힛지스) 'HAPPY' MV 리액션",
+    "url": "https://www.youtube.com/watch?v=EM9i34zvDog",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-14"
+  },
+  {
+    "title": "신윤승, 조수연 선배님과 I’M SO HAPPY😆 #데프콘썸어때요 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=Ced6ZvgCOiw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-14"
+  },
+  {
+    "title": "DANCING in the MOONLIGHT 🌙  #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Ys8hFOrQS9s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-14"
+  },
+  {
+    "title": "서성경 선배님과 I’M SO HAPPY😆 #SeoSunggyung #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=WiqEtHnBiXk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-14"
+  },
+  {
+    "title": "매일매일이 HAPPY #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=MjPaHpj2eGQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-13"
+  },
+  {
+    "title": "𝚆𝚘𝚛𝚔☀️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=FkQ0JOGeNpk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-13"
+  },
+  {
+    "title": "해피햎삐🍃 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유  #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=CkE-ywX0S7U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-12"
+  },
+  {
+    "title": "HITGS(힛지스) ’HAPPY’ Dance Practice",
+    "url": "https://www.youtube.com/watch?v=BYvPnGt2P4Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-12"
+  },
+  {
+    "title": "#INKIGAYO 에서 힛지스는 HAPPY해 🤍 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=r889P3S2QN0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-12"
+  },
+  {
+    "title": "🖤&💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=Lxcxe8ttkSw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-12"
+  },
+  {
+    "title": "[Hit-log] 힛지스와 함께한 첫 피크닉 | 힛지스의 연휴☀️",
+    "url": "https://www.youtube.com/watch?v=Ng44sz8qW7A",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-11"
+  },
+  {
+    "title": "HAPPY 09s💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=lK3z55phifY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-11"
+  },
+  {
+    "title": "ℍ𝔸ℙℙ𝕐 💙 #HITGS #힛지스 #SEOJIN #서진 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=AkHjVIpU5Bc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-11"
+  },
+  {
+    "title": "HITGS(힛지스) 'HAPPY' 응원법",
+    "url": "https://www.youtube.com/watch?v=UqY2kibNSw8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-10"
+  },
+  {
+    "title": "*:.｡𝑺𝑼𝑮𝑨𝑹 .｡.:*･゜ﾟ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=-cUNFOfMUik",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-10"
+  },
+  {
+    "title": "𝑯𝑨𝑷𝑷𝒀 𝑴𝑽 𝒄𝒉𝒐𝒓𝒆𝒐 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=VkN3byuNG1E",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-10"
+  },
+  {
+    "title": "I'M SO HAPPY😆 #HITSG #힛지스 #VV #비비 #SEOHEE #서희 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=3nDs7W76z3c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-10"
+  },
+  {
+    "title": "너랑 있으면 HAPPY해☘️ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=arAyJm9CkZk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-09"
+  },
+  {
+    "title": "HITGSTORY EP.17 제 1회 힛지스 선수권 대회🥇",
+    "url": "https://www.youtube.com/watch?v=c9d62_sVI3g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-09"
+  },
+  {
+    "title": "mood to have fun #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=yrSRhg0y-Og",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-09"
+  },
+  {
+    "title": "ⒽⒶⓅⓅⓎ ˃̵͈̑ᴗ˂̵͈̑ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=ZFg80hbSP9s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-09"
+  },
+  {
+    "title": "HITGS(힛지스) 혜린 사격 금메달 비하인드🥇",
+    "url": "https://www.youtube.com/watch?v=Cf2zpVD8uvw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-08"
+  },
+  {
+    "title": "아이돌 사격 국가대표 : 혜린편 🎯🥇 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=4zFGNWGGNSs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-08"
+  },
+  {
+    "title": "HAPPY🙂 selfie.ver #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=lG4IoAZTDhE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-08"
+  },
+  {
+    "title": "넌 모르겠지만🏝️ #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=5GmBMt2y_xk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-08"
+  },
+  {
+    "title": "🄸’🄼 🆂🅾 🄷🄰🄿🄿🅈 💗 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=4QDv8lhef3Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-07"
+  },
+  {
+    "title": "A-E-I-O MINUS ‘U’ #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=svl_ldw0SwY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-07"
+  },
+  {
+    "title": "매일 매일이 🖤 #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=cSdRXVtjCvk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-06"
+  },
+  {
+    "title": "𝓰𝓸𝓲𝓷𝓰 𝓬𝓻𝓪𝔃𝔂☀️ #HITGS #힛지스 #HAPPY #해피",
+    "url": "https://www.youtube.com/watch?v=uRArOMYOKsE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-06"
+  },
+  {
+    "title": "HITGS(힛지스) 'HAPPY' MV",
+    "url": "https://www.youtube.com/watch?v=3ensCfpaUWI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-06"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' Highlight Medley",
+    "url": "https://www.youtube.com/watch?v=68-7UWt18bg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-05"
+  },
+  {
+    "title": "HITGS(힛지스) 'HAPPY' MV TEASER",
+    "url": "https://www.youtube.com/watch?v=LfjTB9Qvx0o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-04"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #HYERIN #혜린 #ThingsWeLove_I #TWL_I",
+    "url": "https://www.youtube.com/watch?v=vg-wP4LD_C8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #VV #비비 #ThingsWeLove_I #TWL_I",
+    "url": "https://www.youtube.com/watch?v=ibV5Ld5ZUb0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #IYOO #이유 #ThingsWeLove_I #TWL_I",
+    "url": "https://www.youtube.com/watch?v=4QUnjgJXg_c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #SEOHEE #서희 #ThingsWeLove_I #TWL_I",
+    "url": "https://www.youtube.com/watch?v=sO4jTRzzpeA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' CONCEPT FILM #HITGS #힛지스 #SEOJIN #서진 #ThingsWeLove_I #TWL_I",
+    "url": "https://www.youtube.com/watch?v=jHvwyZxdTyI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-02"
+  },
+  {
+    "title": "HITGSTORY EP.16 눈물의 캠프파이어🔥",
+    "url": "https://www.youtube.com/watch?v=rftXnkoJ4fA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-01"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' TRAILER",
+    "url": "https://www.youtube.com/watch?v=7pnr-MCMG7g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-10-01"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : I' SCHEDULER",
+    "url": "https://www.youtube.com/watch?v=6fLl_hQi--o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-30"
+  },
+  {
+    "title": "HITGS 【Things we love : I】",
+    "url": "https://www.youtube.com/watch?v=IrvEVRvyQss",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-29"
+  },
+  {
+    "title": "이준영 선배님과 솔직하게 Say it A-HA 🛸 #LEEJUNYOUNG #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=5GnS14wHqDk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-28"
+  },
+  {
+    "title": "HITGS(힛지스) in 방콕 🥭 (SUMMER SONIC BEHIND)",
+    "url": "https://www.youtube.com/watch?v=ZfAwqxXegoQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-28"
+  },
+  {
+    "title": "다영 선배님과 솔직하게 Say it A-HA 🛸#DAYOUNG #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=dUJOrzvkqRw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-28"
+  },
+  {
+    "title": "Gimme a beat #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=_xKL59naAKM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-28"
+  },
+  {
+    "title": "‘A-HA’‘, A-HA’ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=JGw3C8uD_ws",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-28"
+  },
+  {
+    "title": "HITGS(힛지스) 'A-HA!' M/V Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=xsKGdEhOUHw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-27"
+  },
+  {
+    "title": "💿 들어봐 ‘A-HA!’ #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=Yv1zPu3rJZ8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-27"
+  },
+  {
+    "title": "A-HA😆 #HITGS #힛지스 #HYERIN #혜린 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=S0XyXpfwoos",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-26"
+  },
+  {
+    "title": "Hot Summer🍋☀️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=mdK4u7CYnP8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-25"
+  },
+  {
+    "title": "A-HA! X ♾️ #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=m7KNES1zWsA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-25"
+  },
+  {
+    "title": "ᴡʜᴇɴ ɪ ᴅᴀɴᴄᴇ ᴇᴠᴇʀʏ ᴛɪᴍᴇ 🪩👾 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=Gkfipj3gomA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-24"
+  },
+  {
+    "title": "CHARIZZMA (Sims.ver)💡#HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=9b5OOkg4l-g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-24"
+  },
+  {
+    "title": "HITGSTORY EP.15 자네 지금 뭐 하는 건가🤔",
+    "url": "https://www.youtube.com/watch?v=tMo7J5DsK5w",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-24"
+  },
+  {
+    "title": "🎧 HITGS의 A-HA!를 지금 바로 만나보세요! #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=Qmm5QORtuMk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-24"
+  },
+  {
+    "title": "ュ냥 외શ도 ગ해̆̈ 마 ગ게̆̎ 나પ까̆̎ 🛸 #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=CklitJZ0rEc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-23"
+  },
+  {
+    "title": "HITGS(힛지스) LA 브이로그 ✈️",
+    "url": "https://www.youtube.com/watch?v=vHdcccFdMBk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-23"
+  },
+  {
+    "title": "From #HYERIN #HITGS #힛지스 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=YSrUvlQIt-U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-23"
+  },
+  {
+    "title": "𝑌𝑜𝑢 𝑐𝑎𝑛 𝑓𝑒𝑒𝑙, 𝑖𝑛 𝑚𝑦 𝑒𝑦𝑒𝑠 #HITGS #힛지스 #HYERIN #혜린 #A_HA #아하",
+    "url": "https://www.youtube.com/watch?v=iCZY1fjmDdg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-22"
+  },
+  {
+    "title": "HITGS(힛지스) 'A-HA!' MV",
+    "url": "https://www.youtube.com/watch?v=1XOmTvPWQSs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-22"
+  },
+  {
+    "title": "ⒽⒶⓅⓅⓎ💗✌🏻#HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=Oh_My7xrs1s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-20"
+  },
+  {
+    "title": "We got you moonlight 🌙 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=av0t4BACxp4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-19"
+  },
+  {
+    "title": "The Most Famous #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=89b6y5DJeiA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-19"
+  },
+  {
+    "title": "ℬ𝓊𝓉 𝒶𝒸𝓉𝓊𝒶𝓁𝓁𝓎, 𝒲ℯ’𝓁𝓁 𝓃ℯ𝓋ℯ𝓇 𝒷𝓇ℯ𝒶𝓀 𝓊𝓅 💗 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=jNJ5gjnO714",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-18"
+  },
+  {
+    "title": "HITGSTORY EP.14 힐링 캠핑? 이건 비밀인데...",
+    "url": "https://www.youtube.com/watch?v=KAXU8b_ck6M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-17"
+  },
+  {
+    "title": "📁BEHIND NO.0913 🫧 #HITGS #힛지스 #BUBBLINGBOILING",
+    "url": "https://www.youtube.com/watch?v=pP6DJa4z9ss",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-17"
+  },
+  {
+    "title": "🤙🏻🤙🏻🤙🏻 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=P9Wk2cgwAc8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-17"
+  },
+  {
+    "title": "📁BEHIND NO.0906 📷 #HITGS #힛지스 #VV #비비 #HYERIN #혜린 #SeoulFashionWeek",
+    "url": "https://www.youtube.com/watch?v=DNuGVZjIS38",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-11"
+  },
+  {
+    "title": "Mooo ˚˖⁺⑅🩵 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=_ogVxL-nplk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-10"
+  },
+  {
+    "title": "🐱🌀🐱 #HITGS #힛지스 #VV #비비 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=AvLmIWOAnmo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-08"
+  },
+  {
+    "title": "힛지스네 비냥이 /ᐠ • ̫ •マฅ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=xS9j05RNcEQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-07"
+  },
+  {
+    "title": "☆∴｡　*🤍 ﾟ*｡★･ #HITGS #힛지스 #VV #비비 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=OYiq6qh5oMQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-07"
+  },
+  {
+    "title": "HITGS(힛지스) LA KCON BEHIND📸",
+    "url": "https://www.youtube.com/watch?v=RAX1J_cD-FE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-05"
+  },
+  {
+    "title": "HITGSTORY EP.13 56미터 상공에서 음방 도전🎤",
+    "url": "https://www.youtube.com/watch?v=QBk6dH6baaY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-09-03"
+  },
+  {
+    "title": "SOURPATCH in BANGKOK🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=0dnEbK-Do38",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-30"
+  },
+  {
+    "title": "RUBY CHAN 🫶🏻💛 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=wbsmtn4GF7A",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-30"
+  },
+  {
+    "title": "#BUS 선배님과 We gon’ make a scene 🎬 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=qq6YCILZM8M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-28"
+  },
+  {
+    "title": "Bugatti🕶️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=dvwF4c8JDuM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-28"
+  },
+  {
+    "title": "HITGSTORY EP.12 힛지스랑 에버랜드 갈래?(KR/EN/JP/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=MlcT9afNcqw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-27"
+  },
+  {
+    "title": "방콕에서도 우리 얘길 가득 채워💛 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=aPCEqLm72_M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-27"
+  },
+  {
+    "title": "I love you so much ᥫ᭡ˊ˗ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=h6iKryMN98I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-27"
+  },
+  {
+    "title": "ʜɪᴛɢs ᴄᴀɴ’ᴛ sᴛᴏᴘ 🌙 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=KxPMhOGK_bU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-24"
+  },
+  {
+    "title": "뭐가 들어있게? in my big big bags🎒 I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=tpbX68rQKkk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-21"
+  },
+  {
+    "title": "🫧🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=bnj_wcVqOHU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-20"
+  },
+  {
+    "title": "HITGSTORY EP.11 절대 소리를 내면 안 되는 파티🤫 (KR/EN/JP/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=j9yhol6S9p4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-20"
+  },
+  {
+    "title": "힛멍이들 챠챠 🐶 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=GfUhncML00g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-20"
+  },
+  {
+    "title": "𝖃𝖔𝖓𝖆𝖉𝖆🖤 #HITGS #힛지스 #SEOJIN #서진 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=AwGQTSu9GHI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-19"
+  },
+  {
+    "title": "우하하하 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=YIW05SG3yWI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-18"
+  },
+  {
+    "title": "KPOP SUPER LIVE도 Ooh, I love it🖤 #HITHS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=zl_ertvSUeA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-18"
+  },
+  {
+    "title": "📁 BEHIND NO.0809 🌊 #HITGS #힛지스 #2025KPOPSUPERLIVE",
+    "url": "https://www.youtube.com/watch?v=dD-FR8BEiso",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-17"
+  },
+  {
+    "title": "🐈‍⬛🐣#HITGS #힛지스#HYERIN #혜린 #IYOO #이유#CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=9lWlRmQ9Djw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-13"
+  },
+  {
+    "title": "HITGSTORY EP.10 파자마 파티에 진심인 아이돌✨ (KR/EN/JP/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=7_MToY0xXpo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-13"
+  },
+  {
+    "title": "Fashion center ✨ #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=ebRd4FoCXiQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-09"
+  },
+  {
+    "title": "ɪ ᴡᴀɴɴᴀ ‪(⸝⸝› з ‹⸝⸝)‬♡ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=yXM5vGNPTUg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-09"
+  },
+  {
+    "title": "𝐁𝐞𝐚𝐭 𝐢𝐭 🎶 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=xjocs2shIv0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-08"
+  },
+  {
+    "title": "HITGS의 💕#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=Phj31ogyzA4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-07"
+  },
+  {
+    "title": "ෆෆ#HITGS #힛지스#SEOJIN #서진 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=2w11bdc9rRE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-07"
+  },
+  {
+    "title": "병아리의 케이콘 탐방🐥#HITGS #힛지스#IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=XSfaIEXl0Y8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-06"
+  },
+  {
+    "title": "🖐#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=VMpnsJLM7vg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-06"
+  },
+  {
+    "title": "🌞#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=Icaeni1yofo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-05"
+  },
+  {
+    "title": "LA CHARIZZMA💟#HITGS #힛지스#CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=oM0jVF1y_Tg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-05"
+  },
+  {
+    "title": "💛💛💛#HITGS #힛지스#VV #비비 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=-9ukoEBNuYw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-04"
+  },
+  {
+    "title": "🄹🅄🄼🄿 #HITGS #힛지스#IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=f1JdohtGYBo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-04"
+  },
+  {
+    "title": "KCON Play again again, 네가 좋아하는 노래❤#HITGS #힛지스#GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=NwTzoyf6b1k",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-04"
+  },
+  {
+    "title": "LA SOURPATCH🍋#HITGS #힛지스#SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=F-xRZrbjuOA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-03"
+  },
+  {
+    "title": "outfit 💗#HITGS #힛지스#SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=Q2kAu4fUJXQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-03"
+  },
+  {
+    "title": "09즈 Golden✨#HITGS #힛지스#SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=odlWl1b-jgg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-03"
+  },
+  {
+    "title": "✨#HITGS #힛지스#IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=zotDh7-0NJM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-08-01"
+  },
+  {
+    "title": "또 하나의 힛지스토리를 만든 순간들..💭 | HITGS ON AIR💜 Behind EP.09",
+    "url": "https://www.youtube.com/watch?v=johHJMGi6zk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-31"
+  },
+  {
+    "title": "☆#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=JUCrqQHj3rU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-31"
+  },
+  {
+    "title": "HITGSTORY EP.09 찌직.. 4번 방갈로로 가주세요(KR/EN/JP/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=k2Hv-W4--xw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-30"
+  },
+  {
+    "title": "꒰ᐡ𓏼ᵔ ᵜᵔ꒱⊃#HITGS #힛지스#CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=fCJKH8hrYzg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-30"
+  },
+  {
+    "title": "😺#HITGS #힛지스#HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=i4aNwAH-W88",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-30"
+  },
+  {
+    "title": "💟#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=hJmqWm6dWwA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-30"
+  },
+  {
+    "title": "😺🖤🤍#HITGS #힛지스#HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=26pg-pTmqNo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-29"
+  },
+  {
+    "title": "HITGS💕#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=fjrDpzuU_UY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-29"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' M/V Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=1YJ3EiuJOIs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-28"
+  },
+  {
+    "title": "#ZEROBASEONE #김규빈 선배님과 We gon’ make a scene 🎬@ZB1_official  #제로베이스원 #KIMGYUVIN #HITGS #CHARIZZMA",
+    "url": "https://www.youtube.com/watch?v=plnC2mJquTY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-28"
+  },
+  {
+    "title": "𝓑𝓮𝓼𝓽 𝓯𝓻𝓲𝓮𝓷𝓭 𝓯𝓸𝓻𝓮𝓿𝓮𝓻❤#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=XsRvbdtK8kE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-28"
+  },
+  {
+    "title": "we gon’ make a scene at #GAYODAEJEON:SUMMER 🖤#HITGS #힛지스 #CHARIZZMA #카리즈마#2025SBS가요대전Summer",
+    "url": "https://www.youtube.com/watch?v=e06P6sYaCP0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-28"
+  },
+  {
+    "title": "大好きだよ🤍 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=1A9oUH9lHII",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-27"
+  },
+  {
+    "title": "#STAYC #세은 선배님과 We gon’ make a scene 🎬 #스테이씨 #Seeun #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=h4mDcFuMhmA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-27"
+  },
+  {
+    "title": "#BTOB #이민혁 선배님과 We gon’ make a scene 🎬 #비투비 #LEEMINHYUK #HUTA #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=sSBMv7ZpfCA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-27"
+  },
+  {
+    "title": "we gon’ make a scene at #MUSICCORE 🕶️🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=lQlUJp6r2mA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-26"
+  },
+  {
+    "title": "#ILLIT #민주 선배님과 We gon’ make a scene 🎬 #아일릿 #MINJU #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=XRFlgla780Q",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-26"
+  },
+  {
+    "title": "#족장님 과 We gon’ make a scene 🎬 #티타남 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=MDSUpXkr-qQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-26"
+  },
+  {
+    "title": "𝙽𝚒𝚌𝚎 𝚝𝚘 𝚖𝚎𝚎𝚝 𝚢𝚘𝚞 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=c90m8sYXXso",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-26"
+  },
+  {
+    "title": "we gon’ make a scene at MUSICBANK 🌻💛 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=f0_ao1J25U0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-25"
+  },
+  {
+    "title": "すごくすごく愛してる🤍🖤 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=nIyuRLE8eRI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-25"
+  },
+  {
+    "title": "안녕 나는.. 💗 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=A8qqIMdPA3Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-25"
+  },
+  {
+    "title": "we gon’ make a scene at MCOUNTDOWN 🖤🎬 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=MywjR5czGQc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-24"
+  },
+  {
+    "title": "🍓🎀 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=rUsJyIUdzEg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-24"
+  },
+  {
+    "title": "wipe it down 👻 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=cw7tmUc7GJU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-23"
+  },
+  {
+    "title": "한여름 밤의 힛지스 🌙 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=QQvklsfcMak",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-23"
+  },
+  {
+    "title": "HITGSTORY EP.08 안녕하세요 귀신입니다 (KR/EN/JP/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=Kni0jHLLuSg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-23"
+  },
+  {
+    "title": "힛지스 미모는 매 순간 당도 최고🍑 | HITGS ON AIR💜 Behind EP.08",
+    "url": "https://www.youtube.com/watch?v=DPJ7mpRH3e8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-22"
+  },
+  {
+    "title": "#SUPERJUNIOR #은혁 선배님과 We gon’ make a scene 🎬 #슈퍼주니어 #EUNHYUK #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=8-8tflDz1Oo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-22"
+  },
+  {
+    "title": "we gon’ make a scene at MUSICCORE ♟️❣️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=psRo1Nci-Jo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-22"
+  },
+  {
+    "title": "🎀 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #aurafarming",
+    "url": "https://www.youtube.com/watch?v=kUKuA6yNvys",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-21"
+  },
+  {
+    "title": "𝖢𝖺𝗇 𝗒𝗈𝗎 𝖿𝖾𝖾𝗅 𝗂𝗍 💗 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=BaUz2TnI87o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-21"
+  },
+  {
+    "title": "bass down low #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=o_iAL9ZTwbI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-20"
+  },
+  {
+    "title": "𝚁.𝙸.𝚉.𝚉 𝙲𝙷𝙰𝚁𝙸𝚉𝚉𝙼𝙰 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=fmhISVhYqw4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-20"
+  },
+  {
+    "title": "we gon’ make a scene at MUSICBANK 🎨🩵 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=ZGPWnYFacBI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-19"
+  },
+  {
+    "title": "𝑰 𝒌𝒏𝒐𝒘..🤍 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=35OjOSQMZqI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-19"
+  },
+  {
+    "title": "CHARIZZMA VV CAM📹 #HITGS #힛지스 #VV #비비 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=WHq5Bw3Jh14",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-19"
+  },
+  {
+    "title": "𝑯𝒆𝒓𝒆! #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=VqVrHmEZFYU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-18"
+  },
+  {
+    "title": "𝑺𝒊𝒈𝒎𝒂 𝑮𝒊𝒓𝒍🩶 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=ojdv5Fng2kM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-18"
+  },
+  {
+    "title": "Focus #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=NQ3oBrY5RYw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-18"
+  },
+  {
+    "title": "we gon’ make a scene at MCOUNTDOWN🖤#HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=Y907_TCse_A",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-17"
+  },
+  {
+    "title": "CHARIZZMA SEOHEE CAM📹 #HITGS #힛지스 #SEOHEE #서희 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=VANloljMgIk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-17"
+  },
+  {
+    "title": "🤍💚 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=qqsLfX0slAI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-17"
+  },
+  {
+    "title": "CHARIZZMA HYERIN CAM📹 #HITGS #힛지스 #HYERIN #혜린 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=H9hp_PMYHD8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-17"
+  },
+  {
+    "title": "HITGSTORY EP.07 우리 얘길 가득 채워, in our bag (KR/EN/JP/CN/ES/ID/VN)",
+    "url": "https://www.youtube.com/watch?v=G94ntlTbBGs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-16"
+  },
+  {
+    "title": "#CLOSEYOUREYES #송승호 선배님과 We gon’ make a scene 🎬 #클로즈유어아이즈 #SONGSEUNGHO #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=D3WG5J95Sos",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-16"
+  },
+  {
+    "title": "☁️🤍 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=rkgHgfoAzP4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-16"
+  },
+  {
+    "title": "#한승우 선배님과 We gon’ make a scene 🎬 #HANSEUNGWOO #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=kHVrkcfcH1U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-16"
+  },
+  {
+    "title": "What’s in my #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=8yvpsWuo3fw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-16"
+  },
+  {
+    "title": "힛지스만의 물보라를 일으켜🐬 | HITGS ON AIR💜 Behind EP.07",
+    "url": "https://www.youtube.com/watch?v=FJ85qPMWkIg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-15"
+  },
+  {
+    "title": "09즈를 바라밤💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=O4eH-3W69Zg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-15"
+  },
+  {
+    "title": "#NOWZ #윤 #시윤 선배님과 We gon’ make a scene 🎬 #나우즈 #YOON #SIYUN #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=e4QIY5gONVU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-15"
+  },
+  {
+    "title": "#NouerA #준표 선배님과 We gon’ make a scene 🎬 #누에라 #JUNPYO #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=RhVMamXDXi0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-15"
+  },
+  {
+    "title": "one and only❣️#HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=J_Mfh2sGABw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-15"
+  },
+  {
+    "title": "#AHOF #차웅기 #장슈아이보 님과 We gon’ make a scene 🎬 #아홉 #WOONGKI #SHUAIBO #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=KKYdCFnRQKQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-14"
+  },
+  {
+    "title": "#WOOAH #나나 선배님과 HITGS의 big big bags💔에는 뭐가 들어 있을나나? #우아 #NANA #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=UVic_7uePws",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-14"
+  },
+  {
+    "title": "없어지지는 않아 💎 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=O_ajXOe2p9Q",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-14"
+  },
+  {
+    "title": "we gon’ make a scene at MUSICCORE 🖤🤍 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=rmNzjl8iobs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-14"
+  },
+  {
+    "title": "HITGS (힛지스) 'CHARIZZMA' MV 리액션",
+    "url": "https://www.youtube.com/watch?v=Bz9buleWNOs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-13"
+  },
+  {
+    "title": "#H1KEY #서이 선배님과 We gon’ make a scene 🎬 #하이키 #SEOI #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=UwRTV78X0uE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-13"
+  },
+  {
+    "title": "we gon’ make a scene at INKIGAYO 🍿 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=eYkEUlndtyI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-13"
+  },
+  {
+    "title": "하트를 그려🎨💗 #HITGS #힛지스 #더시즌즈 #박보검의칸타빌레",
+    "url": "https://www.youtube.com/watch?v=3-T-9Ijuw4U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-13"
+  },
+  {
+    "title": "we gon’ make a scene at CANTABILE 🎼 #HITGS #힛지스 #CHARIZZMA #카리즈마 #더시즌즈 #박보검의칸타빌레",
+    "url": "https://www.youtube.com/watch?v=8MM7Wq5z6wQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-13"
+  },
+  {
+    "title": "RIZZ 🕶️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=0-L4BPuV_0k",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-12"
+  },
+  {
+    "title": "HITGS(힛지스) X MEDIPEEL+ Behind 📸",
+    "url": "https://www.youtube.com/watch?v=Hdp4eT6V2mg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-12"
+  },
+  {
+    "title": "#펭수 선배님과 We gon’ make a scene 🎬 #Pengsoo #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=q4LFMKT73x0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-12"
+  },
+  {
+    "title": "FAMOUS 🕶️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=bfV6Dsv5Q8Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-12"
+  },
+  {
+    "title": "𝖲𝗁𝗈𝗐 𝗆𝖾 𝗐𝗁𝖺𝗍 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=U3X-g4c5e_w",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-12"
+  },
+  {
+    "title": "we gon’ make a scene at MUSICBANK #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=bU4O7T4kwdc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "A day at the Pop-Up🐥 #HITGS #힛지스 #AcquadiParma #아쿠아디파르마",
+    "url": "https://www.youtube.com/watch?v=-NlkNZde_s0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "HITGS(힛지스) ’CHARIZZMA’ Dance Video (MV Fix ver.)",
+    "url": "https://www.youtube.com/watch?v=wTAE1es7lCQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "조ㅇrㅎH..❣️ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=Cwj4NprH47Q",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "And all that ❣️#HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=WlYTyhI_suc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-11"
+  },
+  {
+    "title": "we gon’ make a scene at MCOUNTDOWN ☁️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=A7FzlAJVIsM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-10"
+  },
+  {
+    "title": "CHARIZZMA SIDE-CAM📹 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=nNJvUXVRHpc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-10"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' Performance Music Video",
+    "url": "https://www.youtube.com/watch?v=klo9lCKIVYg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-10"
+  },
+  {
+    "title": "chaR.I.Z.Z.ma💚 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=Tru8U1iywNs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-10"
+  },
+  {
+    "title": "CHARIZZMA 🌊🩵 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=IrT1DJM8nVU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-10"
+  },
+  {
+    "title": "HITGSTORY EP.06 널 초대할게 힛지스 세계로",
+    "url": "https://www.youtube.com/watch?v=hLBquYwUAH4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-09"
+  },
+  {
+    "title": "what’s up?! #HITGS #힛지스 #VV #비비 #SEOJIN #서진 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=1OO_ZoybX5M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-09"
+  },
+  {
+    "title": "high-angle CHARIZZMA #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=ws7bCdI4uCg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-09"
+  },
+  {
+    "title": "𝑗𝑢𝑠𝑡 𝑤𝑎𝑛𝑛𝑎 𝑘𝑖𝑐𝑘 𝑖𝑡 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=8mwB28xeQuA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-09"
+  },
+  {
+    "title": "CHARIZZMA❣️ #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=pP_8VSHEobU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-09"
+  },
+  {
+    "title": "𝑊ℎ𝑎𝑡’𝑠 𝑖𝑛 𝑚𝑦🖤 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=985PzjT8iDI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-08"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' 응원법",
+    "url": "https://www.youtube.com/watch?v=NDWqerYYM-Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-08"
+  },
+  {
+    "title": "━☆ﾟ.*･｡ﾟ҉̛ sᴏᴅᴀ ᴘᴏᴘ🫧 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #kpopdemonhunters",
+    "url": "https://www.youtube.com/watch?v=WaKvG5ae2pE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-08"
+  },
+  {
+    "title": "CHARIZZMA SEOJIN CAM 📹 #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=-RIEXaY9ZbI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-08"
+  },
+  {
+    "title": "𝑰 𝒌𝒏𝒐𝒘 𝒕𝒉𝒂𝒕 𝑰’𝒎 𝑳𝑰𝑻 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=zmWUuBiwPoo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-08"
+  },
+  {
+    "title": "CHARIZZMA🫧 #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=jxCObNJe2vI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-07"
+  },
+  {
+    "title": "Ⓡ.Ⓘ.Ⓩ.Ⓩ #HITGS #힛지스 #VV #비비 #SEOHEE #서희 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=ibSEgsSWXlc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-07"
+  },
+  {
+    "title": "걸음걸이, 표정까지🤍 #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=Izc42SR9iyw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-07"
+  },
+  {
+    "title": "Let me show you☁️🍃  #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=H4GqY0ny8Yo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-07"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' MV",
+    "url": "https://www.youtube.com/watch?v=GGYo0Ya-4xE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-07"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' MV Teaser",
+    "url": "https://www.youtube.com/watch?v=xWWbw9H8z30",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-06"
+  },
+  {
+    "title": "ᴏɴᴇ ᴀɴᴅ ᴏɴʟʏ #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=bSGP9BIZHcY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-05"
+  },
+  {
+    "title": "HITGS(힛지스) Live Clip Band ver. - SOURPATCH+GROSS+청춘찬가",
+    "url": "https://www.youtube.com/watch?v=BvQo1cm_bIE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-03"
+  },
+  {
+    "title": "ʟᴇᴛ ᴍᴇ sʜᴏᴡ ʏᴏᴜ ᴡʜᴀᴛ’s ɪɴ ᴍʏ ʙɪɢ ʙɪɢ ʙᴀɢs #HITGS #힛지스 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=8vQc0rYpJGg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-03"
+  },
+  {
+    "title": "HITGSTORY EP.05 당연 힛지스가 GMG",
+    "url": "https://www.youtube.com/watch?v=eanHjyURwQY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-07-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'CHARIZZMA' TRAILER",
+    "url": "https://www.youtube.com/watch?v=0H9Vdj8TcF8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-30"
+  },
+  {
+    "title": "CHARIZZMA SPOILER #HITGS #힛지스 #SEOHEE #서희 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=5wkIkhCI9v4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-29"
+  },
+  {
+    "title": "힛지스는 HMH✨ LG 시구&시타 비하인드 I HITGSDAY",
+    "url": "https://www.youtube.com/watch?v=nngAE6hgswM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-29"
+  },
+  {
+    "title": "CHARIZZMA SPOILER #HITGS #힛지스 #SEOJIN #서진 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=EaHtE02Ekt4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-28"
+  },
+  {
+    "title": "CHARIZZMA SPOILER #HITGS #힛지스 #VV #비비 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=D5CtbgYQQN8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-27"
+  },
+  {
+    "title": "[HITGSDAY] 지금부터 진실의 방으로 들어가 보겠습니다 ❌대표님 시청 금지❌ | 힛지스의 진실게임🕹️",
+    "url": "https://www.youtube.com/watch?v=CooMVx38Qgk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-27"
+  },
+  {
+    "title": "CHARIZZMA SPOILER #HITGS #힛지스 #IYOO #이유 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=fxfKZzzt5VE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-26"
+  },
+  {
+    "title": "09즈와 함께하는 장마철 | PLAYLIST🎧",
+    "url": "https://www.youtube.com/watch?v=lcAjQjdV8TE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-26"
+  },
+  {
+    "title": "🙌🏻 . ҉*･｡ﾟ ҉*:.｡💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=m_wO_hQD2Z0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-26"
+  },
+  {
+    "title": "CHARIZZMA SPOILER #HITGS #힛지스 #HYERIN #혜린 #CHARIZZMA #카리즈마",
+    "url": "https://www.youtube.com/watch?v=kPbiqpbS5mk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-25"
+  },
+  {
+    "title": "𝕋𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 💛 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=vCHGRfnf8VU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-25"
+  },
+  {
+    "title": "HITGSTORY EP.04 ※승부욕 과다 주의※",
+    "url": "https://www.youtube.com/watch?v=y5aeROz_Fao",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-25"
+  },
+  {
+    "title": "𝗚𝗥𝗢𝗦𝗦💚🍃 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=thUZWnpeCsg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-25"
+  },
+  {
+    "title": "내가 힛지스가 되어볼게 얍✨ | HITGS ON AIR🍒 Behind EP.06",
+    "url": "https://www.youtube.com/watch?v=kU56xS-zYbY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-24"
+  },
+  {
+    "title": "하루 종일 붕 떠있어💛 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=50U8D0GJ16Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-24"
+  },
+  {
+    "title": "짜릿한 이 느낌🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=kBRVWtT2cv0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-24"
+  },
+  {
+    "title": "#KISSOFLIFE #하늘 선배님과 We don’t wanna stop it🍒 #키스오브라이프 #HANEUL #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=qdv_TvQiEYU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-23"
+  },
+  {
+    "title": "˚₊‧ა 🫧 ‧₊˚ #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=Ir7pTgaYE_8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-23"
+  },
+  {
+    "title": "That’s 🍒‼️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=LZ7093V0FkI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-23"
+  },
+  {
+    "title": "𝗧𝗵𝗲 𝗙𝗶𝗻𝗮𝗹 𝗔𝗰𝘁: 𝗚𝗥𝗢𝗦𝗦💛 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=4IKH-bSN5Q4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-22"
+  },
+  {
+    "title": "sweet heart 🤍🪽 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=O6NWhGcalWg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-22"
+  },
+  {
+    "title": "𝐹𝑟𝑜𝑚 𝑙𝑎𝑠𝑡 𝑤𝑒𝑒𝑘. #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=_QsU7RrcOSc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-22"
+  },
+  {
+    "title": "Get that feel 🫧 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=sqT0op3heYA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-21"
+  },
+  {
+    "title": "私だけでしょ？ 💛 #HITGS #힛지스 #VV #비비 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=EiOROOc4bOs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-21"
+  },
+  {
+    "title": "#NOWZ #현빈 #진혁 선배님과 We don’t wanna stop it🍒 #나우즈 #HYEONBIN #JINHYUK #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=GCXxH1lIYC4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-21"
+  },
+  {
+    "title": "🌧️💦☀️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=z22mkRvwcr0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-20"
+  },
+  {
+    "title": "Let’s go #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=UpWAeYke6T8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-20"
+  },
+  {
+    "title": "힛지스와 LG트윈스, We don’t wanna stop it🍒 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=7GRAnb_c7P8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-20"
+  },
+  {
+    "title": "#니나 님과 We don’t wanna stop it🍒 #NINA #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=1PxKVx7NPzE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-20"
+  },
+  {
+    "title": "🧡💛💚💗💙 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=gQf0apZVwgA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-19"
+  },
+  {
+    "title": "-ˋˏ 🍫 𓂂𓈒  ˎˊ- ﻿ #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=xRgip2Y9ATw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-19"
+  },
+  {
+    "title": "#ARTMS #희진 선배님과 We don’t wanna stop it🍒 #아르테미스 #HeeJin #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=Ce6WM6MabOc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-19"
+  },
+  {
+    "title": "너의 favorite💗 #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=oIlrYx13txg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-19"
+  },
+  {
+    "title": "무적LG와 Ooh, I love it🍋🪽 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=oVye40bec6o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "HITGSTORY EP.03 심각한 도파민 중독입니다",
+    "url": "https://www.youtube.com/watch?v=9Fsg7jejBtM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "Make me🖤💗 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=oF800lLFe7g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "Selfie #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=oPT61awYoBM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "((💗💛)) #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=szBTcIFHjGs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-18"
+  },
+  {
+    "title": "GROSS‼️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=Jw88oAE7-oY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-17"
+  },
+  {
+    "title": "힛지스와 함께 낭만 한 스푼 어떠세요? 🌸 | HITGS ON AIR🍒 Behind EP.05",
+    "url": "https://www.youtube.com/watch?v=TY7SNjXOBVc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-17"
+  },
+  {
+    "title": "#ATEEZ #성화 선배님과 We don’t wanna stop it🍒 #에이티즈 #SEONGHWA #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=JtwJvFrUsVA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-17"
+  },
+  {
+    "title": "사진들 몰래 훔쳐보다가 “💗”  #HITGS #힛지스 #IYOO #이유 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=j4DdZDCO3m4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-17"
+  },
+  {
+    "title": "𝒜𝓃𝒹 ℐ 𝓌𝒶𝓈 𝓁𝒾𝓀ℯ… 🤍❤️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=2Kbyy22hObs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-17"
+  },
+  {
+    "title": "GROSS in Colors 🎨 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=w-uAfvHN1dM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-16"
+  },
+  {
+    "title": "#izna #최정은 #정세비 선배님과 We don’t wanna stop it🍒 #이즈나 #CHOIJUNGEUN #JEONGSAEBI #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=GgNwcG2sKDA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-16"
+  },
+  {
+    "title": "ℎ𝑜𝑡 𝑖𝑠𝑠𝑢𝑒❤️‍🔥 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=eMOkLOh80iA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-16"
+  },
+  {
+    "title": "⚡️⚡️ #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=avYJUqrOvLk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-16"
+  },
+  {
+    "title": "blueming GROSS 🩵💙 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=BdnKAxbHw-Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-15"
+  },
+  {
+    "title": "after-school ☀️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=8A2CnjL6gBI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-15"
+  },
+  {
+    "title": "HITGS(힛지스) ’GROSS’ Melody in Open Air💗",
+    "url": "https://www.youtube.com/watch?v=3xco9dXUfg8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-15"
+  },
+  {
+    "title": "Bang Bang ❤️‍🔥 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=XGC8U8CQ8hA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-15"
+  },
+  {
+    "title": "checkmate HITGS❤️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=ECcMAdSNMjQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-15"
+  },
+  {
+    "title": "𐔌՞⁔ෆ  ̫ ෆ⁔՞𐦯 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=uSjEMo1uY_M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-14"
+  },
+  {
+    "title": "#USPEER #다온 님과 We don’t wanna stop it🍒 #유스피어 #DAON #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=k6erADXneoo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-14"
+  },
+  {
+    "title": "너의 favorite🍒 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=_Y7XvMJsrlM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-14"
+  },
+  {
+    "title": "Ⓢⓣⓐⓖⓔ Ⓒⓛⓔⓐⓡ 🎮 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=SMGsk3o5KD4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-13"
+  },
+  {
+    "title": "#CLOSEYOUREYES #장여준 선배님과 We don’t wanna stop it🍒 #클로즈유어아이즈 #JANGYEOJUN #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=xB9tWvZzoE0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-13"
+  },
+  {
+    "title": "너만 보게 돼 💗 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=lhwel1EtbYw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-13"
+  },
+  {
+    "title": "1,2,3 GROSS 🤍 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=0UFUwImgibI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-13"
+  },
+  {
+    "title": "HITGS(힛지스) ’GROSS’ Dance Video (School Look ver.)",
+    "url": "https://www.youtube.com/watch?v=r-HOke_3onQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-12"
+  },
+  {
+    "title": "#CRAVITY #형준 선배님과 We don’t wanna stop it🍒 #크래비티 #HYEONGJUN #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=q8dMJRoz05c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-12"
+  },
+  {
+    "title": "𝐶ℎ𝑖𝑙𝑙 #HITGS #힛지스#SEOJIN #서진 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=jnbCLkf8Aws",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-12"
+  },
+  {
+    "title": "네가 좋아하는 노래 That's gross!😝 | HITGS ON AIR🍒 Behind EP.04",
+    "url": "https://www.youtube.com/watch?v=KHWQBs9FyuU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-11"
+  },
+  {
+    "title": "Today GROSS 🎡🍒💞 #HITGS #힛지스#GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=g742RkLcmPY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-11"
+  },
+  {
+    "title": "HITGSTORY EP.02 리얼 허거덩거덩스한 상황",
+    "url": "https://www.youtube.com/watch?v=96sj0rXzJQE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-11"
+  },
+  {
+    "title": "#IVE #이서 선배님과 We don’t wanna stop it🍒 #아이브 #LEESEO #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=taZ8RM6q47Q",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-11"
+  },
+  {
+    "title": "💗하또하또💗 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=m81MF5uq9Jo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-11"
+  },
+  {
+    "title": "GROSS played at …🫧 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=6onfS616KDI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-10"
+  },
+  {
+    "title": "🐥🐥🐥 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=GEl635aGHTs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-10"
+  },
+  {
+    "title": "𝑰 𝒍𝒐𝒗𝒆 🩵 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=lOImBYeWld0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-10"
+  },
+  {
+    "title": "HITGS(힛지스) X COSMOPOLITAN MAGAZINE Behind 📸",
+    "url": "https://www.youtube.com/watch?v=WvKDEFpqM_4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-09"
+  },
+  {
+    "title": "Ⓖⓔⓣ ⓣⓗⓐⓣ ⓕⓔⓔⓛ ⓐⓦⓐⓨ ⓕⓡⓞⓜ ⓜⓔ 💗 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=l-puB8yU7EM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-09"
+  },
+  {
+    "title": "#KIIRAS #링링 #쿠루미 님과 We don’t wanna stop it🍒 #키라스 #LingLing #Kurumi #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=gf_2XoXcJds",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-09"
+  },
+  {
+    "title": "📁 BEHIND NO.0531 ⚽️ #HITGS #힛지스 #2025황희찬풋볼페스티벌",
+    "url": "https://www.youtube.com/watch?v=mKyPvfzH9k0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-09"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' M/V Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=ZZCIBGXmc_Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-08"
+  },
+  {
+    "title": "자꾸 아파 머리💗🤯 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=vdyNbrQjooI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-08"
+  },
+  {
+    "title": "𝑸𝒖𝒆𝒆𝒏🎀 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=XSolWZysOpA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-08"
+  },
+  {
+    "title": "급 표정관리..💛 #HITGS #힛지스  #IYOO #이유 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=SPd-Q6AL_mA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-07"
+  },
+  {
+    "title": "🧡💛💚💗🩵 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=MBfpKecOh4g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-07"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' Dance Video (MV Fix ver.)",
+    "url": "https://www.youtube.com/watch?v=csJG-pe2CLI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-07"
+  },
+  {
+    "title": "이유가 체리인 이유🍒 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=aVbDUtQT8mM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-07"
+  },
+  {
+    "title": "YOUTH 🫧 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=5cyOLIiflrY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-07"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' Performance Music Video",
+    "url": "https://www.youtube.com/watch?v=l9hmWwsDrvA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-06"
+  },
+  {
+    "title": "💢 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=4J-z1XjuanE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-06"
+  },
+  {
+    "title": "what is wrong with me? #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=2QRriIfFGi8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-06"
+  },
+  {
+    "title": "𝐼 𝑑𝑜𝑛’𝑡 𝑤𝑎𝑛𝑛𝑎 𝑠𝑡𝑜𝑝 𝑖𝑡💗 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=k0W7LnQkHng",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-05"
+  },
+  {
+    "title": "HITGS (힛지스) 'GROSS' MV 리액션",
+    "url": "https://www.youtube.com/watch?v=N7HH32a6FiA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-05"
+  },
+  {
+    "title": "HITGS FEELS💗 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=6UkY8eWL0ms",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-04"
+  },
+  {
+    "title": "𝖯𝗅𝖺y̆̈ 𝖺𝗀𝖺𝗂𝗇 𝖺𝗀𝖺𝗂𝗇🎧 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=UraZhXcZfG0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-04"
+  },
+  {
+    "title": "HITGSTORY EP.01 힛지스 스쿨에 온 걸 환영해",
+    "url": "https://www.youtube.com/watch?v=TswcMGmqb98",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-04"
+  },
+  {
+    "title": "GROSS 🌟#HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=uU7cWy0n2J4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-04"
+  },
+  {
+    "title": "HAPPY VV DAY🤍#HITGS #힛지스#VV #비비#HAPPY_VV_DAY",
+    "url": "https://www.youtube.com/watch?v=_APSEGy9dK0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-04"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' 응원법",
+    "url": "https://www.youtube.com/watch?v=LJMTGpBmBcY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-03"
+  },
+  {
+    "title": "on my phone📱🤍 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=FUbNv8dIoEs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-03"
+  },
+  {
+    "title": "Scene No. GROSS 🎬 #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=VPUFeBCMPC0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-03"
+  },
+  {
+    "title": "\"Like💗\" #HITGS #힛지스 #VV #비비 #HYERIN #혜린 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=MxJJsA37h54",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-03"
+  },
+  {
+    "title": "+｡.ℍ𝕀-𝕘𝕙𝕥𝕖𝕖𝕟.｡+ﾟ☁️ #HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=Efx-00HeMWs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-02"
+  },
+  {
+    "title": "🐥 ʟᴏᴠᴇʟɪᴇs 🐶 #HITGS #힛지스 #SEOHEE #서희 #IYOO #이유 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=Nsf--ctdNx0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-02"
+  },
+  {
+    "title": "Lovey-dovey💗 #HITGS #힛지스  #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=vm9zTTgRSLA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' MV",
+    "url": "https://www.youtube.com/watch?v=HcJUfVPvU4Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-02"
+  },
+  {
+    "title": "HITGS 'GROSS' MV OUT NOW!https://youtu.be/HcJUfVPvU4Y#HITGS #힛지스 #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=DVMk8Y-i8Ek",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-02"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' MV Teaser",
+    "url": "https://www.youtube.com/watch?v=2Ec3AvCKREU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-06-01"
+  },
+  {
+    "title": "제일 좋아하는 노래 𝗧𝗵𝗮𝘁’𝘀 𝗚𝗥𝗢𝗦𝗦 🍒 1st Digital Single  【GROSS】 ➫ 2025.06.02 6PM(KST) #HITGS #GROSS",
+    "url": "https://www.youtube.com/watch?v=S7fSBSGmVjQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-31"
+  },
+  {
+    "title": "[Hit-log] “그리고 그때의 믿음이 되게 컸어!” | 09즈의 우정로그✨",
+    "url": "https://www.youtube.com/watch?v=bbIgvEtsj0c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-29"
+  },
+  {
+    "title": "HITGS 때메 자꾸 아파, 머리 🫠💗 The 1st Digital Single  【GROSS】 ➫ 2025.06.02 6PM (KST) #HITGS #GROSS #그로스",
+    "url": "https://www.youtube.com/watch?v=cdatMvAbBZg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-29"
+  },
+  {
+    "title": "📂일일 알바 힛지스.zip #HITGS #힛지스 #태극당",
+    "url": "https://www.youtube.com/watch?v=cFSjuhIZKXs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-29"
+  },
+  {
+    "title": "Let's go HITGS with 동의대 🍋 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=PSulFjayLfE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-28"
+  },
+  {
+    "title": "HITGS(힛지스) 'GROSS' TRAILER",
+    "url": "https://www.youtube.com/watch?v=nD4BPituV3M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-26"
+  },
+  {
+    "title": "HITGS(힛지스) ‘Things we love : H’ Showcase Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=EPBJexh92jM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-25"
+  },
+  {
+    "title": "#tripleS #서연 #지연 #린 선배님과 Ooh, I love it🍋🤍#트리플에스 #SeoYeon #JiYeon #Lynn #HITGS #힛지스 #SOURPATCH",
+    "url": "https://www.youtube.com/watch?v=nTLJXqDF5i4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-25"
+  },
+  {
+    "title": "[HITGSong🎤] 한 번뿐인 이 모험을 겁내진 않아! #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=XPoVZdEROUA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-24"
+  },
+  {
+    "title": "[HITGSong🎤] 청춘만화 - 이무진 I Covered by 서희(SEOHEE)",
+    "url": "https://www.youtube.com/watch?v=W2yPHwwwR-0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-24"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : H' M/V Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=mfSFApEGEWc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-24"
+  },
+  {
+    "title": "𝑳𝒐𝒐𝒌 𝒂𝒕 𝒎𝒆 𝒏𝒐𝒘🖤 #HITGS #힛지스 #SEOJIN #서진 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=G0YVPU9d4Ys",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-24"
+  },
+  {
+    "title": "비비랑 서희랑 🥯🤎 #HITGS #힛지스 #VV #비비 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=E8ZOUjE3YZ0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-23"
+  },
+  {
+    "title": "I like to eat🍪🍦💗 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=1PH1m7PQ82k",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-22"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : H' Jacket Behind The Scenes",
+    "url": "https://www.youtube.com/watch?v=7cI6E42xCf8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-22"
+  },
+  {
+    "title": "*✧･ﾟ: *슈가슈가룬 💎:･ﾟ✧･ﾟ✧*  #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=QKgKIj-s93s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-22"
+  },
+  {
+    "title": "HITGS(힛지스) 'SOURPATCH' Dance Practice Animal ver (🐰🐑🐶🐈‍⬛🐥)",
+    "url": "https://www.youtube.com/watch?v=MZkoq9_N-7g",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-21"
+  },
+  {
+    "title": "HITGS zoo🐾 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=jbpT2Y2Pv64",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-21"
+  },
+  {
+    "title": "멍냥 09즈🐾 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=GGPr8iswl0c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-21"
+  },
+  {
+    "title": "Rum Pum Pum Pum💗 #HITGS #힛지스  #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=-b8AaMR2QzI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-21"
+  },
+  {
+    "title": "𝑴𝒆𝒐𝒘 📸 #HITGS #힛지스 #NeverBeMe #네버비미",
+    "url": "https://www.youtube.com/watch?v=3kOtTrK5hZ4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-20"
+  },
+  {
+    "title": "온통 내 머릿속 힛지스가 떠다녀❣️ I HITGS ON AIR🍋 Behind EP. 03",
+    "url": "https://www.youtube.com/watch?v=N5i6tU6T6Aw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-20"
+  },
+  {
+    "title": "#DKZ #재찬 선배님과 Ooh, I love it🍋🤍 #디케이지 #JAECHAN #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=z80oWHg32dQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-20"
+  },
+  {
+    "title": "𝑪𝒂𝒑𝒑𝒖𝒄𝒄𝒊𝒏𝒂 ☕️ #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=cQ3EYtrk4Yo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-19"
+  },
+  {
+    "title": "ᴀɴɪᴍᴀʟ sᴏᴜʀᴘᴀʀᴄʜ ꒰ ⑅˃̵o˂̵⑅ ꒱ #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=uvKtQ5Sb2QA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-19"
+  },
+  {
+    "title": "#tripleS #신위 선배님과 Ooh, I love it🍋🤍 #트리플에스 #Xinyu #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=_a625KytWPg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-19"
+  },
+  {
+    "title": "#사무엘 선배님과 Ooh, I love it🍋🤍 #samuel #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=ZaG2jOx4C90",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-19"
+  },
+  {
+    "title": "🍋 𝑺𝑶𝑼𝑹𝑷𝑨𝑻𝑪𝑯 𝑭𝒊𝒏𝒂𝒍𝒆 🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=UjfILcfVdsQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "#tripleS #마유 #코토네 선배님과 Ooh, I love it🍋🤍 #트리플에스 #Mayu #Kotone #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=WRm3QmK9Y24",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "ᴛʜᴇ ғᴀsᴛᴇʀ, ᴛʜᴇ ᴄᴜᴛᴇʀ sᴏᴜʀᴘᴀʀᴄʜ (ᴀɴɪᴍᴀʟ.ᴠᴇʀ) ꒰◡̈ ꒱◡̈ ꒱◡̈ ꒱◡̈ ꒱◡̈ ꒱ #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=8UzL7TgCwLE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "𝑆𝑝𝑒𝑎𝑘 𝐴𝑛𝑦𝑚𝑜𝑟𝑒 💗 #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=3cNkdL-VbjQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "모찌의 정석 : 서희 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=59JO0xxX9wA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-18"
+  },
+  {
+    "title": "SOURPATCH blooms🌸 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=DOR0Zc5uvjE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-17"
+  },
+  {
+    "title": "who stole SOURPATCH?🤔 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=xpAkFMyC37Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-17"
+  },
+  {
+    "title": "IYOO’s second musicbank OOTD 🤍 #HITGS #힛지스 #IYOO #이유 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=arqKMGrEExY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-17"
+  },
+  {
+    "title": "#WOOAH #나나 #우연 선배님과 Ooh, I love it🍋🤍 #우아 #NANA #WOOYEON #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=kRF3jUVAagI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-17"
+  },
+  {
+    "title": "Let's go HITGS with 서강대 🍋 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=rKTvxkLtXZE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-16"
+  },
+  {
+    "title": "HITGS(힛지스) X Betty Boop AD Behind 📸",
+    "url": "https://www.youtube.com/watch?v=eRou8JP1iEc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-16"
+  },
+  {
+    "title": "ɢɪʀʟs ᴏғ ᴛʜᴇ sᴏᴜʀᴘᴀᴛᴄʜ 🌳 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=lSSjFGX8bEo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-16"
+  },
+  {
+    "title": "𝐻𝐼𝑇𝐺𝑆 𝑖𝑠 𝑎𝑙𝑤𝑎𝑦𝑠 𝑠𝑢𝑛𝑛𝑦 ☀️💛 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=2WcnORfbPw4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-16"
+  },
+  {
+    "title": "draw HITGS SOURPATCH 🎨 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=WZUM8in0f4I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-16"
+  },
+  {
+    "title": "HITGS(힛지스) X L’OFFICIEL Magazine Behind 📸",
+    "url": "https://www.youtube.com/watch?v=qHQ86pvaFOY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-15"
+  },
+  {
+    "title": "SEOHEE’s second musicbank OOTD 🤍 #HITGS #힛지스 #SEOHEE #서희 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=g5sX0ypJpBE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-15"
+  },
+  {
+    "title": "ᴼᴼᴴ,ᴵ ᴸᴼᵛᴱ ᴵᵞᴼᴼ🐥 #HITGS #힛지스 #IYOO #이유 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=_17-11528fU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-15"
+  },
+  {
+    "title": "♡〜٩( ˃́▿˂̀ )۶〜♡ .+:｡ #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=Eo9Yfkw1aPA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-14"
+  },
+  {
+    "title": "HITGS ver. Countdown! BTS 🎬 #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=1CYcN7A8cs0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-14"
+  },
+  {
+    "title": "*✧･ﾟ:* 𝕃𝕠𝕧𝕖 𝕞𝕖 𝕥𝕠𝕠💗 *:･ﾟ✧* #HITGS #힛지스 #VV #비비 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=4KPjZwJl3uo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-14"
+  },
+  {
+    "title": "𝖿𝗋𝖾𝖺𝗄 𝖮𝖴𝖳⚡️#HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=rVWkH9OS2-c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-14"
+  },
+  {
+    "title": "Outfit Check ✔️ #HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=ljBmHttvt9I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-14"
+  },
+  {
+    "title": "서희야 생일 축하해🎂 I HITGS ON AIR🍋 Behind EP. 02",
+    "url": "https://www.youtube.com/watch?v=B1zO7Zn0IqE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-13"
+  },
+  {
+    "title": "#YOUNGPOSSE #정선혜 선배님과 Ooh, I love it🍋🤍 #영파씨 #SUNHYE #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=EWQyfClb_ng",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-13"
+  },
+  {
+    "title": "focus on HITGS📸 #HITGS #힛지스 #NeverBeMe #네버비미",
+    "url": "https://www.youtube.com/watch?v=7ktTABpWEPg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-13"
+  },
+  {
+    "title": "𝘚𝘩𝘩𝘩..! #HITGS #힛지스 #HYERIN #혜린 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=UU72gxJK3r8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-13"
+  },
+  {
+    "title": "HEARTBEAT 511BPM❤️‍🔥 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=QCvvD_zlky4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-13"
+  },
+  {
+    "title": "Ooh, I love it🍬🍪🧃🍋 #HITGS #힛지스 #VV #비비",
+    "url": "https://www.youtube.com/watch?v=V4tt5fGbo0k",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-12"
+  },
+  {
+    "title": "ʜᴇᴀʀᴛ ᴡɪᴛʜ ᴇᴍᴏᴛɪᴏɴ❣️#HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=AOuJy3ZYwn0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-12"
+  },
+  {
+    "title": "IYOO’s first music bank OOTD 💙 #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=eUsEbBpmDic",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-12"
+  },
+  {
+    "title": "all eyes on HITGS💛 #HITGS #힛지스 #NeverBeMe #네버비미",
+    "url": "https://www.youtube.com/watch?v=B4bmLUVHDhg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-12"
+  },
+  {
+    "title": "𖧷.◦ HAPPY SEOHEE DAY🐶◦.𖧷 #HITGS #힛지스#SEOHEE #서희#HAPPY_SEOHEE_DAY",
+    "url": "https://www.youtube.com/watch?v=5XVFnY4Gjrg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "할 수 있어..! 긴장 하지마..!!🥺 I HITGS ON AIR🍋 Behind EP. 01",
+    "url": "https://www.youtube.com/watch?v=snzMRSH4eRU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "#NEXZ #유키 선배님과 Ooh, I love it🍋🤍 #넥스지 #YUKI #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=kWyTsZW4IKk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "a scoop of HITGS SOURPARCH🍬 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Kb3Ng67Fq2c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "ᴼᴼᴴ, ᴵ ᴸᴼᵛᴱ ˢᴱᴼᴶᴵᴺ..💙 #HITGS #힛지스 #SEOJIN #서진",
+    "url": "https://www.youtube.com/watch?v=QsU4MECTxVM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "💛🖤 #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=S_7ColJ23xA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-11"
+  },
+  {
+    "title": "paint a SOURPATCH HITGS🩵 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=kMUj66UYuwE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "Never Be Me 🤍 #The_First #HITGS #힛지스 #NeverBeMe #네버비미",
+    "url": "https://www.youtube.com/watch?v=VxJ2EiIp08M",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "HITGS L’OFFICIEL Behind pre 🎥#HITGS #힛지스",
+    "url": "https://www.youtube.com/watch?v=Am8yeCxlkV0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "#P1Harmony #테오 #소울 선배님과 Ooh, I love it🍋🤍 #피원하모니 #P1H #THEO #SOUL #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=_hvvEy-hDjc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "♾️🐈‍⬛ #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=dOBZHqIpSWw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "#링 선생님과 Ooh, I love it🍋🤍 #LING#HITGS #힛지스#SOURPATCH #사워패치 #JAMREPUBLIC",
+    "url": "https://www.youtube.com/watch?v=szfEiR5UCwk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-10"
+  },
+  {
+    "title": "pure SOURPATCH 🤍 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=IXpLb_ALfOw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-09"
+  },
+  {
+    "title": "HITGS M/V Behind pre 🎥 #HITGS #힛지스 #ThingsWeLove_H #TWL_H #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=9t_fBvYknec",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-09"
+  },
+  {
+    "title": "kawaiIYOO ʚ(•Θ•)ɞ #HITGS #힛지스 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=K5_mxwfOwZg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-09"
+  },
+  {
+    "title": "ᴏᴏʜ, ɪ ʟᴏᴠᴇ ʜʏᴇʀɪɴ..💛 #HITGS #힛지스 #HYERIN #혜린 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Hd0kJQmuMkE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-09"
+  },
+  {
+    "title": "HITGS(힛지스) 'SOURPATCH' Performance Music Video",
+    "url": "https://www.youtube.com/watch?v=_azqN2ExObE",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "HITGS ON AIR pre 🎥 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Eiqy-iAVLQ0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "waves of SOURPATCH 🌊 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=IpnVNAfBEGI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "my heartbeat ( ˃̶͈ ▿ ˂̶͈ )💙 #HITGS #힛지스 #SEOHEE #서희 #HYERIN #혜린 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=g-4Dt-fSnr8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "はい!🍫🍓🍦 #HITGS #힛지스 #SEOJIN #서진 #SEOHEE #서희 #IYOO #이유",
+    "url": "https://www.youtube.com/watch?v=J6fh4aWoW5I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-08"
+  },
+  {
+    "title": "HITGS(힛지스) 'HITGS BOX' UNBOXING",
+    "url": "https://www.youtube.com/watch?v=62_BfjzmxdM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "#문성현 선배님과 Ooh, I love it🍋🤍#MoonSeongHyun#HITGS #힛지스#SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=nzZZp2AG1rw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "かわいい ˚ʚ♡ɞ˚ #HITGS #힛지스 #SEOHEE #서희",
+    "url": "https://www.youtube.com/watch?v=-DbXZhDNZII",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "Blueming HITGS💙 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=e-pVqXpE-v8",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "Sunny day☀️✨🤍 #HITGS #힛지스 #HYERIN #혜린 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=mZhPj7TMvtU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-07"
+  },
+  {
+    "title": "#IVE #이서 선배님과 Ooh, I love it🍋🤍 #아이브 #LEESEO #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=gDeK6XXhQDQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "HITGS(힛지스) ’SOURPATCH’ Dance Video (MV Fix ver.)",
+    "url": "https://www.youtube.com/watch?v=UGSo_Wy0m6E",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "#FIFTYFIFTY #아테나 선배님과 Ooh, I love it🍋🤍 #피프티피프티 #ATHENA #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Z_azUYFmhQg",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "#CLOSEYOUREYES #전민욱 #마징시앙 선배님과 Ooh, I love it🍋 #JEONMINWOOK #MAJINGXIANG #HITGS #힛지스 #SOURPATCH",
+    "url": "https://www.youtube.com/watch?v=9llvKqvCZSA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "sugar-dusted SOURPATCH🍭🍬 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=AnYbRYquJHM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-06"
+  },
+  {
+    "title": "#TWS #지훈 선배님과 Ooh, I love it🍋🤍 #투어스 #JIHOON#HITGS #힛지스#SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Dv7lhPxv4oQ",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-05"
+  },
+  {
+    "title": "#UNIS #젤리당카 #엘리시아 선배님과 Ooh, I love it🍋🤍 #유니스 #GEHLEE #ELISIA #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=bNPUoBdIw8Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-05"
+  },
+  {
+    "title": "the sweetest of all SOURPATCH💛 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=NmB9KmE_NWA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-05"
+  },
+  {
+    "title": "#82MAJOR #남성모 선배님과 Ooh, I love it🍋🤍 #82메이저 #에이티투메이저 #NAMSEOUNGMO#HITGS #SOURPATCH",
+    "url": "https://www.youtube.com/watch?v=cWcb2fIYDUc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-04"
+  },
+  {
+    "title": "#CHUU #츄 선배님과 Ooh, I love it🍋🤍#HITGS #힛지스#SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=pfbqdXoVTp0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-03"
+  },
+  {
+    "title": "#NCTWISH #사쿠야 선배님과 Ooh, I love it🍋🤍 #엔시티위시 #SAKUYA #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=aYiePUAfoqY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-03"
+  },
+  {
+    "title": "color code : #HITGSblue💙 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=a4pBWlzNHQ0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-02"
+  },
+  {
+    "title": "#BOYNEXTDOOR #명재현 선배님과 Ooh, I love it🍋🤍 ​⁠​⁠​#JAEHYUN #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=OrJox7zjS1s",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-01"
+  },
+  {
+    "title": "#ZEROBASEONE #성한빈 선배님과 Ooh,I love it🍋🤍 #제로베이스원 #SUNGHANBIN #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=axfNowUIjNw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-01"
+  },
+  {
+    "title": "HITGS (힛지스) The 1st Single 【Things we love : H】 SOURPATCH MV 리액션",
+    "url": "https://www.youtube.com/watch?v=2fOFtyAiH1k",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-01"
+  },
+  {
+    "title": "#CRAVITY #정모 #원진 선배님과 Ooh, I love it🍋🤍 #크래비티 #JUNGMO #WONJIN#HITGS #힛지스#SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=I87wxVf37TY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-05-01"
+  },
+  {
+    "title": "tropical-flavored SOURPATCH 🏝️ #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=lPr0Nfitupo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-30"
+  },
+  {
+    "title": "crisp SOURPATCH🍋 #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=8SjPH6nwRMc",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-30"
+  },
+  {
+    "title": "HITGS (힛지스) The 1st Single 【Things we love : H】 SOURPATCH 응원법",
+    "url": "https://www.youtube.com/watch?v=tV3cM1hahtM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-29"
+  },
+  {
+    "title": "DEBUT SOURPATCH❣️ #HITGS #힛지스 #SOURPATCH #사워패치",
+    "url": "https://www.youtube.com/watch?v=Xgma16NB2p0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-29"
+  },
+  {
+    "title": "HITGS(힛지스) 'SOURPATCH' MV",
+    "url": "https://www.youtube.com/watch?v=y438mzlXS4c",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-28"
+  },
+  {
+    "title": "HITGS(힛지스) 'SOURPATCH' MV Teaser 2",
+    "url": "https://www.youtube.com/watch?v=LMsHlzZIG_Y",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-27"
+  },
+  {
+    "title": "HITGS(힛지스) 'SOURPATCH' MV Teaser 1",
+    "url": "https://www.youtube.com/watch?v=zNNZKfzniV0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-26"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ MOOD FILM",
+    "url": "https://www.youtube.com/watch?v=YYK7_x9P1jk",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-25"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ MOOD FILM",
+    "url": "https://www.youtube.com/watch?v=l2DKSj_8lR4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-24"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ MOOD FILM",
+    "url": "https://www.youtube.com/watch?v=_sRwceQCIBY",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-23"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ MOOD FILM",
+    "url": "https://www.youtube.com/watch?v=hA8OAxoggI4",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-22"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ MOOD FILM",
+    "url": "https://www.youtube.com/watch?v=zrAhAkbfoVM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-21"
+  },
+  {
+    "title": "HITGS(힛지스) 'Things we love : H' TRAILER",
+    "url": "https://www.youtube.com/watch?v=tcuqfm_M9Qw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-20"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=Atk2_xSe24I",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-19"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=zQ0p-JKmH7o",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-19"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=XCj_U1gj6mA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-18"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=cGOcvK-xrdM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-17"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=Ss9t3XlTLaM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-16"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=GaYivX-Ters",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-15"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #03",
+    "url": "https://www.youtube.com/watch?v=8ZMWvnLznyU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-14"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=lBFan7frvvA",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-13"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=o5jpJkn7jqw",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-13"
+  },
+  {
+    "title": "HITGS(힛지스) ’Things we love : H’ Concept Film (Blue Ver.)",
+    "url": "https://www.youtube.com/watch?v=ZCam-Kpj-Ss",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-13"
+  },
+  {
+    "title": "HITGS(힛지스) ’Things we love : H’ Concept Film (White Ver.)",
+    "url": "https://www.youtube.com/watch?v=pPC95ProJL0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-13"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=2kNaCSR0JGU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-11"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=bSQU7znC3jM",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-10"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=2_Cc5Bc51Y0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-09"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=BC6wwB9iFG0",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-08"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #02",
+    "url": "https://www.youtube.com/watch?v=d_Yhw00suMo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-07"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #01",
+    "url": "https://www.youtube.com/watch?v=CabUZVY_T_w",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-06"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #01",
+    "url": "https://www.youtube.com/watch?v=yO14jgzJDBU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-05"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #01",
+    "url": "https://www.youtube.com/watch?v=uuhrpsImTFs",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-04"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #01",
+    "url": "https://www.youtube.com/watch?v=dA0nC6mrX_U",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-03"
+  },
+  {
+    "title": "HITGS ’Things we love : H’ Concept Film #01",
+    "url": "https://www.youtube.com/watch?v=CKTXTPAcRYo",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-04-02"
+  },
+  {
+    "title": "HITGS(힛지스) Official Logo Motion",
+    "url": "https://www.youtube.com/watch?v=vsU5e-I6iLI",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-03-31"
+  },
+  {
+    "title": "HITGS Official Logo Motion",
+    "url": "https://www.youtube.com/watch?v=9SJ_AQVxBuU",
+    "year": "2025",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2025-03-31"
+  }
+];
