@@ -164,6 +164,8 @@ def main():
                 )
                 else "VIDEO"
             )
+            
+            video["isLive"] = video_id in live_video_ids
 
     # 기존에 수동 등록한 다른 카테고리 영상 유지
     existing_videos = []
