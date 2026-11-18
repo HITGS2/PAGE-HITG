@@ -1132,6 +1132,39 @@ body {
   }
 }
 
+/* DISCORD SIDEBAR BUTTON */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > .footer {
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+.discord-button {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 9px;
+  background: #5865F2;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.discord-button:hover {
+  background: #4752C4;
+  transform: translateY(-2px);
+}
+
 </style>
 </head>
 
@@ -1230,7 +1263,12 @@ body {
     Made by Youtube Channel<br>
     '혜린이좋아하겠습니다'
   </div>
-
+<a href="https://discord.gg/86G4Er23qZ"
+   class="discord-button"
+   target="_blank"
+   rel="noopener noreferrer">
+  Discord
+</a>
 </aside>
 
 <!-- MAIN CONTENT -->
