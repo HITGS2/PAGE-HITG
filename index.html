@@ -510,6 +510,103 @@ a {
     width: 100%;
   }
 }
+  
+/* ==================================
+   PAGE:HITG DESIGN UPDATE 01
+================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: "Manrope", "Noto Sans KR", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo,
+.hero h1,
+.page-heading h1 {
+  font-family: "DM Sans", "Noto Sans KR", sans-serif;
+}
+
+/* HEADER */
+.header {
+  box-shadow: 0 2px 18px rgba(0,0,0,.025);
+}
+
+.logo {
+  transition: opacity .2s ease;
+}
+
+.logo:hover {
+  opacity: .55;
+}
+
+/* SIDEBAR */
+.nav-item {
+  border-radius: 8px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.sub-item {
+  transition: color .2s ease, padding-left .2s ease;
+}
+
+.sub-item:hover {
+  padding-left: 18px;
+}
+
+/* HOME */
+.hero h1 {
+  font-weight: 900;
+}
+
+.home-card {
+  border: 1px solid #ededed;
+  border-radius: 12px;
+  transition: transform .25s ease,
+              background .25s ease,
+              box-shadow .25s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-5px);
+  background: #f9f9f9;
+  box-shadow: 0 14px 35px rgba(0,0,0,.055);
+}
+
+/* VIDEO */
+.search-box,
+.year-select {
+  border-radius: 8px;
+  transition: border-color .2s ease;
+}
+
+.search-box:focus,
+.year-select:focus {
+  border-color: #111;
+  outline: none;
+}
+
+/* VIDEO CARDS */
+.thumbnail {
+  border-radius: 9px;
+}
+
+.card h3 {
+  transition: color .2s ease;
+}
+
+.card a:hover h3 {
+  color: #777;
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}
 </style>
 </head>
 
