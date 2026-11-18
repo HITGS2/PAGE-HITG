@@ -1046,6 +1046,55 @@ const search = document.getElementById("videoSearch");
 const yearFilter = document.getElementById("yearFilter");
 const emptyMessage = document.getElementById("emptyMessage");
 
+/* MULTI SELECT FILTERS */
+
+const selectedTypes = new Set();
+const selectedMembers = new Set();
+
+document.querySelectorAll("#videoTypeFilters .type-filter")
+  .forEach(button => {
+    button.addEventListener("click", () => {
+      const type = button.dataset.type;
+
+      if (type === "ALL") {
+        selectedTypes.clear();
+      } else if (selectedTypes.has(type)) {
+        selectedTypes.delete(type);
+      } else {
+        selectedTypes.add(type);
+      }
+
+      document.querySelectorAll("#videoTypeFilters .type-filter")
+        .forEach(item => {
+          item.classList.toggle(
+            "active",
+            item.dataset.type === "ALL"
+              ? selectedTypes.size === 0
+              : selectedTypes.has(item.dataset.type)
+          );
+        });
+
+      renderVideos();
+    });
+  });
+
+document.querySelectorAll("#memberFilters .type-filter")
+  .forEach(button => {
+    button.addEventListener("click", () => {
+      const member = button.dataset.member;
+
+      if (selectedMembers.has(member)) {
+        selectedMembers.delete(member);
+      } else {
+        selectedMembers.add(member);
+      }
+
+      button.classList.toggle("active", selectedMembers.has(member));
+
+      renderVideos();
+    });
+  });
+
 // CATEGORY
 
 function selectCategory(category, button) {
