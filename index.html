@@ -641,6 +641,69 @@ body {
   }
 }
 
+/* VIDEO TYPE FILTERS */
+
+.video-type-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin: 20px 0 24px;
+}
+
+.type-filter {
+  border: 1px solid transparent;
+  background: #f0f0f2;
+  color: #333;
+  padding: 10px 17px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background .2s, border-color .2s;
+}
+
+.type-filter:hover {
+  background: #e5e5e8;
+}
+
+.type-filter.active {
+  background: #fff;
+  border-color: #111;
+  color: #111;
+}
+
+@media (max-width: 650px) {
+  .video-type-filters {
+    gap: 6px;
+  }
+
+  .type-filter {
+    padding: 9px 12px;
+    font-size: 11px;
+  }
+}
+
+/* FILTER GROUP LAYOUT */
+
+.video-filter-section {
+  margin: 24px 0;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group-title {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.filter-group .video-type-filters {
+  margin: 0;
+}
+
 </style>
 </head>
 
@@ -834,6 +897,44 @@ body {
       </select>
 
     </div>
+
+    <div class="video-type-filters" id="videoTypeFilters">
+      <button class="type-filter active" data-type="ALL">ALL</button>
+      <button class="type-filter" data-type="MV">MV</button>
+      <button class="type-filter" data-type="SHORTS">SHORTS</button>
+      <button class="type-filter" data-type="LIVE">라이브</button>
+      <button class="type-filter" data-type="PLAYLIST">재생목록</button>
+    </div>
+
+<!-- VIDEO FILTERS -->
+
+<div class="video-filter-section">
+
+  <div class="filter-group">
+    <div class="filter-group-title">분류</div>
+
+    <div class="video-type-filters" id="videoTypeFilters">
+      <button class="type-filter active" data-type="ALL">ALL</button>
+      <button class="type-filter" data-type="MV">MV</button>
+      <button class="type-filter" data-type="SHORTS">SHORTS</button>
+      <button class="type-filter" data-type="LIVE">라이브</button>
+      <button class="type-filter" data-type="PLAYLIST">재생목록</button>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <div class="filter-group-title">멤버</div>
+
+    <div class="video-type-filters" id="memberFilters">
+      <button class="type-filter" data-member="비비">비비</button>
+      <button class="type-filter" data-member="서진">서진</button>
+      <button class="type-filter" data-member="서희">서희</button>
+      <button class="type-filter" data-member="혜린">혜린</button>
+      <button class="type-filter" data-member="이유">이유</button>
+    </div>
+  </div>
+
+</div>
 
     <div class="filter-status">
       <span class="current-filter" id="currentFilter">
