@@ -541,7 +541,7 @@ a {
   </button>
 
   <button class="nav-item" id="scheduleNav"
-    onclick="toggleMenu('scheduleMenu', this)">
+    onclick="openScheduleMenu(this)">
     <span>▦ &nbsp; SCHEDULE</span>
     <span class="arrow">⌄</span>
   </button>
@@ -564,7 +564,7 @@ a {
   </div>
 
   <button class="nav-item" id="videoNav"
-    onclick="toggleMenu('videoMenu', this)">
+    onclick="openVideoMenu(this)">
     <span>▷ &nbsp; VIDEO</span>
     <span class="arrow">⌄</span>
   </button>
@@ -722,6 +722,30 @@ a {
 <script src="videos.js"></script>
 
 <script>
+
+function openVideoMenu(button) {
+  showPage("video");
+
+  document.getElementById("videoMenu").classList.add("open");
+  button.classList.add("expanded");
+
+  document.querySelectorAll("#videoMenu .sub-item")
+    .forEach(item => item.classList.remove("active"));
+
+  document.querySelector(
+    '#videoMenu .sub-item[data-category="all"]'
+  ).classList.add("active");
+
+  currentCategory = "all";
+  renderVideos();
+}
+
+function openScheduleMenu(button) {
+  showPage("schedule");
+
+  document.getElementById("scheduleMenu").classList.add("open");
+  button.classList.add("expanded");
+}
 
 // MENU CONTROL
 
