@@ -116,6 +116,14 @@ def main():
             for item in response.get("items", [])
         }
 
+        live_video_ids = {
+            item["id"]
+            for item in response.get("items", [])
+            if item.get("liveStreamingDetails", {}).get(
+                "actualEndTime"
+            )
+        }
+
         for video in batch:
             video_id = video["url"].split("v=")[-1]
             duration = durations.get(video_id, "")
