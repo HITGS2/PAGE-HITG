@@ -320,6 +320,17 @@ a {
   border-left: 3px solid #8fa2ff;
 }
 
+.current-filter .path-label {
+  color: #8DE6C1;
+}
+
+.current-filter .path-separator {
+  color: #ffffff;
+  padding: 0 7px;
+  font-weight: 700;
+}
+
+
 .count {
   font-size: 10px;
   color: #999;
@@ -2083,6 +2094,12 @@ function renderVideos() {
 
   const selectedType = [...selectedTypes][0] || "ALL";
 
+  const memberOrder = ["비비", "서진", "서희", "혜린", "이유"];
+
+  const sortedMembers = memberOrder.filter(member =>
+    selectedMembers.has(member)
+  );
+
   const pathParts = [];
 
   if (categoryNames[currentCategory]) {
@@ -2093,17 +2110,32 @@ function renderVideos() {
     pathParts.push(typeNames[selectedType] || selectedType);
   }
 
-  if (selectedMembers.size > 0) {
-    pathParts.push([...selectedMembers].join(", "));
+  if (sortedMembers.length > 0) {
+    pathParts.push(sortedMembers.join(", "));
   }
 
-  document.getElementById("currentFilter").textContent =
-    pathParts.length > 0
-      ? pathParts.join("  ›  ")
-      : "전체 영상";
+  const currentFilter = document.getElementById("currentFilter");
+  currentFilter.replaceChildren();
 
+  const displayParts = pathParts.length > 0
+    ? pathParts
+    : ["전체 영상"];
 
-  // 재생목록 필터를 선택했을 때
+  displayParts.forEach((part, index) => {
+    if (index > 0) {
+      const separator = document.createElement("span");
+      separator.className = "path-separator";
+      separator.textContent = " > ";
+      currentFilter.appendChild(separator);
+    }
+
+    const label = document.createElement("span");
+    label.className = "path-label";
+    label.textContent = part;
+    currentFilter.appendChild(label);
+  });
+  
+    // 재생목록 필터를 선택했을 때
   if (selectedTypes.has("PLAYLIST")) {
     const keyword = search.value.trim().toLowerCase();
     const selectedYear = yearFilter.value;
