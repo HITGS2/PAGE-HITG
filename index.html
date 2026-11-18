@@ -311,8 +311,13 @@ a {
 }
 
 .current-filter {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  padding-left: 12px;
+  border-left: 3px solid #8fa2ff;
 }
 
 .count {
@@ -2005,9 +2010,6 @@ function selectCategory(category, button) {
     FANCAM: "직캠"
   };
 
-  document.getElementById("currentFilter").textContent =
-    labels[category] || "ALL VIDEOS";
-
   renderVideos();
 }
 
@@ -2062,6 +2064,44 @@ years.forEach(year => {
 // VIDEO RENDER
 
 function renderVideos() {
+
+  // 현재 선택한 필터 경로 표시
+  const categoryNames = {
+    all: "",
+    OFFICIAL: "공식채널",
+    FANTUBE: "팬튜브",
+    OTHER: "타채널",
+    FANCAM: "직캠"
+  };
+
+  const typeNames = {
+    MV: "MV",
+    SHORTS: "SHORTS",
+    LIVE: "라이브",
+    PLAYLIST: "재생목록"
+  };
+
+  const selectedType = [...selectedTypes][0] || "ALL";
+
+  const pathParts = [];
+
+  if (categoryNames[currentCategory]) {
+    pathParts.push(categoryNames[currentCategory]);
+  }
+
+  if (selectedType !== "ALL") {
+    pathParts.push(typeNames[selectedType] || selectedType);
+  }
+
+  if (selectedMembers.size > 0) {
+    pathParts.push([...selectedMembers].join(", "));
+  }
+
+  document.getElementById("currentFilter").textContent =
+    pathParts.length > 0
+      ? pathParts.join("  ›  ")
+      : "전체 영상";
+
 
   // 재생목록 필터를 선택했을 때
   if (selectedTypes.has("PLAYLIST")) {
