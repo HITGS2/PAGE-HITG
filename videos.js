@@ -7,6 +7,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-18",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -18,6 +19,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-18",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -29,6 +31,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -40,6 +43,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -51,6 +55,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-17",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -62,6 +67,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-16",
+    "duration": "1:03",
     "type": "SHORTS",
     "isLive": false
   },
@@ -73,6 +79,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-16",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -84,6 +91,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -95,6 +103,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
+    "duration": "0:59",
     "type": "SHORTS",
     "isLive": false
   },
@@ -106,6 +115,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-15",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -117,6 +127,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
+    "duration": "45:24",
     "type": "VIDEO",
     "isLive": true
   },
@@ -128,6 +139,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
+    "duration": "2:36",
     "type": "SHORTS",
     "isLive": true
   },
@@ -139,6 +151,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-14",
+    "duration": "0:53",
     "type": "SHORTS",
     "isLive": false
   },
@@ -150,6 +163,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
+    "duration": "1:36:35",
     "type": "VIDEO",
     "isLive": true
   },
@@ -161,6 +175,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
+    "duration": "0:57",
     "type": "SHORTS",
     "isLive": false
   },
@@ -172,6 +187,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
+    "duration": "7:49",
     "type": "VIDEO",
     "isLive": true
   },
@@ -183,6 +199,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
+    "duration": "23:05",
     "type": "VIDEO",
     "isLive": false
   },
@@ -194,6 +211,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-13",
+    "duration": "0:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -205,6 +223,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-12",
+    "duration": "0:35",
     "type": "SHORTS",
     "isLive": false
   },
@@ -216,6 +235,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-12",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -227,6 +247,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-11",
+    "duration": "25:19",
     "type": "VIDEO",
     "isLive": false
   },
@@ -238,6 +259,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-11",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -249,6 +271,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-09",
+    "duration": "0:35",
     "type": "SHORTS",
     "isLive": false
   },
@@ -260,6 +283,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-09",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -271,6 +295,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-08",
+    "duration": "1:00",
     "type": "SHORTS",
     "isLive": false
   },
@@ -282,6 +307,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-08",
+    "duration": "3:06",
     "type": "VIDEO",
     "isLive": false
   },
@@ -293,6 +319,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-07",
+    "duration": "0:52",
     "type": "SHORTS",
     "isLive": false
   },
@@ -304,6 +331,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -315,6 +343,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
+    "duration": "15:20",
     "type": "VIDEO",
     "isLive": false
   },
@@ -326,6 +355,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
+    "duration": "0:30",
     "type": "SHORTS",
     "isLive": false
   },
@@ -337,6 +367,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-06",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -348,6 +379,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
+    "duration": "8:22",
     "type": "VIDEO",
     "isLive": false
   },
@@ -359,6 +391,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
+    "duration": "1:00:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -370,6 +403,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -381,6 +415,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-05",
+    "duration": "3:15",
     "type": "VIDEO",
     "isLive": false
   },
@@ -392,6 +427,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-03",
+    "duration": "2:59",
     "type": "SHORTS",
     "isLive": false
   },
@@ -403,6 +439,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-03",
+    "duration": "3:31",
     "type": "VIDEO",
     "isLive": false
   },
@@ -414,6 +451,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-02",
+    "duration": "1:45:40",
     "type": "VIDEO",
     "isLive": true
   },
@@ -425,6 +463,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-02",
+    "duration": "0:22",
     "type": "VIDEO",
     "isLive": false
   },
@@ -436,6 +475,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
+    "duration": "56:41",
     "type": "VIDEO",
     "isLive": true
   },
@@ -447,6 +487,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
+    "duration": "47:41",
     "type": "VIDEO",
     "isLive": true
   },
@@ -458,6 +499,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-01",
+    "duration": "1:36:14",
     "type": "VIDEO",
     "isLive": true
   },
@@ -469,6 +511,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
+    "duration": "0:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -480,6 +523,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
+    "duration": "1:01",
     "type": "SHORTS",
     "isLive": false
   },
@@ -491,6 +535,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-30",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -502,6 +547,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-29",
+    "duration": "2:40:10",
     "type": "VIDEO",
     "isLive": true
   },
@@ -513,6 +559,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
+    "duration": "3:26:35",
     "type": "VIDEO",
     "isLive": true
   },
@@ -524,6 +571,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
+    "duration": "0:42",
     "type": "VIDEO",
     "isLive": false
   },
@@ -535,6 +583,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
+    "duration": "0:55",
     "type": "SHORTS",
     "isLive": false
   },
@@ -546,6 +595,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-28",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -557,6 +607,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
+    "duration": "1:18:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -568,6 +619,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
+    "duration": "2:06:10",
     "type": "VIDEO",
     "isLive": true
   },
@@ -579,6 +631,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
+    "duration": "1:30:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -590,6 +643,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-27",
+    "duration": "1:24:25",
     "type": "VIDEO",
     "isLive": true
   },
@@ -601,6 +655,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-24",
+    "duration": "3:04:56",
     "type": "VIDEO",
     "isLive": true
   },
@@ -612,6 +667,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
+    "duration": "34:15",
     "type": "VIDEO",
     "isLive": false
   },
@@ -623,6 +679,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -634,6 +691,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-23",
+    "duration": "3:06:29",
     "type": "VIDEO",
     "isLive": true
   },
@@ -645,6 +703,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-22",
+    "duration": "3:10",
     "type": "VIDEO",
     "isLive": true
   },
@@ -656,6 +715,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-22",
+    "duration": "0:40",
     "type": "SHORTS",
     "isLive": false
   },
@@ -667,6 +727,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-17",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -678,6 +739,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-17",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -689,6 +751,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
+    "duration": "20:22",
     "type": "VIDEO",
     "isLive": false
   },
@@ -700,6 +763,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
+    "duration": "1:28:54",
     "type": "VIDEO",
     "isLive": true
   },
@@ -711,6 +775,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
+    "duration": "26:36",
     "type": "VIDEO",
     "isLive": true
   },
@@ -722,6 +787,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-16",
+    "duration": "15:11",
     "type": "VIDEO",
     "isLive": true
   },
@@ -733,6 +799,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-15",
+    "duration": "13:06",
     "type": "VIDEO",
     "isLive": true
   },
@@ -744,6 +811,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-15",
+    "duration": "0:47",
     "type": "SHORTS",
     "isLive": false
   },
@@ -755,6 +823,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-14",
+    "duration": "3:35:57",
     "type": "VIDEO",
     "isLive": true
   },
@@ -766,6 +835,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-14",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -777,6 +847,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
+    "duration": "57:31",
     "type": "VIDEO",
     "isLive": true
   },
@@ -788,6 +859,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
+    "duration": "2:49:39",
     "type": "VIDEO",
     "isLive": true
   },
@@ -799,6 +871,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
+    "duration": "4:04",
     "type": "VIDEO",
     "isLive": false
   },
@@ -810,6 +883,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-11",
+    "duration": "0:41",
     "type": "SHORTS",
     "isLive": false
   },
@@ -821,6 +895,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-10",
+    "duration": "4:08",
     "type": "VIDEO",
     "isLive": false
   },
@@ -832,6 +907,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-09",
+    "duration": "38:25",
     "type": "VIDEO",
     "isLive": true
   },
@@ -843,6 +919,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-09",
+    "duration": "6:35",
     "type": "VIDEO",
     "isLive": false
   },
@@ -854,6 +931,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
+    "duration": "0:48",
     "type": "SHORTS",
     "isLive": false
   },
@@ -865,6 +943,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -876,6 +955,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
+    "duration": "2:00:01",
     "type": "VIDEO",
     "isLive": true
   },
@@ -887,6 +967,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-08",
+    "duration": "26:00",
     "type": "VIDEO",
     "isLive": true
   },
@@ -898,6 +979,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-06",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -909,6 +991,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-06",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -920,6 +1003,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-05",
+    "duration": "1:58:33",
     "type": "VIDEO",
     "isLive": true
   },
@@ -931,6 +1015,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-05",
+    "duration": "11:31",
     "type": "VIDEO",
     "isLive": true
   },
@@ -942,6 +1027,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-04",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -953,6 +1039,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-04",
+    "duration": "3:07:50",
     "type": "VIDEO",
     "isLive": true
   },
@@ -964,6 +1051,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-02",
+    "duration": "30:40",
     "type": "VIDEO",
     "isLive": false
   },
@@ -975,6 +1063,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-10-01",
+    "duration": "0:49",
     "type": "SHORTS",
     "isLive": false
   },
@@ -986,6 +1075,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
+    "duration": "1:13:45",
     "type": "VIDEO",
     "isLive": true
   },
@@ -997,6 +1087,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
+    "duration": "1:28:01",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1008,6 +1099,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1019,6 +1111,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-30",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1030,6 +1123,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1041,6 +1135,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
+    "duration": "2:50",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1052,6 +1147,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-28",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1063,6 +1159,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
+    "duration": "3:34:10",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1074,6 +1171,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
+    "duration": "8:02",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1085,6 +1183,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-27",
+    "duration": "1:09:56",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1096,6 +1195,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-26",
+    "duration": "2:08:49",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1107,6 +1207,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-25",
+    "duration": "2:20:33",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1118,6 +1219,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-25",
+    "duration": "22:37",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1129,6 +1231,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-24",
+    "duration": "0:40",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1140,6 +1243,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
+    "duration": "0:54",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1151,6 +1255,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1162,6 +1267,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1173,6 +1279,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-23",
+    "duration": "1:00:45",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1184,6 +1291,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
+    "duration": "50:35",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1195,6 +1303,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1206,6 +1315,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-22",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1217,6 +1327,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-21",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1228,6 +1339,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-21",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1239,6 +1351,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-20",
+    "duration": "39:32",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1250,6 +1363,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-19",
+    "duration": "1:15:19",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1261,6 +1375,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-19",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1272,6 +1387,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
+    "duration": "21:18",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1283,6 +1399,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1294,6 +1411,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1305,6 +1423,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-18",
+    "duration": "0:59",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1316,6 +1435,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
+    "duration": "2:55:48",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1327,6 +1447,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
+    "duration": "0:30",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1338,6 +1459,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1349,6 +1471,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-17",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1360,6 +1483,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-16",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1371,6 +1495,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-16",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1382,6 +1507,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-15",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1393,6 +1519,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-15",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1404,6 +1531,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-14",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1415,6 +1543,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
+    "duration": "1:30:58",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1426,6 +1555,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
+    "duration": "2:51",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1437,6 +1567,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-13",
+    "duration": "0:37",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1448,6 +1579,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
+    "duration": "0:44",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1459,6 +1591,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1470,6 +1603,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1481,6 +1615,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
+    "duration": "1:28:20",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1492,6 +1627,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1503,6 +1639,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-11",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1514,6 +1651,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
+    "duration": "1:41:30",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1525,6 +1663,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1536,6 +1675,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1547,6 +1687,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1558,6 +1699,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-10",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1569,6 +1711,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-09",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1580,6 +1723,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-08",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1591,6 +1735,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-08",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1602,6 +1747,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-07",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1613,6 +1759,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-07",
+    "duration": "0:34",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1624,6 +1771,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-06",
+    "duration": "30:42",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1635,6 +1783,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-05",
+    "duration": "1:05:15",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1646,6 +1795,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-05",
+    "duration": "0:52",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1657,6 +1807,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
+    "duration": "54:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1668,6 +1819,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
+    "duration": "0:40",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1679,6 +1831,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-04",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1690,6 +1843,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-03",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1701,6 +1855,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-03",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1712,6 +1867,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-02",
+    "duration": "2:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1723,6 +1879,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-02",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1734,6 +1891,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
+    "duration": "3:39:07",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1745,6 +1903,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
+    "duration": "0:46",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1756,6 +1915,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1767,6 +1927,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-09-01",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1778,6 +1939,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-30",
+    "duration": "33:33",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1789,6 +1951,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-30",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1800,6 +1963,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-29",
+    "duration": "2:50:31",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1811,6 +1975,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
+    "duration": "16:16",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1822,6 +1987,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1833,6 +1999,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-28",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1844,6 +2011,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "1:00:00",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1855,6 +2023,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "3:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1866,6 +2035,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1877,6 +2047,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1888,6 +2059,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "2:41",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1899,6 +2071,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-27",
+    "duration": "43:15",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1910,6 +2083,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
+    "duration": "47:45",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1921,6 +2095,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1932,6 +2107,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-26",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1943,6 +2119,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
+    "duration": "1:21:31",
     "type": "VIDEO",
     "isLive": true
   },
@@ -1954,6 +2131,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
+    "duration": "18:09",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1965,6 +2143,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-25",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1976,6 +2155,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-24",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -1987,6 +2167,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-24",
+    "duration": "0:16",
     "type": "VIDEO",
     "isLive": false
   },
@@ -1998,6 +2179,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-23",
+    "duration": "1:42:15",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2009,6 +2191,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-23",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2020,6 +2203,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-22",
+    "duration": "1:44:34",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2031,6 +2215,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-22",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2042,6 +2227,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-21",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2053,6 +2239,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-20",
+    "duration": "1:15:15",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2064,6 +2251,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-20",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2075,6 +2263,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-19",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2086,6 +2275,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-18",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2097,6 +2287,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-14",
+    "duration": "0:48",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2108,6 +2299,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-13",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2119,6 +2311,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-12",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2130,6 +2323,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-10",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2141,6 +2335,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-08",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2152,6 +2347,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-07",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2163,6 +2359,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-08-06",
+    "duration": "1:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2174,6 +2371,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-31",
+    "duration": "7:42",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2185,6 +2383,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-29",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2196,6 +2395,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-28",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2207,6 +2407,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-27",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2218,6 +2419,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-22",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2229,6 +2431,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-21",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2240,6 +2443,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-20",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2251,6 +2455,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-15",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2262,6 +2467,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-15",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2273,6 +2479,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-12",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2284,6 +2491,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-10",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2295,6 +2503,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-09",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2306,6 +2515,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-07",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2317,6 +2527,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-07",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2328,6 +2539,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-05",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2339,6 +2551,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-05",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2350,6 +2563,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-04",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2361,6 +2575,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-03",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2372,6 +2587,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-03",
+    "duration": "22:39",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2383,6 +2599,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-02",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2394,6 +2611,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-02",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2405,6 +2623,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-01",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2416,6 +2635,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-07-01",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2427,6 +2647,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2438,6 +2659,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
+    "duration": "44:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2449,6 +2671,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
+    "duration": "3:07",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2460,6 +2683,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-26",
+    "duration": "6:13",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2471,6 +2695,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-25",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2482,6 +2707,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-24",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2493,6 +2719,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-23",
+    "duration": "0:19",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2504,6 +2731,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-20",
+    "duration": "0:20",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2515,6 +2743,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-17",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2526,6 +2755,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-16",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2537,6 +2767,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2548,6 +2779,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-09",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2559,6 +2791,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-05",
+    "duration": "17:20",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2570,6 +2803,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-03",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2581,6 +2815,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-03",
+    "duration": "44:45",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2592,6 +2827,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-06-01",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2603,6 +2839,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-30",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2614,6 +2851,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-29",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2625,6 +2863,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-28",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2636,6 +2875,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-27",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2647,6 +2887,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-26",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2658,6 +2899,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-25",
+    "duration": "0:36",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2669,6 +2911,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-25",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2680,6 +2923,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-22",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2691,6 +2935,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-21",
+    "duration": "0:04",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2702,6 +2947,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-19",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2713,6 +2959,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-19",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2724,6 +2971,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-18",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2735,6 +2983,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-18",
+    "duration": "0:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2746,6 +2995,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-17",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2757,6 +3007,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-16",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2768,6 +3019,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-16",
+    "duration": "1:34",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2779,6 +3031,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-15",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2790,6 +3043,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-11",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2801,6 +3055,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-11",
+    "duration": "43:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2812,6 +3067,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-10",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2823,6 +3079,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-08",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2834,6 +3091,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-08",
+    "duration": "15:10",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2845,6 +3103,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-07",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2856,6 +3115,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-07",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2867,6 +3127,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-06",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2878,6 +3139,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-04",
+    "duration": "1:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2889,6 +3151,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-03",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2900,6 +3163,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-02",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2911,6 +3175,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-01",
+    "duration": "10:54",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2922,6 +3187,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-05-01",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2933,6 +3199,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-30",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2944,6 +3211,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-29",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2955,6 +3223,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2966,6 +3235,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
+    "duration": "1:11:05",
     "type": "VIDEO",
     "isLive": true
   },
@@ -2977,6 +3247,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-28",
+    "duration": "3:19",
     "type": "VIDEO",
     "isLive": false
   },
@@ -2988,6 +3259,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-27",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -2999,6 +3271,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-26",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3010,6 +3283,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-25",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3021,6 +3295,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-24",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3032,6 +3307,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-24",
+    "duration": "7:44",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3043,6 +3319,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-23",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3054,6 +3331,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-22",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3065,6 +3343,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-20",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3076,6 +3355,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-20",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3087,6 +3367,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-19",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3098,6 +3379,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-19",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3109,6 +3391,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-18",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3120,6 +3403,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-18",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3131,6 +3415,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3142,6 +3427,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
+    "duration": "45:56",
     "type": "VIDEO",
     "isLive": true
   },
@@ -3153,6 +3439,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-16",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3164,6 +3451,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
+    "duration": "32:19",
     "type": "VIDEO",
     "isLive": true
   },
@@ -3175,6 +3463,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3186,6 +3475,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-15",
+    "duration": "3:37",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3197,6 +3487,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-14",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3208,6 +3499,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3219,6 +3511,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3230,6 +3523,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3241,6 +3535,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-11",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3252,6 +3547,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-10",
+    "duration": "0:36",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3263,6 +3559,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-09",
+    "duration": "0:37",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3274,6 +3571,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-09",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3285,6 +3583,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-08",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3296,6 +3595,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-08",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3307,6 +3607,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-07",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3318,6 +3619,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-06",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3329,6 +3631,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-04-06",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3340,6 +3643,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-27",
+    "duration": "16:07",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3351,6 +3655,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3362,6 +3667,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
+    "duration": "54:21",
     "type": "VIDEO",
     "isLive": true
   },
@@ -3373,6 +3679,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-26",
+    "duration": "",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3384,6 +3691,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-22",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3395,6 +3703,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-19",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3406,6 +3715,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-17",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3417,6 +3727,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-14",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3428,6 +3739,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-12",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3439,6 +3751,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3450,6 +3763,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-10",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3461,6 +3775,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-05",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3472,6 +3787,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-04",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3483,6 +3799,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-03-03",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3494,6 +3811,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-15",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3505,6 +3823,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-14",
+    "duration": "1:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3516,6 +3835,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-13",
+    "duration": "17:01",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3527,6 +3847,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-12",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3538,6 +3859,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-10",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3549,6 +3871,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-06",
+    "duration": "8:17",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3560,6 +3883,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-04",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3571,6 +3895,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-02-02",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3582,6 +3907,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-31",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3593,6 +3919,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-30",
+    "duration": "11:00",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3604,6 +3931,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-23",
+    "duration": "15:05",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3615,6 +3943,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-20",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3626,6 +3955,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-19",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3637,6 +3967,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-16",
+    "duration": "15:23",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3648,6 +3979,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-15",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3659,6 +3991,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-14",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3670,6 +4003,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-14",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3681,6 +4015,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-13",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3692,6 +4027,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-13",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3703,6 +4039,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-12",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3714,6 +4051,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3725,6 +4063,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-09",
+    "duration": "12:37",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3736,6 +4075,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-09",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3747,6 +4087,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-08",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3758,6 +4099,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-06",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3769,6 +4111,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-05",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3780,6 +4123,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-04",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3791,6 +4135,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-03",
+    "duration": "21:18",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3802,6 +4147,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-02",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3813,6 +4159,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-01",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3824,6 +4171,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-01-01",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3835,6 +4183,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
+    "duration": "0:51",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3846,6 +4195,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
+    "duration": "3:11",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3857,6 +4207,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-31",
+    "duration": "59:35",
     "type": "VIDEO",
     "isLive": true
   },
@@ -3868,6 +4219,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-28",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3879,6 +4231,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-26",
+    "duration": "2:39",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3890,6 +4243,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-26",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3901,6 +4255,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-25",
+    "duration": "3:59",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3912,6 +4267,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
+    "duration": "0:30",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3923,6 +4279,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
+    "duration": "0:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3934,6 +4291,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3945,6 +4303,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3956,6 +4315,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-24",
+    "duration": "18:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -3967,6 +4327,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-23",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3978,6 +4339,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-23",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -3989,6 +4351,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-22",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4000,6 +4363,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-22",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4011,6 +4375,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-21",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4022,6 +4387,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-21",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4033,6 +4399,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4044,6 +4411,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
+    "duration": "2:03",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4055,6 +4423,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-20",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4066,6 +4435,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
+    "duration": "0:51",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4077,6 +4447,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4088,6 +4459,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4099,6 +4471,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-18",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4110,6 +4483,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4121,6 +4495,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
+    "duration": "18:56",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4132,6 +4507,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-17",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4143,6 +4519,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-16",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4154,6 +4531,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-16",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4165,6 +4543,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-15",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4176,6 +4555,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-14",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4187,6 +4567,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-13",
+    "duration": "17:50",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4198,6 +4579,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-13",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4209,6 +4591,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4220,6 +4603,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-10",
+    "duration": "1:01",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4231,6 +4615,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-10",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4242,6 +4627,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-06",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4253,6 +4639,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-05",
+    "duration": "11:46",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4264,6 +4651,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-05",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4275,6 +4663,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-04",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4286,6 +4675,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-02",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4297,6 +4687,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-12-01",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4308,6 +4699,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-30",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4319,6 +4711,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-29",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4330,6 +4723,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-28",
+    "duration": "14:30",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4341,6 +4735,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-26",
+    "duration": "1:05",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4352,6 +4747,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-24",
+    "duration": "0:54",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4363,6 +4759,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-23",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4374,6 +4771,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-22",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4385,6 +4783,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-21",
+    "duration": "14:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4396,6 +4795,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-14",
+    "duration": "1:04",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4407,6 +4807,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-14",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4418,6 +4819,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-13",
+    "duration": "16:51",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4429,6 +4831,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-12",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4440,6 +4843,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-11",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4451,6 +4855,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-11",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4462,6 +4867,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-10",
+    "duration": "2:45",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4473,6 +4879,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-10",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4484,6 +4891,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4495,6 +4903,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4506,6 +4915,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-09",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4517,6 +4927,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-07",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4528,6 +4939,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-06",
+    "duration": "2:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4539,6 +4951,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-05",
+    "duration": "1:09:45",
     "type": "VIDEO",
     "isLive": true
   },
@@ -4550,6 +4963,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-05",
+    "duration": "22:53",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4561,6 +4975,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-02",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4572,6 +4987,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-11-01",
+    "duration": "3:33",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4583,6 +4999,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-31",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4594,6 +5011,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4605,6 +5023,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4616,6 +5035,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-30",
+    "duration": "12:11",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4627,6 +5047,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4638,6 +5059,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4649,6 +5071,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-29",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4660,6 +5083,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4671,6 +5095,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4682,6 +5107,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-28",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4693,6 +5119,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4704,6 +5131,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4715,6 +5143,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4726,6 +5155,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-27",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4737,6 +5167,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4748,6 +5179,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
+    "duration": "0:37",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4759,6 +5191,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-26",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4770,6 +5203,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4781,6 +5215,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4792,6 +5227,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-25",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4803,6 +5239,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4814,6 +5251,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4825,6 +5263,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-24",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4836,6 +5275,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4847,6 +5287,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4858,6 +5299,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-23",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4869,6 +5311,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4880,6 +5323,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
+    "duration": "33:00",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4891,6 +5335,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-22",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4902,6 +5347,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
+    "duration": "14:35",
     "type": "VIDEO",
     "isLive": false
   },
@@ -4913,6 +5359,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4924,6 +5371,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-21",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4935,6 +5383,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-20",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4946,6 +5395,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-20",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4957,6 +5407,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4968,6 +5419,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4979,6 +5431,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-19",
+    "duration": "0:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -4990,6 +5443,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5001,6 +5455,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
+    "duration": "11:45",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5012,6 +5467,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-18",
+    "duration": "0:36",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5023,6 +5479,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-17",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5034,6 +5491,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-17",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5045,6 +5503,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
+    "duration": "0:31",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5056,6 +5515,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5067,6 +5527,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-16",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5078,6 +5539,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
+    "duration": "27:38",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5089,6 +5551,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5100,6 +5563,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5111,6 +5575,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-15",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5122,6 +5587,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5133,6 +5599,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
+    "duration": "5:00",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5144,6 +5611,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5155,6 +5623,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5166,6 +5635,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-14",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5177,6 +5647,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-13",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5188,6 +5659,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-13",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5199,6 +5671,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5210,6 +5683,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
+    "duration": "3:01",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5221,6 +5695,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5232,6 +5707,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-12",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5243,6 +5719,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
+    "duration": "14:08",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5254,6 +5731,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5265,6 +5743,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-11",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5276,6 +5755,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
+    "duration": "3:43",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5287,6 +5767,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5298,6 +5779,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5309,6 +5791,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-10",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5320,6 +5803,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5331,6 +5815,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
+    "duration": "27:55",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5342,6 +5827,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5353,6 +5839,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-09",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5364,6 +5851,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
+    "duration": "3:23",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5375,6 +5863,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
+    "duration": "0:47",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5386,6 +5875,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5397,6 +5887,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-08",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5408,6 +5899,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-07",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5419,6 +5911,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-07",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5430,6 +5923,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5441,6 +5935,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5452,6 +5947,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-06",
+    "duration": "2:58",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5463,6 +5959,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-05",
+    "duration": "1:35",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5474,6 +5971,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-04",
+    "duration": "0:25",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5485,6 +5983,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5496,6 +5995,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5507,6 +6007,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5518,6 +6019,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5529,6 +6031,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-02",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5540,6 +6043,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-01",
+    "duration": "24:06",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5551,6 +6055,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-10-01",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5562,6 +6067,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-30",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5573,6 +6079,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-29",
+    "duration": "0:06",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5584,6 +6091,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5595,6 +6103,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
+    "duration": "10:54",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5606,6 +6115,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5617,6 +6127,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5628,6 +6139,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-28",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5639,6 +6151,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-27",
+    "duration": "6:11",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5650,6 +6163,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-27",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5661,6 +6175,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-26",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5672,6 +6187,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-25",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5683,6 +6199,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-25",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5694,6 +6211,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5705,6 +6223,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5716,6 +6235,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
+    "duration": "35:13",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5727,6 +6247,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-24",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5738,6 +6259,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5749,6 +6271,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
+    "duration": "11:02",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5760,6 +6283,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-23",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5771,6 +6295,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-22",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5782,6 +6307,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-22",
+    "duration": "2:24",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5793,6 +6319,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-20",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5804,6 +6331,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-19",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5815,6 +6343,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-19",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5826,6 +6355,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-18",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5837,6 +6367,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
+    "duration": "23:21",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5848,6 +6379,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
+    "duration": "0:50",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5859,6 +6391,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-17",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5870,6 +6403,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-11",
+    "duration": "0:28",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5881,6 +6415,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-10",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5892,6 +6427,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-08",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5903,6 +6439,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-07",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5914,6 +6451,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-07",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5925,6 +6463,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-05",
+    "duration": "10:07",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5936,6 +6475,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-09-03",
+    "duration": "25:18",
     "type": "VIDEO",
     "isLive": false
   },
@@ -5947,6 +6487,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-30",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5958,6 +6499,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-30",
+    "duration": "0:30",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5969,6 +6511,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-28",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5980,6 +6523,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-28",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -5991,6 +6535,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
+    "duration": "15:25",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6002,6 +6547,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6013,6 +6559,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-27",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6024,6 +6571,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-24",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6035,6 +6583,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-21",
+    "duration": "9:55",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6046,6 +6595,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6057,6 +6607,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
+    "duration": "24:03",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6068,6 +6619,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-20",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6079,6 +6631,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-19",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6090,6 +6643,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-18",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6101,6 +6655,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-18",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6112,6 +6667,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-17",
+    "duration": "0:58",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6123,6 +6679,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-13",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6134,6 +6691,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-13",
+    "duration": "23:56",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6145,6 +6703,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-09",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6156,6 +6715,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-09",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6167,6 +6727,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-08",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6178,6 +6739,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-07",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6189,6 +6751,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-07",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6200,6 +6763,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-06",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6211,6 +6775,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-06",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6222,6 +6787,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-05",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6233,6 +6799,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-05",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6244,6 +6811,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6255,6 +6823,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6266,6 +6835,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-04",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6277,6 +6847,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6288,6 +6859,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6299,6 +6871,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-03",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6310,6 +6883,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-08-01",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6321,6 +6895,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-31",
+    "duration": "18:31",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6332,6 +6907,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-31",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6343,6 +6919,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
+    "duration": "22:50",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6354,6 +6931,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6365,6 +6943,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6376,6 +6955,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-30",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6387,6 +6967,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-29",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6398,6 +6979,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-29",
+    "duration": "0:04",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6409,6 +6991,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
+    "duration": "7:44",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6420,6 +7003,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6431,6 +7015,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
+    "duration": "0:06",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6442,6 +7027,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-28",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6453,6 +7039,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6464,6 +7051,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6475,6 +7063,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-27",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6486,6 +7075,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6497,6 +7087,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6508,6 +7099,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6519,6 +7111,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-26",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6530,6 +7123,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6541,6 +7135,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6552,6 +7147,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-25",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6563,6 +7159,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-24",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6574,6 +7171,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-24",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6585,6 +7183,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6596,6 +7195,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6607,6 +7207,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-23",
+    "duration": "28:04",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6618,6 +7219,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
+    "duration": "12:28",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6629,6 +7231,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6640,6 +7243,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-22",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6651,6 +7255,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-21",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6662,6 +7267,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-21",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6673,6 +7279,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-20",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6684,6 +7291,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-20",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6695,6 +7303,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6706,6 +7315,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6717,6 +7327,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-19",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6728,6 +7339,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6739,6 +7351,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6750,6 +7363,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-18",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6761,6 +7375,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6772,6 +7387,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6783,6 +7399,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6794,6 +7411,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-17",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6805,6 +7423,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
+    "duration": "26:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6816,6 +7435,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6827,6 +7447,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6838,6 +7459,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6849,6 +7471,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-16",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6860,6 +7483,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
+    "duration": "20:29",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6871,6 +7495,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6882,6 +7507,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6893,6 +7519,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6904,6 +7531,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-15",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6915,6 +7543,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6926,6 +7555,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6937,6 +7567,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6948,6 +7579,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-14",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6959,6 +7591,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
+    "duration": "6:12",
     "type": "VIDEO",
     "isLive": false
   },
@@ -6970,6 +7603,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6981,6 +7615,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -6992,6 +7627,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7003,6 +7639,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-13",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7014,6 +7651,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7025,6 +7663,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
+    "duration": "9:45",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7036,6 +7675,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7047,6 +7687,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7058,6 +7699,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-12",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7069,6 +7711,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7080,6 +7723,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
+    "duration": "0:35",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7091,6 +7735,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
+    "duration": "3:27",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7102,6 +7747,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7113,6 +7759,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-11",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7124,6 +7771,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7135,6 +7783,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7146,6 +7795,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
+    "duration": "3:29",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7157,6 +7807,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7168,6 +7819,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-10",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7179,6 +7831,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
+    "duration": "24:37",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7190,6 +7843,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7201,6 +7855,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7212,6 +7867,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7223,6 +7879,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-09",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7234,6 +7891,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7245,6 +7903,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
+    "duration": "5:04",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7256,6 +7915,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7267,6 +7927,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7278,6 +7939,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-08",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7289,6 +7951,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7300,6 +7963,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7311,6 +7975,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7322,6 +7987,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7333,6 +7999,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-07",
+    "duration": "3:28",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7344,6 +8011,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-06",
+    "duration": "0:17",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7355,6 +8023,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-05",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7366,6 +8035,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-03",
+    "duration": "11:50",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7377,6 +8047,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-03",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7388,6 +8059,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-07-02",
+    "duration": "24:24",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7399,6 +8071,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-30",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7410,6 +8083,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-29",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7421,6 +8095,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-29",
+    "duration": "8:03",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7432,6 +8107,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-28",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7443,6 +8119,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-27",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7454,6 +8131,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-27",
+    "duration": "8:59",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7465,6 +8143,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7476,6 +8155,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
+    "duration": "34:51",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7487,6 +8167,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-26",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7498,6 +8179,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7509,6 +8191,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
+    "duration": "0:06",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7520,6 +8203,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
+    "duration": "25:13",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7531,6 +8215,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-25",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7542,6 +8227,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
+    "duration": "21:45",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7553,6 +8239,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7564,6 +8251,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-24",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7575,6 +8263,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7586,6 +8275,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7597,6 +8287,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-23",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7608,6 +8299,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7619,6 +8311,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7630,6 +8323,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-22",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7641,6 +8335,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7652,6 +8347,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7663,6 +8359,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-21",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7674,6 +8371,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7685,6 +8383,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7696,6 +8395,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7707,6 +8407,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-20",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7718,6 +8419,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7729,6 +8431,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7740,6 +8443,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7751,6 +8455,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-19",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7762,6 +8467,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7773,6 +8479,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
+    "duration": "21:46",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7784,6 +8491,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7795,6 +8503,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
+    "duration": "0:09",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7806,6 +8515,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-18",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7817,6 +8527,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7828,6 +8539,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
+    "duration": "25:01",
     "type": "VIDEO",
     "isLive": false
   },
@@ -7839,6 +8551,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7850,6 +8563,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7861,6 +8575,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-17",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7872,6 +8587,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7883,6 +8599,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7894,6 +8611,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
+    "duration": "0:21",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7905,6 +8623,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-16",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7916,6 +8635,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7927,6 +8647,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7938,6 +8659,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
+    "duration": "2:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7949,6 +8671,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7960,6 +8683,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-15",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7971,6 +8695,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7982,6 +8707,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -7993,6 +8719,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-14",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8004,6 +8731,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8015,6 +8743,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8026,6 +8755,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8037,6 +8767,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-13",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8048,6 +8779,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
+    "duration": "2:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8059,6 +8791,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8070,6 +8803,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-12",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8081,6 +8815,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
+    "duration": "17:09",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8092,6 +8827,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8103,6 +8839,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
+    "duration": "23:36",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8114,6 +8851,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8125,6 +8863,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-11",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8136,6 +8875,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8147,6 +8887,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8158,6 +8899,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-10",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8169,6 +8911,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
+    "duration": "7:14",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8180,6 +8923,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8191,6 +8935,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8202,6 +8947,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-09",
+    "duration": "1:00",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8213,6 +8959,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
+    "duration": "14:46",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8224,6 +8971,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8235,6 +8983,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-08",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8246,6 +8995,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8257,6 +9007,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8268,6 +9019,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
+    "duration": "2:12",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8279,6 +9031,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8290,6 +9043,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-07",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8301,6 +9055,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
+    "duration": "2:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8312,6 +9067,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8323,6 +9079,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-06",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8334,6 +9091,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-05",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8345,6 +9103,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-05",
+    "duration": "5:47",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8356,6 +9115,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8367,6 +9127,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8378,6 +9139,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
+    "duration": "23:48",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8389,6 +9151,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
+    "duration": "0:05",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8400,6 +9163,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-04",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8411,6 +9175,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
+    "duration": "3:01",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8422,6 +9187,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8433,6 +9199,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8444,6 +9211,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-03",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8455,6 +9223,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8466,6 +9235,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8477,6 +9247,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8488,6 +9259,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
+    "duration": "2:13",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8499,6 +9271,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-02",
+    "duration": "0:58",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8510,6 +9283,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-06-01",
+    "duration": "0:27",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8521,6 +9295,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-31",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8532,6 +9307,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
+    "duration": "16:49",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8543,6 +9319,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8554,6 +9331,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-29",
+    "duration": "0:58",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8565,6 +9343,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-28",
+    "duration": "0:36",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8576,6 +9355,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-26",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8587,6 +9367,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-25",
+    "duration": "10:30",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8598,6 +9379,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-25",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8609,6 +9391,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8620,6 +9403,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
+    "duration": "2:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8631,6 +9415,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
+    "duration": "12:54",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8642,6 +9427,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-24",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8653,6 +9439,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-23",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8664,6 +9451,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
+    "duration": "0:05",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8675,6 +9463,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
+    "duration": "13:41",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8686,6 +9475,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-22",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8697,6 +9487,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
+    "duration": "4:14",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8708,6 +9499,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
+    "duration": "0:28",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8719,6 +9511,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8730,6 +9523,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-21",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8741,6 +9535,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
+    "duration": "0:06",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8752,6 +9547,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
+    "duration": "12:03",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8763,6 +9559,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-20",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8774,6 +9571,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8785,6 +9583,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
+    "duration": "0:27",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8796,6 +9595,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8807,6 +9607,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-19",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8818,6 +9619,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8829,6 +9631,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8840,6 +9643,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
+    "duration": "0:06",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8851,6 +9655,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8862,6 +9667,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-18",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8873,6 +9679,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8884,6 +9691,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
+    "duration": "0:29",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8895,6 +9703,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8906,6 +9715,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-17",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8917,6 +9727,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
+    "duration": "0:36",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8928,6 +9739,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
+    "duration": "3:47",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8939,6 +9751,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8950,6 +9763,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8961,6 +9775,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-16",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8972,6 +9787,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
+    "duration": "1:57",
     "type": "VIDEO",
     "isLive": false
   },
@@ -8983,6 +9799,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -8994,6 +9811,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-15",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9005,6 +9823,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9016,6 +9835,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9027,6 +9847,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9038,6 +9859,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9049,6 +9871,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-14",
+    "duration": "0:10",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9060,6 +9883,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
+    "duration": "11:18",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9071,6 +9895,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9082,6 +9907,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9093,6 +9919,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9104,6 +9931,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-13",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9115,6 +9943,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9126,6 +9955,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9137,6 +9967,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9148,6 +9979,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-12",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9159,6 +9991,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9170,6 +10003,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "11:30",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9181,6 +10015,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9192,6 +10027,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9203,6 +10039,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9214,6 +10051,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-11",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9225,6 +10063,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9236,6 +10075,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9247,6 +10087,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:58",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9258,6 +10099,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:16",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9269,6 +10111,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:07",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9280,6 +10123,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-10",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9291,6 +10135,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
+    "duration": "0:17",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9302,6 +10147,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
+    "duration": "0:59",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9313,6 +10159,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9324,6 +10171,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-09",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9335,6 +10183,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
+    "duration": "2:53",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9346,6 +10195,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
+    "duration": "0:33",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9357,6 +10207,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
+    "duration": "0:19",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9368,6 +10219,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9379,6 +10231,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-08",
+    "duration": "0:32",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9390,6 +10243,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
+    "duration": "5:43",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9401,6 +10255,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9412,6 +10267,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9423,6 +10279,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
+    "duration": "0:15",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9434,6 +10291,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-07",
+    "duration": "0:08",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9445,6 +10303,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9456,6 +10315,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
+    "duration": "2:49",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9467,6 +10327,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9478,6 +10339,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9489,6 +10351,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-06",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9500,6 +10363,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9511,6 +10375,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9522,6 +10387,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-05",
+    "duration": "0:25",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9533,6 +10399,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-04",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9544,6 +10411,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-03",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9555,6 +10423,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-03",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9566,6 +10435,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-02",
+    "duration": "0:24",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9577,6 +10447,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9588,6 +10459,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
+    "duration": "0:20",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9599,6 +10471,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
+    "duration": "7:58",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9610,6 +10483,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-05-01",
+    "duration": "0:22",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9621,6 +10495,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-30",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9632,6 +10507,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-30",
+    "duration": "0:26",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9643,6 +10519,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-29",
+    "duration": "3:43",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9654,6 +10531,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-29",
+    "duration": "0:23",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9665,6 +10543,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-28",
+    "duration": "2:52",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9676,6 +10555,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-27",
+    "duration": "0:26",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9687,6 +10567,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-26",
+    "duration": "0:26",
     "type": "VIDEO",
     "isLive": false
   },
@@ -9698,6 +10579,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-25",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9709,6 +10591,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-24",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9720,6 +10603,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-23",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9731,6 +10615,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-22",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9742,6 +10627,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-21",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9753,6 +10639,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-20",
+    "duration": "0:49",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9764,6 +10651,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-19",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9775,6 +10663,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-19",
+    "duration": "0:18",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9786,6 +10675,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-18",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9797,6 +10687,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-17",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9808,6 +10699,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-16",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9819,6 +10711,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-15",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9830,6 +10723,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-14",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9841,6 +10735,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9852,6 +10747,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9863,6 +10759,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
+    "duration": "0:14",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9874,6 +10771,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-13",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9885,6 +10783,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-11",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9896,6 +10795,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-10",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9907,6 +10807,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-09",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9918,6 +10819,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-08",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9929,6 +10831,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-07",
+    "duration": "0:13",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9940,6 +10843,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-06",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9951,6 +10855,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-05",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9962,6 +10867,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-04",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9973,6 +10879,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-03",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9984,6 +10891,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-04-02",
+    "duration": "0:12",
     "type": "SHORTS",
     "isLive": false
   },
@@ -9995,6 +10903,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-03-31",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   },
@@ -10006,6 +10915,7 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2025-03-31",
+    "duration": "0:11",
     "type": "SHORTS",
     "isLive": false
   }
