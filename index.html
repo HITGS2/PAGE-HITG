@@ -358,6 +358,28 @@ a {
   position: relative;
 }
 
+.thumbnail {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f1f1f1;
+  position: relative;
+}
+
+.video-duration {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #ffffff;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: Arial, sans-serif;
+  z-index: 2;
+}
+
 .thumbnail img {
   width: 100%;
   height: 100%;
@@ -2335,6 +2357,15 @@ function renderVideos() {
         '<div class="no-thumbnail">NO THUMBNAIL</div>';
 
     }
+
+    // 영상 썸네일 오른쪽 아래에 재생 시간 표시
+    if (video.duration) {
+      const durationBadge = document.createElement("span");
+      durationBadge.className = "video-duration";
+      durationBadge.textContent = video.duration;
+      thumbnail.appendChild(durationBadge);
+    }
+
 
     const info = document.createElement("div");
     info.className = "card-info";
