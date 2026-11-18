@@ -1932,16 +1932,16 @@ const emptyMessage = document.getElementById("emptyMessage");
 const selectedTypes = new Set();
 const selectedMembers = new Set();
 
+/* 분류: 하나만 선택 */
+
 document.querySelectorAll("#videoTypeFilters .type-filter")
   .forEach(button => {
     button.addEventListener("click", () => {
       const type = button.dataset.type;
 
-      if (type === "ALL") {
-        selectedTypes.clear();
-      } else if (selectedTypes.has(type)) {
-        selectedTypes.delete(type);
-      } else {
+      selectedTypes.clear();
+
+      if (type !== "ALL") {
         selectedTypes.add(type);
       }
 
@@ -1949,15 +1949,15 @@ document.querySelectorAll("#videoTypeFilters .type-filter")
         .forEach(item => {
           item.classList.toggle(
             "active",
-            item.dataset.type === "ALL"
-              ? selectedTypes.size === 0
-              : selectedTypes.has(item.dataset.type)
+            item === button
           );
         });
 
       renderVideos();
     });
   });
+
+/* 멤버: 기존 다중 선택 기능 유지 */
 
 document.querySelectorAll("#memberFilters .type-filter")
   .forEach(button => {
