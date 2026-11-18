@@ -762,6 +762,7 @@ function toggleMenu(menuId, button) {
 function showPage(page, scheduleType) {
 
   sessionStorage.setItem("hitgPage", page);
+  history.replaceState(null, "", "#" + page);
   
   document.querySelectorAll(".page").forEach(item => {
     item.classList.remove("active");
@@ -832,6 +833,8 @@ function selectCategory(category, button) {
 
   showPage("video");
 
+  history.replaceState(null, "", "#video/" + category);
+  
   const labels = {
     all: "ALL VIDEOS",
     OFFICIAL: "공식채널",
@@ -1023,8 +1026,16 @@ document.getElementById("menuToggle")
 
  // INITIALIZE
 
-const savedPage = sessionStorage.getItem("hitgPage") || "home";
-const savedCategory = sessionStorage.getItem("hitgCategory") || "all";
+const hashParts = location.hash.slice(1).split("/");
+const savedPage = ["home", "schedule", "video"].includes(hashParts[0])
+  ? hashParts[0]
+  : (sessionStorage.getItem("hitgPage") || "home");
+
+const validCategories = ["all", "OFFICIAL", "FANTUBE", "OTHER", "FANCAM"];
+
+const savedCategory = validCategories.includes(hashParts[1])
+  ? hashParts[1]
+  : (sessionStorage.getItem("hitgCategory") || "all");
 
 if (savedPage === "video") {
   const categoryButton = document.querySelector(
