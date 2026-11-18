@@ -2131,8 +2131,13 @@ function renderVideos() {
         category === "OFFICIAL" &&
         video.type === "SHORTS" &&
         !shortsExcluded
+      
+      ) ||
+      (
+        selectedType === "LIVE" &&
+        category === "OFFICIAL" &&
+        video.isLive === true
       );
-
 
     const matchMemberForType =
       selectedType === "MV" ? true : matchMember;
