@@ -1202,6 +1202,145 @@ body {
   }
 }
 
+/* HOME NOTICE BANNER */
+
+.hitg-notice {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 35px;
+  padding: 24px 30px;
+  border-radius: 14px;
+  background: #f6c71c;
+  color: #171a33;
+}
+
+.hitg-notice-icon {
+  font-size: 28px;
+}
+
+.hitg-notice-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hitg-notice-text span {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+.hitg-notice-text strong {
+  font-size: 16px;
+}
+
+/* HOME GUESTBOOK */
+
+.hitg-guestbook {
+  margin-top: 65px;
+  color: #ffffff;
+}
+
+.guestbook-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.guestbook-heading h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.guestbook-heading span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #aeb5cc;
+}
+
+.guestbook-description {
+  margin: 12px 0 24px;
+  color: #b8bdd1;
+  font-size: 13px;
+}
+
+.guestbook-compose {
+  padding: 20px;
+  background: #222640;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+}
+
+.guestbook-compose textarea {
+  width: 100%;
+  min-height: 110px;
+  padding: 15px;
+  resize: vertical;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 9px;
+  background: #171a33;
+  color: #ffffff;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.guestbook-compose textarea::placeholder {
+  color: #aeb5cc;
+}
+
+.guestbook-compose-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.guestbook-compose-bottom span {
+  font-size: 12px;
+  color: #aeb5cc;
+}
+
+.guestbook-compose-bottom button {
+  padding: 12px 20px;
+  background: #5865f2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.guestbook-compose-bottom button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.guestbook-list {
+  margin-top: 20px;
+  padding: 35px 20px;
+  background: #222640;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+}
+
+.guestbook-empty {
+  text-align: center;
+  color: #aeb5cc;
+  font-size: 13px;
+  line-height: 2;
+}
+
+@media (max-width: 650px) {
+  .hitg-notice {
+    padding: 18px;
+  }
+
+  .guestbook-compose-bottom {
+    flex-wrap: wrap;
+  }
+}
+
 </style>
 </head>
 
@@ -1360,6 +1499,47 @@ body {
 
     </div>
   
+<!-- HOME NOTICE BANNER -->
+<div class="hitg-notice">
+  <div class="hitg-notice-icon">🖤</div>
+  <div class="hitg-notice-text">
+    <span>PAGE:HITG NOTICE</span>
+    <strong>힛지스의 모든 순간을 함께 기록해요!</strong>
+  </div>
+</div>
+
+<!-- HOME GUESTBOOK -->
+<section class="hitg-guestbook">
+  <div class="guestbook-heading">
+    <h2>방명록</h2>
+    <span>GUESTBOOK</span>
+  </div>
+
+  <p class="guestbook-description">
+    힛지스에게 전하고 싶은 말을 자유롭게 남겨주세요.
+  </p>
+
+  <div class="guestbook-compose">
+    <textarea
+      id="guestbookMessage"
+      placeholder="메시지를 입력해 주세요..."
+      maxlength="500"
+      disabled></textarea>
+
+    <div class="guestbook-compose-bottom">
+      <span>익명의 HITG로 등록됩니다.</span>
+      <button type="button" disabled>방명록 남기기</button>
+    </div>
+  </div>
+
+  <div class="guestbook-list">
+    <p class="guestbook-empty">
+      아직 작성된 방명록이 없습니다.<br>
+      방명록 기능을 준비하고 있어요! 🖤
+    </p>
+  </div>
+</section>
+
 <div class="footer home-footer">
 
   <div class="footer-left">
