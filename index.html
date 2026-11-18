@@ -380,7 +380,7 @@ a {
 }
 
 .card-info {
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 .card-tag {
@@ -390,10 +390,10 @@ a {
 }
 
 .card h3 {
-  font-size: 13px;
-  line-height: 1.6;
-  margin: 8px 0;
-  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 6px;
+  font-weight: 700;
 }
 
 .card-detail {
@@ -2361,7 +2361,7 @@ function renderVideos() {
     detail.textContent =
       `${video.channel || "YouTube"} · ${video.member || "ALL"} · ${video.date || ""}`;
 
-    info.append(tag, title, detail);
+    info.append(title, detail);
     link.append(thumbnail, info);
     card.appendChild(link);
     grid.appendChild(card);
