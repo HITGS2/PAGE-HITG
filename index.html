@@ -2063,6 +2063,73 @@ years.forEach(year => {
 
 function renderVideos() {
 
+  // 재생목록 필터를 선택했을 때
+  if (selectedTypes.has("PLAYLIST")) {
+    const keyword = search.value.trim().toLowerCase();
+    const selectedYear = yearFilter.value;
+
+    const filteredPlaylists = playlists.filter(playlist => {
+      const matchSearch = String(playlist.title || "")
+        .toLowerCase().includes(keyword);
+
+      const matchYear =
+        selectedYear === "all" ||
+        String(playlist.date || "").startsWith(selectedYear);
+
+      return matchSearch && matchYear;
+    });
+
+    grid.innerHTML = "";
+
+    filteredPlaylists.forEach(playlist => {
+      const card = document.createElement("article");
+      card.className = "card";
+
+      const link = document.createElement("a");
+      link.href = playlist.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      const thumbnail = document.createElement("div");
+      thumbnail.className = "thumbnail";
+
+      const image = document.createElement("img");
+      image.src = playlist.thumbnail;
+      image.alt = playlist.title || "재생목록";
+      image.loading = "lazy";
+
+      thumbnail.appendChild(image);
+
+      const info = document.createElement("div");
+      info.className = "card-info";
+
+      const tag = document.createElement("div");
+      tag.className = "card-tag";
+      tag.textContent = "공식채널 · 재생목록";
+
+      const title = document.createElement("h3");
+      title.textContent = playlist.title || "제목 없음";
+
+      const detail = document.createElement("div");
+      detail.className = "card-detail";
+      detail.textContent =
+        `${playlist.videoCount || 0}개 영상`;
+
+      info.append(tag, title, detail);
+      link.append(thumbnail, info);
+      card.appendChild(link);
+      grid.appendChild(card);
+    });
+
+    count.textContent =
+      String(filteredPlaylists.length).padStart(2, "0") + " ITEMS";
+
+    emptyMessage.style.display =
+      filteredPlaylists.length === 0 ? "block" : "none";
+
+    return;
+  }
+
   const keyword = search.value.trim().toLowerCase();
   const selectedYear = yearFilter.value;
 
