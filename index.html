@@ -761,6 +761,8 @@ function toggleMenu(menuId, button) {
 
 function showPage(page, scheduleType) {
 
+  sessionStorage.setItem("hitgPage", page);
+  
   document.querySelectorAll(".page").forEach(item => {
     item.classList.remove("active");
   });
@@ -815,6 +817,8 @@ const emptyMessage = document.getElementById("emptyMessage");
 // CATEGORY
 
 function selectCategory(category, button) {
+
+  sessionStorage.setItem("hitgCategory", category);
 
   currentCategory = category;
 
@@ -1017,9 +1021,31 @@ document.getElementById("menuToggle")
       .classList.toggle("mobile-open");
   });
 
-// INITIALIZE
+ // INITIALIZE
+
+const savedPage = sessionStorage.getItem("hitgPage") || "home";
+const savedCategory = sessionStorage.getItem("hitgCategory") || "all";
+
+if (savedPage === "video") {
+  const categoryButton = document.querySelector(
+    `#videoMenu .sub-item[data-category="${savedCategory}"]`
+  );
+
+  if (categoryButton) {
+    selectCategory(savedCategory, categoryButton);
+  } else {
+    openVideoMenu(document.getElementById("videoNav"));
+  }
+
+} else if (savedPage === "schedule") {
+  openScheduleMenu(document.getElementById("scheduleNav"));
+
+} else {
+  showPage("home");
+}
 
 renderVideos();
+
 
 </script>
 
