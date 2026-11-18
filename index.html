@@ -2106,9 +2106,11 @@ function renderVideos() {
     pathParts.push(categoryNames[currentCategory]);
   }
 
-  if (selectedType !== "ALL") {
-    pathParts.push(typeNames[selectedType] || selectedType);
-  }
+  pathParts.push(
+    selectedType === "ALL"
+      ? "ALL"
+      : (typeNames[selectedType] || selectedType)
+  );
 
   if (sortedMembers.length > 0) {
     pathParts.push(sortedMembers.join(", "));
