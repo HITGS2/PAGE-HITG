@@ -96,6 +96,67 @@ def main():
         if not page_token:
             break
 
+    # 영상 길이 및 제목을 기준으로 SHORTS 후보 분류
+    for start in range(0, len(official_videos), 50):
+        batch = official_videos[start:start + 50]
+
+        video_ids = [
+            video["url"].split("v=")[-1]
+            for video in batch
+        ]
+
+        response = youtube_api(
+            "videos",
+            part="contentDetails",
+            id=",".join(video_ids)
+        )
+
+        durations = {
+            item["id"]: item.get("contentDetails", {}).get("duration", "")
+            for item in response.get("items", [])
+        }
+
+        for video in batch:
+            video_id = video["url"].split("v=")[-1]
+            duration = durations.get(video_id, "")
+            title = video["title"]
+
+            match = re.fullmatch(
+                r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?",
+                duration
+            )
+
+            seconds = None
+
+            if match:
+                hours, minutes, secs = match.groups()
+                seconds = (
+                    int(hours or 0) * 3600
+                    + int(minutes or 0) * 60
+                    + int(secs or 0)
+                )
+
+            has_shorts_tag = bool(
+                re.search(r"#?shorts\b", title, re.I)
+            )
+
+            excluded = bool(
+                re.search(
+                    r"\b(MV|M/V|TEASER|BEHIND|REACTION)\b",
+                    title,
+                    re.I
+                )
+            )
+
+            video["type"] = (
+                "SHORTS"
+                if (
+                    has_shorts_tag
+                    or (seconds is not None and seconds <= 180 and not excluded)
+                )
+                else "VIDEO"
+            )
+
     # 기존에 수동 등록한 다른 카테고리 영상 유지
     existing_videos = []
 
