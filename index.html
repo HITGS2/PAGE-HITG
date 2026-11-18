@@ -2118,7 +2118,11 @@ function renderVideos() {
 
     const matchType =
       selectedType === "ALL" ||
-      (selectedType === "MV" && isMV);
+
+      (selectedType === "MV" && isMV) ||
+      (selectedType === "SHORTS" &&
+       category === "OFFICIAL" &&
+       video.type === "SHORTS");
 
     const matchMemberForType =
       selectedType === "MV" ? true : matchMember;
