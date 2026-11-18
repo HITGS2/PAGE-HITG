@@ -107,7 +107,7 @@ def main():
 
         response = youtube_api(
             "videos",
-            part="contentDetails",
+            part="contentDetails,liveStreamingDetails",
             id=",".join(video_ids)
         )
 
