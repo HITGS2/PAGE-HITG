@@ -2080,6 +2080,11 @@ function showPage(page, scheduleType) {
 
   document.getElementById("sidebar").classList.remove("mobile-open");
 
+  if (page === "schedule") {
+    currentScheduleType = scheduleType || "all";
+    renderSchedules();
+  }
+
   if (page === "schedule" && scheduleType) {
     document.querySelectorAll("#scheduleMenu .sub-item")
       .forEach(item => item.classList.remove("active"));
@@ -2091,6 +2096,141 @@ function showPage(page, scheduleType) {
     if (selected) selected.classList.add("active");
   }
 }
+
+/* SCHEDULE RENDER */
+
+let currentScheduleType = "all";
+let currentScheduleMember = "ALL";
+
+const scheduleMemberButtons = document.querySelectorAll(
+  "#scheduleMemberFilters .schedule-member-btn"
+);
+
+scheduleMemberButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    currentScheduleMember = button.dataset.member;
+
+    scheduleMemberButtons.forEach(item => {
+      item.classList.toggle("active", item === button);
+    });
+
+    renderSchedules();
+  });
+});
+
+function renderSchedules() {
+  const container = document.getElementById("scheduleContent");
+  container.replaceChildren();
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const filtered = schedules
+    .filter(item => {
+      const matchType =
+        currentScheduleType === "all" ||
+        item.category === currentScheduleType;
+
+      const members = Array.isArray(item.members)
+        ? item.members
+        : [];
+
+      const matchMember =
+        currentScheduleMember === "ALL" ||
+        members.includes("전체") ||
+        members.includes(currentScheduleMember);
+
+      return matchType && matchMember;
+    })
+    .sort((a, b) =>
+      a.date.localeCompare(b.date) ||
+      a.time.localeCompare(b.time)
+    );
+
+  if (filtered.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "coming-soon";
+    empty.textContent = "등록된 일정이 없습니다.";
+    container.appendChild(empty);
+    return;
+  }
+
+  const grouped = new Map();
+
+  filtered.forEach(item => {
+    if (!grouped.has(item.date)) {
+      grouped.set(item.date, []);
+    }
+    grouped.get(item.date).push(item);
+  });
+
+  grouped.forEach((events, date) => {
+    const dateObject = new Date(date + "T00:00:00");
+
+    const dateTitle = new Intl.DateTimeFormat("ko-KR", {
+      month: "long",
+      day: "numeric",
+      weekday: "long"
+    }).format(dateObject);
+
+    const day = document.createElement("section");
+    day.className = "schedule-day";
+
+    if (dateObject < today) {
+      day.classList.add("past");
+    }
+
+    const heading = document.createElement("h2");
+    heading.className = "schedule-day-title";
+    heading.textContent = dateTitle;
+    day.appendChild(heading);
+
+    events.forEach(item => {
+      const event = document.createElement("div");
+      event.className = "schedule-event";
+
+      const meta = document.createElement("div");
+      meta.className = "schedule-event-meta";
+
+      const time = document.createElement("span");
+      time.className = "schedule-time";
+      time.textContent = item.time || "시간 미정";
+      meta.appendChild(time);
+
+      if (item.url && /^https?:\/\//i.test(item.url)) {
+        const source = document.createElement("a");
+        source.className = "schedule-source";
+        source.href = item.url;
+        source.target = "_blank";
+        source.rel = "noopener noreferrer";
+        source.textContent = "자세히 보기 ↗";
+        meta.appendChild(source);
+      }
+
+      const card = document.createElement("div");
+      card.className = "schedule-card";
+
+      const title = document.createElement("div");
+      title.className = "schedule-card-title";
+      title.textContent = item.title || "제목 없음";
+
+      const members = document.createElement("div");
+      members.className = "schedule-card-members";
+      members.textContent = "참여 멤버 · " +
+        (Array.isArray(item.members)
+          ? item.members.join(", ")
+          : "미정");
+
+      card.append(title, members);
+      event.append(meta, card);
+      day.appendChild(event);
+    });
+
+    container.appendChild(day);
+  });
+}
+
+renderSchedules();
 
 // VIDEO DATA
 
