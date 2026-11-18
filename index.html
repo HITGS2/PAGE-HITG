@@ -709,6 +709,103 @@ body {
   margin: 0;
 }
 
+/* HOME YOUTUBE VIDEO BACKGROUND */
+
+#homePage .home-video-background {
+  position: relative;
+  min-height: 650px;
+  overflow: hidden;
+  background: #101010;
+  color: white;
+}
+
+#homePage .home-video-player {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#homePage .home-video-player iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, 115.56vh);
+  height: max(100%, 56.25vw);
+  transform: translate(-50%, -50%);
+  border: 0;
+}
+
+#homePage .home-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.72)
+  );
+  pointer-events: none;
+}
+
+#homePage .home-video-content {
+  position: relative;
+  z-index: 1;
+  min-height: 650px;
+  padding: 30px 35px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+#homePage .home-video-content .hero {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+}
+
+#homePage .home-video-content .hero h1 {
+  color: white;
+}
+
+#homePage .home-video-content .hero-description {
+  color: #e5e5e5;
+}
+
+#homePage .home-video-content .home-intro {
+  margin: 0;
+  background: transparent;
+  border-left: 3px solid white;
+}
+
+#homePage .home-video-content .home-intro-label {
+  color: #cccccc;
+}
+
+#homePage .home-video-content .home-intro p {
+  color: white;
+}
+
+#homePage .home-sections {
+  margin-top: 25px;
+}
+
+@media (max-width: 650px) {
+  #homePage .home-video-background,
+  #homePage .home-video-content {
+    min-height: 520px;
+  }
+
+  #homePage .home-video-content {
+    padding: 25px 18px;
+  }
+
+  #homePage .home-video-content .hero h1 {
+    font-size: clamp(40px, 10vw, 65px);
+    letter-spacing: -3px;
+  }
+}
+
 </style>
 </head>
 
