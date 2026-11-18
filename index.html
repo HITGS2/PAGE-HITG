@@ -1780,13 +1780,26 @@ body {
       <h1>SCHEDULE</h1>
       <p>힛지스의 방송, 행사, 공연 및 공식 일정을 기록합니다.</p>
     </div>
+    
+<div class="schedule-controls">
+  <div class="schedule-filter-title">멤버별 일정</div>
 
-    <div id="scheduleContent">
-      <div class="coming-soon">
-        SCHEDULE ARCHIVE<br>
-        일정을 준비하고 있습니다.
-      </div>
-    </div>
+  <div class="schedule-member-filters" id="scheduleMemberFilters">
+    <button class="schedule-member-btn active" data-member="ALL">전체</button>
+    <button class="schedule-member-btn" data-member="비비">비비</button>
+    <button class="schedule-member-btn" data-member="서진">서진</button>
+    <button class="schedule-member-btn" data-member="서희">서희</button>
+    <button class="schedule-member-btn" data-member="혜린">혜린</button>
+    <button class="schedule-member-btn" data-member="이유">이유</button>
+  </div>
+</div>
+
+<div id="scheduleContent" class="schedule-content">
+  <div class="coming-soon">
+    일정을 불러오는 중입니다.
+  </div>
+</div>
+
 
     <div class="footer">
       PAGE:HITG · SCHEDULE
