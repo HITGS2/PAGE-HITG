@@ -1476,6 +1476,25 @@ body {
   background: #ffffff;
 }
 
+/* DISCORD BUTTON FIXED AT SIDEBAR BOTTOM */
+
+.sidebar .discord-button {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+
+  width: calc(var(--sidebar-width) - 24px);
+  margin: 0;
+  box-sizing: border-box;
+
+  z-index: 100;
+}
+
+/* 메뉴가 길어져도 버튼과 겹치지 않도록 여백 확보 */
+.sidebar {
+  padding-bottom: 85px;
+}
+
 </style>
 </head>
 
