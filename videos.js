@@ -1,5 +1,17 @@
 const videos = [
   {
+    "title": "𝕀 𝕨𝕚𝕝𝕝 𝕓𝕖 𝕣𝕚𝕘𝕙𝕥 𝕓𝕒𝕔𝕜.•♥ #HITGS #BRB #SEOHEE #서희 #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=dIvWUvaucGs",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-19",
+    "duration": "0:21",
+    "type": "SHORTS",
+    "isLive": false
+  },
+  {
     "title": "서진 언니 수능 도시락 싸 줬어요(feat.서희) #HITGS #힛지스 #HYERIN #혜린",
     "url": "https://www.youtube.com/watch?v=A5ReBgJSx70",
     "year": "2026",
