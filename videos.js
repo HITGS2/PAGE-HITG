@@ -1,5 +1,17 @@
 const videos = [
   {
+    "title": "𝗦𝗘𝗢𝗝𝗜𝗡.𝘇𝗶𝗽📸 #HITGS #SEOJIN #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=BBCAdHex5lg",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-19",
+    "duration": "0:27",
+    "type": "SHORTS",
+    "isLive": false
+  },
+  {
     "title": "とてと☺️👋 #HITGS #힛지스 #SEOHEE #IYOO",
     "url": "https://www.youtube.com/watch?v=nqqGpb4zLfQ",
     "year": "2026",
