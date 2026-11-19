@@ -219,6 +219,69 @@
   }
 }
 
+/* ADMIN SCHEDULE FORM */
+
+.schedule-form {
+  max-width: 720px;
+}
+
+.schedule-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.schedule-form input,
+.schedule-form select {
+  width: 100%;
+  padding: 13px;
+  margin: 8px 0 20px;
+  background: #171a30;
+  border: 1px solid #414766;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.schedule-form select {
+  cursor: pointer;
+}
+
+.schedule-member-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin: 12px 0 25px;
+}
+
+.schedule-member-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+.schedule-member-options input {
+  width: auto;
+  margin: 0;
+  accent-color: #8de6c1;
+}
+
+.schedule-form > button {
+  margin-top: 12px;
+}
+
+#scheduleFormMessage {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .schedule-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
   </style>
 </head>
 
@@ -325,9 +388,64 @@
       <div class="admin-eyebrow">ADMIN / SCHEDULE</div>
       <h1>일정 등록</h1>
       <p>새로운 일정을 추가합니다.</p>
-      <div class="admin-panel">
-        다음 단계에서 일정 입력 양식을 만듭니다.
+      
+<div class="admin-panel">
+
+  <form id="scheduleForm" class="schedule-form">
+
+    <div class="schedule-form-row">
+      <div>
+        <label for="scheduleDate">날짜</label>
+        <input type="date" id="scheduleDate" required>
       </div>
+
+      <div>
+        <label for="scheduleTime">시간</label>
+        <input type="time" id="scheduleTime" required>
+      </div>
+    </div>
+
+    <label for="scheduleTitle">일정 이름</label>
+    <input
+      type="text"
+      id="scheduleTitle"
+      placeholder="예: HITGS FAN CONCERT 3회차"
+      required
+    >
+
+    <label>참여 멤버</label>
+    <div class="schedule-member-options">
+      <label><input type="checkbox" value="전체" checked> 전체</label>
+      <label><input type="checkbox" value="비비"> 비비</label>
+      <label><input type="checkbox" value="서진"> 서진</label>
+      <label><input type="checkbox" value="서희"> 서희</label>
+      <label><input type="checkbox" value="혜린"> 혜린</label>
+      <label><input type="checkbox" value="이유"> 이유</label>
+    </div>
+
+    <label for="scheduleCategory">일정 분류</label>
+    <select id="scheduleCategory" required>
+      <option value="broadcast">방송 · 행사</option>
+      <option value="concert">콘서트</option>
+    </select>
+
+    <label for="scheduleUrl">출처 사이트</label>
+    <input
+      type="url"
+      id="scheduleUrl"
+      placeholder="https://example.com"
+    >
+    
+    <button type="submit">일정 등록하기</button>
+
+    <p id="scheduleFormMessage">
+      현재는 입력 화면 테스트 단계입니다.
+    </p>
+
+  </form>
+
+</div>
+
     </section>
 
     <section class="admin-page" id="admin-video">
@@ -342,6 +460,15 @@
 
   </main>
 </div>
+
+// 일정 등록 화면 테스트
+document.getElementById("scheduleForm")
+  .addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    document.getElementById("scheduleFormMessage").textContent =
+      "입력 화면이 정상 작동합니다. 실제 저장 기능은 다음 단계에서 연결합니다.";
+  });
 
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
