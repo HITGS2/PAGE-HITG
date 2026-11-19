@@ -12,18 +12,6 @@ const videos = [
     "isLive": true
   },
   {
-    "title": "HITGS (힛지스) 라이브 스트리밍 중",
-    "url": "https://www.youtube.com/watch?v=l7KRSOzLsRY",
-    "year": "2026",
-    "category": "OFFICIAL",
-    "member": "ALL",
-    "channel": "HITGS (힛지스)",
-    "date": "2026-11-19",
-    "duration": "",
-    "type": "VIDEO",
-    "isLive": false
-  },
-  {
     "title": "𝕀 𝕨𝕚𝕝𝕝 𝕓𝕖 𝕣𝕚𝕘𝕙𝕥 𝕓𝕒𝕔𝕜.•♥ #HITGS #BRB #SEOHEE #서희 #ThingsWeDream_Vol4",
     "url": "https://www.youtube.com/watch?v=dIvWUvaucGs",
     "year": "2026",
