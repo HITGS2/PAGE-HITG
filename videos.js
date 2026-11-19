@@ -1,5 +1,17 @@
 const videos = [
   {
+    "title": "서진 언니 수능 도시락 싸 줬어요(feat.서희) #HITGS #힛지스 #HYERIN #혜린",
+    "url": "https://www.youtube.com/watch?v=A5ReBgJSx70",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-19",
+    "duration": "1:15",
+    "type": "SHORTS",
+    "isLive": false
+  },
+  {
     "title": "𝗦𝗘𝗢𝗝𝗜𝗡.𝘇𝗶𝗽📸 #HITGS #SEOJIN #BRB #ThingsWeDream_Vol4",
     "url": "https://www.youtube.com/watch?v=BBCAdHex5lg",
     "year": "2026",
