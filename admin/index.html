@@ -366,6 +366,68 @@
 
   const ADMIN_UID = "r1KQyn9x29W0tgu4X3BBOkMz7no2";
 
+// 관리자 메뉴 화면 전환
+function showAdminPage(page) {
+  document.querySelectorAll(".admin-page").forEach(section => {
+    section.classList.remove("active");
+  });
+
+  const target = document.getElementById("admin-" + page);
+
+  if (target) {
+    target.classList.add("active");
+  }
+
+  document.querySelectorAll(".admin-nav, .admin-subnav")
+    .forEach(button => button.classList.remove("active"));
+
+  const selected = document.querySelector(
+    `[data-page="${page}"]`
+  );
+
+  if (selected) {
+    selected.classList.add("active");
+  }
+}
+
+// 왼쪽 관리자 메뉴 클릭
+document.querySelectorAll(".admin-nav, .admin-subnav")
+  .forEach(button => {
+    button.addEventListener("click", () => {
+      const page = button.dataset.page;
+
+      if (page === "schedule") {
+        const submenu = document.getElementById("adminScheduleMenu");
+        submenu.classList.toggle("open");
+
+        if (submenu.classList.contains("open")) {
+          showAdminPage("schedule-list");
+        }
+
+        return;
+      }
+
+      showAdminPage(page);
+    });
+  });
+
+// 로그아웃
+document.getElementById("logoutButton")
+  .addEventListener("click", async () => {
+    try {
+      await signOut(auth);
+
+      document.getElementById("adminDashboard").style.display = "none";
+      document.getElementById("loginBox").style.display = "block";
+
+      document.getElementById("password").value = "";
+      showAdminPage("home");
+    } catch (error) {
+      console.error(error);
+      alert("로그아웃에 실패했습니다.");
+    }
+  });
+
   const loginForm = document.getElementById("loginForm");
 
   loginForm.addEventListener("submit", async (event) => {
