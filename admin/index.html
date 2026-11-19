@@ -101,6 +101,124 @@
     .back-link:hover {
       color: #8de6c1;
     }
+    
+/* ADMIN DASHBOARD */
+
+.admin-layout {
+  width: 100%;
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+.admin-sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background: #20243e;
+  padding: 30px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-brand {
+  color: #8de6c1;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 12px 35px;
+}
+
+.admin-brand span {
+  color: #aeb6d2;
+  font-size: 10px;
+}
+
+.admin-nav,
+.admin-subnav {
+  width: 100%;
+  background: transparent;
+  color: #cbd1e5;
+  text-align: left;
+  padding: 13px 15px;
+}
+
+.admin-nav.active,
+.admin-subnav.active {
+  background: #8de6c1;
+  color: #171a30;
+}
+
+.admin-submenu {
+  display: none;
+  padding-left: 16px;
+}
+
+.admin-submenu.open {
+  display: block;
+}
+
+.admin-subnav {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.admin-sidebar-bottom {
+  margin-top: auto;
+  display: grid;
+  gap: 15px;
+}
+
+.admin-sidebar-bottom a {
+  color: #aeb6d2;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 55px;
+  min-width: 0;
+}
+
+.admin-page {
+  display: none;
+}
+
+.admin-page.active {
+  display: block;
+}
+
+.admin-eyebrow {
+  color: #8de6c1;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.admin-page p {
+  color: #aeb6d2;
+}
+
+.admin-panel {
+  margin-top: 30px;
+  padding: 30px;
+  background: #252a47;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .admin-layout {
+    flex-direction: column;
+  }
+
+  .admin-sidebar {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .admin-main {
+    padding: 25px;
+  }
+}
+
   </style>
 </head>
 
@@ -146,31 +264,83 @@
 
   </div>
 
-<div id="adminDashboard" style="display:none; width:90%; max-width:1100px; padding:30px;">
 
-  <div style="display:flex; justify-content:space-between; align-items:center;">
-    <div>
-      <p style="color:#8de6c1; letter-spacing:3px;">
-        PAGE:HITG / ADMIN
-      </p>
-      <h1>스케줄 관리</h1>
-      <p style="color:#aeb6d2;">
-        사이트에 등록된 일정을 관리합니다.
-      </p>
+<div id="adminDashboard" class="admin-layout" style="display:none;">
+
+  <aside class="admin-sidebar">
+    <div class="admin-brand">PAGE:HITG <span>ADMIN</span></div>
+
+    <button class="admin-nav active" data-page="home">
+      ⌂ &nbsp; 대시보드
+    </button>
+
+    <button class="admin-nav" data-page="schedule">
+      ▦ &nbsp; 스케줄 관리
+    </button>
+
+    <div class="admin-submenu" id="adminScheduleMenu">
+      <button class="admin-subnav" data-page="schedule-list">
+        전체 일정
+      </button>
+      <button class="admin-subnav" data-page="schedule-add">
+        일정 등록
+      </button>
     </div>
 
-    <button id="logoutButton" style="width:auto;">
-      로그아웃
+    <button class="admin-nav" data-page="video">
+      ▷ &nbsp; 영상 관리
     </button>
-  </div>
 
-  <div style="background:#222640; padding:30px; border-radius:12px; margin-top:30px;">
-    <h2>등록된 일정</h2>
-    <p style="color:#aeb6d2;">
-      다음 단계에서 스케줄 목록과 등록 기능이 표시됩니다.
-    </p>
-  </div>
+    <button class="admin-nav" data-page="settings">
+      ⚙ &nbsp; 설정
+    </button>
 
+    <div class="admin-sidebar-bottom">
+      <a href="../">← 공개 사이트로 이동</a>
+      <button id="logoutButton">로그아웃</button>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+
+    <section class="admin-page active" id="admin-home">
+      <div class="admin-eyebrow">ADMIN / HOME</div>
+      <h1>관리자 대시보드</h1>
+      <p>PAGE:HITG 관리 센터에 오신 것을 환영합니다.</p>
+      <div class="admin-panel">
+        왼쪽 메뉴에서 관리할 항목을 선택하세요.
+      </div>
+    </section>
+
+    <section class="admin-page" id="admin-schedule-list">
+      <div class="admin-eyebrow">ADMIN / SCHEDULE</div>
+      <h1>전체 일정</h1>
+      <p>등록된 스케줄을 확인하고 관리합니다.</p>
+      <div class="admin-panel">
+        다음 단계에서 등록된 일정 목록을 연결합니다.
+      </div>
+    </section>
+
+    <section class="admin-page" id="admin-schedule-add">
+      <div class="admin-eyebrow">ADMIN / SCHEDULE</div>
+      <h1>일정 등록</h1>
+      <p>새로운 일정을 추가합니다.</p>
+      <div class="admin-panel">
+        다음 단계에서 일정 입력 양식을 만듭니다.
+      </div>
+    </section>
+
+    <section class="admin-page" id="admin-video">
+      <h1>영상 관리</h1>
+      <div class="admin-panel">준비 중입니다.</div>
+    </section>
+
+    <section class="admin-page" id="admin-settings">
+      <h1>설정</h1>
+      <div class="admin-panel">준비 중입니다.</div>
+    </section>
+
+  </main>
 </div>
 
 <script type="module">
@@ -219,7 +389,7 @@
 
       
 document.getElementById("loginBox").style.display = "none";
-document.getElementById("adminDashboard").style.display = "block";
+document.getElementById("adminDashboard").style.display = "flex";
 
 
     } catch (error) {
