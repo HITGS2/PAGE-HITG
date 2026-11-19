@@ -441,6 +441,35 @@
   color: #aeb6d2;
 }
 
+/* 일정 관리 버튼 */
+
+.schedule-item-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.schedule-delete-button {
+  width: auto;
+  padding: 9px 20px;
+  background: #3b2635;
+  border: 1px solid #9b4f65;
+  border-radius: 8px;
+  color: #ffb6c6;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.schedule-delete-button:hover {
+  background: #563044;
+}
+
+.schedule-delete-button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
   </style>
 </head>
 
@@ -683,6 +712,12 @@ import {
   import {
   getDocs
 } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+  
+import {
+  doc,
+  deleteDoc
+} from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
   const db = getFirestore(app);
   
   const ADMIN_UID = "r1KQyn9x29W0tgu4X3BBOkMz7no2";
@@ -877,7 +912,44 @@ async function loadAdminSchedules() {
           : "정보 없음"
       }`;
 
-      item.append(date, title, members);
+      
+const actions = document.createElement("div");
+actions.className = "schedule-item-actions";
+
+const deleteButton = document.createElement("button");
+deleteButton.type = "button";
+deleteButton.className = "schedule-delete-button";
+deleteButton.textContent = "삭제";
+
+deleteButton.addEventListener("click", async () => {
+  const confirmed = confirm(
+    `"${schedule.title || "제목 없음"}" 일정을 정말 삭제하시겠습니까?`
+  );
+
+  if (!confirmed) return;
+
+  if (!auth.currentUser || auth.currentUser.uid !== ADMIN_UID) {
+    alert("관리자 로그인이 필요합니다.");
+    return;
+  }
+
+  deleteButton.disabled = true;
+  deleteButton.textContent = "삭제 중...";
+
+  try {
+    await deleteDoc(doc(db, "schedules", schedule.id));
+    await loadAdminSchedules();
+  } catch (error) {
+    console.error("일정 삭제 오류:", error);
+    alert("일정을 삭제하지 못했습니다.");
+    deleteButton.disabled = false;
+    deleteButton.textContent = "삭제";
+  }
+});
+
+actions.appendChild(deleteButton);
+item.append(date, title, members, actions);
+
       list.appendChild(item);
     });
 
