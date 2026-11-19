@@ -781,7 +781,26 @@ document.querySelectorAll(".admin-nav, .admin-subnav")
         return;
       }
 
+      
+      if (page === "schedule-add") {
+        const form = document.getElementById("scheduleForm");
+
+        // 이전에 수정하던 일정 정보 초기화
+        form.reset();
+        delete form.dataset.editId;
+
+        // 등록 화면으로 복구
+        document.querySelector("#admin-schedule-add h1").textContent =
+          "일정 등록";
+
+        form.querySelector('button[type="submit"]').textContent =
+          "일정 등록하기";
+
+        document.getElementById("scheduleFormMessage").textContent = "";
+      }
+
       showAdminPage(page);
+
     });
   });
 
