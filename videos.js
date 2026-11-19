@@ -7,9 +7,9 @@ const videos = [
     "member": "ALL",
     "channel": "HITGS (힛지스)",
     "date": "2026-11-19",
-    "duration": "",
+    "duration": "58:05",
     "type": "VIDEO",
-    "isLive": false
+    "isLive": true
   },
   {
     "title": "HITGS (힛지스) 라이브 스트리밍 중",
