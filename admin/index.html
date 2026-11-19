@@ -470,6 +470,23 @@
   cursor: wait;
 }
 
+/* 일정 수정 버튼 */
+
+.schedule-edit-button {
+  width: auto;
+  padding: 9px 20px;
+  background: #253e3d;
+  border: 1px solid #8de6c1;
+  border-radius: 8px;
+  color: #8de6c1;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.schedule-edit-button:hover {
+  background: #31534c;
+}
+
   </style>
 </head>
 
@@ -947,7 +964,45 @@ deleteButton.addEventListener("click", async () => {
   }
 });
 
-actions.appendChild(deleteButton);
+
+const editButton = document.createElement("button");
+editButton.type = "button";
+editButton.className = "schedule-edit-button";
+editButton.textContent = "수정";
+
+editButton.addEventListener("click", () => {
+  // 기존 일정 정보를 입력창에 채우기
+  document.getElementById("scheduleDate").value = schedule.date || "";
+  document.getElementById("scheduleTime").value = schedule.time || "";
+  document.getElementById("scheduleTitle").value = schedule.title || "";
+  document.getElementById("scheduleCategory").value = schedule.category || "broadcast";
+  document.getElementById("scheduleUrl").value = schedule.url || "";
+
+  const selectedMembers = Array.isArray(schedule.members)
+    ? schedule.members
+    : [];
+
+  document.querySelectorAll(
+    '.schedule-member-options input[type="checkbox"]'
+  ).forEach(input => {
+    input.checked = selectedMembers.includes(input.value);
+  });
+
+  // 수정 중인 일정 ID 보관
+  document.getElementById("scheduleForm").dataset.editId = schedule.id;
+
+  // 등록 화면으로 이동
+  document.getElementById("adminScheduleMenu").classList.add("open");
+  showAdminPage("schedule-add");
+
+  document.querySelector("#admin-schedule-add h1").textContent = "일정 수정";
+  document.querySelector("#scheduleForm button[type='submit']").textContent = "수정 내용 저장하기";
+  document.getElementById("scheduleFormMessage").textContent =
+    "기존 일정 정보를 수정한 후 저장 버튼을 눌러주세요.";
+});
+
+actions.append(editButton, deleteButton);
+
 item.append(date, title, members, actions);
 
       list.appendChild(item);
