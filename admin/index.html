@@ -146,13 +146,58 @@
 
   </div>
 
-  <script>
-    document.getElementById("loginForm")
-      .addEventListener("submit", function(event) {
-        event.preventDefault();
-        alert("다음 단계에서 Firebase 로그인을 연결할 예정입니다.");
-      });
-  </script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  import {
+    getAuth,
+    signInWithEmailAndPassword,
+    signOut
+  } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyCfFDbcl3zUel1fnM8CbcknGeT5KAhpf18",
+    authDomain: "page-hitg-b83e1.firebaseapp.com",
+    projectId: "page-hitg-b83e1",
+    storageBucket: "page-hitg-b83e1.firebasestorage.app",
+    messagingSenderId: "218687624946",
+    appId: "1:218687624946:web:70bee81bcdf7ea8060626b",
+    measurementId: "G-K07R5CBJ29"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  const ADMIN_UID = "r1KQyn9x29W0tgu4X3BBOkMz7no2";
+
+  const loginForm = document.getElementById("loginForm");
+
+  loginForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value;
+
+    try {
+      const credential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
+      if (credential.user.uid !== ADMIN_UID) {
+        await signOut(auth);
+        alert("관리자 권한이 없는 계정입니다.");
+        return;
+      }
+
+      alert("관리자 로그인에 성공했습니다!");
+
+    } catch (error) {
+      console.error(error);
+      alert("로그인에 실패했습니다. 이메일과 비밀번호를 확인해 주세요.");
+    }
+  });
+</script>
+  
 </body>
 </html>
