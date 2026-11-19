@@ -479,9 +479,17 @@
     measurementId: "G-K07R5CBJ29"
   };
 
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
-
+  const db = getFirestore(app);
+  
   const ADMIN_UID = "r1KQyn9x29W0tgu4X3BBOkMz7no2";
 
 // 관리자 메뉴 화면 전환
@@ -547,13 +555,77 @@ document.getElementById("logoutButton")
  
   });
 
-// 일정 등록 화면 테스트
+
+// Firebase 일정 등록
 document.getElementById("scheduleForm")
-  .addEventListener("submit", (event) => {
+  .addEventListener("submit", async (event) => {
     event.preventDefault();
 
-    document.getElementById("scheduleFormMessage").textContent =
-      "입력 화면이 정상 작동합니다. 실제 저장 기능은 다음 단계에서 연결합니다.";
+    const message = document.getElementById("scheduleFormMessage");
+    const submitButton = event.currentTarget.querySelector('button[type="submit"]');
+
+    if (submitButton.disabled) return;
+
+    const user = auth.currentUser;
+
+    if (!user || user.uid !== ADMIN_UID) {
+      message.textContent = "관리자 로그인이 필요합니다.";
+      return;
+    }
+
+    const date = document.getElementById("scheduleDate").value;
+    const time = document.getElementById("scheduleTime").value;
+    const title = document.getElementById("scheduleTitle").value.trim();
+    const category = document.getElementById("scheduleCategory").value;
+    const url = document.getElementById("scheduleUrl").value.trim();
+
+    const members = Array.from(
+      document.querySelectorAll(
+        '.schedule-member-options input[type="checkbox"]:checked'
+      )
+    ).map(input => input.value);
+
+    if (!date || !time || !title || members.length === 0) {
+      message.textContent = "필수 항목과 참여 멤버를 입력해 주세요.";
+      return;
+    }
+
+    if (url) {
+      try {
+        const parsed = new URL(url);
+        if (!["https:", "http:"].includes(parsed.protocol)) {
+          throw new Error("Invalid protocol");
+        }
+      } catch {
+        message.textContent = "올바른 출처 사이트 주소를 입력해 주세요.";
+        return;
+      }
+    }
+
+    submitButton.disabled = true;
+    message.textContent = "일정을 저장하는 중입니다...";
+
+    try {
+      await addDoc(collection(db, "schedules"), {
+        date,
+        time,
+        title,
+        members,
+        category,
+        url,
+        createdAt: serverTimestamp()
+      });
+
+      message.textContent = "일정이 성공적으로 등록되었습니다!";
+      document.getElementById("scheduleForm").reset();
+
+    } catch (error) {
+      console.error("일정 저장 오류:", error);
+      message.textContent =
+        "저장에 실패했습니다. Firebase 권한과 연결 상태를 확인해 주세요.";
+    } finally {
+      submitButton.disabled = false;
+    }
   });
 
 const loginForm = document.getElementById("loginForm");
