@@ -335,6 +335,48 @@
   transform: scale(1.15);
 }
 
+/* 날짜 / 시간 글씨 스타일 */
+
+#scheduleDate,
+#scheduleTime {
+  color: #f4f7ff;
+  -webkit-user-select: none;
+  user-select: none;
+  caret-color: transparent;
+}
+
+/* 날짜와 시간이 비어 있을 때 회색 표시 */
+#scheduleDate:invalid,
+#scheduleTime:invalid {
+  color: #858ba3;
+}
+
+/* Chrome 날짜 / 시간 내부 글씨 */
+#scheduleDate::-webkit-datetime-edit,
+#scheduleTime::-webkit-datetime-edit {
+  color: inherit;
+}
+
+#scheduleDate::-webkit-datetime-edit-text,
+#scheduleTime::-webkit-datetime-edit-text {
+  color: inherit;
+}
+
+/* 클릭했을 때 파란 선택 배경 제거 */
+#scheduleDate::selection,
+#scheduleTime::selection,
+#scheduleDate::-webkit-datetime-edit::selection,
+#scheduleTime::-webkit-datetime-edit::selection {
+  background: transparent;
+}
+
+/* 달력 / 시계 아이콘 */
+#scheduleDate::-webkit-calendar-picker-indicator,
+#scheduleTime::-webkit-calendar-picker-indicator {
+  filter: none;
+  opacity: 0.55;
+}
+
   </style>
 </head>
 
@@ -449,12 +491,28 @@
     <div class="schedule-form-row">
       <div>
         <label for="scheduleDate">날짜</label>
-        <input type="date" id="scheduleDate" onclick="this.showPicker?.()" required>
+        
+<input
+  type="date"
+  id="scheduleDate"
+  onclick="this.showPicker?.()"
+  onmousedown="event.preventDefault()"
+  required
+>
+
       </div>
 
       <div>
         <label for="scheduleTime">시간</label>
-        <input type="time" id="scheduleTime" onclick="this.showPicker?.()" required>
+        
+<input
+  type="time"
+  id="scheduleTime"
+  onclick="this.showPicker?.()"
+  onmousedown="event.preventDefault()"
+  required
+>
+
       </div>
     </div>
 
