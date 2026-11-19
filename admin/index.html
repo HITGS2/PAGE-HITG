@@ -461,15 +461,6 @@
   </main>
 </div>
 
-// 일정 등록 화면 테스트
-document.getElementById("scheduleForm")
-  .addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    document.getElementById("scheduleFormMessage").textContent =
-      "입력 화면이 정상 작동합니다. 실제 저장 기능은 다음 단계에서 연결합니다.";
-  });
-
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
   import {
@@ -554,7 +545,18 @@ document.getElementById("logoutButton")
       alert("로그아웃에 실패했습니다.");
     }
   });
+</div>
 
+// 일정 등록 화면 테스트
+document.getElementById("scheduleForm")
+  .addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    document.getElementById("scheduleFormMessage").textContent =
+      "입력 화면이 정상 작동합니다. 실제 저장 기능은 다음 단계에서 연결합니다.";
+  });
+
+<script type="module">
   const loginForm = document.getElementById("loginForm");
 
   loginForm.addEventListener("submit", async (event) => {
