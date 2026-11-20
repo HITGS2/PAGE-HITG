@@ -1821,6 +1821,9 @@ body {
 }
 
   }
+}
+
+  }
 
   #scheduleSort {
     width: 105px;
@@ -1977,6 +1980,52 @@ body {
     padding: 4px;
     margin-top: 4px;
   }
+}
+
+/* SCHEDULE 전환 버튼 크기 고정 */
+#schedulePage .schedule-heading-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  width: fit-content;
+}
+
+#schedulePage .schedule-view-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  gap: 3px;
+  border-radius: 12px;
+}
+
+#schedulePage .schedule-view-btn {
+  flex: 0 0 39px;
+  width: 39px;
+  height: 35px;
+  padding: 0;
+}
+
+/* 달력 7열 고정 */
+#schedulePage .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  width: 100%;
+}
+
+#schedulePage .calendar-day,
+#schedulePage .calendar-weekday {
+  min-width: 0;
+}
+
+#schedulePage .calendar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 </style>
