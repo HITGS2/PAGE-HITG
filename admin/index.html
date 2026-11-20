@@ -789,16 +789,16 @@
     
     
 <button class="admin-nav" data-page="notice">
-  📌 &nbsp; 공지 관리
+  📌 &nbsp; 배너 관리
 </button>
 
 <div class="admin-submenu" id="adminNoticeMenu">
   <button class="admin-subnav" data-page="notice-list">
-    공지 목록
+    배너 목록
   </button>
 
   <button class="admin-subnav" data-page="notice-add">
-  공지 추가
+  배너 추가
 </button>
 </div>
 
@@ -960,16 +960,16 @@
   <div class="admin-eyebrow">ADMIN / NOTICE</div>
   
 <div class="notice-list-heading">
-  <h1>공지 목록</h1>
+  <h1>배너 목록</h1>
   <button type="button" id="noticeRefreshButton">
     ↻ 새로고침
   </button>
 </div>
 
-  <p>등록된 HOME 공지 배너를 확인하고 관리합니다.</p>
+  <p>등록된 HOME 배너를 확인하고 관리합니다.</p>
 
   <div class="admin-panel" id="adminNoticeList">
-    공지 목록을 불러오는 중입니다.
+    배너 목록을 불러오는 중입니다.
   </div>
 </section>
 
@@ -977,14 +977,14 @@
 <div id="noticeEditModal" class="notice-edit-overlay" hidden>
   <div class="notice-edit-box">
     <div class="notice-edit-header">
-      <h2>공지 수정</h2>
+      <h2>배너 수정</h2>
     </div>
 
     <form id="noticeEditForm" class="schedule-form">
-      <label for="noticeEditTitle">공지 제목</label>
+      <label for="noticeEditTitle">배너 제목</label>
       <input type="text" id="noticeEditTitle" required>
 
-      <label for="noticeEditDescription">공지 내용</label>
+      <label for="noticeEditDescription">배너 내용</label>
       <textarea id="noticeEditDescription" rows="4" required></textarea>
 
       <label for="noticeEditUrl">연결할 사이트 주소</label>
@@ -1006,13 +1006,13 @@
 </div>
 
 <section class="admin-page" id="admin-notice">
-  <h1>공지 추가</h1>
-  <p>HOME 화면에 표시되는 공지 배너를 관리합니다.</p>
+  <h1>배너 추가</h1>
+  <p>HOME 화면에 표시되는 배너를 관리합니다.</p>
 
   <div class="admin-panel">
     <form id="noticeForm" class="schedule-form">
 
-      <label for="noticeTitle">공지 제목</label>
+      <label for="noticeTitle">배너 제목</label>
       <input
         type="text"
         id="noticeTitle"
@@ -1020,11 +1020,11 @@
         required
       >
 
-      <label for="noticeDescription">공지 내용</label>
+      <label for="noticeDescription">배너 내용</label>
       <textarea
         id="noticeDescription"
         rows="4"
-        placeholder="공지 내용을 입력하세요."
+        placeholder="배너 내용을 입력하세요."
         required
       ></textarea>
 
@@ -1041,7 +1041,7 @@
         <option value="false">숨기기</option>
       </select>
 
-      <button type="submit">공지 추가하기</button>
+      <button type="submit">배너 추가하기</button>
       <p id="noticeFormMessage">저장 기능 연결 전입니다.</p>
 
     </form>
@@ -1114,7 +1114,7 @@ async function loadNoticeSettings() {
     const snapshot = await getDoc(noticeDocRef);
 
     if (!snapshot.exists()) {
-      noticeMessage.textContent = "등록된 공지가 없습니다.";
+      noticeMessage.textContent = "등록된 배너가 없습니다.";
       return;
     }
 
@@ -1132,10 +1132,10 @@ async function loadNoticeSettings() {
     document.getElementById("noticeVisible").value =
       notice.visible === false ? "false" : "true";
 
-    noticeMessage.textContent = "저장된 공지를 불러왔습니다.";
+    noticeMessage.textContent = "저장된 배너를 불러왔습니다.";
   } catch (error) {
     console.error(error);
-    noticeMessage.textContent = "공지 불러오기 실패: " + error.message;
+    noticeMessage.textContent = "배너 불러오기 실패: " + error.message;
   }
 }
 
@@ -1150,7 +1150,7 @@ noticeForm.addEventListener("submit", async (event) => {
   const visible = document.getElementById("noticeVisible").value === "true";
 
   if (!title || !description) {
-    noticeMessage.textContent = "공지 제목과 내용을 입력해 주세요.";
+    noticeMessage.textContent = "배너 제목과 내용을 입력해 주세요.";
     return;
   }
 
@@ -1161,7 +1161,7 @@ noticeForm.addEventListener("submit", async (event) => {
 
   const saveButton = noticeForm.querySelector('button[type="submit"]');
   saveButton.disabled = true;
-  noticeMessage.textContent = "새 공지를 추가하는 중입니다.";
+  noticeMessage.textContent = "새 배너를 추가하는 중입니다.";
 
   try {
     await addDoc(collection(db, "notices"), {
@@ -1175,14 +1175,14 @@ noticeForm.addEventListener("submit", async (event) => {
 
     noticeForm.reset();
     document.getElementById("noticeTitle").value = "📌NOTICE📌";
-    noticeMessage.textContent = "새 공지가 추가되었습니다.";
+    noticeMessage.textContent = "새 배너가 추가되었습니다.";
 
     showAdminPage("notice-list");
     await loadAdminNoticeList();
 
   } catch (error) {
     console.error(error);
-    noticeMessage.textContent = "공지 추가 실패: " + error.message;
+    noticeMessage.textContent = "배너 추가 실패: " + error.message;
   } finally {
     saveButton.disabled = false;
   }
@@ -1197,7 +1197,7 @@ document.querySelector('[data-page="notice"]')
 /* 공지 목록 - 여러 공지 불러오기 */
 async function loadAdminNoticeList() {
   const container = document.getElementById("adminNoticeList");
-  container.textContent = "공지 목록을 불러오는 중입니다.";
+  container.textContent = "배너 목록을 불러오는 중입니다.";
 
   try {
     const snapshot = await getDocs(collection(db, "notices"));
@@ -1205,7 +1205,7 @@ async function loadAdminNoticeList() {
     container.replaceChildren();
 
     if (snapshot.empty) {
-      container.textContent = "등록된 공지가 없습니다.";
+      container.textContent = "등록된 배너가 없습니다.";
       return;
     }
 
@@ -1240,7 +1240,7 @@ async function loadAdminNoticeList() {
 
       const editButton = document.createElement("button");
       editButton.type = "button";
-      editButton.textContent = "공지 수정";
+      editButton.textContent = "배너 수정";
       
 editButton.addEventListener("click", () => {
   // 어떤 공지를 수정하는지 저장
@@ -1269,7 +1269,7 @@ editButton.addEventListener("click", () => {
 
   } catch (error) {
     console.error(error);
-    container.textContent = "공지 불러오기 실패: " + error.message;
+    container.textContent = "배너 불러오기 실패: " + error.message;
   }
 }
 
@@ -1305,7 +1305,7 @@ document.getElementById("noticeEditForm")
 const noticeId = document.getElementById("noticeEditModal").dataset.noticeId;
 
 if (!noticeId) {
-  throw new Error("수정할 공지를 선택하지 않았습니다.");
+  throw new Error("수정할 배너를 선택하지 않았습니다.");
 }
 
 await updateDoc(doc(db, "notices", noticeId), {
@@ -1331,7 +1331,7 @@ document.getElementById("noticeEditDelete")
   .addEventListener("click", async () => {
 
     const confirmed = confirm(
-      "이 공지를 정말 삭제하시겠습니까?\n삭제한 공지는 복구할 수 없습니다."
+      "이 배너를 정말 삭제하시겠습니까?\n삭제한 배너는 복구할 수 없습니다."
     );
 
     if (!confirmed) return;
@@ -1340,13 +1340,13 @@ document.getElementById("noticeEditDelete")
     const message = document.getElementById("noticeEditMessage");
 
     deleteButton.disabled = true;
-    message.textContent = "공지를 삭제하는 중입니다.";
+    message.textContent = "배너를 삭제하는 중입니다.";
 
     try {
 const noticeId = document.getElementById("noticeEditModal").dataset.noticeId;
 
 if (!noticeId) {
-  throw new Error("삭제할 공지를 선택하지 않았습니다.");
+  throw new Error("삭제할 배너를 선택하지 않았습니다.");
 }
 
 await deleteDoc(doc(db, "notices", noticeId));
