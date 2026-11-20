@@ -1139,6 +1139,8 @@ async function loadNoticeSettings() {
   }
 }
 
+
+/* 새로운 공지 추가 */
 noticeForm.addEventListener("submit", async (event) => {
   event.preventDefault();
 
@@ -1147,26 +1149,42 @@ noticeForm.addEventListener("submit", async (event) => {
   const url = document.getElementById("noticeUrl").value.trim();
   const visible = document.getElementById("noticeVisible").value === "true";
 
-  if (url && !/^https?:\/\//i.test(url)) {
-    noticeMessage.textContent = "http 또는 https 주소를 입력해 주세요.";
+  if (!title || !description) {
+    noticeMessage.textContent = "공지 제목과 내용을 입력해 주세요.";
     return;
   }
 
-  noticeMessage.textContent = "저장 중입니다.";
+  if (url && !/^https?:\/\//i.test(url)) {
+    noticeMessage.textContent = "올바른 사이트 주소를 입력해 주세요.";
+    return;
+  }
+
+  const saveButton = noticeForm.querySelector('button[type="submit"]');
+  saveButton.disabled = true;
+  noticeMessage.textContent = "새 공지를 추가하는 중입니다.";
 
   try {
-    await setDoc(noticeDocRef, {
+    await addDoc(collection(db, "notices"), {
       title,
       description,
       url,
       visible,
+      createdAt: serverTimestamp(),
       updatedAt: serverTimestamp()
     });
 
-    noticeMessage.textContent = "공지가 저장되었습니다.";
+    noticeForm.reset();
+    document.getElementById("noticeTitle").value = "📌NOTICE📌";
+    noticeMessage.textContent = "새 공지가 추가되었습니다.";
+
+    showAdminPage("notice-list");
+    await loadAdminNoticeList();
+
   } catch (error) {
     console.error(error);
-    noticeMessage.textContent = "저장 실패: " + error.message;
+    noticeMessage.textContent = "공지 추가 실패: " + error.message;
+  } finally {
+    saveButton.disabled = false;
   }
 });
 
@@ -1370,8 +1388,11 @@ document.querySelectorAll(".admin-nav, .admin-subnav")
       const page = button.dataset.page;
       
 if (page === "notice-add") {
+  noticeForm.reset();
+  document.getElementById("noticeTitle").value = "📌NOTICE📌";
+  noticeMessage.textContent = "";
+
   showAdminPage("notice");
-  loadNoticeSettings();
   return;
 }
       
