@@ -42,6 +42,17 @@ async function loadPublicSchedules() {
     if (schedulePage?.classList.contains("active")) {
       renderSchedules();
     }
+    
+if (schedulePage?.classList.contains("active")) {
+  renderSchedules();
+
+  if (
+    typeof renderScheduleCalendar === "function" &&
+    document.getElementById("scheduleCalendar")?.style.display === "block"
+  ) {
+    renderScheduleCalendar();
+  }
+}
 
     console.log("Firebase 일정 불러오기 성공:", firebaseSchedules.length);
 
