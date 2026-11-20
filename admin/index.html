@@ -645,9 +645,20 @@
       ▷ &nbsp; 영상 관리
     </button>
     
-    <button class="admin-nav" data-page="notice">
-      📌 &nbsp; 공지 관리
-    </button>
+    
+<button class="admin-nav" data-page="notice">
+  📌 &nbsp; 공지 관리
+</button>
+
+<div class="admin-submenu" id="adminNoticeMenu">
+  <button class="admin-subnav" data-page="notice-list">
+    공지 목록
+  </button>
+
+  <button class="admin-subnav" data-page="notice">
+    공지 수정
+  </button>
+</div>
 
     <button class="admin-nav" data-page="settings">
       ⚙ &nbsp; 설정
@@ -1000,6 +1011,20 @@ document.querySelectorAll(".admin-nav, .admin-subnav")
   .forEach(button => {
     button.addEventListener("click", () => {
       const page = button.dataset.page;
+
+if (page === "notice") {
+  const submenu = document.getElementById("adminNoticeMenu");
+
+  if (button.classList.contains("admin-nav")) {
+    submenu.classList.toggle("open");
+
+    if (submenu.classList.contains("open")) {
+      showAdminPage("notice-list");
+    }
+
+    return;
+  }
+}
 
       if (page === "schedule") {
         const submenu = document.getElementById("adminScheduleMenu");
