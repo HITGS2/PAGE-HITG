@@ -633,6 +633,63 @@
   padding: 11px 18px;
 }
 
+/* 공지 수정 팝업 제목 한 줄 */
+.notice-edit-header h2 {
+  white-space: nowrap;
+  word-break: keep-all;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+/* 공지 내용 입력창 */
+#noticeEditDescription {
+  display: block;
+  width: 100%;
+  min-height: 110px;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #485372;
+  background: #171b30;
+  color: #ffffff;
+  font: inherit;
+  resize: vertical;
+}
+
+/* 하단 버튼 양쪽 정렬 */
+.notice-edit-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.notice-edit-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 삭제 버튼 */
+#noticeEditDelete {
+  background: #472b39;
+  color: #ff9caa;
+  border: 1px solid #855061;
+}
+
+/* 취소 버튼 */
+#noticeEditCancel {
+  background: #343b56;
+  color: #ffffff;
+}
+
+/* 수정 저장 버튼 */
+#noticeEditForm button[type="submit"] {
+  background: #8de6c1;
+  color: #173d30;
+}
+
   </style>
 </head>
 
@@ -902,11 +959,15 @@
       <label for="noticeEditUrl">연결할 사이트 주소</label>
       <input type="url" id="noticeEditUrl">
 
-      <label for="noticeEditVisible">배너 표시 여부</label>
-      <select id="noticeEditVisible">
-        <option value="true">표시</option>
-        <option value="false">숨기기</option>
-      </select>
+     
+<div class="notice-edit-actions">
+  <button type="button" id="noticeEditDelete">삭제</button>
+
+  <div class="notice-edit-right-actions">
+    <button type="button" id="noticeEditCancel">취소</button>
+    <button type="submit">수정 저장</button>
+  </div>
+</div>
 
       <div class="notice-edit-actions">
         <button type="button" id="noticeEditCancel">취소</button>
@@ -1129,9 +1190,6 @@ editButton.addEventListener("click", () => {
 
   document.getElementById("noticeEditUrl").value =
     notice.url || "";
-
-  document.getElementById("noticeEditVisible").value =
-    notice.visible === false ? "false" : "true";
 
   document.getElementById("noticeEditMessage").textContent = "";
   document.getElementById("noticeEditModal").hidden = false;
