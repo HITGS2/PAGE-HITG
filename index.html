@@ -1814,73 +1814,71 @@ body {
   background-color: #fbfffd;
 }
 
+/* 스케줄 검색 및 정렬 모바일 */
 @media (max-width: 480px) {
-  .schedule-heading-row {
-    gap: 10px;
-  }
-}
-
-  }
-}
-
-  }
-
   #scheduleSort {
     width: 105px;
     padding-left: 14px;
   }
 }
 
-/* SCHEDULE 목록 / 달력 전환 버튼 */
-
-.schedule-heading-row {
+/* SCHEDULE 제목과 전환 버튼 */
+#schedulePage .schedule-heading-row {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 18px;
+  justify-content: flex-start;
+  gap: 16px;
+  width: max-content;
+  max-width: 100%;
 }
 
-.schedule-heading-row h1 {
+#schedulePage .schedule-heading-row h1 {
   margin: 0;
+  flex: 0 0 auto;
 }
 
-.schedule-view-toggle {
-  display: flex;
+/* 작은 전환 버튼 */
+#schedulePage .schedule-view-toggle {
+  display: inline-flex;
+  flex-direction: row;
   align-items: center;
-  gap: 3px;
+  flex: 0 0 auto;
+  width: auto;
   padding: 4px;
+  gap: 3px;
   border: 1px solid #3d4463;
   border-radius: 12px;
   background: #232842;
 }
 
-.schedule-view-btn {
-  width: 39px;
-  height: 35px;
+#schedulePage .schedule-view-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0;
+  flex: 0 0 39px;
+  width: 39px;
+  height: 35px;
+  padding: 0;
+  border: none;
   border-radius: 8px;
   background: transparent;
   color: #aeb8d2;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.2s ease;
 }
 
-.schedule-view-btn:hover {
-  color: #ffffff;
-}
-
-.schedule-view-btn.active {
+#schedulePage .schedule-view-btn.active {
   background: #8de6c1;
   color: #173d30;
 }
 
 @media (max-width: 480px) {
-  .schedule-heading-row {
-    gap
-    
+  #schedulePage .schedule-heading-row {
+    gap: 10px;
+  }
+}
+ 
 .schedule-calendar {
   margin-top: 48px;
   color: #ffffff;
