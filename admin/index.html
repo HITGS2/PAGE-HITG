@@ -1096,6 +1096,21 @@ return second.localeCompare(first);
     schedules.forEach(schedule => {
       const item = document.createElement("div");
       item.className = "schedule-list-item";
+      
+      const now = new Date();
+
+      const scheduleDateTime = new Date(
+        `${schedule.date || ""}T${schedule.time || "23:59"}:00`
+      );
+
+      const isPast =
+        !Number.isNaN(scheduleDateTime.getTime()) &&
+        scheduleDateTime < now;
+
+      if (isPast) {
+        item.classList.add("schedule-item-past");
+      }
+
 
       const date = document.createElement("div");
       date.className = "schedule-list-date";
