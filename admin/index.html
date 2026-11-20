@@ -797,9 +797,9 @@
     공지 목록
   </button>
 
-  <button class="admin-subnav" data-page="notice">
-    공지 추가
-  </button>
+  <button class="admin-subnav" data-page="notice-add">
+  공지 추가
+</button>
 </div>
 
     <button class="admin-nav" data-page="settings">
@@ -1041,7 +1041,7 @@
         <option value="false">숨기기</option>
       </select>
 
-      <button type="submit">공지 저장하기</button>
+      <button type="submit">공지 추가하기</button>
       <p id="noticeFormMessage">저장 기능 연결 전입니다.</p>
 
     </form>
@@ -1339,13 +1339,25 @@ function showAdminPage(page) {
   document.querySelectorAll(".admin-nav, .admin-subnav")
     .forEach(button => button.classList.remove("active"));
 
-  const selected = document.querySelector(
+
+let selected;
+
+if (page === "notice-list") {
+  selected = document.querySelector(
+    '.admin-nav[data-page="notice"]'
+  );
+} else if (page === "notice") {
+  selected = document.querySelector(
+    '.admin-subnav[data-page="notice-add"]'
+  );
+} else {
+  selected = document.querySelector(
     `[data-page="${page}"]`
   );
+}
 
-  if (selected) {
-    selected.classList.add("active");
-  }
+if (selected) {
+  selected.classList.add("active");
 }
 
 // 왼쪽 관리자 메뉴 클릭
@@ -1353,6 +1365,12 @@ document.querySelectorAll(".admin-nav, .admin-subnav")
   .forEach(button => {
     button.addEventListener("click", () => {
       const page = button.dataset.page;
+      
+if (page === "notice-add") {
+  showAdminPage("notice");
+  loadNoticeSettings();
+  return;
+}
       
 if (page === "notice-list") {
   loadAdminNoticeList();
