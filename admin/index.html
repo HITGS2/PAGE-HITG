@@ -513,6 +513,38 @@
   border-color: #8de6c1;
 }
 
+/* 전체 일정 정렬 */
+
+.schedule-sort-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.schedule-sort-area label {
+  color: #aeb6d2;
+  font-size: 13px;
+}
+
+#scheduleSort {
+  width: auto;
+  min-width: 130px;
+  padding: 10px 14px;
+  background: #191e35;
+  border: 1px solid #353d5e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+
+#scheduleSort:focus {
+  border-color: #8de6c1;
+}
+
   </style>
 </head>
 
@@ -632,6 +664,15 @@
     autocomplete="off"
     aria-label="일정 이름 검색"
   >
+</div>
+
+<div class="schedule-sort-area">
+  <label for="scheduleSort">정렬 기준</label>
+
+  <select id="scheduleSort">
+    <option value="asc">오래된순</option>
+    <option value="desc">최신순</option>
+  </select>
 </div>
 
   <div id="adminScheduleList">
