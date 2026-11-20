@@ -1238,6 +1238,7 @@ document.querySelector('[data-page="notice"]')
 
 
 /* 공지 목록 - 여러 공지 불러오기 */
+
 async function loadAdminNoticeList() {
   const container = document.getElementById("adminNoticeList");
   container.textContent = "배너 목록을 불러오는 중입니다.";
@@ -1257,16 +1258,66 @@ async function loadAdminNoticeList() {
       ...docSnap.data()
     }));
 
-    // 최근 등록한 공지부터 표시
+    // 저장된 순서대로 정렬
     notices.sort((a, b) => {
+      const aOrder = Number.isFinite(a.order)
+        ? a.order : 999999;
+      const bOrder = Number.isFinite(b.order)
+        ? b.order : 999999;
+
+      if (aOrder !== bOrder) return aOrder - bOrder;
+
       const aTime = a.createdAt?.toMillis?.() || 0;
       const bTime = b.createdAt?.toMillis?.() || 0;
-      return bTime - aTime;
+      return aTime - bTime;
     });
 
-    notices.forEach(notice => {
+    async function saveBannerOrder() {
+      const cards = [...container.querySelectorAll(
+        ".notice-list-card"
+      )];
+
+      const batch = writeBatch(db);
+
+      cards.forEach((card, index) => {
+        batch.update(doc(db, "notices", card.dataset.id), {
+          order: index + 1
+        });
+      });
+
+      await batch.commit();
+    }
+
+    notices.forEach((notice, index) => {
       const card = document.createElement("div");
       card.className = "notice-list-card";
+      card.dataset.id = notice.id;
+
+      // 왼쪽 드래그 손잡이
+      const handle = document.createElement("div");
+      handle.draggable = true;
+      handle.title = "드래그해서 배너 순서 변경";
+      handle.setAttribute("aria-label", "배너 순서 변경");
+      handle.style.cssText = `
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        z-index: 3;
+        cursor: grab;
+        touch-action: none;
+      `;
+
+      const number = document.createElement("div");
+      number.className = "banner-order-number";
+      number.textContent = `${index + 1}번 배너`;
+      number.style.cssText = `
+        color: #8de6c1;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 12px;
+      `;
 
       const title = document.createElement("h2");
       title.textContent = notice.title || "제목 없음";
@@ -1284,29 +1335,87 @@ async function loadAdminNoticeList() {
       const editButton = document.createElement("button");
       editButton.type = "button";
       editButton.textContent = "배너 수정";
-      
-editButton.addEventListener("click", () => {
-  // 어떤 공지를 수정하는지 저장
-  const modal = document.getElementById("noticeEditModal");
-  modal.dataset.noticeId = notice.id;
 
-  // 선택한 공지의 내용 입력
-  document.getElementById("noticeEditTitle").value =
-    notice.title || "";
+      editButton.addEventListener("click", () => {
+        const modal = document.getElementById("noticeEditModal");
+        modal.dataset.noticeId = notice.id;
 
-  document.getElementById("noticeEditDescription").value =
-    notice.description || "";
+        document.getElementById("noticeEditTitle").value =
+          notice.title || "";
 
-  document.getElementById("noticeEditUrl").value =
-    notice.url || "";
+        document.getElementById("noticeEditDescription").value =
+          notice.description || "";
 
-  document.getElementById("noticeEditMessage").textContent = "";
+        document.getElementById("noticeEditUrl").value =
+          notice.url || "";
 
-  // 수정 팝업 표시
-  modal.hidden = false;
-});
+        document.getElementById("noticeEditMessage").textContent = "";
+        modal.hidden = false;
+      });
 
-      card.append(title, description, status, editButton);
+      // 드래그 시작
+      handle.addEventListener("dragstart", event => {
+        event.dataTransfer.setData("text/plain", notice.id);
+        event.dataTransfer.effectAllowed = "move";
+        handle.style.cursor = "grabbing";
+        card.style.opacity = "0.5";
+      });
+
+      handle.addEventListener("dragend", () => {
+        handle.style.cursor = "grab";
+        card.style.opacity = "1";
+      });
+
+      // 다른 배너 위에 드래그
+      card.addEventListener("dragover", event => {
+        event.preventDefault();
+        event.dataTransfer.dropEffect = "move";
+      });
+
+      // 배너 위치 변경 및 저장
+      card.addEventListener("drop", async event => {
+        event.preventDefault();
+
+        const draggedId = event.dataTransfer.getData("text/plain");
+        const draggedCard = [...container.children].find(
+          item => item.dataset.id === draggedId
+        );
+
+        if (!draggedCard || draggedCard === card) return;
+
+        const cards = [...container.children];
+        const fromIndex = cards.indexOf(draggedCard);
+        const toIndex = cards.indexOf(card);
+
+        if (fromIndex < toIndex) {
+          card.after(draggedCard);
+        } else {
+          card.before(draggedCard);
+        }
+
+        container.querySelectorAll(".banner-order-number")
+          .forEach((element, i) => {
+            element.textContent = `${i + 1}번 배너`;
+          });
+
+        try {
+          await saveBannerOrder();
+        } catch (error) {
+          console.error(error);
+          alert("배너 순서 저장 실패: " + error.message);
+          await loadAdminNoticeList();
+        }
+      });
+
+      card.append(
+        handle,
+        number,
+        title,
+        description,
+        status,
+        editButton
+      );
+
       container.appendChild(card);
     });
 
