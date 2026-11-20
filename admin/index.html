@@ -1073,11 +1073,12 @@ schedules.sort((a, b) => {
   const first = `${a.date || ""} ${a.time || ""}`;
   const second = `${b.date || ""} ${b.time || ""}`;
 
-  if (sortOrder === "desc") {
-    return second.localeCompare(first);
-  }
-
+if (sortOrder === "desc") {
   return first.localeCompare(second);
+}
+
+return second.localeCompare(first);
+
 });
 
     count.textContent = `총 ${schedules.length}개의 일정`;
