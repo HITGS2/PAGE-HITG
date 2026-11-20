@@ -891,9 +891,85 @@ import {
   updateDoc
 } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
+import {
+  setDoc,
+  getDoc
+} from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
   const db = getFirestore(app);
   
   const ADMIN_UID = "r1KQyn9x29W0tgu4X3BBOkMz7no2";
+
+/* 공지 관리 - Firebase 저장 및 불러오기 */
+
+const noticeForm = document.getElementById("noticeForm");
+const noticeMessage = document.getElementById("noticeFormMessage");
+
+const noticeDocRef = doc(db, "siteSettings", "homeNotice");
+
+async function loadNoticeSettings() {
+  try {
+    const snapshot = await getDoc(noticeDocRef);
+
+    if (!snapshot.exists()) {
+      noticeMessage.textContent = "등록된 공지가 없습니다.";
+      return;
+    }
+
+    const notice = snapshot.data();
+
+    document.getElementById("noticeTitle").value =
+      notice.title || "";
+
+    document.getElementById("noticeDescription").value =
+      notice.description || "";
+
+    document.getElementById("noticeUrl").value =
+      notice.url || "";
+
+    document.getElementById("noticeVisible").value =
+      notice.visible === false ? "false" : "true";
+
+    noticeMessage.textContent = "저장된 공지를 불러왔습니다.";
+  } catch (error) {
+    console.error(error);
+    noticeMessage.textContent = "공지 불러오기 실패: " + error.message;
+  }
+}
+
+noticeForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+
+  const title = document.getElementById("noticeTitle").value.trim();
+  const description = document.getElementById("noticeDescription").value.trim();
+  const url = document.getElementById("noticeUrl").value.trim();
+  const visible = document.getElementById("noticeVisible").value === "true";
+
+  if (url && !/^https?:\/\//i.test(url)) {
+    noticeMessage.textContent = "http 또는 https 주소를 입력해 주세요.";
+    return;
+  }
+
+  noticeMessage.textContent = "저장 중입니다.";
+
+  try {
+    await setDoc(noticeDocRef, {
+      title,
+      description,
+      url,
+      visible,
+      updatedAt: serverTimestamp()
+    });
+
+    noticeMessage.textContent = "공지가 저장되었습니다.";
+  } catch (error) {
+    console.error(error);
+    noticeMessage.textContent = "저장 실패: " + error.message;
+  }
+});
+
+document.querySelector('[data-page="notice"]')
+  .addEventListener("click", loadNoticeSettings);
 
 // 관리자 메뉴 화면 전환
 function showAdminPage(page) {
