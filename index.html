@@ -2311,6 +2311,12 @@ scheduleMemberButtons.forEach(button => {
   });
 });
 
+document.getElementById("scheduleSearch")
+  .addEventListener("input", renderSchedules);
+
+document.getElementById("scheduleSort")
+  .addEventListener("change", renderSchedules);
+
 function renderSchedules() {
   const container = document.getElementById("scheduleContent");
   container.replaceChildren();
@@ -2318,27 +2324,46 @@ function renderSchedules() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const filtered = schedules
-    .filter(item => {
-      const matchType =
-        currentScheduleType === "all" ||
-        item.category === currentScheduleType;
+ 
+const searchKeyword = document
+  .getElementById("scheduleSearch")
+  .value.trim().toLowerCase();
 
-      const members = Array.isArray(item.members)
-        ? item.members
-        : [];
+const sortOrder = document
+  .getElementById("scheduleSort")
+  .value;
 
-      const matchMember =
-        currentScheduleMember === "ALL" ||
-        members.includes("전체") ||
-        members.includes(currentScheduleMember);
+const filtered = schedules
+  .filter(item => {
+    const matchType =
+      currentScheduleType === "all" ||
+      item.category === currentScheduleType;
 
-      return matchType && matchMember;
-    })
-    .sort((a, b) =>
-      a.date.localeCompare(b.date) ||
-      a.time.localeCompare(b.time)
-    );
+    const members = Array.isArray(item.members)
+      ? item.members
+      : [];
+
+    const matchMember =
+      currentScheduleMember === "ALL" ||
+      members.includes("전체") ||
+      members.includes(currentScheduleMember);
+
+    const matchSearch = (item.title || "")
+      .toLowerCase()
+      .includes(searchKeyword);
+
+    return matchType && matchMember && matchSearch;
+  })
+  .sort((a, b) => {
+    const first = `${a.date || ""} ${a.time || ""}`;
+    const second = `${b.date || ""} ${b.time || ""}`;
+
+    if (sortOrder === "desc") {
+      return first.localeCompare(second);
+    }
+
+    return second.localeCompare(first);
+  });
 
   if (filtered.length === 0) {
     const empty = document.createElement("div");
