@@ -970,6 +970,26 @@ await loadAdminSchedules();
     }
   });
 
+let allAdminSchedules = [];
+
+document.getElementById("scheduleSearch")
+  .addEventListener("input", () => {
+    filterAdminSchedules();
+  });
+
+function filterAdminSchedules() {
+  const keyword = document.getElementById("scheduleSearch")
+    .value.trim().toLowerCase();
+
+  document.querySelectorAll("#adminScheduleList .schedule-list-item")
+    .forEach(item => {
+      const title = item.querySelector(".schedule-list-title")
+        ?.textContent.toLowerCase() || "";
+
+      item.style.display = title.includes(keyword) ? "" : "none";
+    });
+}
+
 // Firebase 전체 일정 조회
 async function loadAdminSchedules() {
   const list = document.getElementById("adminScheduleList");
@@ -1101,6 +1121,7 @@ actions.append(editButton, deleteButton);
 item.append(date, title, members, actions);
 
       list.appendChild(item);
+      filterAdminSchedules();
     });
 
   } catch (error) {
