@@ -1756,6 +1756,58 @@ body {
   padding-bottom: 85px;
 }
 
+/* 일정 검색 및 정렬 */
+
+.schedule-search-sort {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+#scheduleSearch {
+  flex: 1;
+  min-width: 0;
+  padding: 13px 16px;
+  border: 1px solid #e0e5e2;
+  border-radius: 8px;
+  background: #f8faf9;
+  color: #222;
+  font-size: 13px;
+  outline: none;
+}
+
+#scheduleSearch:focus {
+  border-color: #8de6c1;
+  background: #fff;
+}
+
+#scheduleSort {
+  width: 120px;
+  padding: 13px 12px;
+  border: 1px solid #e0e5e2;
+  border-radius: 8px;
+  background: #f8faf9;
+  color: #444;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+
+#scheduleSort:focus {
+  border-color: #8de6c1;
+}
+
+@media (max-width: 480px) {
+  .schedule-search-sort {
+    gap: 8px;
+  }
+
+  #scheduleSort {
+    width: 105px;
+  }
+}
+
 </style>
 </head>
 
@@ -2013,6 +2065,23 @@ body {
     <button class="schedule-member-btn" data-member="혜린">혜린</button>
     <button class="schedule-member-btn" data-member="이유">이유</button>
   </div>
+</div>
+
+<!-- 일정 검색 및 정렬 -->
+<div class="schedule-search-sort">
+
+  <input
+    type="text"
+    id="scheduleSearch"
+    placeholder="스케줄 이름 검색..."
+    autocomplete="off"
+  >
+
+  <select id="scheduleSort">
+    <option value="desc">최신순</option>
+    <option value="asc">오래된순</option>
+  </select>
+
 </div>
 
 <div id="scheduleContent" class="schedule-content">
