@@ -1343,7 +1343,14 @@ document.getElementById("noticeEditDelete")
     message.textContent = "공지를 삭제하는 중입니다.";
 
     try {
-      await deleteDoc(noticeDocRef);
+const noticeId = document.getElementById("noticeEditModal").dataset.noticeId;
+
+if (!noticeId) {
+  throw new Error("삭제할 공지를 선택하지 않았습니다.");
+}
+
+await deleteDoc(doc(db, "notices", noticeId));
+
 
       closeNoticeEditModal();
       await loadAdminNoticeList();
