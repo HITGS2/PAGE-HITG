@@ -1,5 +1,17 @@
 const videos = [
   {
+    "title": "𝐼'𝑙𝑙 𝑩𝑹𝑩—♡⊹⁠˚₊ #HITGS #IYOO #BRB #ThingsWeDream_Vol4",
+    "url": "https://www.youtube.com/watch?v=1W2vaqPEDiM",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-20",
+    "duration": "0:29",
+    "type": "SHORTS",
+    "isLive": false
+  },
+  {
     "title": "수능보고 온 양떠 등장!",
     "url": "https://www.youtube.com/watch?v=zjPqhwOtHmc",
     "year": "2026",
