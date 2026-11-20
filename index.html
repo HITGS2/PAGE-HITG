@@ -2564,8 +2564,8 @@ body {
   import { initializeApp, getApps, getApp }
     from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 
-  import { getFirestore, doc, getDoc }
-    from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+  import { getFirestore, collection, getDocs }
+  from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
   const firebaseConfig = {
     apiKey: "AIzaSyCfFDbcl3zUel1fnM8CbcknGeT5KAhpf18",
@@ -2577,19 +2577,52 @@ body {
   const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
-  async function loadHomeNotice() {
-    try {
-      const snapshot = await getDoc(doc(db, "siteSettings", "homeNotice"));
+  
+let noticeTimer = null;
 
-      if (!snapshot.exists()) return;
+async function loadHomeNotice() {
+  const slider = document.getElementById("noticeSlider");
+  const dotsContainer = document.getElementById("noticeDots");
+  const slide = slider?.querySelector(".hitg-notice-slide");
+  const link = document.getElementById("homeNoticeLink");
 
-      const notice = snapshot.data();
-      const slider = document.getElementById("noticeSlider");
-      const link = document.getElementById("homeNoticeLink");
+  if (!slider || !dotsContainer || !slide || !link) return;
 
-      if (!slider || !link) return;
+  try {
+    const snapshot = await getDocs(collection(db, "notices"));
 
-      slider.style.display = notice.visible === false ? "none" : "";
+    const notices = snapshot.docs
+      .map(docSnap => ({
+        id: docSnap.id,
+        ...docSnap.data()
+      }))
+      .filter(notice => notice.visible !== false)
+      .sort((a, b) => {
+        const aTime = a.createdAt?.toMillis?.() || 0;
+        const bTime = b.createdAt?.toMillis?.() || 0;
+        return aTime - bTime;
+      });
+
+    if (noticeTimer) {
+      clearInterval(noticeTimer);
+      noticeTimer = null;
+    }
+
+    dotsContainer.replaceChildren();
+
+    if (notices.length === 0) {
+      slider.style.display = "none";
+      return;
+    }
+
+    slider.style.display = "";
+
+    let currentIndex = 0;
+
+    function showNotice(index) {
+      currentIndex = index;
+
+      const notice = notices[currentIndex];
 
       document.getElementById("homeNoticeTitle").textContent =
         notice.title || "NOTICE";
@@ -2607,12 +2640,46 @@ body {
         link.style.cursor = "default";
       }
 
-    } catch (error) {
-      console.error("공지 불러오기 실패:", error);
+      dotsContainer.querySelectorAll(".notice-dot")
+        .forEach((dot, dotIndex) => {
+          dot.classList.toggle("active", dotIndex === currentIndex);
+        });
     }
-  }
 
-  loadHomeNotice();
+    function startAutoSlide() {
+      if (noticeTimer) clearInterval(noticeTimer);
+
+      if (notices.length > 1) {
+        noticeTimer = setInterval(() => {
+          showNotice((currentIndex + 1) % notices.length);
+        }, 7000);
+      }
+    }
+
+    notices.forEach((notice, index) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.className = "notice-dot";
+      dot.setAttribute("aria-label", `공지 ${index + 1}번 보기`);
+
+      dot.addEventListener("click", () => {
+        showNotice(index);
+        startAutoSlide();
+      });
+
+      dotsContainer.appendChild(dot);
+    });
+
+    showNotice(0);
+    startAutoSlide();
+
+  } catch (error) {
+    console.error("공지 불러오기 실패:", error);
+  }
+}
+
+loadHomeNotice();
+
 </script>
 
 
