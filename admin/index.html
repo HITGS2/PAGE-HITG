@@ -977,17 +977,36 @@ document.getElementById("scheduleSearch")
     filterAdminSchedules();
   });
 
+
 function filterAdminSchedules() {
   const keyword = document.getElementById("scheduleSearch")
     .value.trim().toLowerCase();
 
-  document.querySelectorAll("#adminScheduleList .schedule-list-item")
-    .forEach(item => {
-      const title = item.querySelector(".schedule-list-title")
-        ?.textContent.toLowerCase() || "";
+  const items = document.querySelectorAll(
+    "#adminScheduleList .schedule-list-item"
+  );
 
-      item.style.display = title.includes(keyword) ? "" : "none";
-    });
+  let visibleCount = 0;
+
+  items.forEach(item => {
+    const title = item.querySelector(".schedule-list-title")
+      ?.textContent.toLowerCase() || "";
+
+    const matched = title.includes(keyword);
+
+    item.style.display = matched ? "" : "none";
+
+    if (matched) visibleCount++;
+  });
+
+  const count = document.getElementById("scheduleCount");
+
+  if (keyword) {
+    count.textContent =
+      `검색 결과 ${visibleCount}개 / 전체 ${items.length}개`;
+  } else {
+    count.textContent = `총 ${items.length}개의 일정`;
+  }
 }
 
 // Firebase 전체 일정 조회
