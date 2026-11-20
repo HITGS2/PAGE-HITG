@@ -573,6 +573,66 @@
   font-weight: 500;
 }
 
+/* 공지 수정 팝업 */
+.notice-edit-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.notice-edit-overlay[hidden] {
+  display: none !important;
+}
+
+.notice-edit-box {
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 28px;
+  border-radius: 16px;
+  background: #252c48;
+  border: 1px solid #485372;
+  color: #ffffff;
+}
+
+.notice-edit-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.notice-edit-header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.notice-edit-header button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.notice-edit-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.notice-edit-actions button {
+  width: auto;
+  padding: 11px 18px;
+}
+
   </style>
 </head>
 
@@ -824,6 +884,40 @@
   </div>
 </section>
 
+<!-- 공지 수정 팝업 -->
+<div id="noticeEditModal" class="notice-edit-overlay" hidden>
+  <div class="notice-edit-box">
+    <div class="notice-edit-header">
+      <h2>공지 수정</h2>
+      <button type="button" id="noticeEditClose">✕</button>
+    </div>
+
+    <form id="noticeEditForm" class="schedule-form">
+      <label for="noticeEditTitle">공지 제목</label>
+      <input type="text" id="noticeEditTitle" required>
+
+      <label for="noticeEditDescription">공지 내용</label>
+      <textarea id="noticeEditDescription" rows="4" required></textarea>
+
+      <label for="noticeEditUrl">연결할 사이트 주소</label>
+      <input type="url" id="noticeEditUrl">
+
+      <label for="noticeEditVisible">배너 표시 여부</label>
+      <select id="noticeEditVisible">
+        <option value="true">표시</option>
+        <option value="false">숨기기</option>
+      </select>
+
+      <div class="notice-edit-actions">
+        <button type="button" id="noticeEditCancel">취소</button>
+        <button type="submit">수정 저장</button>
+      </div>
+
+      <p id="noticeEditMessage"></p>
+    </form>
+  </div>
+</div>
+
 <section class="admin-page" id="admin-notice">
   <h1>공지 추가</h1>
   <p>HOME 화면에 표시되는 공지 배너를 관리합니다.</p>
@@ -1025,10 +1119,23 @@ async function loadAdminNoticeList() {
     const editButton = document.createElement("button");
     editButton.type = "button";
     editButton.textContent = "공지 수정";
-    editButton.addEventListener("click", async () => {
-      showAdminPage("notice");
-      await loadNoticeSettings();
-    });
+    
+editButton.addEventListener("click", () => {
+  document.getElementById("noticeEditTitle").value =
+    notice.title || "";
+
+  document.getElementById("noticeEditDescription").value =
+    notice.description || "";
+
+  document.getElementById("noticeEditUrl").value =
+    notice.url || "";
+
+  document.getElementById("noticeEditVisible").value =
+    notice.visible === false ? "false" : "true";
+
+  document.getElementById("noticeEditMessage").textContent = "";
+  document.getElementById("noticeEditModal").hidden = false;
+});
 
     card.append(title, description, status, editButton);
     container.replaceChildren(card);
@@ -1038,6 +1145,24 @@ async function loadAdminNoticeList() {
     container.textContent = "공지 불러오기 실패: " + error.message;
   }
 }
+
+/* 공지 수정 팝업 닫기 */
+function closeNoticeEditModal() {
+  document.getElementById("noticeEditModal").hidden = true;
+}
+
+document.getElementById("noticeEditClose")
+  .addEventListener("click", closeNoticeEditModal);
+
+document.getElementById("noticeEditCancel")
+  .addEventListener("click", closeNoticeEditModal);
+
+document.getElementById("noticeEditModal")
+  .addEventListener("click", (event) => {
+    if (event.target.id === "noticeEditModal") {
+      closeNoticeEditModal();
+    }
+  });
 
 // 관리자 메뉴 화면 전환
 function showAdminPage(page) {
