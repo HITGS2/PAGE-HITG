@@ -1301,12 +1301,19 @@ document.getElementById("noticeEditForm")
     message.textContent = "수정 내용을 저장하는 중입니다.";
 
     try {
-      await updateDoc(noticeDocRef, {
-        title,
-        description,
-        url,
-        updatedAt: serverTimestamp()
-      });
+      
+const noticeId = document.getElementById("noticeEditModal").dataset.noticeId;
+
+if (!noticeId) {
+  throw new Error("수정할 공지를 선택하지 않았습니다.");
+}
+
+await updateDoc(doc(db, "notices", noticeId), {
+  title,
+  description,
+  url,
+  updatedAt: serverTimestamp()
+});
 
       closeNoticeEditModal();
       await loadAdminNoticeList();
