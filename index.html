@@ -1874,6 +1874,77 @@ body {
 @media (max-width: 480px) {
   .schedule-heading-row {
     gap
+    
+.schedule-calendar {
+  margin-top: 48px;
+  color: #ffffff;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.calendar-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.calendar-header button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-top: 1px solid #414765;
+  border-left: 1px solid #414765;
+}
+
+.calendar-weekday {
+  padding: 15px 0;
+  text-align: center;
+  color: #aeb8d2;
+  border-right: 1px solid #414765;
+  border-bottom: 1px solid #414765;
+}
+
+.calendar-day {
+  min-height: 125px;
+  padding: 12px;
+  background: #20243d;
+  border-right: 1px solid #414765;
+  border-bottom: 1px solid #414765;
+}
+
+.calendar-day.empty {
+  background: #191d33;
+}
+
+.calendar-day-number {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e5e9f5;
+}
+
+@media (max-width: 600px) {
+  .calendar-day {
+    min-height: 70px;
+    padding: 5px;
+  }
+
+  .calendar-header h2 {
+    font-size: 22px;
+  }
+}
+
 </style>
 </head>
 
@@ -2182,6 +2253,16 @@ body {
 </div>
 
 
+<div id="scheduleCalendar" class="schedule-calendar" style="display: none;">
+  <div class="calendar-header">
+    <button type="button" id="calendarPrevMonth">‹</button>
+    <h2 id="calendarMonthTitle"></h2>
+    <button type="button" id="calendarNextMonth">›</button>
+  </div>
+
+  <div class="calendar-grid" id="calendarGrid"></div>
+</div>
+
     <div class="footer">
       PAGE:HITG · SCHEDULE
     </div>
@@ -2382,6 +2463,84 @@ document.getElementById("scheduleSearch")
 
 document.getElementById("scheduleSort")
   .addEventListener("change", renderSchedules);
+
+let scheduleViewMode = "list";
+let calendarCurrentDate = new Date();
+
+const scheduleListBtn = document.getElementById("scheduleListViewBtn");
+const scheduleCalendarBtn = document.getElementById("scheduleCalendarViewBtn");
+
+function changeScheduleView(mode) {
+  scheduleViewMode = mode;
+
+  document.getElementById("scheduleContent").style.display =
+    mode === "list" ? "" : "none";
+
+  document.getElementById("scheduleCalendar").style.display =
+    mode === "calendar" ? "block" : "none";
+
+  document.querySelector(".schedule-controls").style.display =
+    mode === "list" ? "" : "none";
+
+  scheduleListBtn.classList.toggle("active", mode === "list");
+  scheduleCalendarBtn.classList.toggle("active", mode === "calendar");
+
+  if (mode === "calendar") {
+    renderScheduleCalendar();
+  }
+}
+
+scheduleListBtn.addEventListener("click", () => changeScheduleView("list"));
+scheduleCalendarBtn.addEventListener("click", () => changeScheduleView("calendar"));
+
+document.getElementById("calendarPrevMonth").addEventListener("click", () => {
+  calendarCurrentDate.setMonth(calendarCurrentDate.getMonth() - 1);
+  renderScheduleCalendar();
+});
+
+document.getElementById("calendarNextMonth").addEventListener("click", () => {
+  calendarCurrentDate.setMonth(calendarCurrentDate.getMonth() + 1);
+  renderScheduleCalendar();
+});
+
+function renderScheduleCalendar() {
+  const year = calendarCurrentDate.getFullYear();
+  const month = calendarCurrentDate.getMonth();
+
+  document.getElementById("calendarMonthTitle").textContent =
+    `${year}. ${String(month + 1).padStart(2, "0")}.`;
+
+  const grid = document.getElementById("calendarGrid");
+  grid.replaceChildren();
+
+  ["일", "월", "화", "수", "목", "금", "토"].forEach(day => {
+    const label = document.createElement("div");
+    label.className = "calendar-weekday";
+    label.textContent = day;
+    grid.appendChild(label);
+  });
+
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  for (let i = 0; i < firstDay; i++) {
+    const empty = document.createElement("div");
+    empty.className = "calendar-day empty";
+    grid.appendChild(empty);
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const cell = document.createElement("div");
+    cell.className = "calendar-day";
+
+    const number = document.createElement("span");
+    number.className = "calendar-day-number";
+    number.textContent = day;
+
+    cell.appendChild(number);
+    grid.appendChild(cell);
+  }
+}
 
 function renderSchedules() {
   const container = document.getElementById("scheduleContent");
