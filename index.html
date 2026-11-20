@@ -2026,6 +2026,78 @@ body {
   justify-content: center;
 }
 
+/* PAGE:HITG 달력 디자인 개선 */
+
+#schedulePage .calendar-grid {
+  border-top: 1px solid #343a54;
+  border-left: none;
+}
+
+#schedulePage .calendar-weekday {
+  background: transparent;
+  border-right: none;
+  border-bottom: 1px solid #343a54;
+  color: #aab4d0;
+  font-weight: 500;
+}
+
+#schedulePage .calendar-day {
+  background: #1d2139;
+  border-right: none;
+  border-bottom: 1px solid #343a54;
+  padding: 14px 10px;
+}
+
+#schedulePage .calendar-day.empty {
+  background: transparent;
+}
+
+#schedulePage .calendar-day-number {
+  color: #e6e9f5;
+  font-weight: 500;
+}
+
+#schedulePage .calendar-event {
+  border-left: 3px solid #8de6c1;
+  background: #2d3d49;
+  color: #d7f8eb;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-weight: 500;
+}
+
+/* 팬사인회 */
+#schedulePage .calendar-event[data-category="fansign"] {
+  border-left-color: #f0a6c7;
+  background: #453348;
+  color: #ffe1ee;
+}
+
+/* 콘서트 */
+#schedulePage .calendar-event[data-category="concert"] {
+  border-left-color: #a6a8ff;
+  background: #343557;
+  color: #e0e1ff;
+}
+
+/* 행사 */
+#schedulePage .calendar-event[data-category="event"] {
+  border-left-color: #8de6c1;
+  background: #2d3d49;
+  color: #d7f8eb;
+}
+
+@media (max-width: 600px) {
+  #schedulePage .calendar-day {
+    padding: 6px 4px;
+  }
+
+  #schedulePage .calendar-event {
+    padding: 4px;
+    font-size: 10px;
+  }
+}
+
 </style>
 </head>
 
@@ -2639,6 +2711,7 @@ const daySchedules = schedules
 daySchedules.forEach(item => {
   const event = document.createElement("div");
   event.className = "calendar-event";
+  event.dataset.category = item.category || "";
   event.textContent = item.title || "제목 없음";
   event.title = `${item.time || "시간 미정"} · ${item.title || "제목 없음"}`;
 
