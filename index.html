@@ -2127,6 +2127,21 @@ body {
   color: #ffffff;
 }
 
+/* 달력 일정 이름 최대 2줄 표시 */
+#schedulePage .calendar-event {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  line-height: 1.5;
+  max-height: calc(1.5em * 2 + 12px);
+  overflow-wrap: anywhere;
+}
+
 </style>
 </head>
 
