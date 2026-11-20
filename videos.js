@@ -1,5 +1,41 @@
 const videos = [
   {
+    "title": "언박싱♡.•♬",
+    "url": "https://www.youtube.com/watch?v=maVAXjNOZpo",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-20",
+    "duration": "",
+    "type": "VIDEO",
+    "isLive": false
+  },
+  {
+    "title": "HITGS가 도쿄에 또 왔어요✌️ | TOKYO 2nd FAN CONCERT BEHIND",
+    "url": "https://www.youtube.com/watch?v=YZCQ9pSvzPY",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-20",
+    "duration": "30:02",
+    "type": "VIDEO",
+    "isLive": false
+  },
+  {
+    "title": "나도 화낼 줄 아는데 (ง •̀_•́)ง #HITGS #힛지스 #SEOHEE #HYERIN",
+    "url": "https://www.youtube.com/watch?v=rByMqvIXwVE",
+    "year": "2026",
+    "category": "OFFICIAL",
+    "member": "ALL",
+    "channel": "HITGS (힛지스)",
+    "date": "2026-11-20",
+    "duration": "0:25",
+    "type": "SHORTS",
+    "isLive": false
+  },
+  {
     "title": "𝐼'𝑙𝑙 𝑩𝑹𝑩—♡⊹⁠˚₊ #HITGS #IYOO #BRB #ThingsWeDream_Vol4",
     "url": "https://www.youtube.com/watch?v=1W2vaqPEDiM",
     "year": "2026",

@@ -93,7 +93,7 @@ const playlists = [
   {
     "title": "HITGS BEHIND🍓",
     "url": "https://www.youtube.com/playlist?list=PLa4XrzOtSufnCM8bmu-WqXR8loxo_0mBp",
-    "thumbnail": "https://i.ytimg.com/vi/oP0JaKqkMrw/hqdefault.jpg",
+    "thumbnail": "https://i.ytimg.com/vi/YZCQ9pSvzPY/hqdefault.jpg",
     "videoCount": 30,
     "date": "2025-05-14"
   },
