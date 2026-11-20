@@ -2599,11 +2599,20 @@ async function loadHomeNotice() {
         ...docSnap.data()
       }))
       .filter(notice => notice.visible !== false)
-      .sort((a, b) => {
-        const aTime = a.createdAt?.toMillis?.() || 0;
-        const bTime = b.createdAt?.toMillis?.() || 0;
-        return aTime - bTime;
-      });
+     
+.sort((a, b) => {
+  const aOrder = Number.isFinite(a.order) ? a.order : 999999;
+  const bOrder = Number.isFinite(b.order) ? b.order : 999999;
+
+  if (aOrder !== bOrder) {
+    return aOrder - bOrder;
+  }
+
+  const aTime = a.createdAt?.toMillis?.() || 0;
+  const bTime = b.createdAt?.toMillis?.() || 0;
+
+  return aTime - bTime;
+});
 
     if (noticeTimer) {
       clearInterval(noticeTimer);
