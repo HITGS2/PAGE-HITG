@@ -814,6 +814,16 @@
       <div class="admin-panel">준비 중입니다.</div>
     </section>
 
+<section class="admin-page" id="admin-notice-list">
+  <div class="admin-eyebrow">ADMIN / NOTICE</div>
+  <h1>공지 목록</h1>
+  <p>등록된 HOME 공지 배너를 확인하고 관리합니다.</p>
+
+  <div class="admin-panel" id="adminNoticeList">
+    공지 목록을 불러오는 중입니다.
+  </div>
+</section>
+
 <section class="admin-page" id="admin-notice">
   <h1>공지 관리</h1>
   <p>HOME 화면에 표시되는 공지 배너를 관리합니다.</p>
@@ -982,6 +992,53 @@ noticeForm.addEventListener("submit", async (event) => {
 document.querySelector('[data-page="notice"]')
   .addEventListener("click", loadNoticeSettings);
 
+/* 공지 목록 불러오기 */
+
+async function loadAdminNoticeList() {
+  const container = document.getElementById("adminNoticeList");
+  container.textContent = "공지 목록을 불러오는 중입니다.";
+
+  try {
+    const snapshot = await getDoc(noticeDocRef);
+
+    if (!snapshot.exists()) {
+      container.textContent = "등록된 공지가 없습니다.";
+      return;
+    }
+
+    const notice = snapshot.data();
+
+    const card = document.createElement("div");
+    card.className = "notice-list-card";
+
+    const title = document.createElement("h2");
+    title.textContent = notice.title || "제목 없음";
+
+    const description = document.createElement("p");
+    description.textContent = notice.description || "내용 없음";
+    description.style.whiteSpace = "pre-wrap";
+
+    const status = document.createElement("p");
+    status.textContent =
+      notice.visible === false ? "상태: 숨김" : "상태: 표시 중";
+
+    const editButton = document.createElement("button");
+    editButton.type = "button";
+    editButton.textContent = "공지 수정";
+    editButton.addEventListener("click", async () => {
+      showAdminPage("notice");
+      await loadNoticeSettings();
+    });
+
+    card.append(title, description, status, editButton);
+    container.replaceChildren(card);
+
+  } catch (error) {
+    console.error(error);
+    container.textContent = "공지 불러오기 실패: " + error.message;
+  }
+}
+
 // 관리자 메뉴 화면 전환
 function showAdminPage(page) {
   document.querySelectorAll(".admin-page").forEach(section => {
@@ -1011,6 +1068,10 @@ document.querySelectorAll(".admin-nav, .admin-subnav")
   .forEach(button => {
     button.addEventListener("click", () => {
       const page = button.dataset.page;
+      
+if (page === "notice-list") {
+  loadAdminNoticeList();
+}
 
 if (page === "notice") {
   const submenu = document.getElementById("adminNoticeMenu");
