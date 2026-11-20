@@ -1230,6 +1230,52 @@ editButton.addEventListener("click", () => {
   }
 }
 
+/* 공지 수정 저장 */
+document.getElementById("noticeEditForm")
+  .addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const title = document.getElementById("noticeEditTitle").value.trim();
+    const description = document.getElementById("noticeEditDescription").value.trim();
+    const url = document.getElementById("noticeEditUrl").value.trim();
+
+    const message = document.getElementById("noticeEditMessage");
+    const saveButton = document.querySelector(
+      '#noticeEditForm button[type="submit"]'
+    );
+
+    if (!title || !description) {
+      message.textContent = "제목과 내용을 입력해 주세요.";
+      return;
+    }
+
+    if (url && !/^https?:\/\//i.test(url)) {
+      message.textContent = "올바른 사이트 주소를 입력해 주세요.";
+      return;
+    }
+
+    saveButton.disabled = true;
+    message.textContent = "수정 내용을 저장하는 중입니다.";
+
+    try {
+      await updateDoc(noticeDocRef, {
+        title,
+        description,
+        url,
+        updatedAt: serverTimestamp()
+      });
+
+      closeNoticeEditModal();
+      await loadAdminNoticeList();
+
+    } catch (error) {
+      console.error(error);
+      message.textContent = "수정 실패: " + error.message;
+    } finally {
+      saveButton.disabled = false;
+    }
+  });
+
 /* 공지 수정 팝업 닫기 */
 function closeNoticeEditModal() {
   document.getElementById("noticeEditModal").hidden = true;
