@@ -2127,17 +2127,24 @@ body {
   color: #ffffff;
 }
 
-/* 달력 일정 이름 최대 2줄 표시 */
+/* 달력 일정 카드 */
 #schedulePage .calendar-event {
+  display: block;
+  height: auto;
+  max-height: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* 일정 이름만 정확히 2줄 제한 */
+#schedulePage .calendar-event-text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-clamp: 2;
 
   line-height: 1.5;
-  max-height: calc(3em + 12px);
-  box-sizing: border-box;
-
+  max-height: 3em;
   overflow: hidden;
   text-overflow: ellipsis;
   overflow-wrap: anywhere;
@@ -2757,7 +2764,10 @@ daySchedules.forEach(item => {
   const event = document.createElement("div");
   event.className = "calendar-event";
   event.dataset.category = item.category || "";
-  event.textContent = item.title || "제목 없음";
+  const eventText = document.createElement("span");
+  eventText.className = "calendar-event-text";
+  eventText.textContent = item.title || "제목 없음";
+  event.appendChild(eventText);
   event.title = `${item.time || "시간 미정"} · ${item.title || "제목 없음"}`;
 
   if (item.url && /^https?:\/\//i.test(item.url)) {
