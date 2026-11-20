@@ -545,6 +545,34 @@
   border-color: #8de6c1;
 }
 
+/* 관리자 지난 일정 구분 */
+
+.schedule-item-past {
+  background: #171a29;
+  border-color: #292e42;
+  opacity: 0.68;
+}
+
+.schedule-item-past:hover {
+  opacity: 1;
+  border-color: #59627d;
+}
+
+.schedule-item-past .schedule-list-date {
+  color: #929bb7;
+}
+
+.schedule-past-badge {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 4px 9px;
+  background: #30364a;
+  border-radius: 5px;
+  color: #aeb6d2;
+  font-size: 11px;
+  font-weight: 500;
+}
+
   </style>
 </head>
 
@@ -1115,6 +1143,14 @@ return second.localeCompare(first);
       const date = document.createElement("div");
       date.className = "schedule-list-date";
       date.textContent = `${schedule.date || "날짜 미정"}  ${schedule.time || ""}`;
+      
+      if (isPast) {
+        const pastBadge = document.createElement("span");
+        pastBadge.className = "schedule-past-badge";
+        pastBadge.textContent = "지난 일정";
+        date.appendChild(pastBadge);
+      }
+
 
       const title = document.createElement("div");
       title.className = "schedule-list-title";
