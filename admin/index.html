@@ -690,6 +690,47 @@
   color: #173d30;
 }
 
+
+/* 배너 목록 바깥 배경 제거 */
+#adminNoticeList {
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 배너별 독립 카드 */
+#adminNoticeList .notice-list-card {
+  position: relative;
+  background: #252a47;
+  border: 1px solid #353b5a;
+  border-radius: 12px;
+  padding: 24px 24px 24px 30px;
+  overflow: hidden;
+}
+
+/* 배너 왼쪽 민트색 선 */
+#adminNoticeList .notice-list-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: #8de6c1;
+}
+
+/* 카드 제목 */
+#adminNoticeList .notice-list-card h2 {
+  margin-top: 0;
+}
+
+/* 수정 버튼과 카드 간격 */
+#adminNoticeList .notice-list-card button {
+  margin-top: 8px;
+}
+
 /* 공지 목록 새로고침 버튼 위치 */
 .notice-list-heading {
   display: flex;
