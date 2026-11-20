@@ -1945,6 +1945,37 @@ body {
   }
 }
 
+/* 달력에 표시되는 일정 */
+
+.calendar-event {
+  margin-top: 7px;
+  padding: 6px 7px;
+  border-left: 3px solid #8de6c1;
+  border-radius: 4px;
+  background: #303954;
+  color: #f0f4ff;
+  font-size: 12px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.calendar-event.clickable {
+  cursor: pointer;
+}
+
+.calendar-event.clickable:hover {
+  background: #3b4b69;
+  color: #8de6c1;
+}
+
+@media (max-width: 600px) {
+  .calendar-event {
+    font-size: 10px;
+    padding: 4px;
+    margin-top: 4px;
+  }
+}
+
 </style>
 </head>
 
@@ -2537,8 +2568,42 @@ function renderScheduleCalendar() {
     number.className = "calendar-day-number";
     number.textContent = day;
 
-    cell.appendChild(number);
-    grid.appendChild(cell);
+    
+cell.appendChild(number);
+
+const dateKey =
+  `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+
+const daySchedules = schedules
+  .filter(item => {
+    const matchDate = item.date === dateKey;
+
+    const matchCategory =
+      currentScheduleType === "all" ||
+      item.category === currentScheduleType;
+
+    return matchDate && matchCategory;
+  })
+  .sort((a, b) => (a.time || "").localeCompare(b.time || ""));
+
+daySchedules.forEach(item => {
+  const event = document.createElement("div");
+  event.className = "calendar-event";
+  event.textContent = item.title || "제목 없음";
+  event.title = `${item.time || "시간 미정"} · ${item.title || "제목 없음"}`;
+
+  if (item.url && /^https?:\/\//i.test(item.url)) {
+    event.classList.add("clickable");
+    event.addEventListener("click", () => {
+      window.open(item.url, "_blank", "noopener,noreferrer");
+    });
+  }
+
+  cell.appendChild(event);
+});
+
+grid.appendChild(cell);
+
   }
 }
 
