@@ -2311,19 +2311,23 @@ body {
 
     </div>
   
+
 <!-- HOME NOTICE BANNER -->
 <div class="hitg-notice-slider" id="noticeSlider">
 
   <div class="hitg-notice-slide active">
     <a class="hitg-notice"
+       id="homeNoticeLink"
        href="https://discord.gg/86G4Er23qZ"
        target="_blank"
        rel="noopener noreferrer">
 
       <div class="hitg-notice-text">
         <span>PAGE:HITG NOTICE</span>
-        <strong>📌NOTICE📌</strong>
-        <p>건의 내용은 디스코드를 통해 전해주세요!</p>
+        <strong id="homeNoticeTitle">📌NOTICE📌</strong>
+        <p id="homeNoticeDescription">
+          건의 내용은 디스코드를 통해 전해주세요!
+        </p>
       </div>
 
     </a>
@@ -2555,6 +2559,62 @@ body {
 <script src="playlists.js"></script>
 <script src="schedules.js"></script>
 <script type="module" src="firebase-schedules.js"></script>
+
+<script type="module">
+  import { initializeApp, getApps, getApp }
+    from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+
+  import { getFirestore, doc, getDoc }
+    from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCfFDbcl3zUel1fnM8CbcknGeT5KAhpf18",
+    authDomain: "page-hitg-b83e1.firebaseapp.com",
+    projectId: "page-hitg-b83e1",
+    appId: "1:218687624946:web:70bee81bcdf7ea8060626b"
+  };
+
+  const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  async function loadHomeNotice() {
+    try {
+      const snapshot = await getDoc(doc(db, "siteSettings", "homeNotice"));
+
+      if (!snapshot.exists()) return;
+
+      const notice = snapshot.data();
+      const slider = document.getElementById("noticeSlider");
+      const link = document.getElementById("homeNoticeLink");
+
+      if (!slider || !link) return;
+
+      slider.style.display = notice.visible === false ? "none" : "";
+
+      document.getElementById("homeNoticeTitle").textContent =
+        notice.title || "NOTICE";
+
+      document.getElementById("homeNoticeDescription").textContent =
+        notice.description || "";
+
+      if (notice.url && /^https?:\/\//i.test(notice.url)) {
+        link.href = notice.url;
+        link.style.pointerEvents = "";
+        link.style.cursor = "pointer";
+      } else {
+        link.removeAttribute("href");
+        link.style.pointerEvents = "none";
+        link.style.cursor = "default";
+      }
+
+    } catch (error) {
+      console.error("공지 불러오기 실패:", error);
+    }
+  }
+
+  loadHomeNotice();
+</script>
+
 
 <script>
 
