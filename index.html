@@ -987,14 +987,13 @@ body {
   pointer-events: none;
 }
 
-#homePage .home-video-player iframe {
+#homePage .home-video-player video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: max(100%, 115.56vh);
-  height: max(100%, 56.25vw);
-  transform: translate(-50%, -50%);
-  border: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #homePage .home-video-overlay {
@@ -1247,13 +1246,6 @@ body {
   margin-left: -15px;
   min-height: 850px;
   background: #171a33;
-}
-
-/* 영상 자체를 영역 전체에 맞게 확대 */
-
-#homePage .home-video-player iframe {
-  width: max(100%, 151.12vh);
-  height: max(100%, 56.25vw);
 }
 
 /* 제목과 설명은 기존 위치 유지 */
@@ -1951,15 +1943,12 @@ body {
   
 <div class="home-video-background">
 
-  <div class="home-video-player">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/6GUKqEfiX1I?autoplay=1&mute=1&loop=1&playlist=6GUKqEfiX1I&controls=0&playsinline=1&rel=0"
-      title="HITGS Home Background"
-      allow="autoplay; encrypted-media; picture-in-picture"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
-  </div>
+  
+<div class="home-video-player">
+  <video autoplay muted loop playsinline preload="metadata">
+    <source src="HOME.mp4" type="video/mp4">
+  </video>
+</div>
 
   <div class="home-video-overlay"></div>
 
