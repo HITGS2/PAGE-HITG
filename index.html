@@ -2098,6 +2098,35 @@ body {
   }
 }
 
+/* 달력 일정 배경 및 글씨 통일 */
+#schedulePage .calendar-event,
+#schedulePage .calendar-event[data-category="fansign"],
+#schedulePage .calendar-event[data-category="concert"],
+#schedulePage .calendar-event[data-category="event"] {
+  background: #303954;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* 왼쪽 분류 색상은 그대로 유지 */
+#schedulePage .calendar-event[data-category="fansign"] {
+  border-left-color: #f0a6c7;
+}
+
+#schedulePage .calendar-event[data-category="concert"] {
+  border-left-color: #a6a8ff;
+}
+
+#schedulePage .calendar-event[data-category="event"] {
+  border-left-color: #8de6c1;
+}
+
+/* 마우스를 올렸을 때도 글씨 선명하게 */
+#schedulePage .calendar-event.clickable:hover {
+  background: #3b4b69;
+  color: #ffffff;
+}
+
 </style>
 </head>
 
