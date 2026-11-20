@@ -1241,8 +1241,27 @@ async function loadAdminNoticeList() {
       const editButton = document.createElement("button");
       editButton.type = "button";
       editButton.textContent = "공지 수정";
-      editButton.disabled = true;
-      editButton.title = "다음 단계에서 수정 기능을 연결합니다.";
+      
+editButton.addEventListener("click", () => {
+  // 어떤 공지를 수정하는지 저장
+  const modal = document.getElementById("noticeEditModal");
+  modal.dataset.noticeId = notice.id;
+
+  // 선택한 공지의 내용 입력
+  document.getElementById("noticeEditTitle").value =
+    notice.title || "";
+
+  document.getElementById("noticeEditDescription").value =
+    notice.description || "";
+
+  document.getElementById("noticeEditUrl").value =
+    notice.url || "";
+
+  document.getElementById("noticeEditMessage").textContent = "";
+
+  // 수정 팝업 표시
+  modal.hidden = false;
+});
 
       card.append(title, description, status, editButton);
       container.appendChild(card);
