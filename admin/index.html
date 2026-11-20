@@ -1193,54 +1193,60 @@ document.querySelector('[data-page="notice"]')
 
 /* 공지 목록 불러오기 */
 
+
+/* 공지 목록 - 여러 공지 불러오기 */
 async function loadAdminNoticeList() {
   const container = document.getElementById("adminNoticeList");
   container.textContent = "공지 목록을 불러오는 중입니다.";
 
   try {
-    const snapshot = await getDoc(noticeDocRef);
+    const snapshot = await getDocs(collection(db, "notices"));
 
-    if (!snapshot.exists()) {
+    container.replaceChildren();
+
+    if (snapshot.empty) {
       container.textContent = "등록된 공지가 없습니다.";
       return;
     }
 
-    const notice = snapshot.data();
+    const notices = snapshot.docs.map(docSnap => ({
+      id: docSnap.id,
+      ...docSnap.data()
+    }));
 
-    const card = document.createElement("div");
-    card.className = "notice-list-card";
+    // 최근 등록한 공지부터 표시
+    notices.sort((a, b) => {
+      const aTime = a.createdAt?.toMillis?.() || 0;
+      const bTime = b.createdAt?.toMillis?.() || 0;
+      return bTime - aTime;
+    });
 
-    const title = document.createElement("h2");
-    title.textContent = notice.title || "제목 없음";
+    notices.forEach(notice => {
+      const card = document.createElement("div");
+      card.className = "notice-list-card";
 
-    const description = document.createElement("p");
-    description.textContent = notice.description || "내용 없음";
-    description.style.whiteSpace = "pre-wrap";
+      const title = document.createElement("h2");
+      title.textContent = notice.title || "제목 없음";
 
-    const status = document.createElement("p");
-    status.textContent =
-      notice.visible === false ? "상태: 숨김" : "상태: 표시 중";
+      const description = document.createElement("p");
+      description.textContent = notice.description || "내용 없음";
+      description.style.whiteSpace = "pre-wrap";
 
-    const editButton = document.createElement("button");
-    editButton.type = "button";
-    editButton.textContent = "공지 수정";
-    
-editButton.addEventListener("click", () => {
-  document.getElementById("noticeEditTitle").value =
-    notice.title || "";
+      const status = document.createElement("p");
+      status.textContent =
+        notice.visible === false
+          ? "상태: 숨김"
+          : "상태: 표시 중";
 
-  document.getElementById("noticeEditDescription").value =
-    notice.description || "";
+      const editButton = document.createElement("button");
+      editButton.type = "button";
+      editButton.textContent = "공지 수정";
+      editButton.disabled = true;
+      editButton.title = "다음 단계에서 수정 기능을 연결합니다.";
 
-  document.getElementById("noticeEditUrl").value =
-    notice.url || "";
-
-  document.getElementById("noticeEditMessage").textContent = "";
-  document.getElementById("noticeEditModal").hidden = false;
-});
-
-    card.append(title, description, status, editButton);
-    container.replaceChildren(card);
+      card.append(title, description, status, editButton);
+      container.appendChild(card);
+    });
 
   } catch (error) {
     console.error(error);
