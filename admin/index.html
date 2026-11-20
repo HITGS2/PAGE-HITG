@@ -1276,6 +1276,36 @@ document.getElementById("noticeEditForm")
     }
   });
 
+/* 공지 삭제 기능 */
+document.getElementById("noticeEditDelete")
+  .addEventListener("click", async () => {
+
+    const confirmed = confirm(
+      "이 공지를 정말 삭제하시겠습니까?\n삭제한 공지는 복구할 수 없습니다."
+    );
+
+    if (!confirmed) return;
+
+    const deleteButton = document.getElementById("noticeEditDelete");
+    const message = document.getElementById("noticeEditMessage");
+
+    deleteButton.disabled = true;
+    message.textContent = "공지를 삭제하는 중입니다.";
+
+    try {
+      await deleteDoc(noticeDocRef);
+
+      closeNoticeEditModal();
+      await loadAdminNoticeList();
+
+    } catch (error) {
+      console.error(error);
+      message.textContent = "삭제 실패: " + error.message;
+    } finally {
+      deleteButton.disabled = false;
+    }
+  });
+
 /* 공지 수정 팝업 닫기 */
 function closeNoticeEditModal() {
   document.getElementById("noticeEditModal").hidden = true;
